@@ -1,0 +1,7 @@
+When using this dataset please use the following citation and pay attention to the rights documented in rights.txt:
+Watanabe K, Tanaka N (2019). Algae specimens of Kanagawa Prefectural Museum of Natural History. Version 1.1. National Museum of Nature and Science, Japan. Occurrence dataset https://doi.org/10.15468/9yvdpa accessed via GBIF.org on 2019-10-02.
+Agder Museum of Natural History and Botanical Garden (2019). Algae, Specimens, Agder naturmuseum (KMN). Version 1.910. Occurrence dataset https://doi.org/10.15468/jldjxh accessed via GBIF.org on 2019-10-02.
+Calabuig I (2014). Botanical Museum, Copenhagen, the Phycology Herbarium. Botanical Garden & Museum, Natural History Museum of Denmark. Occurrence dataset https://doi.org/10.15468/8oxxmx accessed via GBIF.org on 2019-10-02.
+Orrell T (2019). NMNH Extant Specimen Records. Version 1.23. National Museum of Natural History, Smithsonian Institution. Occurrence dataset https://doi.org/10.15468/hnhrg3 accessed via GBIF.org on 2019-10-02.
+Kishimoto T, Takayama K (2019). Algae collection of Museum of Natural and Environmental History, Shizuoka. National Museum of Nature and Science, Japan. Occurrence dataset https://doi.org/10.15468/jr0wja accessed via GBIF.org on 2019-10-02.
+García San León D, Bárbara Criado I (2017). SANT-Algae. Herbario SANT, Universidade de Santiago de Compostela. Occurrence dataset https://doi.org/10.15468/bxbkba accessed via GBIF.org on 2019-10-02.

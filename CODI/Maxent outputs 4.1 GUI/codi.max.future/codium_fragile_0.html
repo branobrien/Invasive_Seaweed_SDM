@@ -1,0 +1,59 @@
+<title>Maxent model for codium_fragile_0</title>
+<CENTER><H1>Maxent model for codium_fragile_0</H1></CENTER>
+<br> This page contains some analysis of the Maxent model for codium_fragile_0, created Tue May 10 15:26:10 EDT 2022 using Maxent version 3.4.1.  If you would like to do further analyses, the raw data used here is linked to at the end of this page.<br>
+<br><HR><H2>Analysis of omission/commission</H2>
+The following picture shows the omission rate and predicted area as a function of the cumulative threshold.  The omission rate is is calculated both on the training presence records, and (if test data are used) on the test records.  The omission rate should be close to the predicted omission, because of the definition of the cumulative threshold.
+<br><img src="plots\codium_fragile_0_omission.png"><br>
+<br> The next picture is the receiver operating characteristic (ROC) curve for the same data.  Note that the specificity is defined using predicted area, rather than true commission (see the paper by Phillips, Anderson and Schapire cited on the help page for discussion of what this means).  This implies that the maximum achievable AUC is less than 1.  If test data is drawn from the Maxent distribution itself, then the maximum possible test AUC would be 0.912 rather than 1; in practice the test AUC may exceed this bound.
+<br><img src="plots\codium_fragile_0_roc.png"><br>
+<br>
+<br>
+Some common thresholds and corresponding omission rates are as follows.  If test data are available, binomial probabilities are calculated exactly if the number of test samples is at most 25, otherwise using a normal approximation to the binomial.  These are 1-sided p-values for the null hypothesis that test points are predicted no better than by a random prediction with the same fractional predicted area.  The "Balance" threshold minimizes 6 * training omission rate + .04 * cumulative threshold + 1.6 * fractional predicted area.<br>
+<br><table border cols=6 cellpadding=3><tr><th>Cumulative threshold</th><th>Cloglog threshold</th><th>Description</th><th>Fractional predicted area</th><th>Training omission rate</th><th>Test omission rate</th><th>P-value</th><tr align=center><td>1.000</td><td>0.042</td><td>Fixed cumulative value 1</td><td>0.321</td><td>0.014</td><td>0.019</td><td>1.267E-25</td><tr align=center><td>5.000</td><td>0.193</td><td>Fixed cumulative value 5</td><td>0.241</td><td>0.061</td><td>0.037</td><td>1.176E-35</td><tr align=center><td>10.000</td><td>0.301</td><td>Fixed cumulative value 10</td><td>0.199</td><td>0.075</td><td>0.093</td><td>3.807E-39</td><tr align=center><td>0.267</td><td>0.010</td><td>Minimum training presence</td><td>0.404</td><td>0.000</td><td>0.000</td><td>2.369E-19</td><tr align=center><td>14.466</td><td>0.372</td><td>10 percentile training presence</td><td>0.174</td><td>0.099</td><td>0.130</td><td>6.487E-42</td><tr align=center><td>20.743</td><td>0.449</td><td>Equal training sensitivity and specificity</td><td>0.146</td><td>0.146</td><td>0.167</td><td>9.17E-47</td><tr align=center><td>13.649</td><td>0.361</td><td>Maximum training sensitivity plus specificity</td><td>0.178</td><td>0.089</td><td>0.111</td><td>8.026E-43</td><tr align=center><td>15.914</td><td>0.395</td><td>Equal test sensitivity and specificity</td><td>0.167</td><td>0.122</td><td>0.167</td><td>8.851E-40</td><tr align=center><td>13.647</td><td>0.361</td><td>Maximum test sensitivity plus specificity</td><td>0.178</td><td>0.089</td><td>0.093</td><td>6.074E-45</td><tr align=center><td>1.593</td><td>0.077</td><td>Balance training omission, predicted area and threshold value</td><td>0.298</td><td>0.014</td><td>0.019</td><td>2.098E-28</td><tr align=center><td>5.529</td><td>0.205</td><td>Equate entropy of thresholded and original distributions</td><td>0.235</td><td>0.066</td><td>0.037</td><td>9.833E-37</td></table><br>
+<br><HR><H2>Pictures of the model</H2>
+This is a representation of the Maxent model for codium_fragile_0.  Warmer colors show areas with better predicted conditions.  White dots show the presence locations used for training, while violet dots show test locations.  Click on the image for a full-size version.<br>
+<br><a href = "plots/codium_fragile_0.png"> <img src="plots/codium_fragile_0.png" width=600></a><br>
+<br>Click <a href=codium_fragile_0_explain.bat type=application/bat>here<a> to interactively explore this prediction using the Explain tool.  If clicking from your browser does not succeed in starting the tool, try running the script in C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codi.max.future\codium_fragile_0_explain.bat directly.  This tool requires the environmental grids to be small enough that they all fit in memory.<br><br>
+This is the projection of the Maxent model for codium_fragile_0 onto the environmental variables in C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\Environmental Data\RCP45\fixed.  Warmer colors show areas with better predicted conditions.  White dots show the presence locations used for training, while violet dots show test locations.  Click on the image for a full-size version.<br>
+<br><a href = "plots/codium_fragile_0_fixed.png"> <img src="plots/codium_fragile_0_fixed.png" width=600></a><br>
+<br>Click <a href=codium_fragile_0_fixed_explain.bat type=application/bat>here<a> to interactively explore this prediction using the Explain tool.  If clicking from your browser does not succeed in starting the tool, try running the script in C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codi.max.future\codium_fragile_0_fixed_explain.bat directly.  This tool requires the environmental grids to be small enough that they all fit in memory.<br><br>
+The following picture shows where the prediction is most affected by variables being outside their training range, while projecting the Maxent model onto the environmental variables in C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\Environmental Data\RCP45\fixed.  The values shown in the picture give the absolute difference in predictions when using vs not using clamping.  (Clamping means that environmental variables and features are restricted to the range of values encountered during training.)  Warmer colors show areas where the treatment of variable values outside their training ranges is likely to have a large effect on predicted suitability.
+<br><a href = "plots/codium_fragile_0_fixed_clamping.png"> <img src="plots/codium_fragile_0_fixed_clamping.png" width=600></a><br>
+<br>The following two pictures compare the environmental similarity of variables in fixed to the environmental data used for training the model.  In the first picture (MESS), areas in red have one or more environmental variables outside the range present in the training data, so predictions in those areas should be treated with strong caution.  The second picture (MoD) shows the most dissimilar variable, i.e., the one that is furthest outside its training range.  For details, see Elith et al., Methods in Ecology and Evolution, 2010
+<br><a href = "codium_fragile_0_fixed_novel.png"> <img src="codium_fragile_0_fixed_novel.png" width=600></a><br>
+<br><a href = "codium_fragile_0_fixed_novel_limiting.png"> <img src="codium_fragile_0_fixed_novel_limiting.png" width=600></a><br>
+<br><HR><H2>Analysis of variable contributions</H2><br>
+The following table gives estimates of relative contributions of the environmental variables to the Maxent model.  To determine the first estimate, in each iteration of the training algorithm, the increase in regularized gain is added to the contribution of the corresponding variable, or subtracted from it if the change to the absolute value of lambda is negative.  For the second estimate, for each environmental variable in turn, the values of that variable on training presence and background data are randomly permuted.  The model is reevaluated on the permuted data, and the resulting drop in training AUC is shown in the table, normalized to percentages.  As with the variable jackknife, variable contributions should be interpreted with caution when the predictor variables are correlated.<br>
+<br><table border cols=3><tr><th>Variable</th><th>Percent contribution</th><th>Permutation importance</th><tr align=right><td>e09.SST.min</td><td>61.7</td><td>54.1</td></tr><tr align=right><td>e05.PHO.max</td><td>23.4</td><td>9.6</td></tr><tr align=right><td>e08.SST.max</td><td>14.9</td><td>36.3</td></tr></table><br><br>
+<br><HR><H2>Raw data outputs and control parameters</H2><br>
+The data used in the above analysis is contained in the next links.  Please see the Help button for more information on these.<br>
+<a href = "codium_fragile_0.asc">The model applied to the training environmental layers</a><br>
+<a href = "codium_fragile_0_fixed.asc">The model applied to the environmental layers in C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\Environmental Data\RCP45\fixed</a><br>
+<a href = "codium_fragile_0.lambdas">The coefficients of the model</a><br>
+<a href = "codium_fragile_0_omission.csv">The omission and predicted area for varying cumulative and raw thresholds</a><br>
+<a href = "codium_fragile_0_samplePredictions.csv">The prediction strength at the training and (optionally) test presence sites</a><br>
+<a href = "maxentResults.csv">Results for all species modeled in the same Maxent run, with summary statistics and (optionally) jackknife results</a><br>
+<br><br>
+Regularized training gain is 1.447, training AUC is 0.924, unregularized training gain is 1.565.<br>
+Unregularized test gain is 1.397.<br>
+Test AUC is 0.907, standard deviation is 0.011 (calculated as in DeLong, DeLong & Clarke-Pearson 1988, equation 2).<br>
+Algorithm converged after 300 iterations (0 seconds).<br>
+<br>
+The follow settings were used during the run:<br>
+213 presence records used for training, 54 for testing.<br>
+10208 points used to determine the Maxent distribution (background points and presence points).<br>
+Environmental layers used (all continuous): e05.PHO.max e08.SST.max e09.SST.min<br>
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500<br>
+Feature types used: linear quadratic<br>
+outputdirectory: C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codi.max.future<br>
+projectionlayers: C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\Environmental Data\RCP45\fixed<br>
+samplesfile: C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\CODI Occur\Codi ALL max GUI.csv<br>
+environmentallayers: C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\Environmental Data\Clipped_100km<br>
+randomseed: true<br>
+askoverwrite: false<br>
+replicates: 5<br>
+product: false<br>
+hinge: false<br>
+autofeature: false<br>
+Command line used: <br>
+<br>

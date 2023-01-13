@@ -1,0 +1,484 @@
+Fri May 06 13:09:51 EDT 2022
+MaxEnt version 3.4.1
+Checking header of C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\Environmental Data\Clipped_100km\e09.SST.min.asc
+Reading samples from CAUL Occur GUI.csv
+Read samples: max memory 1886912512, total allocated 276824064, free 139665008, used 137159056, increment -130813832
+Extractor: max memory 1886912512, total allocated 276824064, free 135582512, used 141241552, increment 4082496
+Extracting random background and sample data
+Warning: Sample at 15.09230423, 38.02360535 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 15.09230423, 38.02360535 which has no environmental data
+Warning: Sample at 33.603025, 28.213458 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 33.603025, 28.213458 which has no environmental data
+Warning: Sample at -83.5353, 26.7636 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -83.5353, 26.7636 which has no environmental data
+Warning: Sample at -170.6753998, 25.4612999 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -170.6753998, 25.4612999 which has no environmental data
+Warning: Sample at -170.683, 25.4615 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -170.683, 25.4615 which has no environmental data
+Warning: Sample at -170.643219, 25.47111702 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -170.643219, 25.47111702 which has no environmental data
+Warning: Sample at -170.5674744, 25.37856674 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -170.5674744, 25.37856674 which has no environmental data
+Warning: Sample at 66.80000305, 24.85000038 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 66.80000305, 24.85000038 which has no environmental data
+Warning: Sample at 67.03333, 24.85 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 67.03333, 24.85 which has no environmental data
+Warning: Sample at 67.03333282, 24.85000038 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 67.03333282, 24.85000038 which has no environmental data
+Warning: Sample at -83.8525, 24.7903 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -83.8525, 24.7903 which has no environmental data
+Warning: Sample at -83.1336, 24.7961 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -83.1336, 24.7961 which has no environmental data
+Warning: Sample at -166.3319397, 23.83537674 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -166.3319397, 23.83537674 which has no environmental data
+Warning: Sample at -166.2668304, 23.83646774 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -166.2668304, 23.83646774 which has no environmental data
+Warning: Sample at -166.3269806, 23.84688377 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -166.3269806, 23.84688377 which has no environmental data
+Warning: Sample at -166.2972717, 23.84955025 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -166.2972717, 23.84955025 which has no environmental data
+Warning: Sample at -166.329, 23.8502 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -166.329, 23.8502 which has no environmental data
+Warning: Sample at -166.323, 23.8611 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -166.323, 23.8611 which has no environmental data
+Warning: Sample at -166.3227997, 23.86111259 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -166.3227997, 23.86111259 which has no environmental data
+Warning: Sample at -166.2554016, 23.86590004 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -166.2554016, 23.86590004 which has no environmental data
+Warning: Sample at -166.305, 23.8673 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -166.305, 23.8673 which has no environmental data
+Warning: Sample at -166.299942, 23.87448692 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -166.299942, 23.87448692 which has no environmental data
+Warning: Sample at -166.2731323, 23.88012314 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -166.2731323, 23.88012314 which has no environmental data
+Warning: Sample at -166.173, 23.8599 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -166.173, 23.8599 which has no environmental data
+Warning: Sample at -166.201, 23.866 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -166.201, 23.866 which has no environmental data
+Warning: Sample at -166.261, 23.7685 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -166.261, 23.7685 which has no environmental data
+Warning: Sample at -166.261, 23.7695 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -166.261, 23.7695 which has no environmental data
+Warning: Sample at -166.3248291, 23.81972122 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -166.3248291, 23.81972122 which has no environmental data
+Warning: Sample at -166.0901184, 23.81424522 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -166.0901184, 23.81424522 which has no environmental data
+Warning: Sample at -166.09, 23.8143 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -166.09, 23.8143 which has no environmental data
+Warning: Sample at -166.269, 23.6908 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -166.269, 23.6908 which has no environmental data
+Warning: Sample at -166.173, 23.7326 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -166.173, 23.7326 which has no environmental data
+Warning: Sample at -166.179, 23.6378 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -166.179, 23.6378 which has no environmental data
+Warning: Sample at -166.1800537, 23.63834953 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -166.1800537, 23.63834953 which has no environmental data
+Warning: Sample at -166.176, 23.6451 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -166.176, 23.6451 which has no environmental data
+Warning: Sample at -166.2281647, 23.66203308 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -166.2281647, 23.66203308 which has no environmental data
+Warning: Sample at -161.53333, 21.95 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -161.53333, 21.95 which has no environmental data
+Warning: Sample at 70.5, 21.966667 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 70.5, 21.966667 which has no environmental data
+Warning: Sample at 70.5, 21.96666718 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 70.5, 21.96666718 which has no environmental data
+Warning: Sample at -158.217, 21.5167 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -158.217, 21.5167 which has no environmental data
+Warning: Sample at -158.232222, 21.53325 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -158.232222, 21.53325 which has no environmental data
+Warning: Sample at -158.2333069, 21.53370094 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -158.2333069, 21.53370094 which has no environmental data
+Warning: Sample at -158.12, 21.35 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -158.12, 21.35 which has no environmental data
+Warning: Sample at -158.117, 21.35 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -158.117, 21.35 which has no environmental data
+Warning: Sample at -158.147, 21.36 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -158.147, 21.36 which has no environmental data
+Warning: Sample at -158.017, 21.3667 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -158.017, 21.3667 which has no environmental data
+Warning: Sample at -157.983, 21.35 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -157.983, 21.35 which has no environmental data
+Warning: Sample at -157.767, 21.25 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -157.767, 21.25 which has no environmental data
+Warning: Sample at -155.9, 20.1833 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -155.9, 20.1833 which has no environmental data
+Warning: Sample at -155.9, 20.2 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -155.9, 20.2 which has no environmental data
+Warning: Sample at -155.902465, 20.20328 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -155.902465, 20.20328 which has no environmental data
+Warning: Sample at -155.8946991, 20.24010086 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -155.8946991, 20.24010086 which has no environmental data
+Warning: Sample at -155.25455, 19.2704 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -155.25455, 19.2704 which has no environmental data
+Warning: Sample at -145.788, 18.1683 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -145.788, 18.1683 which has no environmental data
+Warning: Sample at 66.166664, 18.166666 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 66.166664, 18.166666 which has no environmental data
+Warning: Sample at 66.16666412, 18.16666603 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 66.16666412, 18.16666603 which has no environmental data
+Warning: Sample at -145.765, 18.0967 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -145.765, 18.0967 which has no environmental data
+Warning: Sample at -65.90131, 18.071655 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -65.90131, 18.071655 which has no environmental data
+Warning: Sample at -61.497688, 16.377631 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -61.497688, 16.377631 which has no environmental data
+Warning: Sample at -145.716, 15.2176 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -145.716, 15.2176 which has no environmental data
+Warning: Sample at -145.718, 15.2196 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -145.718, 15.2196 which has no environmental data
+Warning: Sample at 74.8833313, 12.86666679 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 74.8833313, 12.86666679 which has no environmental data
+Warning: Sample at 74.88333, 12.866667 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 74.88333, 12.866667 which has no environmental data
+Warning: Sample at 92.75, 12.5 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 92.75, 12.5 which has no environmental data
+Warning: Sample at 103.80805, 1.351617 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 103.80805, 1.351617 which has no environmental data
+Warning: Sample at 103.8, 1.3667 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 103.8, 1.3667 which has no environmental data
+Warning: Sample at -104.033, 1.03333 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -104.033, 1.03333 which has no environmental data
+Warning: Sample at 104.033, 1.03333 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 104.033, 1.03333 which has no environmental data
+Warning: Sample at 37.90620041, -0.023559101 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 37.90620041, -0.023559101 which has no environmental data
+Warning: Sample at 39.51777778, -3.850666667 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 39.51777778, -3.850666667 which has no environmental data
+Warning: Sample at 39.48766667, -4.33675 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 39.48766667, -4.33675 which has no environmental data
+Warning: Sample at 107.195, -6.148333 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 107.195, -6.148333 which has no environmental data
+Warning: Sample at 106.845278, -6.211667 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 106.845278, -6.211667 which has no environmental data
+Warning: Sample at 106.861667, -6.321667 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 106.861667, -6.321667 which has no environmental data
+Warning: Sample at 106.973333, -6.416667 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 106.973333, -6.416667 which has no environmental data
+Warning: Sample at 106.93, -6.366667 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 106.93, -6.366667 which has no environmental data
+Warning: Sample at 106.988333, -6.421667 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 106.988333, -6.421667 which has no environmental data
+Warning: Sample at 106.956667, -6.42 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 106.956667, -6.42 which has no environmental data
+Warning: Sample at 107.061667, -6.421667 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 107.061667, -6.421667 which has no environmental data
+Warning: Sample at 106.98, -6.538333 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 106.98, -6.538333 which has no environmental data
+Warning: Sample at 107.17, -6.618333 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 107.17, -6.618333 which has no environmental data
+Warning: Sample at 107.396667, -6.588333 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 107.396667, -6.588333 which has no environmental data
+Warning: Sample at 122.0295, -13.689483 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 122.0295, -13.689483 which has no environmental data
+Warning: Sample at 179.42605, -16.56015 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 179.42605, -16.56015 which has no environmental data
+Warning: Sample at 119.612233, -17.080083 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 119.612233, -17.080083 which has no environmental data
+Warning: Sample at 118.941, -17.5607 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 118.941, -17.5607 which has no environmental data
+Warning: Sample at 118.96316, -17.50915 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 118.96316, -17.50915 which has no environmental data
+Warning: Sample at 118.96272, -17.50573 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 118.96272, -17.50573 which has no environmental data
+Warning: Sample at 158.9299927, -19.03000069 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 158.9299927, -19.03000069 which has no environmental data
+Warning: Sample at 146.82584, -19.27359 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 146.82584, -19.27359 which has no environmental data
+Warning: Sample at 146.825837, -19.273586 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 146.825837, -19.273586 which has no environmental data
+Warning: Sample at 146.8167, -19.2667 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 146.8167, -19.2667 which has no environmental data
+Warning: Sample at 158.96466, -19.29906 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 158.96466, -19.29906 which has no environmental data
+Warning: Sample at 158.2764, -19.90412 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 158.2764, -19.90412 which has no environmental data
+Warning: Sample at 158.4662, -19.91123 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 158.4662, -19.91123 which has no environmental data
+Warning: Sample at 165.62079, -19.84998 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 165.62079, -19.84998 which has no environmental data
+Warning: Sample at 150.955, -20.935 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 150.955, -20.935 which has no environmental data
+Warning: Sample at 167.25953, -20.92046 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 167.25953, -20.92046 which has no environmental data
+Warning: Sample at 152.0194, -21.3764 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 152.0194, -21.3764 which has no environmental data
+Warning: Sample at 152.335, -21.345 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 152.335, -21.345 which has no environmental data
+Warning: Sample at 159.36337, -21.38254 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 159.36337, -21.38254 which has no environmental data
+Warning: Sample at 152.5333, -22.1472 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 152.5333, -22.1472 which has no environmental data
+Warning: Sample at 152.6167, -22.3833 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 152.6167, -22.3833 which has no environmental data
+Warning: Sample at 152.620278, -22.381667 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 152.620278, -22.381667 which has no environmental data
+Warning: Sample at 113.6987, -22.7418 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 113.6987, -22.7418 which has no environmental data
+Warning: Sample at 113.699725, -22.74048 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 113.699725, -22.74048 which has no environmental data
+Warning: Sample at 113.7696, -22.79436 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 113.7696, -22.79436 which has no environmental data
+Warning: Sample at -109.383, -27.1333 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -109.383, -27.1333 which has no environmental data
+Warning: Sample at 153.10912, -27.44021 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 153.10912, -27.44021 which has no environmental data
+Warning: Sample at 153.109124, -27.440206 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 153.109124, -27.440206 which has no environmental data
+Warning: Sample at 153.09246, -27.54021 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 153.09246, -27.54021 which has no environmental data
+Warning: Sample at 153.092458, -27.540206 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 153.092458, -27.540206 which has no environmental data
+Warning: Sample at 114.6, -28.766667 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 114.6, -28.766667 which has no environmental data
+Warning: Sample at 114.916667, -29.25 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 114.916667, -29.25 which has no environmental data
+Warning: Sample at 114.931667, -29.243056 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 114.931667, -29.243056 which has no environmental data
+Warning: Sample at 115.75, -31.866667 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 115.75, -31.866667 which has no environmental data
+Warning: Sample at 115.7511389, -31.99125 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 115.7511389, -31.99125 which has no environmental data
+Warning: Sample at 115.754722, -31.986667 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 115.754722, -31.986667 which has no environmental data
+Warning: Sample at 115.75, -31.983333 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 115.75, -31.983333 which has no environmental data
+Warning: Sample at 138.6, -34.6 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 138.6, -34.6 which has no environmental data
+Warning: Sample at 138.530266, -34.812615 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 138.530266, -34.812615 which has no environmental data
+Warning: Sample at 138.520266, -34.775948 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 138.520266, -34.775948 which has no environmental data
+Warning: Sample at 138.511099, -34.760948 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 138.511099, -34.760948 which has no environmental data
+Warning: Sample at 138.6, -34.933333 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 138.6, -34.933333 which has no environmental data
+Warning: Sample at 138.6, -34.9333 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 138.6, -34.9333 which has no environmental data
+Warning: Sample at 138.6011, -34.932059 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 138.6011, -34.932059 which has no environmental data
+Warning: Sample at 138.6, -34.93 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 138.6, -34.93 which has no environmental data
+Warning: Sample at 150.47, -35.25 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 150.47, -35.25 which has no environmental data
+Warning: Sample at 150.48, -35.25 in CAUL Occur GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 150.48, -35.25 which has no environmental data
+614112 points with values for all grids
+Adding samples to background in feature space
+Command line used: 
+Command line to repeat: java density.MaxEnt nowarnings noprefixes responsecurves jackknife "outputdirectory=C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CAUL\Maxent Outputs 4.1 GUI 2\caul.max.final" "samplesfile=C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CAUL\CAUL Occur\CAUL Occur GUI.csv" "environmentallayers=C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\Environmental Data\Clipped_100km" notooltips noremoveduplicates replicates=5 noproduct nohinge noautofeature -N e01.DA.max -N e02.DA.min -N e03.NIT.max -N e04.NIT.min -N e05.PHO.max -N e06.PHO.min -N e07.SAL.me -N e08.SST.max -N e10.SST.ra
+Species: Caulerpa_taxifolia_0 Caulerpa_taxifolia_1 Caulerpa_taxifolia_2 Caulerpa_taxifolia_3 Caulerpa_taxifolia_4
+Layers: e09.SST.min
+Layertypes: Continuous
+responsecurves: true
+jackknife: true
+outputdirectory: C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CAUL\Maxent Outputs 4.1 GUI 2\caul.max.final
+samplesfile: C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CAUL\CAUL Occur\CAUL Occur GUI.csv
+environmentallayers: C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\Environmental Data\Clipped_100km
+tooltips: false
+removeduplicates: false
+replicates: 5
+product: false
+hinge: false
+autofeature: false
+
+getSamples: max memory 1886912512, total allocated 276824064, free 129798064, used 147026000, increment 5784448
+Making features
+makeFeatures: max memory 1886912512, total allocated 276824064, free 129782776, used 147041288, increment 15288
+Caulerpa_taxifolia_0: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 276824064, free 129778592, used 147045472, increment 4184
+linearPredictor: max memory 1886912512, total allocated 276824064, free 129778592, used 147045472, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 276824064, free 129771864, used 147052200, increment 6728
+Sequential: max memory 1886912512, total allocated 276824064, free 129771864, used 147052200, increment 0
+Initial loss: 9.275003885301905
+Initial test loss: 9.275003885301905
+180: time = 0.301000 loss = 8.677276 testLoss 8.589083
+Resulting gain: 0.5977279186393414
+Time since start: 1.15
+Projecting...
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CAUL\Maxent Outputs 4.1 GUI 2\caul.max.final\Caulerpa_taxifolia_0.asc
+Time since start: 4.158
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CAUL\Maxent Outputs 4.1 GUI 2\caul.max.final\plots\Caulerpa_taxifolia_0.png
+Time since start: 7.514
+Caulerpa_taxifolia_0 response curves
+Response curve: only e09.SST.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 209190912, free 103986888, used 105204024, increment -41848176
+Caulerpa_taxifolia_0 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 209190912, free 103978528, used 105212384, increment 8360
+linearPredictor: max memory 1886912512, total allocated 209190912, free 103978528, used 105212384, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 209190912, free 103976208, used 105214704, increment 2320
+Sequential: max memory 1886912512, total allocated 209190912, free 103976208, used 105214704, increment 0
+Initial loss: 9.275003885301905
+180: time = 0.527000 loss = 8.677276
+Resulting gain: 0.5977279186393414
+Caulerpa_taxifolia_0 response curves
+Time since start: 8.707
+getSamples: max memory 1886912512, total allocated 209190912, free 93988040, used 115202872, increment 9988168
+Making features
+makeFeatures: max memory 1886912512, total allocated 209190912, free 93976728, used 115214184, increment 11312
+Caulerpa_taxifolia_1: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 209190912, free 93970384, used 115220528, increment 6344
+linearPredictor: max memory 1886912512, total allocated 209190912, free 93964048, used 115226864, increment 6336
+FeaturedSpace: max memory 1886912512, total allocated 209190912, free 93964048, used 115226864, increment 0
+Sequential: max memory 1886912512, total allocated 209190912, free 93964048, used 115226864, increment 0
+Initial loss: 9.275191344295799
+Initial test loss: 9.275191344295799
+180: time = 0.474000 loss = 8.679979 testLoss 8.575393
+Resulting gain: 0.5952124928639062
+Projecting...
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CAUL\Maxent Outputs 4.1 GUI 2\caul.max.final\Caulerpa_taxifolia_1.asc
+Time since start: 13.683
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CAUL\Maxent Outputs 4.1 GUI 2\caul.max.final\plots\Caulerpa_taxifolia_1.png
+Time since start: 17.682
+Caulerpa_taxifolia_1 response curves
+Response curve: only e09.SST.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 337117184, free 111002512, used 226114672, increment 110887808
+Caulerpa_taxifolia_1 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 337117184, free 110989920, used 226127264, increment 12592
+linearPredictor: max memory 1886912512, total allocated 337117184, free 110989920, used 226127264, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 337117184, free 110989920, used 226127264, increment 0
+Sequential: max memory 1886912512, total allocated 337117184, free 110989920, used 226127264, increment 0
+Initial loss: 9.275191344295799
+Time since start: 19.135
+180: time = 0.708000 loss = 8.679979
+Resulting gain: 0.5952124928639062
+Caulerpa_taxifolia_1 response curves
+getSamples: max memory 1886912512, total allocated 337117184, free 101569064, used 235548120, increment 9420856
+Making features
+makeFeatures: max memory 1886912512, total allocated 337117184, free 101558552, used 235558632, increment 10512
+Caulerpa_taxifolia_2: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 337117184, free 101545960, used 235571224, increment 12592
+linearPredictor: max memory 1886912512, total allocated 337117184, free 101545960, used 235571224, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 337117184, free 101545960, used 235571224, increment 0
+Sequential: max memory 1886912512, total allocated 337117184, free 101545960, used 235571224, increment 0
+Initial loss: 9.274816391160547
+Initial test loss: 9.274816391160547
+180: time = 0.300000 loss = 8.659752 testLoss 8.670307
+Resulting gain: 0.6150646366950703
+Time since start: 20.254
+Projecting...
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CAUL\Maxent Outputs 4.1 GUI 2\caul.max.final\Caulerpa_taxifolia_2.asc
+Time since start: 23.438
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CAUL\Maxent Outputs 4.1 GUI 2\caul.max.final\plots\Caulerpa_taxifolia_2.png
+Time since start: 26.152
+Caulerpa_taxifolia_2 response curves
+Time since start: 27.568
+Response curve: only e09.SST.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 261095424, free 115431072, used 145664352, increment -89906872
+Caulerpa_taxifolia_2 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 261095424, free 115431072, used 145664352, increment 0
+linearPredictor: max memory 1886912512, total allocated 261095424, free 115431072, used 145664352, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 261095424, free 115431072, used 145664352, increment 0
+Sequential: max memory 1886912512, total allocated 261095424, free 115431072, used 145664352, increment 0
+Initial loss: 9.274816391160547
+180: time = 0.273000 loss = 8.659752
+Resulting gain: 0.6150646366950703
+Caulerpa_taxifolia_2 response curves
+getSamples: max memory 1886912512, total allocated 261095424, free 103876672, used 157218752, increment 11554400
+Making features
+makeFeatures: max memory 1886912512, total allocated 261095424, free 103865928, used 157229496, increment 10744
+Caulerpa_taxifolia_3: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+683 samples
+Density: max memory 1886912512, total allocated 261095424, free 103858976, used 157236448, increment 6952
+linearPredictor: max memory 1886912512, total allocated 261095424, free 103858976, used 157236448, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 261095424, free 103854744, used 157240680, increment 4232
+Sequential: max memory 1886912512, total allocated 261095424, free 103854744, used 157240680, increment 0
+Initial loss: 9.275285060616564
+Initial test loss: 9.275285060616564
+180: time = 0.280000 loss = 8.680580 testLoss 8.575375
+Resulting gain: 0.5947046196661567
+Time since start: 28.711
+Projecting...
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CAUL\Maxent Outputs 4.1 GUI 2\caul.max.final\Caulerpa_taxifolia_3.asc
+Time since start: 31.894
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CAUL\Maxent Outputs 4.1 GUI 2\caul.max.final\plots\Caulerpa_taxifolia_3.png
+Time since start: 34.745
+Caulerpa_taxifolia_3 response curves
+Response curve: only e09.SST.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 471334912, free 98345336, used 372989576, increment 215748896
+Caulerpa_taxifolia_3 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+683 samples
+Density: max memory 1886912512, total allocated 471334912, free 98341144, used 372993768, increment 4192
+linearPredictor: max memory 1886912512, total allocated 471334912, free 98336960, used 372997952, increment 4184
+FeaturedSpace: max memory 1886912512, total allocated 471334912, free 98332736, used 373002176, increment 4224
+Sequential: max memory 1886912512, total allocated 471334912, free 98332736, used 373002176, increment 0
+Initial loss: 9.275285060616564
+180: time = 0.275000 loss = 8.680580
+Resulting gain: 0.5947046196661567
+Caulerpa_taxifolia_3 response curves
+getSamples: max memory 1886912512, total allocated 471334912, free 90840016, used 380494896, increment 7492720
+Making features
+makeFeatures: max memory 1886912512, total allocated 471334912, free 90829096, used 380505816, increment 10920
+Caulerpa_taxifolia_4: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+683 samples
+Density: max memory 1886912512, total allocated 471334912, free 90822792, used 380512120, increment 6304
+linearPredictor: max memory 1886912512, total allocated 471334912, free 90822792, used 380512120, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 471334912, free 90818584, used 380516328, increment 4208
+Sequential: max memory 1886912512, total allocated 471334912, free 90818584, used 380516328, increment 0
+Initial loss: 9.275097619191461
+Initial test loss: 9.275097619191461
+180: time = 0.297000 loss = 8.689812 testLoss 8.535543
+Resulting gain: 0.5852857660009629
+Time since start: 36.995
+Projecting...
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CAUL\Maxent Outputs 4.1 GUI 2\caul.max.final\Caulerpa_taxifolia_4.asc
+Time since start: 40.04
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CAUL\Maxent Outputs 4.1 GUI 2\caul.max.final\plots\Caulerpa_taxifolia_4.png
+Time since start: 43.13
+Caulerpa_taxifolia_4 response curves
+Response curve: only e09.SST.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 477626368, free 65551560, used 412074808, increment 31558480
+Caulerpa_taxifolia_4 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+683 samples
+Density: max memory 1886912512, total allocated 477626368, free 65543088, used 412083280, increment 8472
+linearPredictor: max memory 1886912512, total allocated 477626368, free 65543088, used 412083280, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 477626368, free 65539856, used 412086512, increment 3232
+Sequential: max memory 1886912512, total allocated 477626368, free 65539856, used 412086512, increment 0
+Initial loss: 9.275097619191461
+180: time = 0.324000 loss = 8.689812
+Resulting gain: 0.5852857660009629
+Caulerpa_taxifolia_4 response curves
+Time since start: 44.964
+Creating average grid, stddev grid etc.
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CAUL\Maxent Outputs 4.1 GUI 2\caul.max.final\Caulerpa_taxifolia_avg.asc
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CAUL\Maxent Outputs 4.1 GUI 2\caul.max.final\Caulerpa_taxifolia_stddev.asc
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CAUL\Maxent Outputs 4.1 GUI 2\caul.max.final\Caulerpa_taxifolia_min.asc
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CAUL\Maxent Outputs 4.1 GUI 2\caul.max.final\Caulerpa_taxifolia_max.asc
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CAUL\Maxent Outputs 4.1 GUI 2\caul.max.final\Caulerpa_taxifolia_median.asc
+Time since start: 66.82
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CAUL\Maxent Outputs 4.1 GUI 2\caul.max.final\plots\Caulerpa_taxifolia_avg.png
+Time since start: 70.975
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CAUL\Maxent Outputs 4.1 GUI 2\caul.max.final\plots\Caulerpa_taxifolia_stddev.png
+Time since start: 76.301
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CAUL\Maxent Outputs 4.1 GUI 2\caul.max.final\plots\Caulerpa_taxifolia_min.png
+Time since start: 82.43
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CAUL\Maxent Outputs 4.1 GUI 2\caul.max.final\plots\Caulerpa_taxifolia_max.png
+Time since start: 87.192
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CAUL\Maxent Outputs 4.1 GUI 2\caul.max.final\plots\Caulerpa_taxifolia_median.png
+Time since start: 90.718
+Caulerpa_taxifolia average response curves
+Warning: Error calculating replicate summary: file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CAUL\Maxent Outputs 4.1 GUI 2\caul.max.final\maxentResults.csv missing values for field "Training gain without e09.SST.min"
+Warning: Error calculating replicate summary: file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CAUL\Maxent Outputs 4.1 GUI 2\caul.max.final\maxentResults.csv missing values for field "Training gain with only e09.SST.min"
+Time since start: 104.717
+Ending

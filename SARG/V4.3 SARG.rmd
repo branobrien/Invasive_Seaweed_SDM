@@ -1,0 +1,731 @@
+---
+title: "SARG"
+author: "Brandon O'Brien"
+date: "1/21/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_knit$set(root.dir = '~/Documents/Algae Lab UNH/Species Distribution Modeling/V4 - Jan 2022')
+```
+
+```{r library}
+
+setwd("~/Documents/Algae Lab UNH/Species Distribution Modeling/V4 - Jan 2022")
+
+library(ggplot2)
+library(ggspatial)
+library(sf)
+library(rnaturalearth)
+library(rnaturalearthdata)
+library(raster)
+library(dismo)
+library(rJava)
+library(usdm)
+library(terra)
+
+
+```
+
+```{r occur data}
+
+# note - maxent function won't take the raw occurrence data, it wants a dataframe with only 2 columns.
+# Also, needs to be in Long, Latt order or else it messes up.
+
+occur.sarg <- read.csv('SARG/SARG Occur/Sarg max 2.csv', header=T)
+head(occur.sarg)
+occur.sarg <- as.data.frame(occur.sarg)
+
+
+
+
+```
+
+
+```{r occur maps}
+
+world <- ne_countries(scale='medium', returnclass='sf')
+
+
+theme_map <- theme(panel.background = element_rect(color = 'black', fill = 'lightblue'),
+                   panel.border = element_rect(color = 'black', fill=NA))
+# global
+ggplot(data=world) +
+  geom_sf(color='black', fill='gray') + 
+  geom_point(data=occur.sarg, aes(x=longitude, y=latitude), 
+             color='red', fill='red', size=1)+
+  labs(caption = 'Figure 1: Global occurrence records of Sargassum muticum.',
+      x = '', y = '') +
+  coord_sf(expand = F) +
+  theme_map
+
+
+
+```
+
+
+```{r envi data present-day}
+
+
+
+# bringing in all environmental raster layers and getting them  trimmed and set up
+# building raster'bricks' which are just collections of layers in same extent
+# bricks are like stacks but apparently faster to work with.
+
+
+## all envi layers
+## these have been trimmed down in arcGIS to only the 100km belt along the coastlines
+
+SST.max <- raster('Environmental Data/Clipped_100km/e08.SST.max.asc')
+SST.min <- raster('Environmental Data/Clipped_100km/e09.SST.min.asc')
+SST.ran <- raster('Environmental Data/Clipped_100km/e10.SST.ra.asc')
+SAL.men <- raster('Environmental Data/Clipped_100km/e07.SAL.me.asc')
+NIT.max <- raster('Environmental Data/Clipped_100km/e03.NIT.max.asc')
+NIT.min <- raster('Environmental Data/Clipped_100km/e04.NIT.min.asc')
+PHO.max <- raster('Environmental Data/Clipped_100km/e05.PHO.max.asc')
+PHO.min <- raster('Environmental Data/Clipped_100km/e06.PHO.min.asc')
+DA.max <- raster('Environmental Data/Clipped_100km/e01.DA.max.asc')
+DA.min <- raster('Environmental Data/Clipped_100km/e02.DA.min.asc')
+
+
+
+## NOtes
+# Brezo had a lot to say about using DA as a variable - maybe I should just remove it from the start?
+# Also said it may be worth it to include all the temp vars, max and min
+# even if somewhat correlated
+
+# need to trim off edges to make sure extents are all the same
+
+ext.global.trim <- extent(c(-180,180,-65,65))
+
+SST.max <- crop(SST.max, ext.global.trim)
+SST.min <- crop(SST.min, ext.global.trim)
+SST.ran <- crop(SST.ran, ext.global.trim)
+SAL.men <- crop(SAL.men, ext.global.trim)
+NIT.max <- crop(NIT.max, ext.global.trim)
+NIT.min <- crop(NIT.min, ext.global.trim)
+PHO.max <- crop(PHO.max, ext.global.trim)
+PHO.min <- crop(PHO.min, ext.global.trim)
+DA.max <- crop(DA.max, ext.global.trim)
+DA.min <- crop(DA.min, ext.global.trim)
+
+#not using DA on Brezo's suggestions
+
+envi.global <- stack(c(SST.max,
+                       SST.min,
+                       SST.ran,
+                       SAL.men,
+                       NIT.max,
+                       NIT.min,
+                       PHO.max,
+                       PHO.min))
+                       # DA.max,
+                       # DA.min))
+
+```
+
+
+```{r collinearity tests}
+
+## this entire section is #d out since I don't need to rerun it during knitting (analysis done though)
+
+# now we need to cut down this stack of envi varibales so that none are strongly autocorrelated with eachother
+
+# two ways to look at this: pairwise comps or VIF scores (see Guisan)
+
+
+# pairs(envi.global)  #this takes a while... don't need to run every time
+# this does simple pairwise comparisons
+# if we want to remove pairs with correlations of 0.85 or higher:
+#  SST.max&SST.min, PHOmax & Phomin, and DAmax &DAmin all show strong autocorrelations
+# there is no agreed upon limit for how correlated is too correlated
+# martinez used 0.85, many use 0.8 or 0.7
+
+
+#Pairs doesn't take into account complex multi-colinearity
+# but VIF does 
+# VIF = Variance Inflation Factor
+# values of 5-10 best, up to 20 ok, above 20=bad, strong multicorelation
+
+# vif() just returns the VIF values for each var, again want ideally less than 10 (or I'd take 20)
+
+# vif(envi.global)
+
+# results of prev line:
+# > vif(envi.global)
+# Variables        VIF
+# # 1 e08.SST.max 358.907176
+# # 2 e09.SST.min 576.962232
+# # 3  e10.SST.ra 119.018796
+# # 4  e07.SAL.me   1.347877
+# # 5 e03.NIT.max   5.449913
+# # 6 e04.NIT.min   8.015814
+# # 7 e05.PHO.max  10.254266
+# 8 e06.PHO.min  12.291757
+
+
+# temp is the worst offender
+
+
+
+# vifstep will go through and stepwise remove problem vars until all VIFs are below 10
+# 
+# vifstep(envi.global)
+# 
+# 
+# #results from global vifstep:
+# > vifstep(envi.global)
+# 2 variables from the 8 input variables have collinearity problem: 
+#   
+#   e09.SST.min e06.PHO.min 
+# 
+# After excluding the collinear variables, the linear correlation coefficients ranges between: 
+#   min correlation ( e05.PHO.max ~ e07.SAL.me ):  -0.0499544 
+# max correlation ( e04.NIT.min ~ e03.NIT.max ):  0.8052716 
+# 
+# VIFs of the remained variables  
+#   Variables      VIF
+# 1 e08.SST.max 2.462531
+# 2  e10.SST.ra 1.513469
+# 3  e07.SAL.me 1.349815
+# 4 e03.NIT.max 3.492575
+# 5 e04.NIT.min 3.566174
+# 6 e05.PHO.max 3.138695
+
+#VIFstep shows SSTmin and Phomin having the worst correlations
+
+
+# VIFstep suggests removing SSTmin, but based on Brezo's feedback I'm going to take out range instead, leaving in min. See what that does.
+
+# for now leaving in Pho Min
+
+
+# envi.global.cut1 <- stack(c(SST.max,
+#                        SST.min,
+#                        # SST.ran,
+#                        SAL.men,
+#                        NIT.max,
+#                        NIT.min,
+#                        PHO.max,
+#                        PHO.min))
+#                        # DA.max,
+#                        # DA.min))
+# 
+
+
+# see if that worked to bring down the collinearity scores:
+
+# vif(envi.global.cut1)
+
+# > vif(envi.global.cut1)
+# Variables       VIF
+# 1 e08.SST.max  8.282085
+# 2 e09.SST.min  7.097035
+# 3  e07.SAL.me  1.283647
+# 4 e03.NIT.max  4.369547
+# 5 e04.NIT.min  7.592299
+# 6 e05.PHO.max  9.266834
+# 7 e06.PHO.min 12.037730
+
+
+
+# ok this actually looks really good
+# without SST range, the VIFs for everything else drop down a lot
+# PHO min is still above 10, but very close (some authors say 20, so this is fine)
+# vifstep still recommends removing pho.min, but that's ok. Keeping it for now. 
+
+# using these 7 variables for the first iteration of the models
+```
+
+
+
+```{r models present-day}
+
+
+# model 1
+
+envi.global.1 <- stack(c(SST.max,
+                       SST.min,
+                       # SST.ran,
+                       SAL.men,
+                       NIT.max,
+                       NIT.min,
+                       PHO.max,
+                       PHO.min))
+                       # DA.max,
+                       # DA.min))
+
+
+sarg.max.1 <- maxent(x = envi.global.1,
+                         p = occur.sarg,
+                         path="SARG/Maxent outputs/sarg.max.1", 
+                         args=c('linear=TRUE',        # just linear and quadratic features, 
+                                'quadratic=TRUE',     # others are too complicated and lead to overfitting
+                                'product=FALSE', 
+                                'threshold=FALSE', 
+                                'hinge=FALSE',      #keep hinge off, response curves look terrible
+                                'randomtestpoints=30',  #like to have 70% training and 30% testing
+                                'responsecurves=TRUE',
+                                'jackknife=TRUE'))
+# this is pretty slow becasue it's such a large area.
+
+
+
+# pho max and pho min show low percent contribution and permutation importance, and their response curves are flat
+
+
+###### Model 2
+
+# removing PHO max and PHO min
+
+envi.global.2 <- stack(c(SST.max,
+                       SST.min,
+                       # SST.ran,
+                       SAL.men,
+                       NIT.max,
+                       NIT.min))
+                       # PHO.max,
+                       # PHO.min))
+                       # DA.max,
+                       # DA.min))
+
+
+sarg.max.2 <- maxent(x = envi.global.2,
+                         p = occur.sarg,
+                         path="SARG/Maxent outputs/sarg.max.2", 
+                         args=c('linear=TRUE',       
+                                'quadratic=TRUE',     
+                                'product=FALSE', 
+                                'threshold=FALSE', 
+                                'hinge=FALSE',     
+                                'randomtestpoints=30',  
+                                'responsecurves=TRUE',
+                                'jackknife=TRUE'))
+
+# nit max has low % contri and low perm import
+# mit min has low perm import but Okish % contr (8%)
+
+
+
+##### model 3
+
+# remove NIT.max
+
+envi.global.3 <- stack(c(SST.max,
+                       SST.min,
+                       # SST.ran,
+                       SAL.men,
+                       # NIT.max,
+                       NIT.min))
+                       # PHO.max,
+                       # PHO.min))
+                       # DA.max,
+                       # DA.min))
+
+
+sarg.max.3 <- maxent(x = envi.global.3,
+                         p = occur.sarg,
+                         path="SARG/Maxent outputs/sarg.max.3", 
+                         args=c('linear=TRUE',       
+                                'quadratic=TRUE',     
+                                'product=FALSE', 
+                                'threshold=FALSE', 
+                                'hinge=FALSE',     
+                                'randomtestpoints=30',  
+                                'responsecurves=TRUE',
+                                'jackknife=TRUE'))
+
+
+
+#### model FINAL
+
+# remove NIT 
+
+envi.global.final <- stack(c(SST.max,
+                       SST.min,
+                       # SST.ran,
+                       SAL.men))
+                       # NIT.max,
+                       # NIT.min))
+                       # PHO.max,
+                       # PHO.min))
+                       # DA.max,
+                       # DA.min))
+
+
+
+
+sarg.max.final <- maxent(x = envi.global.final,
+                         p = occur.sarg,
+                         path="SARG/Maxent outputs/sarg.max.final", 
+                         args=c('linear=TRUE',       
+                                'quadratic=TRUE',     
+                                'product=FALSE', 
+                                'threshold=FALSE', 
+                                'hinge=FALSE',     
+                                'randomtestpoints=30',  
+                                'responsecurves=TRUE',
+                                'jackknife=TRUE'))
+
+
+
+
+
+
+
+
+```
+
+```{r Present models 4.3}
+
+
+# redoing a few things from Brezo's comments, April 2022
+# basically, using different criteria to choose variables for final model 
+# Percent Contribution or Permutation Importance need to be at least 20% (and/or response curves must make sense)
+
+# doing this into new 4.1 folder
+
+# there's a bit of stochasticity in the models, so every time you run it the values are slightly different. 
+# for variables on the cusp of that 20% cutoff, sometimes they're above and sometimes below.
+# we could run it 10 times and take the average?
+
+#running "full" model 5 times:
+
+
+envi.global.1 <- stack(c(SST.max,
+                       SST.min,
+                       # SST.ran,
+                       SAL.men,
+                       NIT.max,
+                       NIT.min,
+                       PHO.max,
+                       PHO.min))
+                       # DA.max,
+                       # DA.min))
+
+
+
+
+# model 1:
+
+sarg.max.1 <- maxent(x = envi.global.1,
+                         p = occur.sarg,
+                         path="SARG/Maxent outputs 4.1/sarg.max.1", 
+                         args=c('linear=TRUE',        # just linear and quadratic features, 
+                                'quadratic=TRUE',     # others are too complicated and lead to overfitting
+                                'product=FALSE', 
+                                'threshold=FALSE', 
+                                'hinge=FALSE',      #keep hinge off, response curves look terrible
+                                'randomtestpoints=30',  #like to have 70% training and 30% testing
+                                'responsecurves=TRUE',
+                                'jackknife=TRUE'))
+
+
+
+
+sarg.max.2 <- maxent(x = envi.global.1,
+                         p = occur.sarg,
+                         path="SARG/Maxent outputs 4.1/sarg.max.2", 
+                         args=c('linear=TRUE',        
+                                'quadratic=TRUE',    
+                                'product=FALSE', 
+                                'threshold=FALSE', 
+                                'hinge=FALSE',     
+                                'randomtestpoints=30',  
+                                'responsecurves=TRUE',
+                                'jackknife=TRUE'))
+
+sarg.max.3 <- maxent(x = envi.global.1,
+                         p = occur.sarg,
+                         path="SARG/Maxent outputs 4.1/sarg.max.3", 
+                         args=c('linear=TRUE',        
+                                'quadratic=TRUE',    
+                                'product=FALSE', 
+                                'threshold=FALSE', 
+                                'hinge=FALSE',     
+                                'randomtestpoints=30',  
+                                'responsecurves=TRUE',
+                                'jackknife=TRUE'))
+
+
+sarg.max.4 <- maxent(x = envi.global.1,
+                         p = occur.sarg,
+                         path="SARG/Maxent outputs 4.1/sarg.max.4", 
+                         args=c('linear=TRUE',        
+                                'quadratic=TRUE',    
+                                'product=FALSE', 
+                                'threshold=FALSE', 
+                                'hinge=FALSE',     
+                                'randomtestpoints=30',  
+                                'responsecurves=TRUE',
+                                'jackknife=TRUE'))
+
+sarg.max.5 <- maxent(x = envi.global.1,
+                         p = occur.sarg,
+                         path="SARG/Maxent outputs 4.1/sarg.max.5", 
+                         args=c('linear=TRUE',        
+                                'quadratic=TRUE',    
+                                'product=FALSE', 
+                                'threshold=FALSE', 
+                                'hinge=FALSE',     
+                                'randomtestpoints=30',  
+                                'responsecurves=TRUE',
+                                'jackknife=TRUE'))
+
+
+
+#################################
+### Final Models
+
+### Remove variables with <20% percent contribution OR permutation importance
+
+envi.global.final <- stack(c(SST.max,
+                       SST.min))
+                       # SST.ran,
+                       #SAL.men,
+                       #NIT.max,
+                       #NIT.min,
+                       #PHO.max,
+                       #PHO.min))
+                       # DA.max,
+                       # DA.min))
+
+sarg.max.final.1 <- maxent(x = envi.global.final,
+                         p = occur.sarg,
+                         path="SARG/Maxent outputs 4.1/sarg.max.final.1", 
+                         args=c('linear=TRUE',        
+                                'quadratic=TRUE',    
+                                'product=FALSE', 
+                                'threshold=FALSE', 
+                                'hinge=FALSE',     
+                                'randomtestpoints=30',  
+                                'responsecurves=TRUE',
+                                'jackknife=TRUE'))
+
+
+sarg.max.final.2 <- maxent(x = envi.global.final,
+                         p = occur.sarg,
+                         path="SARG/Maxent Outputs 4.1/sarg.max.final.2", 
+                         args=c('linear=TRUE',       
+                                'quadratic=TRUE',     
+                                'product=FALSE', 
+                                'threshold=FALSE', 
+                                'hinge=FALSE',      
+                                'randomtestpoints=30',  
+                                'responsecurves=TRUE',
+                                'jackknife=TRUE'))
+
+sarg.max.final.3 <- maxent(x = envi.global.final,
+                         p = occur.sarg,
+                         path="SARG/Maxent Outputs 4.1/sarg.max.final.3", 
+                         args=c('linear=TRUE',       
+                                'quadratic=TRUE',     
+                                'product=FALSE', 
+                                'threshold=FALSE', 
+                                'hinge=FALSE',      
+                                'randomtestpoints=30',  
+                                'responsecurves=TRUE',
+                                'jackknife=TRUE'))
+
+
+
+sarg.max.final.4 <- maxent(x = envi.global.final,
+                         p = occur.sarg,
+                         path="SARG/Maxent Outputs 4.1/sarg.max.final.4", 
+                         args=c('linear=TRUE',       
+                                'quadratic=TRUE',     
+                                'product=FALSE', 
+                                'threshold=FALSE', 
+                                'hinge=FALSE',      
+                                'randomtestpoints=30',  
+                                'responsecurves=TRUE',
+                                'jackknife=TRUE'))
+
+
+sarg.max.final.5 <- maxent(x = envi.global.final,
+                         p = occur.sarg,
+                         path="SARG/Maxent Outputs 4.1/sarg.max.final.5", 
+                         args=c('linear=TRUE',       
+                                'quadratic=TRUE',     
+                                'product=FALSE', 
+                                'threshold=FALSE', 
+                                'hinge=FALSE',      
+                                'randomtestpoints=30',  
+                                'responsecurves=TRUE',
+                                'jackknife=TRUE'))
+
+## that created maxent objexts in R, need to project them to get the .asc rasters
+
+#project model onto global scale
+predict.sarg.1 <- predict(sarg.max.final.1, envi.global.final)
+predict.sarg.2 <- predict(sarg.max.final.2, envi.global.final)
+predict.sarg.3 <- predict(sarg.max.final.3, envi.global.final)
+predict.sarg.4 <- predict(sarg.max.final.4, envi.global.final)
+predict.sarg.5 <- predict(sarg.max.final.5, envi.global.final)
+
+
+ggplot() +
+  layer_spatial(predict.sarg.1)
+
+#save as raster for plotting in arcmap
+writeRaster(predict.sarg.1, filename = 'SARG/Maxent Outputs 4.1/sarg.max.final.1/predict.sarg.1.asc',format='ascii', overwrite = T)
+writeRaster(predict.sarg.2, filename = 'SARG/Maxent Outputs 4.1/sarg.max.final.2/predict.sarg.2.asc',format='ascii', overwrite = T)
+writeRaster(predict.sarg.3, filename = 'SARG/Maxent Outputs 4.1/sarg.max.final.3/predict.sarg.3.asc',format='ascii', overwrite = T)
+writeRaster(predict.sarg.4, filename = 'SARG/Maxent Outputs 4.1/sarg.max.final.4/predict.sarg.4.asc',format='ascii', overwrite = T)
+writeRaster(predict.sarg.5, filename = 'SARG/Maxent Outputs 4.1/sarg.max.final.5/predict.sarg.5.asc',format='ascii', overwrite = T)
+
+
+
+sarg.final.asc.1 <- raster("SARG/Maxent Outputs 4.1/sarg.max.final.1/predict.sarg.1.asc")
+sarg.final.asc.2 <- raster("SARG/Maxent Outputs 4.1/sarg.max.final.2/predict.sarg.2.asc")
+sarg.final.asc.3 <- raster("SARG/Maxent Outputs 4.1/sarg.max.final.3/predict.sarg.3.asc")
+sarg.final.asc.4 <- raster("SARG/Maxent Outputs 4.1/sarg.max.final.4/predict.sarg.4.asc")
+sarg.final.asc.5 <- raster("SARG/Maxent Outputs 4.1/sarg.max.final.5/predict.sarg.5.asc")
+
+
+ggplot() +
+  layer_spatial(sarg.final.asc.1)
+
+### Now that we have the outputs in .asc format, need to average them all together into one raster
+
+sarg.final.stack <- stack(c(
+  sarg.final.asc.1,
+  sarg.final.asc.2,
+  sarg.final.asc.3,
+  sarg.final.asc.4,
+  sarg.final.asc.5))
+
+sarg.final.avg.asc <- calc(sarg.final.stack, fun = mean)
+
+
+### then cut the raster based on equal TSS
+### using the average equal TSS from all 5 iterations
+### equal TSS = ___0.3356____
+
+sarg.final.thresh <- sarg.final.avg.asc
+
+sarg.final.thresh[sarg.final.thresh < 0.3356 ] <- NA # threshold value, change to proper number (above)
+
+writeRaster(sarg.final.thresh, filename = 'ArcMap/SARG Arc 4.3/sarg.final.thresh.asc',format='ascii', overwrite = T)
+
+# now can bring that file into Arc as highly suitable area (H)
+```
+
+
+```{r 4.3 Arc Notes present}
+
+
+#### Next, want to create shape for Vulnerable area V
+# H - O = V
+# but need to make stuff into polygons first (can't trim from orig asc rasters)
+
+# To get polygon from orig raster:
+## Use INT tool on orig asc (Toolbox Spatial Analysis - Math)
+## Use Raster to Polygon tool (toolbox Conversions - from raster)
+# now you have a polygon of the original shape, with no values.
+# ready for trimming
+
+
+# Make polygons for H and O
+# use Erase tool (analysis - overlay) 
+## Input = H; Erase = O
+
+# now you have a V polygon
+
+
+### Great, now just need to calculate areas of all of these polygons
+## We'll calc areas later, after we have G and L polygons as well
+
+
+```
+
+```{r 4.3 Project RCP45}
+
+
+# need to bring in environmental layers for SST max and min under RCP45 scenario
+
+# read in files
+SST.max.RCP45 <- raster('Environmental Data/RCP45/e08.SST.max.asc')
+SST.min.RCP45 <- raster('Environmental Data/RCP45/e09.SST.min.asc')
+
+# trim to same extents as other vars
+SST.max.RCP45 <- crop(SST.max.RCP45, ext.global.trim)
+SST.min.RCP45 <- crop(SST.min.RCP45, ext.global.trim)
+
+
+# build envi stack
+# base choice of variables on new averaged PC and PI >= 20
+envi.global.RCP45 <- stack(c(SST.min.RCP45,
+                        SST.max.RCP45))
+                       # SST.ran,
+                       # SAL.men,
+                       # NIT.max,
+                       # NIT.min,
+                       # PHO.max))
+                       # PHO.min))
+                       # DA.max,
+                       # DA.min))
+
+## predict final model onto future stack
+
+sarg.RCP45.1 <- predict(sarg.max.final.1, envi.global.RCP45)
+sarg.RCP45.2 <- predict(sarg.max.final.2, envi.global.RCP45)
+sarg.RCP45.3 <- predict(sarg.max.final.3, envi.global.RCP45)
+sarg.RCP45.4 <- predict(sarg.max.final.4, envi.global.RCP45)
+sarg.RCP45.5 <- predict(sarg.max.final.5, envi.global.RCP45)
+
+sarg.RCP45.stack <- stack(c(sarg.RCP45.1,
+  sarg.RCP45.2,
+  sarg.RCP45.3,
+  sarg.RCP45.4,
+  sarg.RCP45.5))
+
+sarg.RCP45.avg <- calc(sarg.RCP45.stack, fun = mean)
+
+
+writeRaster(sarg.RCP45.avg, filename = "ArcMap/sarg Arc 4.3/sarg.RCP45.avg.asc", format = "ascii", overwrite = T)
+
+
+## need to cut to threshold again
+
+sarg.RCP45.thresh <- sarg.RCP45.avg
+
+sarg.RCP45.thresh[sarg.RCP45.thresh < 0.3356] <- NA
+
+writeRaster(sarg.RCP45.thresh, filename = "ArcMap/sarg Arc 4.3/sarg.RCP45.avg.thresh.asc", format = "ascii", overwrite = T)
+# this is the final RP45 highly suitable area raster, bring into maps
+
+
+
+```
+
+```{r 4.3 Arc Areas}
+
+
+## now have all of our polygons in ArcMap
+
+# Occurrence Points (dots)
+# O = Occupied = buffer around points = color black
+# H = Highly Suitable = value > threshold = color Yellow
+# V = Vulnerable = H - O = Color Red
+# H-CC = Highly Suitable under Future Climate Change conditions = color Orange
+# G = Gain = H-CC - H = color Green
+# L = Loss = H - H-CC = color Purple
+
+
+## just need to calculate the AREAs for each of these polygons
+
+# for EACH polygon:
+
+# open attribute table
+# Add Field - name it area
+# right click on area field, Calculate Geometry
+# choose area, set units to km2
+# once calculated, right click on area field, Statistics
+# stats output includes SUM - copy paste this into table or wherever you need it
+
+
+
+```
+

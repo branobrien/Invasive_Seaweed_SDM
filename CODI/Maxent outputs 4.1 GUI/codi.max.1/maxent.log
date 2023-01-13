@@ -1,0 +1,1929 @@
+Fri May 06 13:18:38 EDT 2022
+MaxEnt version 3.4.1
+Checking header of C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\Environmental Data\Clipped_100km\e03.NIT.max.asc
+Checking header of C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\Environmental Data\Clipped_100km\e04.NIT.min.asc
+Checking header of C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\Environmental Data\Clipped_100km\e05.PHO.max.asc
+Checking header of C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\Environmental Data\Clipped_100km\e06.PHO.min.asc
+Checking header of C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\Environmental Data\Clipped_100km\e07.SAL.me.asc
+Checking header of C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\Environmental Data\Clipped_100km\e08.SST.max.asc
+Checking header of C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\Environmental Data\Clipped_100km\e09.SST.min.asc
+Reading samples from Codi ALL max GUI.csv
+Read samples: max memory 1886912512, total allocated 540540928, free 322987616, used 217553312, increment -194533200
+Warning: interpreting latitude column of sample file as latitude
+Extractor: max memory 1886912512, total allocated 540540928, free 318971552, used 221569376, increment 4016064
+Extracting random background and sample data
+Warning: Sample at -8.929307, 53.365834 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -8.929307, 53.365834 which has no environmental data
+Warning: Sample at -0.756846, 50.753775 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -0.756846, 50.753775 which has no environmental data
+Warning: Sample at -0.756846, 50.753775 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -0.756846, 50.753775 which has no environmental data
+Warning: Sample at -0.756846, 50.753775 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -0.756846, 50.753775 which has no environmental data
+Warning: Sample at -0.755198, 50.762481 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -0.755198, 50.762481 which has no environmental data
+Warning: Sample at -3.648517, 50.603593 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -3.648517, 50.603593 which has no environmental data
+Warning: Sample at -5.9928, 43.291 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -5.9928, 43.291 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.862601, 43.058417 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.862601, 43.058417 which has no environmental data
+Warning: Sample at -70.862601, 43.058417 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.862601, 43.058417 which has no environmental data
+Warning: Sample at -70.753258, 43.072264 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.753258, 43.072264 which has no environmental data
+Warning: Sample at -70.753258, 43.072264 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.753258, 43.072264 which has no environmental data
+Warning: Sample at -70.753258, 43.072264 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.753258, 43.072264 which has no environmental data
+Warning: Sample at -70.753258, 43.072264 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.753258, 43.072264 which has no environmental data
+Warning: Sample at -70.753258, 43.072264 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.753258, 43.072264 which has no environmental data
+Warning: Sample at -70.753258, 43.072264 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.753258, 43.072264 which has no environmental data
+Warning: Sample at -70.753258, 43.072264 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.753258, 43.072264 which has no environmental data
+Warning: Sample at -70.753258, 43.072264 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.753258, 43.072264 which has no environmental data
+Warning: Sample at -70.753258, 43.072264 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.753258, 43.072264 which has no environmental data
+Warning: Sample at -70.753258, 43.072264 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.753258, 43.072264 which has no environmental data
+Warning: Sample at -70.753258, 43.072264 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.753258, 43.072264 which has no environmental data
+Warning: Sample at -70.753258, 43.072264 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.753258, 43.072264 which has no environmental data
+Warning: Sample at -70.753258, 43.072264 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.753258, 43.072264 which has no environmental data
+Warning: Sample at -70.753258, 43.072264 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.753258, 43.072264 which has no environmental data
+Warning: Sample at -70.753258, 43.072264 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.753258, 43.072264 which has no environmental data
+Warning: Sample at -70.753258, 43.072264 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.753258, 43.072264 which has no environmental data
+Warning: Sample at -70.753258, 43.072264 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.753258, 43.072264 which has no environmental data
+Warning: Sample at -70.753258, 43.072264 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.753258, 43.072264 which has no environmental data
+Warning: Sample at -70.766322, 43.077313 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.766322, 43.077313 which has no environmental data
+Warning: Sample at -70.766322, 43.077313 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.766322, 43.077313 which has no environmental data
+Warning: Sample at -70.766322, 43.077313 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.766322, 43.077313 which has no environmental data
+Warning: Sample at -70.766322, 43.077313 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.766322, 43.077313 which has no environmental data
+Warning: Sample at -70.766322, 43.077313 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.766322, 43.077313 which has no environmental data
+Warning: Sample at -70.766322, 43.077313 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.766322, 43.077313 which has no environmental data
+Warning: Sample at -70.766322, 43.077313 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.766322, 43.077313 which has no environmental data
+Warning: Sample at -70.766322, 43.077313 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.766322, 43.077313 which has no environmental data
+Warning: Sample at -70.78822, 42.241434 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.78822, 42.241434 which has no environmental data
+Warning: Sample at -70.78822, 42.241434 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.78822, 42.241434 which has no environmental data
+Warning: Sample at -70.78822, 42.241434 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.78822, 42.241434 which has no environmental data
+Warning: Sample at -70.78822, 42.241434 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.78822, 42.241434 which has no environmental data
+Warning: Sample at -70.78822, 42.241434 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.78822, 42.241434 which has no environmental data
+Warning: Sample at -70.78822, 42.241434 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.78822, 42.241434 which has no environmental data
+Warning: Sample at -70.78822, 42.241434 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.78822, 42.241434 which has no environmental data
+Warning: Sample at -70.78822, 42.241434 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.78822, 42.241434 which has no environmental data
+Warning: Sample at -70.132935, 41.67883 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.132935, 41.67883 which has no environmental data
+Warning: Sample at -70.132935, 41.67883 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.132935, 41.67883 which has no environmental data
+Warning: Sample at -70.111513, 41.680135 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.111513, 41.680135 which has no environmental data
+Warning: Sample at -70.111513, 41.680135 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.111513, 41.680135 which has no environmental data
+Warning: Sample at -70.024461, 41.679278 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.024461, 41.679278 which has no environmental data
+Warning: Sample at -71.96795654, 41.34667969 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -71.96795654, 41.34667969 which has no environmental data
+Warning: Sample at -71.905803, 41.34711 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -71.905803, 41.34711 which has no environmental data
+Warning: Sample at -71.905803, 41.34711 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -71.905803, 41.34711 which has no environmental data
+Warning: Sample at -71.905803, 41.34711 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -71.905803, 41.34711 which has no environmental data
+Warning: Sample at -71.905803, 41.34711 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -71.905803, 41.34711 which has no environmental data
+Warning: Sample at 17.27076, 40.48407 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 17.27076, 40.48407 which has no environmental data
+Warning: Sample at -124.07194, 40.03056 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -124.07194, 40.03056 which has no environmental data
+Warning: Sample at -75.425, 37.983333 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -75.425, 37.983333 which has no environmental data
+Warning: Sample at -75.42698, 37.98561 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -75.42698, 37.98561 which has no environmental data
+Warning: Sample at -4.7228, 36.99229 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -4.7228, 36.99229 which has no environmental data
+Warning: Sample at -6.248, 36.47 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -6.248, 36.47 which has no environmental data
+Warning: Sample at -79.809961, 34.778192 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -79.809961, 34.778192 which has no environmental data
+Warning: Sample at -79.809961, 34.778192 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -79.809961, 34.778192 which has no environmental data
+Warning: Sample at -77.83607, 34.17489 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -77.83607, 34.17489 which has no environmental data
+Warning: Sample at 132.860116, 33.603997 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 132.860116, 33.603997 which has no environmental data
+Warning: Sample at 132.860116, 33.603997 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 132.860116, 33.603997 which has no environmental data
+Warning: Sample at 133.371254, 33.427028 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 133.371254, 33.427028 which has no environmental data
+Warning: Sample at 14.523752, -22.736491 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 14.523752, -22.736491 which has no environmental data
+Warning: Sample at 14.523752, -22.736491 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 14.523752, -22.736491 which has no environmental data
+Warning: Sample at 14.52499962, -22.66670036 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 14.52499962, -22.66670036 which has no environmental data
+Warning: Sample at 14.52499962, -22.66670036 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 14.52499962, -22.66670036 which has no environmental data
+Warning: Sample at 14.52499962, -22.66670036 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 14.52499962, -22.66670036 which has no environmental data
+Warning: Sample at 14.52499962, -22.66670036 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 14.52499962, -22.66670036 which has no environmental data
+Warning: Sample at 14.91670036, -25.89999962 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 14.91670036, -25.89999962 which has no environmental data
+Warning: Sample at 16.86669922, -29.25 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 16.86669922, -29.25 which has no environmental data
+Warning: Sample at 17.26670074, -30.31669998 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 17.26670074, -30.31669998 which has no environmental data
+Warning: Sample at 17.271714, -30.315308 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 17.271714, -30.315308 which has no environmental data
+Warning: Sample at 22.666667, -31.641667 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 22.666667, -31.641667 which has no environmental data
+Warning: Sample at 18.040427, -33.057231 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 18.040427, -33.057231 which has no environmental data
+Warning: Sample at 18.035621, -33.050522 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 18.035621, -33.050522 which has no environmental data
+Warning: Sample at 18.035621, -33.050522 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 18.035621, -33.050522 which has no environmental data
+Warning: Sample at 20.62064, -33.010335 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 20.62064, -33.010335 which has no environmental data
+Warning: Sample at 18.43610001, -33.73059845 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 18.43610001, -33.73059845 which has no environmental data
+Warning: Sample at 18.441397, -33.724076 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 18.441397, -33.724076 which has no environmental data
+Warning: Sample at 18.441397, -33.724076 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 18.441397, -33.724076 which has no environmental data
+Warning: Sample at 18.441397, -33.724076 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 18.441397, -33.724076 which has no environmental data
+Warning: Sample at 18.441397, -33.724076 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 18.441397, -33.724076 which has no environmental data
+Warning: Sample at 18.35669, -34.058682 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 18.35669, -34.058682 which has no environmental data
+Warning: Sample at 18.582488, -34.081564 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 18.582488, -34.081564 which has no environmental data
+Warning: Sample at 18.582488, -34.081564 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 18.582488, -34.081564 which has no environmental data
+Warning: Sample at 19.35000038, -34.58330154 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 19.35000038, -34.58330154 which has no environmental data
+Warning: Sample at 19.345329, -34.583153 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 19.345329, -34.583153 which has no environmental data
+Warning: Sample at 19.345329, -34.583153 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 19.345329, -34.583153 which has no environmental data
+Warning: Sample at 138.6, -34.9 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 138.6, -34.9 which has no environmental data
+Warning: Sample at 138.6, -34.933333 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 138.6, -34.933333 which has no environmental data
+Warning: Sample at 138.6, -34.933333 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 138.6, -34.933333 which has no environmental data
+Warning: Sample at 138.6, -34.933333 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 138.6, -34.933333 which has no environmental data
+Warning: Sample at 138.6, -34.933333 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 138.6, -34.933333 which has no environmental data
+Warning: Sample at 138.6011, -34.932059 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 138.6011, -34.932059 which has no environmental data
+Warning: Sample at 174.7015, -36.855611 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 174.7015, -36.855611 which has no environmental data
+Warning: Sample at 174.7015, -36.855611 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 174.7015, -36.855611 which has no environmental data
+Warning: Sample at 174.7015, -36.855611 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 174.7015, -36.855611 which has no environmental data
+Warning: Sample at 174.723111, -36.847611 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 174.723111, -36.847611 which has no environmental data
+Warning: Sample at 174.723111, -36.847611 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 174.723111, -36.847611 which has no environmental data
+Warning: Sample at 174.723111, -36.847611 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 174.723111, -36.847611 which has no environmental data
+Warning: Sample at -60.403611, -51.563611 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -60.403611, -51.563611 which has no environmental data
+Warning: Sample at -48.033333, -51.521389 in Codi ALL max GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -48.033333, -51.521389 which has no environmental data
+Time since start: 1.826
+614112 points with values for all grids
+Adding samples to background in feature space
+Command line used: 
+Command line to repeat: java density.MaxEnt nowarnings noprefixes responsecurves jackknife "outputdirectory=C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI" "samplesfile=C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\CODI Occur\Codi ALL max GUI.csv" "environmentallayers=C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\Environmental Data\Clipped_100km" notooltips noremoveduplicates replicates=5 noproduct nohinge noautofeature -N e01.DA.max -N e02.DA.min -N e10.SST.ra
+Species: codium_fragile_0 codium_fragile_1 codium_fragile_2 codium_fragile_3 codium_fragile_4
+Layers: e03.NIT.max e04.NIT.min e05.PHO.max e06.PHO.min e07.SAL.me e08.SST.max e09.SST.min
+Layertypes: Continuous Continuous Continuous Continuous Continuous Continuous Continuous
+responsecurves: true
+jackknife: true
+outputdirectory: C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI
+samplesfile: C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\CODI Occur\Codi ALL max GUI.csv
+environmentallayers: C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\Environmental Data\Clipped_100km
+tooltips: false
+removeduplicates: false
+replicates: 5
+product: false
+hinge: false
+autofeature: false
+
+getSamples: max memory 1886912512, total allocated 540540928, free 310507376, used 230033552, increment 8464176
+Making features
+makeFeatures: max memory 1886912512, total allocated 540540928, free 306356328, used 234184600, increment 4151048
+codium_fragile_0: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+992 samples
+Density: max memory 1886912512, total allocated 540540928, free 306344672, used 234196256, increment 11656
+linearPredictor: max memory 1886912512, total allocated 540540928, free 306344672, used 234196256, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 540540928, free 306344672, used 234196256, increment 0
+Sequential: max memory 1886912512, total allocated 540540928, free 306344672, used 234196256, increment 0
+Initial loss: 9.303921785597714
+Initial test loss: 9.303921785597714
+400: time = 0.614000 loss = 7.849702 testLoss 7.717950
+Resulting gain: 1.454220011365023
+Projecting...
+Time since start: 2.832
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codium_fragile_0.asc
+Time since start: 7.277
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\plots\codium_fragile_0.png
+Time since start: 9.875
+codium_fragile_0 response curves
+Response curve: only e03.NIT.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 462422016, free 240429656, used 221992360, increment -12203896
+codium_fragile_0 e03.NIT.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+992 samples
+Density: max memory 1886912512, total allocated 462422016, free 240417792, used 222004224, increment 11864
+linearPredictor: max memory 1886912512, total allocated 462422016, free 240417792, used 222004224, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 462422016, free 240417792, used 222004224, increment 0
+Sequential: max memory 1886912512, total allocated 462422016, free 240417792, used 222004224, increment 0
+Initial loss: 9.303921785597714
+60: time = 0.160000 loss = 9.267567
+Resulting gain: 0.036355088419822934
+codium_fragile_0 response curves
+Response curve: only e04.NIT.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 462422016, free 234173800, used 228248216, increment 6243992
+codium_fragile_0 e04.NIT.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+992 samples
+Density: max memory 1886912512, total allocated 462422016, free 234161744, used 228260272, increment 12056
+linearPredictor: max memory 1886912512, total allocated 462422016, free 234161744, used 228260272, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 462422016, free 234161744, used 228260272, increment 0
+Sequential: max memory 1886912512, total allocated 462422016, free 234161744, used 228260272, increment 0
+Initial loss: 9.303921785597714
+Time since start: 10.929
+60: time = 0.164000 loss = 9.227929
+Resulting gain: 0.0759923500735411
+codium_fragile_0 response curves
+Response curve: only e05.PHO.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 462422016, free 233852192, used 228569824, increment 309552
+codium_fragile_0 e05.PHO.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+992 samples
+Density: max memory 1886912512, total allocated 462422016, free 233840312, used 228581704, increment 11880
+linearPredictor: max memory 1886912512, total allocated 462422016, free 233840312, used 228581704, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 462422016, free 233840312, used 228581704, increment 0
+Sequential: max memory 1886912512, total allocated 462422016, free 233840312, used 228581704, increment 0
+Initial loss: 9.303921785597714
+100: time = 0.149000 loss = 9.149272
+Resulting gain: 0.15464934173524902
+codium_fragile_0 response curves
+Response curve: only e06.PHO.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 462422016, free 227181744, used 235240272, increment 6658568
+codium_fragile_0 e06.PHO.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+992 samples
+Density: max memory 1886912512, total allocated 462422016, free 227169864, used 235252152, increment 11880
+linearPredictor: max memory 1886912512, total allocated 462422016, free 227169864, used 235252152, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 462422016, free 227169864, used 235252152, increment 0
+Sequential: max memory 1886912512, total allocated 462422016, free 227169864, used 235252152, increment 0
+Initial loss: 9.303921785597714
+60: time = 0.169000 loss = 9.015592
+Resulting gain: 0.28832962257508044
+codium_fragile_0 response curves
+Response curve: only e07.SAL.me
+Making features
+makeFeatures: max memory 1886912512, total allocated 462422016, free 220938264, used 241483752, increment 6231600
+codium_fragile_0 e07.SAL.me: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+992 samples
+Density: max memory 1886912512, total allocated 462422016, free 220926384, used 241495632, increment 11880
+linearPredictor: max memory 1886912512, total allocated 462422016, free 220926384, used 241495632, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 462422016, free 220926384, used 241495632, increment 0
+Sequential: max memory 1886912512, total allocated 462422016, free 220926384, used 241495632, increment 0
+Initial loss: 9.303921785597714
+180: time = 0.218000 loss = 9.092099
+Resulting gain: 0.2118228668369202
+codium_fragile_0 response curves
+Time since start: 11.961
+Response curve: only e08.SST.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 462422016, free 213691968, used 248730048, increment 7234416
+codium_fragile_0 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+992 samples
+Density: max memory 1886912512, total allocated 462422016, free 213691968, used 248730048, increment 0
+linearPredictor: max memory 1886912512, total allocated 462422016, free 213691968, used 248730048, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 462422016, free 213691968, used 248730048, increment 0
+Sequential: max memory 1886912512, total allocated 462422016, free 213691968, used 248730048, increment 0
+Initial loss: 9.303921785597714
+180: time = 0.250000 loss = 8.155326
+Resulting gain: 1.148595559854904
+codium_fragile_0 response curves
+Response curve: only e09.SST.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 462422016, free 206385216, used 256036800, increment 7306752
+codium_fragile_0 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+992 samples
+Density: max memory 1886912512, total allocated 462422016, free 206385216, used 256036800, increment 0
+linearPredictor: max memory 1886912512, total allocated 462422016, free 206385216, used 256036800, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 462422016, free 206373344, used 256048672, increment 11872
+Sequential: max memory 1886912512, total allocated 462422016, free 206373344, used 256048672, increment 0
+Initial loss: 9.303921785597714
+120: time = 0.201000 loss = 8.478402
+Resulting gain: 0.8255198777256769
+codium_fragile_0 response curves
+Jackknife: leave e03.NIT.max out
+Making features
+makeFeatures: max memory 1886912512, total allocated 462422016, free 175845120, used 286576896, increment 30528224
+codium_fragile_0 e03.NIT.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+992 samples
+Density: max memory 1886912512, total allocated 462422016, free 175833216, used 286588800, increment 11904
+linearPredictor: max memory 1886912512, total allocated 462422016, free 175833216, used 286588800, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 462422016, free 175833216, used 286588800, increment 0
+Sequential: max memory 1886912512, total allocated 462422016, free 175833216, used 286588800, increment 0
+Initial loss: 9.303921785597714
+Initial test loss: 9.303921785597714
+Time since start: 13.429
+440: time = 0.627000 loss = 7.850803 testLoss 7.720322
+Jackknife: leave e04.NIT.min out
+Making features
+makeFeatures: max memory 1886912512, total allocated 462422016, free 172425728, used 289996288, increment 3407488
+codium_fragile_0 e04.NIT.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+992 samples
+Density: max memory 1886912512, total allocated 462422016, free 172425728, used 289996288, increment 0
+linearPredictor: max memory 1886912512, total allocated 462422016, free 172425728, used 289996288, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 462422016, free 172413864, used 290008152, increment 11864
+Sequential: max memory 1886912512, total allocated 462422016, free 172413864, used 290008152, increment 0
+Initial loss: 9.303921785597714
+Initial test loss: 9.303921785597714
+300: time = 0.455000 loss = 7.849703 testLoss 7.718190
+Jackknife: leave e05.PHO.max out
+Making features
+makeFeatures: max memory 1886912512, total allocated 462422016, free 164215976, used 298206040, increment 8197888
+codium_fragile_0 e05.PHO.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+992 samples
+Density: max memory 1886912512, total allocated 462422016, free 164204112, used 298217904, increment 11864
+linearPredictor: max memory 1886912512, total allocated 462422016, free 164204112, used 298217904, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 462422016, free 164204112, used 298217904, increment 0
+Sequential: max memory 1886912512, total allocated 462422016, free 164204112, used 298217904, increment 0
+Initial loss: 9.303921785597714
+Initial test loss: 9.303921785597714
+Time since start: 14.551
+440: time = 0.625000 loss = 7.856441 testLoss 7.718602
+Jackknife: leave e06.PHO.min out
+Making features
+makeFeatures: max memory 1886912512, total allocated 462422016, free 160771832, used 301650184, increment 3432280
+codium_fragile_0 e06.PHO.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+992 samples
+Density: max memory 1886912512, total allocated 462422016, free 160759968, used 301662048, increment 11864
+linearPredictor: max memory 1886912512, total allocated 462422016, free 160759968, used 301662048, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 462422016, free 160759968, used 301662048, increment 0
+Sequential: max memory 1886912512, total allocated 462422016, free 160759968, used 301662048, increment 0
+Initial loss: 9.303921785597714
+Initial test loss: 9.303921785597714
+300: time = 0.463000 loss = 7.855232 testLoss 7.730281
+Jackknife: leave e07.SAL.me out
+Making features
+makeFeatures: max memory 1886912512, total allocated 462422016, free 152452232, used 309969784, increment 8307736
+codium_fragile_0 e07.SAL.me: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+992 samples
+Density: max memory 1886912512, total allocated 462422016, free 152440352, used 309981664, increment 11880
+linearPredictor: max memory 1886912512, total allocated 462422016, free 152440352, used 309981664, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 462422016, free 152440352, used 309981664, increment 0
+Sequential: max memory 1886912512, total allocated 462422016, free 152440352, used 309981664, increment 0
+Initial loss: 9.303921785597714
+Initial test loss: 9.303921785597714
+260: time = 0.398000 loss = 7.893313 testLoss 7.767342
+Jackknife: leave e08.SST.max out
+Making features
+makeFeatures: max memory 1886912512, total allocated 462422016, free 150509784, used 311912232, increment 1930568
+codium_fragile_0 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+992 samples
+Density: max memory 1886912512, total allocated 462422016, free 150497920, used 311924096, increment 11864
+linearPredictor: max memory 1886912512, total allocated 462422016, free 150497920, used 311924096, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 462422016, free 150497920, used 311924096, increment 0
+Sequential: max memory 1886912512, total allocated 462422016, free 150497920, used 311924096, increment 0
+Initial loss: 9.303921785597714
+Initial test loss: 9.303921785597714
+Time since start: 15.864
+240: time = 0.379000 loss = 7.999460 testLoss 7.884919
+Jackknife: leave e09.SST.min out
+Making features
+makeFeatures: max memory 1886912512, total allocated 462422016, free 148732544, used 313689472, increment 1765376
+codium_fragile_0 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+992 samples
+Density: max memory 1886912512, total allocated 462422016, free 148720528, used 313701488, increment 12016
+linearPredictor: max memory 1886912512, total allocated 462422016, free 148720528, used 313701488, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 462422016, free 148720528, used 313701488, increment 0
+Sequential: max memory 1886912512, total allocated 462422016, free 148720528, used 313701488, increment 0
+Initial loss: 9.303921785597714
+Initial test loss: 9.303921785597714
+320: time = 0.490000 loss = 7.901874 testLoss 7.760684
+Jackknife: only e03.NIT.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 462422016, free 140163992, used 322258024, increment 8556536
+codium_fragile_0 e03.NIT.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+992 samples
+Density: max memory 1886912512, total allocated 462422016, free 140152112, used 322269904, increment 11880
+linearPredictor: max memory 1886912512, total allocated 462422016, free 140152112, used 322269904, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 462422016, free 140152112, used 322269904, increment 0
+Sequential: max memory 1886912512, total allocated 462422016, free 140152112, used 322269904, increment 0
+Initial loss: 9.303921785597714
+Initial test loss: 9.303921785597714
+60: time = 0.171000 loss = 9.267567 testLoss 9.252089
+Res.gain: 0.036355088419822934
+Jackknife: only e04.NIT.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 462422016, free 139842728, used 322579288, increment 309384
+codium_fragile_0 e04.NIT.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+992 samples
+Density: max memory 1886912512, total allocated 462422016, free 139830856, used 322591160, increment 11872
+linearPredictor: max memory 1886912512, total allocated 462422016, free 139830856, used 322591160, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 462422016, free 139830856, used 322591160, increment 0
+Sequential: max memory 1886912512, total allocated 462422016, free 139830856, used 322591160, increment 0
+Initial loss: 9.303921785597714
+Initial test loss: 9.303921785597714
+60: time = 0.162000 loss = 9.227929 testLoss 9.209387
+Res.gain: 0.0759923500735411
+Jackknife: only e05.PHO.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 462422016, free 139532848, used 322889168, increment 298008
+codium_fragile_0 e05.PHO.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+992 samples
+Density: max memory 1886912512, total allocated 462422016, free 139520936, used 322901080, increment 11912
+linearPredictor: max memory 1886912512, total allocated 462422016, free 139520936, used 322901080, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 462422016, free 139520936, used 322901080, increment 0
+Sequential: max memory 1886912512, total allocated 462422016, free 139520936, used 322901080, increment 0
+Initial loss: 9.303921785597714
+Initial test loss: 9.303921785597714
+Time since start: 16.885
+100: time = 0.151000 loss = 9.149272 testLoss 9.081906
+Res.gain: 0.15464934173524902
+Jackknife: only e06.PHO.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 462422016, free 138783200, used 323638816, increment 737736
+codium_fragile_0 e06.PHO.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+992 samples
+Density: max memory 1886912512, total allocated 462422016, free 138783200, used 323638816, increment 0
+linearPredictor: max memory 1886912512, total allocated 462422016, free 138783200, used 323638816, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 462422016, free 138771328, used 323650688, increment 11872
+Sequential: max memory 1886912512, total allocated 462422016, free 138771328, used 323650688, increment 0
+Initial loss: 9.303921785597714
+Initial test loss: 9.303921785597714
+60: time = 0.162000 loss = 9.015592 testLoss 8.962501
+Res.gain: 0.28832962257508044
+Jackknife: only e07.SAL.me
+Making features
+makeFeatures: max memory 1886912512, total allocated 462422016, free 138473920, used 323948096, increment 297408
+codium_fragile_0 e07.SAL.me: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+992 samples
+Density: max memory 1886912512, total allocated 462422016, free 138462048, used 323959968, increment 11872
+linearPredictor: max memory 1886912512, total allocated 462422016, free 138462048, used 323959968, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 462422016, free 138462048, used 323959968, increment 0
+Sequential: max memory 1886912512, total allocated 462422016, free 138462048, used 323959968, increment 0
+Initial loss: 9.303921785597714
+Initial test loss: 9.303921785597714
+180: time = 0.208000 loss = 9.092099 testLoss 9.037960
+Res.gain: 0.2118228668369202
+Jackknife: only e08.SST.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 462422016, free 137186952, used 325235064, increment 1275096
+codium_fragile_0 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+992 samples
+Density: max memory 1886912512, total allocated 462422016, free 137186952, used 325235064, increment 0
+linearPredictor: max memory 1886912512, total allocated 462422016, free 137186952, used 325235064, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 462422016, free 137175088, used 325246928, increment 11864
+Sequential: max memory 1886912512, total allocated 462422016, free 137175088, used 325246928, increment 0
+Initial loss: 9.303921785597714
+Initial test loss: 9.303921785597714
+180: time = 0.255000 loss = 8.155326 testLoss 8.051129
+Res.gain: 1.148595559854904
+Jackknife: only e09.SST.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 462422016, free 129854520, used 332567496, increment 7320568
+codium_fragile_0 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+992 samples
+Density: max memory 1886912512, total allocated 462422016, free 129842656, used 332579360, increment 11864
+linearPredictor: max memory 1886912512, total allocated 462422016, free 129842656, used 332579360, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 462422016, free 129842656, used 332579360, increment 0
+Sequential: max memory 1886912512, total allocated 462422016, free 129842656, used 332579360, increment 0
+Initial loss: 9.303921785597714
+Initial test loss: 9.303921785597714
+120: time = 0.200000 loss = 8.478402 testLoss 8.470377
+Res.gain: 0.8255198777256769
+Time since start: 17.937
+getSamples: max memory 1886912512, total allocated 462422016, free 123121552, used 339300464, increment 6721104
+Making features
+makeFeatures: max memory 1886912512, total allocated 462422016, free 123061792, used 339360224, increment 59760
+codium_fragile_1: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 462422016, free 123049880, used 339372136, increment 11912
+linearPredictor: max memory 1886912512, total allocated 462422016, free 123049880, used 339372136, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 462422016, free 123049880, used 339372136, increment 0
+Sequential: max memory 1886912512, total allocated 462422016, free 123049880, used 339372136, increment 0
+Initial loss: 9.304012847838818
+Initial test loss: 9.304012847838818
+300: time = 0.452000 loss = 7.862736 testLoss 7.663348
+Resulting gain: 1.4412764423899604
+Projecting...
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codium_fragile_1.asc
+Time since start: 22.748
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\plots\codium_fragile_1.png
+Time since start: 25.234
+codium_fragile_1 response curves
+Response curve: only e03.NIT.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 367001600, free 189589904, used 177411696, increment -161960440
+codium_fragile_1 e03.NIT.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 367001600, free 189589904, used 177411696, increment 0
+linearPredictor: max memory 1886912512, total allocated 367001600, free 189589904, used 177411696, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 367001600, free 189583872, used 177417728, increment 6032
+Sequential: max memory 1886912512, total allocated 367001600, free 189583872, used 177417728, increment 0
+Initial loss: 9.304012847838818
+60: time = 0.177000 loss = 9.270895
+Resulting gain: 0.0331176258653727
+codium_fragile_1 response curves
+Response curve: only e04.NIT.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 367001600, free 184887640, used 182113960, increment 4696232
+codium_fragile_1 e04.NIT.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 367001600, free 184875344, used 182126256, increment 12296
+linearPredictor: max memory 1886912512, total allocated 367001600, free 184875344, used 182126256, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 367001600, free 184875344, used 182126256, increment 0
+Sequential: max memory 1886912512, total allocated 367001600, free 184875344, used 182126256, increment 0
+Initial loss: 9.304012847838818
+Time since start: 26.298
+60: time = 0.162000 loss = 9.229511
+Resulting gain: 0.07450230596507801
+codium_fragile_1 response curves
+Response curve: only e05.PHO.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 367001600, free 180174912, used 186826688, increment 4700432
+codium_fragile_1 e05.PHO.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 367001600, free 180162848, used 186838752, increment 12064
+linearPredictor: max memory 1886912512, total allocated 367001600, free 180162848, used 186838752, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 367001600, free 180162848, used 186838752, increment 0
+Sequential: max memory 1886912512, total allocated 367001600, free 180162848, used 186838752, increment 0
+Initial loss: 9.304012847838818
+100: time = 0.151000 loss = 9.139228
+Resulting gain: 0.16478473228877633
+codium_fragile_1 response curves
+Response curve: only e06.PHO.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 367001600, free 175009600, used 191992000, increment 5153248
+codium_fragile_1 e06.PHO.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 367001600, free 174997352, used 192004248, increment 12248
+linearPredictor: max memory 1886912512, total allocated 367001600, free 174997352, used 192004248, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 367001600, free 174997352, used 192004248, increment 0
+Sequential: max memory 1886912512, total allocated 367001600, free 174997352, used 192004248, increment 0
+Initial loss: 9.304012847838818
+60: time = 0.149000 loss = 9.005778
+Resulting gain: 0.2982350839170973
+codium_fragile_1 response curves
+Response curve: only e07.SAL.me
+Making features
+makeFeatures: max memory 1886912512, total allocated 367001600, free 170332112, used 196669488, increment 4665240
+codium_fragile_1 e07.SAL.me: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 367001600, free 170326080, used 196675520, increment 6032
+linearPredictor: max memory 1886912512, total allocated 367001600, free 170326080, used 196675520, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 367001600, free 170320040, used 196681560, increment 6040
+Sequential: max memory 1886912512, total allocated 367001600, free 170320040, used 196681560, increment 0
+Initial loss: 9.304012847838818
+180: time = 0.210000 loss = 9.097765
+Resulting gain: 0.20624792345696896
+codium_fragile_1 response curves
+Response curve: only e08.SST.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 367001600, free 164643320, used 202358280, increment 5676720
+codium_fragile_1 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 367001600, free 164637264, used 202364336, increment 6056
+linearPredictor: max memory 1886912512, total allocated 367001600, free 164637264, used 202364336, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 367001600, free 164637264, used 202364336, increment 0
+Sequential: max memory 1886912512, total allocated 367001600, free 164637264, used 202364336, increment 0
+Initial loss: 9.304012847838818
+Time since start: 27.487
+180: time = 0.256000 loss = 8.177646
+Resulting gain: 1.1263664811319352
+codium_fragile_1 response curves
+Response curve: only e09.SST.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 367001600, free 158919352, used 208082248, increment 5717912
+codium_fragile_1 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 367001600, free 158907256, used 208094344, increment 12096
+linearPredictor: max memory 1886912512, total allocated 367001600, free 158907256, used 208094344, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 367001600, free 158907256, used 208094344, increment 0
+Sequential: max memory 1886912512, total allocated 367001600, free 158907256, used 208094344, increment 0
+Initial loss: 9.304012847838818
+120: time = 0.195000 loss = 8.484963
+Resulting gain: 0.8190500179487987
+codium_fragile_1 response curves
+Jackknife: leave e03.NIT.max out
+Making features
+makeFeatures: max memory 1886912512, total allocated 367001600, free 127376336, used 239625264, increment 31530920
+codium_fragile_1 e03.NIT.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 367001600, free 127364096, used 239637504, increment 12240
+linearPredictor: max memory 1886912512, total allocated 367001600, free 127364096, used 239637504, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 367001600, free 127364096, used 239637504, increment 0
+Sequential: max memory 1886912512, total allocated 367001600, free 127364096, used 239637504, increment 0
+Initial loss: 9.304012847838818
+Initial test loss: 9.304012847838818
+Time since start: 28.548
+320: time = 0.493000 loss = 7.863327 testLoss 7.670849
+Jackknife: leave e04.NIT.min out
+Making features
+makeFeatures: max memory 1886912512, total allocated 367001600, free 120429792, used 246571808, increment 6934304
+codium_fragile_1 e04.NIT.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 367001600, free 120417680, used 246583920, increment 12112
+linearPredictor: max memory 1886912512, total allocated 367001600, free 120417680, used 246583920, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 367001600, free 120417680, used 246583920, increment 0
+Sequential: max memory 1886912512, total allocated 367001600, free 120417680, used 246583920, increment 0
+Initial loss: 9.304012847838818
+Initial test loss: 9.304012847838818
+360: time = 0.527000 loss = 7.862739 testLoss 7.662888
+Jackknife: leave e05.PHO.max out
+Making features
+makeFeatures: max memory 1886912512, total allocated 367001600, free 117588320, used 249413280, increment 2829360
+codium_fragile_1 e05.PHO.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 367001600, free 117576232, used 249425368, increment 12088
+linearPredictor: max memory 1886912512, total allocated 367001600, free 117576232, used 249425368, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 367001600, free 117576232, used 249425368, increment 0
+Sequential: max memory 1886912512, total allocated 367001600, free 117576232, used 249425368, increment 0
+Initial loss: 9.304012847838818
+Initial test loss: 9.304012847838818
+Time since start: 29.809
+500: time = 0.689000 loss = 7.871544 testLoss 7.657233
+Jackknife: leave e06.PHO.min out
+Making features
+makeFeatures: max memory 1886912512, total allocated 367001600, free 109372328, used 257629272, increment 8203904
+codium_fragile_1 e06.PHO.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 367001600, free 109360232, used 257641368, increment 12096
+linearPredictor: max memory 1886912512, total allocated 367001600, free 109360232, used 257641368, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 367001600, free 109360232, used 257641368, increment 0
+Sequential: max memory 1886912512, total allocated 367001600, free 109360232, used 257641368, increment 0
+Initial loss: 9.304012847838818
+Initial test loss: 9.304012847838818
+500: time = 0.716000 loss = 7.868953 testLoss 7.672931
+Jackknife: leave e07.SAL.me out
+Making features
+makeFeatures: max memory 1886912512, total allocated 367001600, free 105422584, used 261579016, increment 3937648
+codium_fragile_1 e07.SAL.me: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 367001600, free 105410288, used 261591312, increment 12296
+linearPredictor: max memory 1886912512, total allocated 367001600, free 105410288, used 261591312, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 367001600, free 105410288, used 261591312, increment 0
+Sequential: max memory 1886912512, total allocated 367001600, free 105410288, used 261591312, increment 0
+Initial loss: 9.304012847838818
+Initial test loss: 9.304012847838818
+Time since start: 30.986
+260: time = 0.421000 loss = 7.905752 testLoss 7.717654
+Jackknife: leave e08.SST.max out
+Making features
+makeFeatures: max memory 1886912512, total allocated 367001600, free 99036696, used 267964904, increment 6373592
+codium_fragile_1 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 367001600, free 99024416, used 267977184, increment 12280
+linearPredictor: max memory 1886912512, total allocated 367001600, free 99024416, used 267977184, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 367001600, free 99024416, used 267977184, increment 0
+Sequential: max memory 1886912512, total allocated 367001600, free 99024416, used 267977184, increment 0
+Initial loss: 9.304012847838818
+Initial test loss: 9.304012847838818
+240: time = 0.366000 loss = 7.998988 testLoss 7.873641
+Jackknife: leave e09.SST.min out
+Making features
+makeFeatures: max memory 1886912512, total allocated 367001600, free 97313216, used 269688384, increment 1711200
+codium_fragile_1 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 367001600, free 97300968, used 269700632, increment 12248
+linearPredictor: max memory 1886912512, total allocated 367001600, free 97300968, used 269700632, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 367001600, free 97300968, used 269700632, increment 0
+Sequential: max memory 1886912512, total allocated 367001600, free 97300968, used 269700632, increment 0
+Initial loss: 9.304012847838818
+Initial test loss: 9.304012847838818
+340: time = 0.519000 loss = 7.917633 testLoss 7.700316
+Jackknife: only e03.NIT.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 367001600, free 90294736, used 276706864, increment 7006232
+codium_fragile_1 e03.NIT.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 367001600, free 90282464, used 276719136, increment 12272
+linearPredictor: max memory 1886912512, total allocated 367001600, free 90282464, used 276719136, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 367001600, free 90282464, used 276719136, increment 0
+Sequential: max memory 1886912512, total allocated 367001600, free 90282464, used 276719136, increment 0
+Initial loss: 9.304012847838818
+Initial test loss: 9.304012847838818
+Time since start: 32.08
+60: time = 0.161000 loss = 9.270895 testLoss 9.239207
+Res.gain: 0.0331176258653727
+Jackknife: only e04.NIT.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 367001600, free 89990352, used 277011248, increment 292112
+codium_fragile_1 e04.NIT.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 367001600, free 89978112, used 277023488, increment 12240
+linearPredictor: max memory 1886912512, total allocated 367001600, free 89978112, used 277023488, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 367001600, free 89978112, used 277023488, increment 0
+Sequential: max memory 1886912512, total allocated 367001600, free 89978112, used 277023488, increment 0
+Initial loss: 9.304012847838818
+Initial test loss: 9.304012847838818
+60: time = 0.172000 loss = 9.229511 testLoss 9.203361
+Res.gain: 0.07450230596507801
+Jackknife: only e05.PHO.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 367001600, free 89671752, used 277329848, increment 306360
+codium_fragile_1 e05.PHO.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 367001600, free 89659640, used 277341960, increment 12112
+linearPredictor: max memory 1886912512, total allocated 367001600, free 89659640, used 277341960, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 367001600, free 89659640, used 277341960, increment 0
+Sequential: max memory 1886912512, total allocated 367001600, free 89659640, used 277341960, increment 0
+Initial loss: 9.304012847838818
+Initial test loss: 9.304012847838818
+100: time = 0.149000 loss = 9.139228 testLoss 9.114997
+Res.gain: 0.16478473228877633
+Jackknife: only e06.PHO.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 367001600, free 88898784, used 278102816, increment 760856
+codium_fragile_1 e06.PHO.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 367001600, free 88892752, used 278108848, increment 6032
+linearPredictor: max memory 1886912512, total allocated 367001600, free 88886720, used 278114880, increment 6032
+FeaturedSpace: max memory 1886912512, total allocated 367001600, free 88886720, used 278114880, increment 0
+Sequential: max memory 1886912512, total allocated 367001600, free 88886720, used 278114880, increment 0
+Initial loss: 9.304012847838818
+Initial test loss: 9.304012847838818
+60: time = 0.149000 loss = 9.005778 testLoss 9.004907
+Res.gain: 0.2982350839170973
+Jackknife: only e07.SAL.me
+Making features
+makeFeatures: max memory 1886912512, total allocated 367001600, free 84186136, used 282815464, increment 4700584
+codium_fragile_1 e07.SAL.me: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 367001600, free 84174064, used 282827536, increment 12072
+linearPredictor: max memory 1886912512, total allocated 367001600, free 84174064, used 282827536, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 367001600, free 84174064, used 282827536, increment 0
+Sequential: max memory 1886912512, total allocated 367001600, free 84174064, used 282827536, increment 0
+Initial loss: 9.304012847838818
+Initial test loss: 9.304012847838818
+180: time = 0.211000 loss = 9.097765 testLoss 9.018102
+Res.gain: 0.20624792345696896
+Jackknife: only e08.SST.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 367001600, free 82895992, used 284105608, increment 1278072
+codium_fragile_1 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 367001600, free 82883752, used 284117848, increment 12240
+linearPredictor: max memory 1886912512, total allocated 367001600, free 82883752, used 284117848, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 367001600, free 82883752, used 284117848, increment 0
+Sequential: max memory 1886912512, total allocated 367001600, free 82883752, used 284117848, increment 0
+Initial loss: 9.304012847838818
+Initial test loss: 9.304012847838818
+180: time = 0.251000 loss = 8.177646 testLoss 7.958999
+Res.gain: 1.1263664811319352
+Jackknife: only e09.SST.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 367001600, free 81575680, used 285425920, increment 1308072
+codium_fragile_1 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 367001600, free 81563616, used 285437984, increment 12064
+linearPredictor: max memory 1886912512, total allocated 367001600, free 81563616, used 285437984, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 367001600, free 81563616, used 285437984, increment 0
+Sequential: max memory 1886912512, total allocated 367001600, free 81563616, used 285437984, increment 0
+Initial loss: 9.304012847838818
+Initial test loss: 9.304012847838818
+Time since start: 33.256
+120: time = 0.200000 loss = 8.484963 testLoss 8.441818
+Res.gain: 0.8190500179487987
+getSamples: max memory 1886912512, total allocated 367001600, free 71971680, used 295029920, increment 9591936
+Making features
+makeFeatures: max memory 1886912512, total allocated 361758720, free 282062784, used 79695936, increment -215333984
+codium_fragile_2: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 361758720, free 282062784, used 79695936, increment 0
+linearPredictor: max memory 1886912512, total allocated 361758720, free 282062784, used 79695936, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 361758720, free 282062784, used 79695936, increment 0
+Sequential: max memory 1886912512, total allocated 361758720, free 282062784, used 79695936, increment 0
+Initial loss: 9.304377013902565
+Initial test loss: 9.304377013902565
+320: time = 0.478000 loss = 7.857001 testLoss 7.682751
+Resulting gain: 1.4473756422640474
+Time since start: 34.41
+Projecting...
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codium_fragile_2.asc
+Time since start: 38.427
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\plots\codium_fragile_2.png
+Time since start: 40.999
+codium_fragile_2 response curves
+Time since start: 42.052
+Response curve: only e03.NIT.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 289406976, free 71228464, used 218178512, increment 138482576
+codium_fragile_2 e03.NIT.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 289406976, free 71222176, used 218184800, increment 6288
+linearPredictor: max memory 1886912512, total allocated 289406976, free 71222176, used 218184800, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 289406976, free 71215672, used 218191304, increment 6504
+Sequential: max memory 1886912512, total allocated 289406976, free 71215672, used 218191304, increment 0
+Initial loss: 9.304377013902565
+60: time = 0.180000 loss = 9.266550
+Resulting gain: 0.03782680417238282
+codium_fragile_2 response curves
+Response curve: only e04.NIT.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 289406976, free 65313600, used 224093376, increment 5902072
+codium_fragile_2 e04.NIT.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 289406976, free 65307296, used 224099680, increment 6304
+linearPredictor: max memory 1886912512, total allocated 289406976, free 65307296, used 224099680, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 289406976, free 65301008, used 224105968, increment 6288
+Sequential: max memory 1886912512, total allocated 289406976, free 65301008, used 224105968, increment 0
+Initial loss: 9.304377013902565
+60: time = 0.174000 loss = 9.227011
+Resulting gain: 0.07736624566848249
+codium_fragile_2 response curves
+Response curve: only e05.PHO.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 289406976, free 61224272, used 228182704, increment 4076736
+codium_fragile_2 e05.PHO.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 289406976, free 61211536, used 228195440, increment 12736
+linearPredictor: max memory 1886912512, total allocated 289406976, free 61211536, used 228195440, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 289406976, free 61211536, used 228195440, increment 0
+Sequential: max memory 1886912512, total allocated 289406976, free 61211536, used 228195440, increment 0
+Initial loss: 9.304377013902565
+120: time = 0.201000 loss = 9.131572
+Resulting gain: 0.17280477890565038
+codium_fragile_2 response curves
+Response curve: only e06.PHO.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 289406976, free 54811760, used 234595216, increment 6399776
+codium_fragile_2 e06.PHO.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 289406976, free 54799024, used 234607952, increment 12736
+linearPredictor: max memory 1886912512, total allocated 289406976, free 54799024, used 234607952, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 289406976, free 54799024, used 234607952, increment 0
+Sequential: max memory 1886912512, total allocated 289406976, free 54799024, used 234607952, increment 0
+Initial loss: 9.304377013902565
+Time since start: 43.166
+60: time = 0.204000 loss = 9.006573
+Resulting gain: 0.29780402285977203
+codium_fragile_2 response curves
+Response curve: only e07.SAL.me
+Making features
+makeFeatures: max memory 1886912512, total allocated 289406976, free 51678448, used 237728528, increment 3120576
+codium_fragile_2 e07.SAL.me: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 289406976, free 48876224, used 240530752, increment 2802224
+linearPredictor: max memory 1886912512, total allocated 289406976, free 48876224, used 240530752, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 289406976, free 48869688, used 240537288, increment 6536
+Sequential: max memory 1886912512, total allocated 289406976, free 48869688, used 240537288, increment 0
+Initial loss: 9.304377013902565
+180: time = 0.284000 loss = 9.108811
+Resulting gain: 0.1955662671835139
+codium_fragile_2 response curves
+Response curve: only e08.SST.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 289406976, free 44749520, used 244657456, increment 4120168
+codium_fragile_2 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 289406976, free 44738808, used 244668168, increment 10712
+linearPredictor: max memory 1886912512, total allocated 289406976, free 44738808, used 244668168, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 289406976, free 44738808, used 244668168, increment 0
+Sequential: max memory 1886912512, total allocated 289406976, free 44738808, used 244668168, increment 0
+Initial loss: 9.304377013902565
+180: time = 0.360000 loss = 8.172128
+Resulting gain: 1.1322493745993771
+codium_fragile_2 response curves
+Response curve: only e09.SST.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 285212672, free 171624248, used 113588424, increment -131079744
+codium_fragile_2 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 285212672, free 171624248, used 113588424, increment 0
+linearPredictor: max memory 1886912512, total allocated 285212672, free 171624248, used 113588424, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 285212672, free 171624248, used 113588424, increment 0
+Sequential: max memory 1886912512, total allocated 285212672, free 171624248, used 113588424, increment 0
+Initial loss: 9.304377013902565
+Time since start: 44.374
+120: time = 0.229000 loss = 8.491234
+Resulting gain: 0.8131429074044938
+codium_fragile_2 response curves
+Jackknife: leave e03.NIT.max out
+Making features
+makeFeatures: max memory 1886912512, total allocated 285212672, free 138540384, used 146672288, increment 33083864
+codium_fragile_2 e03.NIT.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 285212672, free 135858472, used 149354200, increment 2681912
+linearPredictor: max memory 1886912512, total allocated 285212672, free 135858472, used 149354200, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 285212672, free 135858472, used 149354200, increment 0
+Sequential: max memory 1886912512, total allocated 285212672, free 135858472, used 149354200, increment 0
+Initial loss: 9.304377013902565
+Initial test loss: 9.304377013902565
+Time since start: 45.556
+300: time = 0.637000 loss = 7.857664 testLoss 7.687852
+Jackknife: leave e04.NIT.min out
+Making features
+makeFeatures: max memory 1886912512, total allocated 285212672, free 133469104, used 151743568, increment 2389368
+codium_fragile_2 e04.NIT.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 285212672, free 133469104, used 151743568, increment 0
+linearPredictor: max memory 1886912512, total allocated 285212672, free 133469104, used 151743568, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 285212672, free 133469104, used 151743568, increment 0
+Sequential: max memory 1886912512, total allocated 285212672, free 133469104, used 151743568, increment 0
+Initial loss: 9.304377013902565
+Initial test loss: 9.304377013902565
+Time since start: 46.665
+380: time = 1.076000 loss = 7.857044 testLoss 7.680751
+Jackknife: leave e05.PHO.max out
+Making features
+makeFeatures: max memory 1886912512, total allocated 285212672, free 127769344, used 157443328, increment 5699760
+codium_fragile_2 e05.PHO.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 285212672, free 127769344, used 157443328, increment 0
+linearPredictor: max memory 1886912512, total allocated 285212672, free 127769344, used 157443328, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 285212672, free 127769344, used 157443328, increment 0
+Sequential: max memory 1886912512, total allocated 285212672, free 127769344, used 157443328, increment 0
+Initial loss: 9.304377013902565
+Initial test loss: 9.304377013902565
+Time since start: 47.957
+480: time = 1.260000 loss = 7.866957 testLoss 7.669130
+Jackknife: leave e06.PHO.min out
+Making features
+makeFeatures: max memory 1886912512, total allocated 285212672, free 121377056, used 163835616, increment 6392288
+codium_fragile_2 e06.PHO.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 285212672, free 121377056, used 163835616, increment 0
+linearPredictor: max memory 1886912512, total allocated 285212672, free 121377056, used 163835616, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 285212672, free 121377056, used 163835616, increment 0
+Sequential: max memory 1886912512, total allocated 285212672, free 121377056, used 163835616, increment 0
+Initial loss: 9.304377013902565
+Initial test loss: 9.304377013902565
+420: time = 0.761000 loss = 7.862486 testLoss 7.695654
+Jackknife: leave e07.SAL.me out
+Making features
+makeFeatures: max memory 1886912512, total allocated 285212672, free 115392896, used 169819776, increment 5984160
+codium_fragile_2 e07.SAL.me: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 285212672, free 115392896, used 169819776, increment 0
+linearPredictor: max memory 1886912512, total allocated 285212672, free 115392896, used 169819776, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 285212672, free 115392896, used 169819776, increment 0
+Sequential: max memory 1886912512, total allocated 285212672, free 115392896, used 169819776, increment 0
+Initial loss: 9.304377013902565
+Initial test loss: 9.304377013902565
+Time since start: 49.312
+280: time = 0.505000 loss = 7.900068 testLoss 7.734933
+Jackknife: leave e08.SST.max out
+Making features
+makeFeatures: max memory 1886912512, total allocated 285212672, free 109976136, used 175236536, increment 5416760
+codium_fragile_2 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 285212672, free 109976136, used 175236536, increment 0
+linearPredictor: max memory 1886912512, total allocated 285212672, free 109976136, used 175236536, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 285212672, free 109976136, used 175236536, increment 0
+Sequential: max memory 1886912512, total allocated 285212672, free 109976136, used 175236536, increment 0
+Initial loss: 9.304377013902565
+Initial test loss: 9.304377013902565
+320: time = 0.544000 loss = 7.995341 testLoss 7.892176
+Jackknife: leave e09.SST.min out
+Making features
+makeFeatures: max memory 1886912512, total allocated 285212672, free 107429240, used 177783432, increment 2546896
+codium_fragile_2 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 285212672, free 107429240, used 177783432, increment 0
+linearPredictor: max memory 1886912512, total allocated 285212672, free 104747328, used 180465344, increment 2681912
+FeaturedSpace: max memory 1886912512, total allocated 285212672, free 104747328, used 180465344, increment 0
+Sequential: max memory 1886912512, total allocated 285212672, free 104747328, used 180465344, increment 0
+Initial loss: 9.304377013902565
+Initial test loss: 9.304377013902565
+Time since start: 50.637
+440: time = 0.732000 loss = 7.912226 testLoss 7.709458
+Jackknife: only e03.NIT.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 285212672, free 101382712, used 183829960, increment 3364616
+codium_fragile_2 e03.NIT.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 285212672, free 101382712, used 183829960, increment 0
+linearPredictor: max memory 1886912512, total allocated 285212672, free 101382712, used 183829960, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 285212672, free 101382712, used 183829960, increment 0
+Sequential: max memory 1886912512, total allocated 285212672, free 101382712, used 183829960, increment 0
+Initial loss: 9.304377013902565
+Initial test loss: 9.304377013902565
+60: time = 0.205000 loss = 9.266550 testLoss 9.258994
+Res.gain: 0.03782680417238282
+Jackknife: only e04.NIT.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 285212672, free 101099672, used 184113000, increment 283040
+codium_fragile_2 e04.NIT.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 285212672, free 101068280, used 184144392, increment 31392
+linearPredictor: max memory 1886912512, total allocated 285212672, free 101068280, used 184144392, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 285212672, free 101068280, used 184144392, increment 0
+Sequential: max memory 1886912512, total allocated 285212672, free 101068280, used 184144392, increment 0
+Initial loss: 9.304377013902565
+Initial test loss: 9.304377013902565
+60: time = 0.201000 loss = 9.227011 testLoss 9.215264
+Res.gain: 0.07736624566848249
+Jackknife: only e05.PHO.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 285212672, free 98095976, used 187116696, increment 2972304
+codium_fragile_2 e05.PHO.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 285212672, free 98064584, used 187148088, increment 31392
+linearPredictor: max memory 1886912512, total allocated 285212672, free 98064584, used 187148088, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 285212672, free 98064584, used 187148088, increment 0
+Sequential: max memory 1886912512, total allocated 285212672, free 98064584, used 187148088, increment 0
+Initial loss: 9.304377013902565
+Initial test loss: 9.304377013902565
+120: time = 0.189000 loss = 9.131572 testLoss 9.149691
+Res.gain: 0.17280477890565038
+Jackknife: only e06.PHO.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 285212672, free 97279152, used 187933520, increment 785432
+codium_fragile_2 e06.PHO.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 285212672, free 97247608, used 187965064, increment 31544
+linearPredictor: max memory 1886912512, total allocated 285212672, free 97247608, used 187965064, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 285212672, free 97247608, used 187965064, increment 0
+Sequential: max memory 1886912512, total allocated 285212672, free 97247608, used 187965064, increment 0
+Initial loss: 9.304377013902565
+Initial test loss: 9.304377013902565
+60: time = 0.173000 loss = 9.006573 testLoss 9.001030
+Res.gain: 0.29780402285977203
+Jackknife: only e07.SAL.me
+Making features
+makeFeatures: max memory 1886912512, total allocated 285212672, free 96933520, used 188279152, increment 314088
+codium_fragile_2 e07.SAL.me: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 285212672, free 94251608, used 190961064, increment 2681912
+linearPredictor: max memory 1886912512, total allocated 285212672, free 94251608, used 190961064, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 285212672, free 94251608, used 190961064, increment 0
+Sequential: max memory 1886912512, total allocated 285212672, free 94251608, used 190961064, increment 0
+Initial loss: 9.304377013902565
+Initial test loss: 9.304377013902565
+Time since start: 51.707
+180: time = 0.258000 loss = 9.108811 testLoss 8.969358
+Res.gain: 0.1955662671835139
+Jackknife: only e08.SST.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 285212672, free 92962784, used 192249888, increment 1288824
+codium_fragile_2 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 285212672, free 92931384, used 192281288, increment 31400
+linearPredictor: max memory 1886912512, total allocated 285212672, free 92931384, used 192281288, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 285212672, free 92931384, used 192281288, increment 0
+Sequential: max memory 1886912512, total allocated 285212672, free 92931384, used 192281288, increment 0
+Initial loss: 9.304377013902565
+Initial test loss: 9.304377013902565
+180: time = 0.302000 loss = 8.172128 testLoss 7.990732
+Res.gain: 1.1322493745993771
+Jackknife: only e09.SST.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 285212672, free 91642352, used 193570320, increment 1289032
+codium_fragile_2 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 285212672, free 91642352, used 193570320, increment 0
+linearPredictor: max memory 1886912512, total allocated 285212672, free 91642352, used 193570320, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 285212672, free 91642352, used 193570320, increment 0
+Sequential: max memory 1886912512, total allocated 285212672, free 91642352, used 193570320, increment 0
+Initial loss: 9.304377013902565
+Initial test loss: 9.304377013902565
+120: time = 0.263000 loss = 8.491234 testLoss 8.412664
+Res.gain: 0.8131429074044938
+Time since start: 52.77
+getSamples: max memory 1886912512, total allocated 285212672, free 80120112, used 205092560, increment 11522240
+Making features
+makeFeatures: max memory 1886912512, total allocated 285212672, free 80057264, used 205155408, increment 62848
+codium_fragile_3: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 285212672, free 80057264, used 205155408, increment 0
+linearPredictor: max memory 1886912512, total allocated 285212672, free 80057264, used 205155408, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 285212672, free 80057264, used 205155408, increment 0
+Sequential: max memory 1886912512, total allocated 285212672, free 80057264, used 205155408, increment 0
+Initial loss: 9.304103901788347
+Initial test loss: 9.304103901788347
+320: time = 0.898000 loss = 7.828119 testLoss 7.843740
+Resulting gain: 1.475985010600155
+Time since start: 54.093
+Projecting...
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codium_fragile_3.asc
+Time since start: 60.159
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\plots\codium_fragile_3.png
+Time since start: 63.516
+codium_fragile_3 response curves
+Response curve: only e03.NIT.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 233308160, free 152381128, used 80927032, increment -124228376
+codium_fragile_3 e03.NIT.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 233308160, free 152370448, used 80937712, increment 10680
+linearPredictor: max memory 1886912512, total allocated 233308160, free 152370448, used 80937712, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 233308160, free 152370448, used 80937712, increment 0
+Sequential: max memory 1886912512, total allocated 233308160, free 152370448, used 80937712, increment 0
+Initial loss: 9.304103901788347
+Time since start: 64.735
+60: time = 0.270000 loss = 9.261824
+Resulting gain: 0.042279733546404685
+codium_fragile_3 response curves
+Response curve: only e04.NIT.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 233308160, free 148240472, used 85067688, increment 4129976
+codium_fragile_3 e04.NIT.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 233308160, free 148227432, used 85080728, increment 13040
+linearPredictor: max memory 1886912512, total allocated 233308160, free 148227432, used 85080728, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 233308160, free 148227432, used 85080728, increment 0
+Sequential: max memory 1886912512, total allocated 233308160, free 148227432, used 85080728, increment 0
+Initial loss: 9.304103901788347
+60: time = 0.246000 loss = 9.223417
+Resulting gain: 0.08068732867704398
+codium_fragile_3 response curves
+Response curve: only e05.PHO.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 233308160, free 143135992, used 90172168, increment 5091440
+codium_fragile_3 e05.PHO.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 233308160, free 143125200, used 90182960, increment 10792
+linearPredictor: max memory 1886912512, total allocated 233308160, free 143125200, used 90182960, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 233308160, free 143125200, used 90182960, increment 0
+Sequential: max memory 1886912512, total allocated 233308160, free 143125200, used 90182960, increment 0
+Initial loss: 9.304103901788347
+100: time = 0.259000 loss = 9.138278
+Resulting gain: 0.16582639505497454
+codium_fragile_3 response curves
+Response curve: only e06.PHO.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 233308160, free 137578896, used 95729264, increment 5546304
+codium_fragile_3 e06.PHO.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 233308160, free 137568168, used 95739992, increment 10728
+linearPredictor: max memory 1886912512, total allocated 233308160, free 137568168, used 95739992, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 233308160, free 137568168, used 95739992, increment 0
+Sequential: max memory 1886912512, total allocated 233308160, free 137568168, used 95739992, increment 0
+Initial loss: 9.304103901788347
+Time since start: 65.846
+60: time = 0.216000 loss = 8.999763
+Resulting gain: 0.3043404321437766
+codium_fragile_3 response curves
+Response curve: only e07.SAL.me
+Making features
+makeFeatures: max memory 1886912512, total allocated 233308160, free 132473952, used 100834208, increment 5094216
+codium_fragile_3 e07.SAL.me: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 233308160, free 132462600, used 100845560, increment 11352
+linearPredictor: max memory 1886912512, total allocated 233308160, free 132462600, used 100845560, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 233308160, free 132462600, used 100845560, increment 0
+Sequential: max memory 1886912512, total allocated 233308160, free 132462600, used 100845560, increment 0
+Initial loss: 9.304103901788347
+180: time = 0.264000 loss = 9.088157
+Resulting gain: 0.21594679432090835
+codium_fragile_3 response curves
+Response curve: only e08.SST.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 233308160, free 128177440, used 105130720, increment 4285160
+codium_fragile_3 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 233308160, free 128080696, used 105227464, increment 96744
+linearPredictor: max memory 1886912512, total allocated 233308160, free 127990728, used 105317432, increment 89968
+FeaturedSpace: max memory 1886912512, total allocated 233308160, free 127990728, used 105317432, increment 0
+Sequential: max memory 1886912512, total allocated 233308160, free 127990728, used 105317432, increment 0
+Initial loss: 9.304103901788347
+180: time = 0.337000 loss = 8.145036
+Resulting gain: 1.1590675524571292
+codium_fragile_3 response curves
+Time since start: 66.907
+Response curve: only e09.SST.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 233308160, free 120828968, used 112479192, increment 7161760
+codium_fragile_3 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 233308160, free 120816192, used 112491968, increment 12776
+linearPredictor: max memory 1886912512, total allocated 233308160, free 120816192, used 112491968, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 233308160, free 120816192, used 112491968, increment 0
+Sequential: max memory 1886912512, total allocated 233308160, free 120816192, used 112491968, increment 0
+Initial loss: 9.304103901788347
+120: time = 0.300000 loss = 8.471167
+Resulting gain: 0.8329369334629977
+codium_fragile_3 response curves
+Time since start: 68.097
+Jackknife: leave e03.NIT.max out
+Making features
+makeFeatures: max memory 1886912512, total allocated 230162432, free 178430360, used 51732072, increment -60759896
+codium_fragile_3 e03.NIT.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 230162432, free 178430360, used 51732072, increment 0
+linearPredictor: max memory 1886912512, total allocated 230162432, free 178430360, used 51732072, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 230162432, free 178430360, used 51732072, increment 0
+Sequential: max memory 1886912512, total allocated 230162432, free 178430360, used 51732072, increment 0
+Initial loss: 9.304103901788347
+Initial test loss: 9.304103901788347
+Time since start: 69.343
+500: time = 1.179000 loss = 7.829583 testLoss 7.842095
+Jackknife: leave e04.NIT.min out
+Making features
+makeFeatures: max memory 1886912512, total allocated 230162432, free 173692864, used 56469568, increment 4737496
+codium_fragile_3 e04.NIT.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 230162432, free 173569128, used 56593304, increment 123736
+linearPredictor: max memory 1886912512, total allocated 230162432, free 173481248, used 56681184, increment 87880
+FeaturedSpace: max memory 1886912512, total allocated 230162432, free 173481248, used 56681184, increment 0
+Sequential: max memory 1886912512, total allocated 230162432, free 173481248, used 56681184, increment 0
+Initial loss: 9.304103901788347
+Initial test loss: 9.304103901788347
+320: time = 0.609000 loss = 7.828124 testLoss 7.844057
+Jackknife: leave e05.PHO.max out
+Making features
+makeFeatures: max memory 1886912512, total allocated 230162432, free 167260608, used 62901824, increment 6220640
+codium_fragile_3 e05.PHO.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 230162432, free 167260608, used 62901824, increment 0
+linearPredictor: max memory 1886912512, total allocated 230162432, free 167260608, used 62901824, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 230162432, free 167260608, used 62901824, increment 0
+Sequential: max memory 1886912512, total allocated 230162432, free 167260608, used 62901824, increment 0
+Initial loss: 9.304103901788347
+Initial test loss: 9.304103901788347
+Time since start: 70.819
+500: time = 0.805000 loss = 7.834288 testLoss 7.851740
+Jackknife: leave e06.PHO.min out
+Making features
+makeFeatures: max memory 1886912512, total allocated 230162432, free 162539768, used 67622664, increment 4720840
+codium_fragile_3 e06.PHO.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 230162432, free 162451888, used 67710544, increment 87880
+linearPredictor: max memory 1886912512, total allocated 230162432, free 162364008, used 67798424, increment 87880
+FeaturedSpace: max memory 1886912512, total allocated 230162432, free 162364008, used 67798424, increment 0
+Sequential: max memory 1886912512, total allocated 230162432, free 162364008, used 67798424, increment 0
+Initial loss: 9.304103901788347
+Initial test loss: 9.304103901788347
+500: time = 0.852000 loss = 7.834396 testLoss 7.852926
+Jackknife: leave e07.SAL.me out
+Making features
+makeFeatures: max memory 1886912512, total allocated 230162432, free 156229064, used 73933368, increment 6134944
+codium_fragile_3 e07.SAL.me: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 230162432, free 154411272, used 75751160, increment 1817792
+linearPredictor: max memory 1886912512, total allocated 230162432, free 154411272, used 75751160, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 230162432, free 154411272, used 75751160, increment 0
+Sequential: max memory 1886912512, total allocated 230162432, free 154411272, used 75751160, increment 0
+Initial loss: 9.304103901788347
+Initial test loss: 9.304103901788347
+Time since start: 72.386
+280: time = 0.664000 loss = 7.869426 testLoss 7.897103
+Jackknife: leave e08.SST.max out
+Making features
+makeFeatures: max memory 1886912512, total allocated 230162432, free 150206296, used 79956136, increment 4204976
+codium_fragile_3 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 230162432, free 150206296, used 79956136, increment 0
+linearPredictor: max memory 1886912512, total allocated 230162432, free 150206296, used 79956136, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 230162432, free 150206296, used 79956136, increment 0
+Sequential: max memory 1886912512, total allocated 230162432, free 150206296, used 79956136, increment 0
+Initial loss: 9.304103901788347
+Initial test loss: 9.304103901788347
+240: time = 0.496000 loss = 7.971210 testLoss 8.027825
+Jackknife: leave e09.SST.min out
+Making features
+makeFeatures: max memory 1886912512, total allocated 230162432, free 147760008, used 82402424, increment 2446288
+codium_fragile_3 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 230162432, free 147636256, used 82526176, increment 123752
+linearPredictor: max memory 1886912512, total allocated 230162432, free 147548376, used 82614056, increment 87880
+FeaturedSpace: max memory 1886912512, total allocated 230162432, free 147548376, used 82614056, increment 0
+Sequential: max memory 1886912512, total allocated 230162432, free 147548376, used 82614056, increment 0
+Initial loss: 9.304103901788347
+Initial test loss: 9.304103901788347
+Time since start: 73.573
+300: time = 0.642000 loss = 7.884128 testLoss 7.864854
+Jackknife: only e03.NIT.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 230162432, free 143433192, used 86729240, increment 4115184
+codium_fragile_3 e03.NIT.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 230162432, free 143397288, used 86765144, increment 35904
+linearPredictor: max memory 1886912512, total allocated 230162432, free 143397288, used 86765144, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 230162432, free 143397288, used 86765144, increment 0
+Sequential: max memory 1886912512, total allocated 230162432, free 143397288, used 86765144, increment 0
+Initial loss: 9.304103901788347
+Initial test loss: 9.304103901788347
+60: time = 0.266000 loss = 9.261824 testLoss 9.278299
+Res.gain: 0.042279733546404685
+Jackknife: only e04.NIT.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 230162432, free 141240360, used 88922072, increment 2156928
+codium_fragile_3 e04.NIT.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 230162432, free 141204488, used 88957944, increment 35872
+linearPredictor: max memory 1886912512, total allocated 230162432, free 141204488, used 88957944, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 230162432, free 141204488, used 88957944, increment 0
+Sequential: max memory 1886912512, total allocated 230162432, free 141204488, used 88957944, increment 0
+Initial loss: 9.304103901788347
+Initial test loss: 9.304103901788347
+60: time = 0.222000 loss = 9.223417 testLoss 9.229171
+Res.gain: 0.08068732867704398
+Jackknife: only e05.PHO.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 230162432, free 140916968, used 89245464, increment 287520
+codium_fragile_3 e05.PHO.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 230162432, free 140916968, used 89245464, increment 0
+linearPredictor: max memory 1886912512, total allocated 230162432, free 140881096, used 89281336, increment 35872
+FeaturedSpace: max memory 1886912512, total allocated 230162432, free 140881096, used 89281336, increment 0
+Sequential: max memory 1886912512, total allocated 230162432, free 140881096, used 89281336, increment 0
+Initial loss: 9.304103901788347
+Initial test loss: 9.304103901788347
+100: time = 0.196000 loss = 9.138278 testLoss 9.123464
+Res.gain: 0.16582639505497454
+Jackknife: only e06.PHO.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 230162432, free 138253272, used 91909160, increment 2627824
+codium_fragile_3 e06.PHO.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 230162432, free 138253272, used 91909160, increment 0
+linearPredictor: max memory 1886912512, total allocated 230162432, free 138253272, used 91909160, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 230162432, free 138253272, used 91909160, increment 0
+Sequential: max memory 1886912512, total allocated 230162432, free 138253272, used 91909160, increment 0
+Initial loss: 9.304103901788347
+Initial test loss: 9.304103901788347
+60: time = 0.251000 loss = 8.999763 testLoss 9.031591
+Res.gain: 0.3043404321437766
+Jackknife: only e07.SAL.me
+Making features
+makeFeatures: max memory 1886912512, total allocated 230162432, free 137929888, used 92232544, increment 323384
+codium_fragile_3 e07.SAL.me: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 230162432, free 137929888, used 92232544, increment 0
+linearPredictor: max memory 1886912512, total allocated 230162432, free 137929888, used 92232544, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 230162432, free 137929888, used 92232544, increment 0
+Sequential: max memory 1886912512, total allocated 230162432, free 137929888, used 92232544, increment 0
+Initial loss: 9.304103901788347
+Initial test loss: 9.304103901788347
+Time since start: 75.171
+180: time = 0.607000 loss = 9.088157 testLoss 9.057264
+Res.gain: 0.21594679432090835
+Jackknife: only e08.SST.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 230162432, free 134819448, used 95342984, increment 3110440
+codium_fragile_3 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 230162432, free 134819448, used 95342984, increment 0
+linearPredictor: max memory 1886912512, total allocated 230162432, free 134819448, used 95342984, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 230162432, free 134819448, used 95342984, increment 0
+Sequential: max memory 1886912512, total allocated 230162432, free 134819448, used 95342984, increment 0
+Initial loss: 9.304103901788347
+Initial test loss: 9.304103901788347
+180: time = 0.370000 loss = 8.145036 testLoss 8.107552
+Res.gain: 1.1590675524571292
+Jackknife: only e09.SST.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 230162432, free 133491360, used 96671072, increment 1328088
+codium_fragile_3 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 230162432, free 133491360, used 96671072, increment 0
+linearPredictor: max memory 1886912512, total allocated 230162432, free 133403480, used 96758952, increment 87880
+FeaturedSpace: max memory 1886912512, total allocated 230162432, free 133403480, used 96758952, increment 0
+Sequential: max memory 1886912512, total allocated 230162432, free 133403480, used 96758952, increment 0
+Initial loss: 9.304103901788347
+Initial test loss: 9.304103901788347
+120: time = 0.305000 loss = 8.471167 testLoss 8.499832
+Res.gain: 0.8329369334629977
+Time since start: 76.193
+getSamples: max memory 1886912512, total allocated 230162432, free 123754032, used 106408400, increment 9649448
+Making features
+makeFeatures: max memory 1886912512, total allocated 230162432, free 121864488, used 108297944, increment 1889544
+codium_fragile_4: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 230162432, free 121864488, used 108297944, increment 0
+linearPredictor: max memory 1886912512, total allocated 230162432, free 121864488, used 108297944, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 230162432, free 121864488, used 108297944, increment 0
+Sequential: max memory 1886912512, total allocated 230162432, free 121864488, used 108297944, increment 0
+Initial loss: 9.304194947447806
+Initial test loss: 9.304194947447806
+500: time = 0.924000 loss = 7.856567 testLoss 7.681905
+Resulting gain: 1.4476277464480445
+Time since start: 77.535
+Projecting...
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codium_fragile_4.asc
+Time since start: 82.828
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\plots\codium_fragile_4.png
+Time since start: 87.812
+codium_fragile_4 response curves
+Time since start: 89.214
+Response curve: only e03.NIT.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 233832448, free 65290352, used 168542096, increment 60244152
+codium_fragile_4 e03.NIT.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 233832448, free 65279688, used 168552760, increment 10664
+linearPredictor: max memory 1886912512, total allocated 233832448, free 65279688, used 168552760, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 233832448, free 65279688, used 168552760, increment 0
+Sequential: max memory 1886912512, total allocated 233832448, free 65279688, used 168552760, increment 0
+Initial loss: 9.304194947447806
+60: time = 0.244000 loss = 9.263858
+Resulting gain: 0.04033711348825797
+codium_fragile_4 response curves
+Response curve: only e04.NIT.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 233832448, free 61922232, used 171910216, increment 3357456
+codium_fragile_4 e04.NIT.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 233832448, free 61823024, used 172009424, increment 99208
+linearPredictor: max memory 1886912512, total allocated 233832448, free 61735136, used 172097312, increment 87888
+FeaturedSpace: max memory 1886912512, total allocated 233832448, free 61735136, used 172097312, increment 0
+Sequential: max memory 1886912512, total allocated 233832448, free 61735136, used 172097312, increment 0
+Initial loss: 9.304194947447806
+60: time = 0.207000 loss = 9.224489
+Resulting gain: 0.07970644525041415
+codium_fragile_4 response curves
+Response curve: only e05.PHO.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 231735296, free 150196904, used 81538392, increment -90558920
+codium_fragile_4 e05.PHO.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 231735296, free 150187776, used 81547520, increment 9128
+linearPredictor: max memory 1886912512, total allocated 231735296, free 150187776, used 81547520, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 231735296, free 150187776, used 81547520, increment 0
+Sequential: max memory 1886912512, total allocated 231735296, free 150187776, used 81547520, increment 0
+Initial loss: 9.304194947447806
+Time since start: 90.566
+100: time = 0.651000 loss = 9.140106
+Resulting gain: 0.16408846914760744
+codium_fragile_4 response curves
+Response curve: only e06.PHO.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 231735296, free 144648568, used 87086728, increment 5539208
+codium_fragile_4 e06.PHO.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 231735296, free 144639456, used 87095840, increment 9112
+linearPredictor: max memory 1886912512, total allocated 231735296, free 144639456, used 87095840, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 231735296, free 144639456, used 87095840, increment 0
+Sequential: max memory 1886912512, total allocated 231735296, free 144639456, used 87095840, increment 0
+Initial loss: 9.304194947447806
+60: time = 0.208000 loss = 9.009209
+Resulting gain: 0.2949857473792079
+codium_fragile_4 response curves
+Response curve: only e07.SAL.me
+Making features
+makeFeatures: max memory 1886912512, total allocated 231735296, free 141378680, used 90356616, increment 3260776
+codium_fragile_4 e07.SAL.me: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 231735296, free 141281504, used 90453792, increment 97176
+linearPredictor: max memory 1886912512, total allocated 231735296, free 141193616, used 90541680, increment 87888
+FeaturedSpace: max memory 1886912512, total allocated 231735296, free 141193616, used 90541680, increment 0
+Sequential: max memory 1886912512, total allocated 231735296, free 141193616, used 90541680, increment 0
+Initial loss: 9.304194947447806
+180: time = 0.461000 loss = 9.107760
+Resulting gain: 0.19643518476123667
+codium_fragile_4 response curves
+Time since start: 91.668
+Response curve: only e08.SST.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 231735296, free 134103656, used 97631640, increment 7089960
+codium_fragile_4 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 231735296, free 134089952, used 97645344, increment 13704
+linearPredictor: max memory 1886912512, total allocated 231735296, free 134089952, used 97645344, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 231735296, free 134089952, used 97645344, increment 0
+Sequential: max memory 1886912512, total allocated 231735296, free 134089952, used 97645344, increment 0
+Initial loss: 9.304194947447806
+180: time = 0.483000 loss = 8.170369
+Resulting gain: 1.1338260321407567
+codium_fragile_4 response curves
+Response curve: only e09.SST.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 231735296, free 128030080, used 103705216, increment 6059872
+codium_fragile_4 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 231735296, free 128030080, used 103705216, increment 0
+linearPredictor: max memory 1886912512, total allocated 231735296, free 128030080, used 103705216, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 231735296, free 128020976, used 103714320, increment 9104
+Sequential: max memory 1886912512, total allocated 231735296, free 128020976, used 103714320, increment 0
+Initial loss: 9.304194947447806
+Time since start: 92.677
+120: time = 0.262000 loss = 8.484041
+Resulting gain: 0.820153962900191
+codium_fragile_4 response curves
+Jackknife: leave e03.NIT.max out
+Making features
+makeFeatures: max memory 1886912512, total allocated 231735296, free 95801760, used 135933536, increment 32219216
+codium_fragile_4 e03.NIT.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 231735296, free 95700048, used 136035248, increment 101712
+linearPredictor: max memory 1886912512, total allocated 231735296, free 95612160, used 136123136, increment 87888
+FeaturedSpace: max memory 1886912512, total allocated 231735296, free 95612160, used 136123136, increment 0
+Sequential: max memory 1886912512, total allocated 231735296, free 95612160, used 136123136, increment 0
+Initial loss: 9.304194947447806
+Initial test loss: 9.304194947447806
+Time since start: 94.993
+380: time = 1.580000 loss = 7.858113 testLoss 7.676716
+Jackknife: leave e04.NIT.min out
+Making features
+makeFeatures: max memory 1886912512, total allocated 231735296, free 90282672, used 141452624, increment 5329488
+codium_fragile_4 e04.NIT.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 231735296, free 90185248, used 141550048, increment 97424
+linearPredictor: max memory 1886912512, total allocated 231735296, free 90097360, used 141637936, increment 87888
+FeaturedSpace: max memory 1886912512, total allocated 231735296, free 90097360, used 141637936, increment 0
+Sequential: max memory 1886912512, total allocated 231735296, free 90097360, used 141637936, increment 0
+Initial loss: 9.304194947447806
+Initial test loss: 9.304194947447806
+400: time = 0.698000 loss = 7.856584 testLoss 7.680284
+Jackknife: leave e05.PHO.max out
+Making features
+makeFeatures: max memory 1886912512, total allocated 231735296, free 84936064, used 146799232, increment 5161296
+codium_fragile_4 e05.PHO.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 231735296, free 84838896, used 146896400, increment 97168
+linearPredictor: max memory 1886912512, total allocated 231735296, free 84751008, used 146984288, increment 87888
+FeaturedSpace: max memory 1886912512, total allocated 231735296, free 84751008, used 146984288, increment 0
+Sequential: max memory 1886912512, total allocated 231735296, free 84751008, used 146984288, increment 0
+Initial loss: 9.304194947447806
+Initial test loss: 9.304194947447806
+Time since start: 96.563
+440: time = 0.822000 loss = 7.863351 testLoss 7.688031
+Jackknife: leave e06.PHO.min out
+Making features
+makeFeatures: max memory 1886912512, total allocated 231735296, free 77507208, used 154228088, increment 7243800
+codium_fragile_4 e06.PHO.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 231735296, free 77492920, used 154242376, increment 14288
+linearPredictor: max memory 1886912512, total allocated 231735296, free 77492920, used 154242376, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 231735296, free 77492920, used 154242376, increment 0
+Sequential: max memory 1886912512, total allocated 231735296, free 77492920, used 154242376, increment 0
+Initial loss: 9.304194947447806
+Initial test loss: 9.304194947447806
+Time since start: 97.577
+480: time = 0.991000 loss = 7.863136 testLoss 7.685795
+Jackknife: leave e07.SAL.me out
+Making features
+makeFeatures: max memory 1886912512, total allocated 231735296, free 73139752, used 158595544, increment 4353168
+codium_fragile_4 e07.SAL.me: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 231735296, free 73038160, used 158697136, increment 101592
+linearPredictor: max memory 1886912512, total allocated 231735296, free 72950272, used 158785024, increment 87888
+FeaturedSpace: max memory 1886912512, total allocated 231735296, free 72950272, used 158785024, increment 0
+Sequential: max memory 1886912512, total allocated 231735296, free 72950272, used 158785024, increment 0
+Initial loss: 9.304194947447806
+Initial test loss: 9.304194947447806
+240: time = 0.456000 loss = 7.898368 testLoss 7.740131
+Jackknife: leave e08.SST.max out
+Making features
+makeFeatures: max memory 1886912512, total allocated 231735296, free 69278728, used 162456568, increment 3671544
+codium_fragile_4 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 231735296, free 67375456, used 164359840, increment 1903272
+linearPredictor: max memory 1886912512, total allocated 231735296, free 67375456, used 164359840, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 231735296, free 67375456, used 164359840, increment 0
+Sequential: max memory 1886912512, total allocated 231735296, free 67375456, used 164359840, increment 0
+Initial loss: 9.304194947447806
+Initial test loss: 9.304194947447806
+240: time = 0.492000 loss = 7.994711 testLoss 7.895352
+Jackknife: leave e09.SST.min out
+Making features
+Time since start: 98.587
+makeFeatures: max memory 1886912512, total allocated 231735296, free 65264696, used 166470600, increment 2110760
+codium_fragile_4 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 231735296, free 65167648, used 166567648, increment 97048
+linearPredictor: max memory 1886912512, total allocated 231735296, free 65079760, used 166655536, increment 87888
+FeaturedSpace: max memory 1886912512, total allocated 231735296, free 65075216, used 166660080, increment 4544
+Sequential: max memory 1886912512, total allocated 231735296, free 65075216, used 166660080, increment 0
+Initial loss: 9.304194947447806
+Initial test loss: 9.304194947447806
+Time since start: 99.816
+400: time = 1.224000 loss = 7.912369 testLoss 7.714787
+Jackknife: only e03.NIT.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 229113856, free 149660472, used 79453384, increment -87206696
+codium_fragile_4 e03.NIT.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 229113856, free 149660472, used 79453384, increment 0
+linearPredictor: max memory 1886912512, total allocated 229113856, free 149660472, used 79453384, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 229113856, free 149660472, used 79453384, increment 0
+Sequential: max memory 1886912512, total allocated 229113856, free 149660472, used 79453384, increment 0
+Initial loss: 9.304194947447806
+Initial test loss: 9.304194947447806
+60: time = 0.595000 loss = 9.263858 testLoss 9.269515
+Res.gain: 0.04033711348825797
+Jackknife: only e04.NIT.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 229113856, free 149070496, used 80043360, increment 589976
+codium_fragile_4 e04.NIT.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 229113856, free 148982608, used 80131248, increment 87888
+linearPredictor: max memory 1886912512, total allocated 229113856, free 148894720, used 80219136, increment 87888
+FeaturedSpace: max memory 1886912512, total allocated 229113856, free 148894720, used 80219136, increment 0
+Sequential: max memory 1886912512, total allocated 229113856, free 148894720, used 80219136, increment 0
+Initial loss: 9.304194947447806
+Initial test loss: 9.304194947447806
+60: time = 0.219000 loss = 9.224489 testLoss 9.225419
+Res.gain: 0.07970644525041415
+Jackknife: only e05.PHO.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 229113856, free 146903008, used 82210848, increment 1991712
+codium_fragile_4 e05.PHO.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 229113856, free 146903008, used 82210848, increment 0
+linearPredictor: max memory 1886912512, total allocated 229113856, free 146903008, used 82210848, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 229113856, free 146903008, used 82210848, increment 0
+Sequential: max memory 1886912512, total allocated 229113856, free 146903008, used 82210848, increment 0
+Initial loss: 9.304194947447806
+Initial test loss: 9.304194947447806
+Time since start: 100.91
+100: time = 0.244000 loss = 9.140106 testLoss 9.115476
+Res.gain: 0.16408846914760744
+Jackknife: only e06.PHO.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 229113856, free 146074968, used 83038888, increment 828040
+codium_fragile_4 e06.PHO.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 229113856, free 145987080, used 83126776, increment 87888
+linearPredictor: max memory 1886912512, total allocated 229113856, free 145899192, used 83214664, increment 87888
+FeaturedSpace: max memory 1886912512, total allocated 229113856, free 145899192, used 83214664, increment 0
+Sequential: max memory 1886912512, total allocated 229113856, free 145899192, used 83214664, increment 0
+Initial loss: 9.304194947447806
+Initial test loss: 9.304194947447806
+60: time = 0.181000 loss = 9.009209 testLoss 8.990028
+Res.gain: 0.2949857473792079
+Jackknife: only e07.SAL.me
+Making features
+makeFeatures: max memory 1886912512, total allocated 229113856, free 143907552, used 85206304, increment 1991640
+codium_fragile_4 e07.SAL.me: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 229113856, free 143907552, used 85206304, increment 0
+linearPredictor: max memory 1886912512, total allocated 229113856, free 143907552, used 85206304, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 229113856, free 143907552, used 85206304, increment 0
+Sequential: max memory 1886912512, total allocated 229113856, free 143907552, used 85206304, increment 0
+Initial loss: 9.304194947447806
+Initial test loss: 9.304194947447806
+180: time = 0.281000 loss = 9.107760 testLoss 8.974661
+Res.gain: 0.19643518476123667
+Jackknife: only e08.SST.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 229113856, free 140849560, used 88264296, increment 3057992
+codium_fragile_4 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 229113856, free 140849560, used 88264296, increment 0
+linearPredictor: max memory 1886912512, total allocated 229113856, free 140849560, used 88264296, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 229113856, free 140849560, used 88264296, increment 0
+Sequential: max memory 1886912512, total allocated 229113856, free 140849560, used 88264296, increment 0
+Initial loss: 9.304194947447806
+Initial test loss: 9.304194947447806
+180: time = 0.381000 loss = 8.170369 testLoss 7.990746
+Res.gain: 1.1338260321407567
+Jackknife: only e09.SST.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 229113856, free 139545000, used 89568856, increment 1304560
+codium_fragile_4 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+993 samples
+Density: max memory 1886912512, total allocated 229113856, free 139545000, used 89568856, increment 0
+linearPredictor: max memory 1886912512, total allocated 229113856, free 139545000, used 89568856, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 229113856, free 139545000, used 89568856, increment 0
+Sequential: max memory 1886912512, total allocated 229113856, free 139545000, used 89568856, increment 0
+Initial loss: 9.304194947447806
+Initial test loss: 9.304194947447806
+Time since start: 102.134
+120: time = 0.344000 loss = 8.484041 testLoss 8.446300
+Res.gain: 0.820153962900191
+Creating average grid, stddev grid etc.
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codium_fragile_avg.asc
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codium_fragile_stddev.asc
+Time since start: 103.143
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codium_fragile_min.asc
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codium_fragile_max.asc
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codium_fragile_median.asc
+Time since start: 126.531
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\plots\codium_fragile_avg.png
+Time since start: 132.716
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\plots\codium_fragile_stddev.png
+Time since start: 137.338
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\plots\codium_fragile_min.png
+Time since start: 140.941
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\plots\codium_fragile_max.png
+Time since start: 144.759
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\plots\codium_fragile_median.png
+Time since start: 148.107
+codium_fragile average response curves
+Time since start: 150.794
+Ending

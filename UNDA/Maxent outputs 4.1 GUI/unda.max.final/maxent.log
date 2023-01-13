@@ -1,0 +1,656 @@
+Fri May 06 15:41:17 EDT 2022
+MaxEnt version 3.4.1
+Checking header of C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\Environmental Data\Clipped_100km\e08.SST.max.asc
+Checking header of C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\Environmental Data\Clipped_100km\e09.SST.min.asc
+Reading samples from Unda max GUI.csv
+Read samples: max memory 1886912512, total allocated 257949696, free 100852312, used 157097384, increment 111385712
+Extractor: max memory 1886912512, total allocated 256376832, free 184660928, used 71715904, increment -85381480
+Extracting random background and sample data
+Warning: Sample at 0.91371, 51.208542 in Unda max GUI.csv is missing some environmental data (e.g. e08.SST.max)
+Warning: Skipping sample at 0.91371, 51.208542 which has no environmental data
+Warning: Sample at -1.83, 48.5 in Unda max GUI.csv is missing some environmental data (e.g. e08.SST.max)
+Warning: Skipping sample at -1.83, 48.5 which has no environmental data
+Warning: Sample at -138.567, 38.05 in Unda max GUI.csv is missing some environmental data (e.g. e08.SST.max)
+Warning: Skipping sample at -138.567, 38.05 which has no environmental data
+Warning: Sample at 140.65047, 36.59843 in Unda max GUI.csv is missing some environmental data (e.g. e08.SST.max)
+Warning: Skipping sample at 140.65047, 36.59843 which has no environmental data
+Warning: Sample at 140.57585, 36.37886 in Unda max GUI.csv is missing some environmental data (e.g. e08.SST.max)
+Warning: Skipping sample at 140.57585, 36.37886 which has no environmental data
+Warning: Sample at 140.57585, 36.37886 in Unda max GUI.csv is missing some environmental data (e.g. e08.SST.max)
+Warning: Skipping sample at 140.57585, 36.37886 which has no environmental data
+Warning: Sample at 140.57585, 36.37886 in Unda max GUI.csv is missing some environmental data (e.g. e08.SST.max)
+Warning: Skipping sample at 140.57585, 36.37886 which has no environmental data
+Warning: Sample at 140.57585, 36.37886 in Unda max GUI.csv is missing some environmental data (e.g. e08.SST.max)
+Warning: Skipping sample at 140.57585, 36.37886 which has no environmental data
+Warning: Sample at 140.57585, 36.37886 in Unda max GUI.csv is missing some environmental data (e.g. e08.SST.max)
+Warning: Skipping sample at 140.57585, 36.37886 which has no environmental data
+Warning: Sample at 138.0, 36.0 in Unda max GUI.csv is missing some environmental data (e.g. e08.SST.max)
+Warning: Skipping sample at 138.0, 36.0 which has no environmental data
+Warning: Sample at 140.433333, 35.683333 in Unda max GUI.csv is missing some environmental data (e.g. e08.SST.max)
+Warning: Skipping sample at 140.433333, 35.683333 which has no environmental data
+Warning: Sample at 140.416667, 35.6 in Unda max GUI.csv is missing some environmental data (e.g. e08.SST.max)
+Warning: Skipping sample at 140.416667, 35.6 which has no environmental data
+Warning: Sample at 140.087149, 35.253332 in Unda max GUI.csv is missing some environmental data (e.g. e08.SST.max)
+Warning: Skipping sample at 140.087149, 35.253332 which has no environmental data
+Warning: Sample at 140.087149, 35.253332 in Unda max GUI.csv is missing some environmental data (e.g. e08.SST.max)
+Warning: Skipping sample at 140.087149, 35.253332 which has no environmental data
+Warning: Sample at 134.825968, 35.040316 in Unda max GUI.csv is missing some environmental data (e.g. e08.SST.max)
+Warning: Skipping sample at 134.825968, 35.040316 which has no environmental data
+Warning: Sample at 133.810181, 34.902039 in Unda max GUI.csv is missing some environmental data (e.g. e08.SST.max)
+Warning: Skipping sample at 133.810181, 34.902039 which has no environmental data
+Warning: Sample at -134.592, 34.635 in Unda max GUI.csv is missing some environmental data (e.g. e08.SST.max)
+Warning: Skipping sample at -134.592, 34.635 which has no environmental data
+Warning: Sample at 129.869475, 32.75465 in Unda max GUI.csv is missing some environmental data (e.g. e08.SST.max)
+Warning: Skipping sample at 129.869475, 32.75465 which has no environmental data
+Warning: Sample at -116.663347, 31.861664 in Unda max GUI.csv is missing some environmental data (e.g. e08.SST.max)
+Warning: Skipping sample at -116.663347, 31.861664 which has no environmental data
+Warning: Sample at 174.779222, -41.292127 in Unda max GUI.csv is missing some environmental data (e.g. e08.SST.max)
+Warning: Skipping sample at 174.779222, -41.292127 which has no environmental data
+Warning: Sample at 174.779222, -41.292127 in Unda max GUI.csv is missing some environmental data (e.g. e08.SST.max)
+Warning: Skipping sample at 174.779222, -41.292127 which has no environmental data
+Warning: Sample at 174.779222, -41.292127 in Unda max GUI.csv is missing some environmental data (e.g. e08.SST.max)
+Warning: Skipping sample at 174.779222, -41.292127 which has no environmental data
+Warning: Sample at 174.779222, -41.292127 in Unda max GUI.csv is missing some environmental data (e.g. e08.SST.max)
+Warning: Skipping sample at 174.779222, -41.292127 which has no environmental data
+Warning: Sample at 174.779222, -41.292127 in Unda max GUI.csv is missing some environmental data (e.g. e08.SST.max)
+Warning: Skipping sample at 174.779222, -41.292127 which has no environmental data
+Warning: Sample at 174.779222, -41.292127 in Unda max GUI.csv is missing some environmental data (e.g. e08.SST.max)
+Warning: Skipping sample at 174.779222, -41.292127 which has no environmental data
+Warning: Sample at 174.791159, -41.291943 in Unda max GUI.csv is missing some environmental data (e.g. e08.SST.max)
+Warning: Skipping sample at 174.791159, -41.291943 which has no environmental data
+Warning: Sample at 174.791159, -41.291943 in Unda max GUI.csv is missing some environmental data (e.g. e08.SST.max)
+Warning: Skipping sample at 174.791159, -41.291943 which has no environmental data
+Warning: Sample at 174.793889, -41.291389 in Unda max GUI.csv is missing some environmental data (e.g. e08.SST.max)
+Warning: Skipping sample at 174.793889, -41.291389 which has no environmental data
+Warning: Sample at 174.779444, -41.286389 in Unda max GUI.csv is missing some environmental data (e.g. e08.SST.max)
+Warning: Skipping sample at 174.779444, -41.286389 which has no environmental data
+Warning: Sample at 174.779444, -41.286389 in Unda max GUI.csv is missing some environmental data (e.g. e08.SST.max)
+Warning: Skipping sample at 174.779444, -41.286389 which has no environmental data
+Warning: Sample at 174.779444, -41.286389 in Unda max GUI.csv is missing some environmental data (e.g. e08.SST.max)
+Warning: Skipping sample at 174.779444, -41.286389 which has no environmental data
+Warning: Sample at 174.778979, -41.283124 in Unda max GUI.csv is missing some environmental data (e.g. e08.SST.max)
+Warning: Skipping sample at 174.778979, -41.283124 which has no environmental data
+Warning: Sample at 174.778979, -41.283124 in Unda max GUI.csv is missing some environmental data (e.g. e08.SST.max)
+Warning: Skipping sample at 174.778979, -41.283124 which has no environmental data
+Warning: Sample at 174.778979, -41.283124 in Unda max GUI.csv is missing some environmental data (e.g. e08.SST.max)
+Warning: Skipping sample at 174.778979, -41.283124 which has no environmental data
+Warning: Sample at 174.778736, -41.274122 in Unda max GUI.csv is missing some environmental data (e.g. e08.SST.max)
+Warning: Skipping sample at 174.778736, -41.274122 which has no environmental data
+Warning: Sample at 174.778736, -41.274122 in Unda max GUI.csv is missing some environmental data (e.g. e08.SST.max)
+Warning: Skipping sample at 174.778736, -41.274122 which has no environmental data
+Warning: Sample at 174.778736, -41.274122 in Unda max GUI.csv is missing some environmental data (e.g. e08.SST.max)
+Warning: Skipping sample at 174.778736, -41.274122 which has no environmental data
+Warning: Sample at 174.778736, -41.274122 in Unda max GUI.csv is missing some environmental data (e.g. e08.SST.max)
+Warning: Skipping sample at 174.778736, -41.274122 which has no environmental data
+Warning: Sample at 174.778736, -41.274122 in Unda max GUI.csv is missing some environmental data (e.g. e08.SST.max)
+Warning: Skipping sample at 174.778736, -41.274122 which has no environmental data
+Warning: Sample at 174.778736, -41.274122 in Unda max GUI.csv is missing some environmental data (e.g. e08.SST.max)
+Warning: Skipping sample at 174.778736, -41.274122 which has no environmental data
+Warning: Sample at 147.876858, -42.558055 in Unda max GUI.csv is missing some environmental data (e.g. e08.SST.max)
+Warning: Skipping sample at 147.876858, -42.558055 which has no environmental data
+Warning: Sample at 147.912205, -42.548971 in Unda max GUI.csv is missing some environmental data (e.g. e08.SST.max)
+Warning: Skipping sample at 147.912205, -42.548971 which has no environmental data
+Warning: Sample at 147.912205, -42.548971 in Unda max GUI.csv is missing some environmental data (e.g. e08.SST.max)
+Warning: Skipping sample at 147.912205, -42.548971 which has no environmental data
+614112 points with values for all grids
+Adding samples to background in feature space
+Command line used: 
+Command line to repeat: java density.MaxEnt nowarnings noprefixes responsecurves jackknife "outputdirectory=C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\UNDA\Maxent outputs 4.1 GUI\unda.max.final" "samplesfile=C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\UNDA\UNDA Occur\Unda max GUI.csv" "environmentallayers=C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\Environmental Data\Clipped_100km" notooltips noremoveduplicates replicates=5 noproduct nohinge noautofeature -N e01.DA.max -N e02.DA.min -N e03.NIT.max -N e04.NIT.min -N e05.PHO.max -N e06.PHO.min -N e07.SAL.me -N e10.SST.ra
+Species: undaria_pinnatifida_0 undaria_pinnatifida_1 undaria_pinnatifida_2 undaria_pinnatifida_3 undaria_pinnatifida_4
+Layers: e08.SST.max e09.SST.min
+Layertypes: Continuous Continuous
+responsecurves: true
+jackknife: true
+outputdirectory: C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\UNDA\Maxent outputs 4.1 GUI\unda.max.final
+samplesfile: C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\UNDA\UNDA Occur\Unda max GUI.csv
+environmentallayers: C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\Environmental Data\Clipped_100km
+tooltips: false
+removeduplicates: false
+replicates: 5
+product: false
+hinge: false
+autofeature: false
+
+getSamples: max memory 1886912512, total allocated 256376832, free 179770072, used 76606760, increment 4890856
+Making features
+makeFeatures: max memory 1886912512, total allocated 256376832, free 179425648, used 76951184, increment 344424
+undaria_pinnatifida_0: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+217 samples
+Density: max memory 1886912512, total allocated 256376832, free 178531424, used 77845408, increment 894224
+linearPredictor: max memory 1886912512, total allocated 256376832, free 178531424, used 77845408, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 256376832, free 178531424, used 77845408, increment 0
+Sequential: max memory 1886912512, total allocated 256376832, free 178531424, used 77845408, increment 0
+Initial loss: 9.23151460720759
+Initial test loss: 9.23151460720759
+Time since start: 1.133
+300: time = 0.389000 loss = 7.701966 testLoss 7.588086
+Resulting gain: 1.5295485748623152
+Projecting...
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\UNDA\Maxent outputs 4.1 GUI\unda.max.final\undaria_pinnatifida_0.asc
+Time since start: 5.68
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\UNDA\Maxent outputs 4.1 GUI\unda.max.final\plots\undaria_pinnatifida_0.png
+Time since start: 10.478
+undaria_pinnatifida_0 response curves
+Response curve: only e08.SST.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 319815680, free 87743056, used 232072624, increment 154227216
+undaria_pinnatifida_0 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+217 samples
+Density: max memory 1886912512, total allocated 319815680, free 87734664, used 232081016, increment 8392
+linearPredictor: max memory 1886912512, total allocated 319815680, free 87734664, used 232081016, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 319815680, free 87730256, used 232085424, increment 4408
+Sequential: max memory 1886912512, total allocated 319815680, free 87730256, used 232085424, increment 0
+Initial loss: 9.23151460720759
+180: time = 0.312000 loss = 8.228849
+Resulting gain: 1.0026656116924766
+undaria_pinnatifida_0 response curves
+Response curve: only e09.SST.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 319815680, free 80419640, used 239396040, increment 7310616
+undaria_pinnatifida_0 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+217 samples
+Density: max memory 1886912512, total allocated 319815680, free 80415448, used 239400232, increment 4192
+linearPredictor: max memory 1886912512, total allocated 319815680, free 80413336, used 239402344, increment 2112
+FeaturedSpace: max memory 1886912512, total allocated 319815680, free 80407032, used 239408648, increment 6304
+Sequential: max memory 1886912512, total allocated 319815680, free 80407032, used 239408648, increment 0
+Initial loss: 9.23151460720759
+Time since start: 11.511
+140: time = 0.266000 loss = 8.007197
+Resulting gain: 1.2243177303740822
+undaria_pinnatifida_0 response curves
+Jackknife: leave e08.SST.max out
+Making features
+makeFeatures: max memory 1886912512, total allocated 319815680, free 70379504, used 249436176, increment 10027528
+undaria_pinnatifida_0 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+217 samples
+Density: max memory 1886912512, total allocated 319815680, free 70375320, used 249440360, increment 4184
+linearPredictor: max memory 1886912512, total allocated 319815680, free 70293592, used 249522088, increment 81728
+FeaturedSpace: max memory 1886912512, total allocated 319815680, free 70287248, used 249528432, increment 6344
+Sequential: max memory 1886912512, total allocated 319815680, free 70287248, used 249528432, increment 0
+Initial loss: 9.23151460720759
+Initial test loss: 9.23151460720759
+140: time = 0.257000 loss = 8.007197 testLoss 7.886559
+Jackknife: leave e09.SST.min out
+Making features
+makeFeatures: max memory 1886912512, total allocated 315097088, free 209444904, used 105652184, increment -143876248
+undaria_pinnatifida_0 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+217 samples
+Density: max memory 1886912512, total allocated 315097088, free 209444904, used 105652184, increment 0
+linearPredictor: max memory 1886912512, total allocated 315097088, free 209444904, used 105652184, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 315097088, free 209424400, used 105672688, increment 20504
+Sequential: max memory 1886912512, total allocated 315097088, free 209424400, used 105672688, increment 0
+Initial loss: 9.23151460720759
+Initial test loss: 9.23151460720759
+180: time = 0.287000 loss = 8.228849 testLoss 8.029518
+Jackknife: only e08.SST.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 315097088, free 208109896, used 106987192, increment 1314504
+undaria_pinnatifida_0 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+217 samples
+Density: max memory 1886912512, total allocated 315097088, free 208089216, used 107007872, increment 20680
+linearPredictor: max memory 1886912512, total allocated 315097088, free 208089216, used 107007872, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 315097088, free 208089216, used 107007872, increment 0
+Sequential: max memory 1886912512, total allocated 315097088, free 208089216, used 107007872, increment 0
+Initial loss: 9.23151460720759
+Initial test loss: 9.23151460720759
+Time since start: 12.569
+180: time = 0.262000 loss = 8.228849 testLoss 8.029518
+Res.gain: 1.0026656116924766
+Jackknife: only e09.SST.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 315097088, free 206774672, used 108322416, increment 1314544
+undaria_pinnatifida_0 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+217 samples
+Density: max memory 1886912512, total allocated 315097088, free 203907936, used 111189152, increment 2866736
+linearPredictor: max memory 1886912512, total allocated 315097088, free 203907936, used 111189152, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 315097088, free 203887448, used 111209640, increment 20488
+Sequential: max memory 1886912512, total allocated 315097088, free 203887448, used 111209640, increment 0
+Initial loss: 9.23151460720759
+Initial test loss: 9.23151460720759
+140: time = 0.203000 loss = 8.007197 testLoss 7.886559
+Res.gain: 1.2243177303740822
+getSamples: max memory 1886912512, total allocated 315097088, free 199982688, used 115114400, increment 3904760
+Making features
+makeFeatures: max memory 1886912512, total allocated 315097088, free 199635288, used 115461800, increment 347400
+undaria_pinnatifida_1: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+217 samples
+Density: max memory 1886912512, total allocated 315097088, free 199553560, used 115543528, increment 81728
+linearPredictor: max memory 1886912512, total allocated 315097088, free 199471832, used 115625256, increment 81728
+FeaturedSpace: max memory 1886912512, total allocated 315097088, free 199451296, used 115645792, increment 20536
+Sequential: max memory 1886912512, total allocated 315097088, free 199451296, used 115645792, increment 0
+Initial loss: 9.23151460720759
+Initial test loss: 9.23151460720759
+300: time = 0.398000 loss = 7.703513 testLoss 7.597771
+Resulting gain: 1.5280019786236432
+Time since start: 13.708
+Projecting...
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\UNDA\Maxent outputs 4.1 GUI\unda.max.final\undaria_pinnatifida_1.asc
+Time since start: 17.35
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\UNDA\Maxent outputs 4.1 GUI\unda.max.final\plots\undaria_pinnatifida_1.png
+Time since start: 20.806
+undaria_pinnatifida_1 response curves
+Response curve: only e08.SST.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 393216000, free 228990680, used 164225320, increment 48579528
+undaria_pinnatifida_1 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+217 samples
+Density: max memory 1886912512, total allocated 393216000, free 228986472, used 164229528, increment 4208
+linearPredictor: max memory 1886912512, total allocated 393216000, free 228986472, used 164229528, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 393216000, free 228977944, used 164238056, increment 8528
+Sequential: max memory 1886912512, total allocated 393216000, free 228977944, used 164238056, increment 0
+Initial loss: 9.23151460720759
+Time since start: 22.001
+180: time = 0.263000 loss = 8.255842
+Resulting gain: 0.9756726687169408
+undaria_pinnatifida_1 response curves
+Response curve: only e09.SST.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 393216000, free 223173128, used 170042872, increment 5804816
+undaria_pinnatifida_1 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+217 samples
+Density: max memory 1886912512, total allocated 393216000, free 223168936, used 170047064, increment 4192
+linearPredictor: max memory 1886912512, total allocated 393216000, free 223166584, used 170049416, increment 2352
+FeaturedSpace: max memory 1886912512, total allocated 393216000, free 223162024, used 170053976, increment 4560
+Sequential: max memory 1886912512, total allocated 393216000, free 223162024, used 170053976, increment 0
+Initial loss: 9.23151460720759
+140: time = 0.227000 loss = 8.008276
+Resulting gain: 1.2232385365224872
+undaria_pinnatifida_1 response curves
+Jackknife: leave e08.SST.max out
+Making features
+makeFeatures: max memory 1886912512, total allocated 393216000, free 213163920, used 180052080, increment 9998104
+undaria_pinnatifida_1 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+217 samples
+Density: max memory 1886912512, total allocated 393216000, free 213157376, used 180058624, increment 6544
+linearPredictor: max memory 1886912512, total allocated 393216000, free 213157376, used 180058624, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 393216000, free 213152568, used 180063432, increment 4808
+Sequential: max memory 1886912512, total allocated 393216000, free 213152568, used 180063432, increment 0
+Initial loss: 9.23151460720759
+Initial test loss: 9.23151460720759
+140: time = 0.214000 loss = 8.008276 testLoss 7.879634
+Jackknife: leave e09.SST.min out
+Making features
+makeFeatures: max memory 1886912512, total allocated 393216000, free 212092232, used 181123768, increment 1060336
+undaria_pinnatifida_1 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+217 samples
+Density: max memory 1886912512, total allocated 393216000, free 212089912, used 181126088, increment 2320
+linearPredictor: max memory 1886912512, total allocated 393216000, free 212089912, used 181126088, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 393216000, free 212081288, used 181134712, increment 8624
+Sequential: max memory 1886912512, total allocated 393216000, free 212081288, used 181134712, increment 0
+Initial loss: 9.23151460720759
+Initial test loss: 9.23151460720759
+180: time = 0.264000 loss = 8.255842 testLoss 7.925689
+Jackknife: only e08.SST.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 393216000, free 210751256, used 182464744, increment 1330032
+undaria_pinnatifida_1 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+217 samples
+Density: max memory 1886912512, total allocated 393216000, free 210746784, used 182469216, increment 4472
+linearPredictor: max memory 1886912512, total allocated 393216000, free 210746784, used 182469216, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 393216000, free 210740288, used 182475712, increment 6496
+Sequential: max memory 1886912512, total allocated 393216000, free 210740288, used 182475712, increment 0
+Initial loss: 9.23151460720759
+Initial test loss: 9.23151460720759
+Time since start: 23.25
+180: time = 0.262000 loss = 8.255842 testLoss 7.925689
+Res.gain: 0.9756726687169408
+Jackknife: only e09.SST.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 393216000, free 204963040, used 188252960, increment 5777248
+undaria_pinnatifida_1 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+217 samples
+Density: max memory 1886912512, total allocated 393216000, free 204958568, used 188257432, increment 4472
+linearPredictor: max memory 1886912512, total allocated 393216000, free 204958568, used 188257432, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 393216000, free 204952072, used 188263928, increment 6496
+Sequential: max memory 1886912512, total allocated 393216000, free 204952072, used 188263928, increment 0
+Initial loss: 9.23151460720759
+Initial test loss: 9.23151460720759
+140: time = 0.218000 loss = 8.008276 testLoss 7.879634
+Res.gain: 1.2232385365224872
+getSamples: max memory 1886912512, total allocated 393216000, free 199416152, used 193799848, increment 5535920
+Making features
+makeFeatures: max memory 1886912512, total allocated 393216000, free 199395784, used 193820216, increment 20368
+undaria_pinnatifida_2: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+218 samples
+Density: max memory 1886912512, total allocated 393216000, free 199391512, used 193824488, increment 4272
+linearPredictor: max memory 1886912512, total allocated 393216000, free 199391512, used 193824488, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 393216000, free 199384616, used 193831384, increment 6896
+Sequential: max memory 1886912512, total allocated 393216000, free 199384616, used 193831384, increment 0
+Initial loss: 9.23151460720759
+Initial test loss: 9.23151460720759
+300: time = 0.452000 loss = 7.689534 testLoss 7.640863
+Resulting gain: 1.5419802769722573
+Time since start: 24.44
+Projecting...
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\UNDA\Maxent outputs 4.1 GUI\unda.max.final\undaria_pinnatifida_2.asc
+Time since start: 28.046
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\UNDA\Maxent outputs 4.1 GUI\unda.max.final\plots\undaria_pinnatifida_2.png
+Time since start: 32.222
+undaria_pinnatifida_2 response curves
+Response curve: only e08.SST.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 365428736, free 205774536, used 159654200, increment -34177184
+undaria_pinnatifida_2 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+218 samples
+Density: max memory 1886912512, total allocated 365428736, free 205770248, used 159658488, increment 4288
+linearPredictor: max memory 1886912512, total allocated 365428736, free 205767664, used 159661072, increment 2584
+FeaturedSpace: max memory 1886912512, total allocated 365428736, free 205763368, used 159665368, increment 4296
+Sequential: max memory 1886912512, total allocated 365428736, free 205763368, used 159665368, increment 0
+Initial loss: 9.23151460720759
+180: time = 0.359000 loss = 8.194968
+Resulting gain: 1.0365469124111542
+undaria_pinnatifida_2 response curves
+Time since start: 33.354
+Response curve: only e09.SST.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 365428736, free 199537504, used 165891232, increment 6225864
+undaria_pinnatifida_2 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+218 samples
+Density: max memory 1886912512, total allocated 365428736, free 199533232, used 165895504, increment 4272
+linearPredictor: max memory 1886912512, total allocated 365428736, free 199533232, used 165895504, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 365428736, free 199526544, used 165902192, increment 6688
+Sequential: max memory 1886912512, total allocated 365428736, free 199526544, used 165902192, increment 0
+Initial loss: 9.23151460720759
+160: time = 0.309000 loss = 7.966874
+Resulting gain: 1.264640311103137
+undaria_pinnatifida_2 response curves
+Jackknife: leave e08.SST.max out
+Making features
+makeFeatures: max memory 1886912512, total allocated 365428736, free 186658696, used 178770040, increment 12867848
+undaria_pinnatifida_2 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+218 samples
+Density: max memory 1886912512, total allocated 365428736, free 186652048, used 178776688, increment 6648
+linearPredictor: max memory 1886912512, total allocated 365428736, free 186652048, used 178776688, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 365428736, free 186647352, used 178781384, increment 4696
+Sequential: max memory 1886912512, total allocated 365428736, free 186647352, used 178781384, increment 0
+Initial loss: 9.23151460720759
+Initial test loss: 9.23151460720759
+160: time = 0.240000 loss = 7.966874 testLoss 8.062863
+Jackknife: leave e09.SST.min out
+Making features
+makeFeatures: max memory 1886912512, total allocated 365428736, free 185618864, used 179809872, increment 1028488
+undaria_pinnatifida_2 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+218 samples
+Density: max memory 1886912512, total allocated 365428736, free 185614360, used 179814376, increment 4504
+linearPredictor: max memory 1886912512, total allocated 365428736, free 185612176, used 179816560, increment 2184
+FeaturedSpace: max memory 1886912512, total allocated 365428736, free 185610024, used 179818712, increment 2152
+Sequential: max memory 1886912512, total allocated 365428736, free 185610024, used 179818712, increment 0
+Initial loss: 9.23151460720759
+Initial test loss: 9.23151460720759
+Time since start: 34.522
+180: time = 0.307000 loss = 8.194968 testLoss 8.178424
+Jackknife: only e08.SST.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 365428736, free 184291696, used 181137040, increment 1318328
+undaria_pinnatifida_2 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+218 samples
+Density: max memory 1886912512, total allocated 365428736, free 184284824, used 181143912, increment 6872
+linearPredictor: max memory 1886912512, total allocated 365428736, free 184284824, used 181143912, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 365428736, free 184280528, used 181148208, increment 4296
+Sequential: max memory 1886912512, total allocated 365428736, free 184280528, used 181148208, increment 0
+Initial loss: 9.23151460720759
+Initial test loss: 9.23151460720759
+180: time = 0.330000 loss = 8.194968 testLoss 8.178424
+Res.gain: 1.0365469124111542
+Jackknife: only e09.SST.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 365428736, free 182790992, used 182637744, increment 1489536
+undaria_pinnatifida_2 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+218 samples
+Density: max memory 1886912512, total allocated 365428736, free 182704992, used 182723744, increment 86000
+linearPredictor: max memory 1886912512, total allocated 365428736, free 178775096, used 186653640, increment 3929896
+FeaturedSpace: max memory 1886912512, total allocated 365428736, free 178766472, used 186662264, increment 8624
+Sequential: max memory 1886912512, total allocated 365428736, free 178766472, used 186662264, increment 0
+Initial loss: 9.23151460720759
+Initial test loss: 9.23151460720759
+160: time = 0.270000 loss = 7.966874 testLoss 8.062863
+Res.gain: 1.264640311103137
+Time since start: 35.687
+getSamples: max memory 1886912512, total allocated 365428736, free 173296248, used 192132488, increment 5470224
+Making features
+makeFeatures: max memory 1886912512, total allocated 365428736, free 173280544, used 192148192, increment 15704
+undaria_pinnatifida_3: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+218 samples
+Density: max memory 1886912512, total allocated 365428736, free 173278192, used 192150544, increment 2352
+linearPredictor: max memory 1886912512, total allocated 365428736, free 173273896, used 192154840, increment 4296
+FeaturedSpace: max memory 1886912512, total allocated 365428736, free 173269576, used 192159160, increment 4320
+Sequential: max memory 1886912512, total allocated 365428736, free 173269576, used 192159160, increment 0
+Initial loss: 9.231612507251722
+Initial test loss: 9.231612507251722
+240: time = 0.467000 loss = 7.696921 testLoss 7.613899
+Resulting gain: 1.5346913740450514
+Projecting...
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\UNDA\Maxent outputs 4.1 GUI\unda.max.final\undaria_pinnatifida_3.asc
+Time since start: 40.158
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\UNDA\Maxent outputs 4.1 GUI\unda.max.final\plots\undaria_pinnatifida_3.png
+Time since start: 43.356
+undaria_pinnatifida_3 response curves
+Response curve: only e08.SST.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 443547648, free 196189864, used 247357784, increment 55198624
+undaria_pinnatifida_3 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+218 samples
+Density: max memory 1886912512, total allocated 443547648, free 196186512, used 247361136, increment 3352
+linearPredictor: max memory 1886912512, total allocated 443547648, free 196186512, used 247361136, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 443547648, free 196180080, used 247367568, increment 6432
+Sequential: max memory 1886912512, total allocated 443547648, free 196180080, used 247367568, increment 0
+Initial loss: 9.231612507251722
+180: time = 0.265000 loss = 8.209019
+Resulting gain: 1.022593750429742
+undaria_pinnatifida_3 response curves
+Response curve: only e09.SST.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 443547648, free 189378296, used 254169352, increment 6801784
+undaria_pinnatifida_3 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+218 samples
+Density: max memory 1886912512, total allocated 443547648, free 189378296, used 254169352, increment 0
+linearPredictor: max memory 1886912512, total allocated 443547648, free 189378296, used 254169352, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 443547648, free 189378296, used 254169352, increment 0
+Sequential: max memory 1886912512, total allocated 443547648, free 189378296, used 254169352, increment 0
+Initial loss: 9.231612507251722
+160: time = 0.244000 loss = 7.952148
+Resulting gain: 1.2794649653286987
+undaria_pinnatifida_3 response curves
+Jackknife: leave e08.SST.max out
+Making features
+makeFeatures: max memory 1886912512, total allocated 443547648, free 177342280, used 266205368, increment 12036016
+undaria_pinnatifida_3 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+218 samples
+Density: max memory 1886912512, total allocated 443547648, free 177342280, used 266205368, increment 0
+linearPredictor: max memory 1886912512, total allocated 443547648, free 177342280, used 266205368, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 443547648, free 177332256, used 266215392, increment 10024
+Sequential: max memory 1886912512, total allocated 443547648, free 177332256, used 266215392, increment 0
+Initial loss: 9.231612507251722
+Initial test loss: 9.231612507251722
+Time since start: 44.515
+160: time = 0.234000 loss = 7.952148 testLoss 8.130635
+Jackknife: leave e09.SST.min out
+Making features
+makeFeatures: max memory 1886912512, total allocated 443547648, free 176254592, used 267293056, increment 1077664
+undaria_pinnatifida_3 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+218 samples
+Density: max memory 1886912512, total allocated 443547648, free 176247784, used 267299864, increment 6808
+linearPredictor: max memory 1886912512, total allocated 443547648, free 176247784, used 267299864, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 443547648, free 176244560, used 267303088, increment 3224
+Sequential: max memory 1886912512, total allocated 443547648, free 176244560, used 267303088, increment 0
+Initial loss: 9.231612507251722
+Initial test loss: 9.231612507251722
+180: time = 0.260000 loss = 8.209019 testLoss 8.125594
+Jackknife: only e08.SST.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 443547648, free 174914280, used 268633368, increment 1330280
+undaria_pinnatifida_3 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+218 samples
+Density: max memory 1886912512, total allocated 443547648, free 174911072, used 268636576, increment 3208
+linearPredictor: max memory 1886912512, total allocated 443547648, free 174907464, used 268640184, increment 3608
+FeaturedSpace: max memory 1886912512, total allocated 443547648, free 174903856, used 268643792, increment 3608
+Sequential: max memory 1886912512, total allocated 443547648, free 174903856, used 268643792, increment 0
+Initial loss: 9.231612507251722
+Initial test loss: 9.231612507251722
+180: time = 0.270000 loss = 8.209019 testLoss 8.125594
+Res.gain: 1.022593750429742
+Jackknife: only e09.SST.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 443547648, free 173581256, used 269966392, increment 1322600
+undaria_pinnatifida_3 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+218 samples
+Density: max memory 1886912512, total allocated 443547648, free 173574832, used 269972816, increment 6424
+linearPredictor: max memory 1886912512, total allocated 443547648, free 173574832, used 269972816, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 443547648, free 173568240, used 269979408, increment 6592
+Sequential: max memory 1886912512, total allocated 443547648, free 173568240, used 269979408, increment 0
+Initial loss: 9.231612507251722
+Initial test loss: 9.231612507251722
+160: time = 0.237000 loss = 7.952148 testLoss 8.130635
+Res.gain: 1.2794649653286987
+getSamples: max memory 1886912512, total allocated 443547648, free 166971192, used 276576456, increment 6597048
+Making features
+makeFeatures: max memory 1886912512, total allocated 443547648, free 166950880, used 276596768, increment 20312
+undaria_pinnatifida_4: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+218 samples
+Density: max memory 1886912512, total allocated 443547648, free 166944240, used 276603408, increment 6640
+linearPredictor: max memory 1886912512, total allocated 443547648, free 166944240, used 276603408, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 443547648, free 166940992, used 276606656, increment 3248
+Sequential: max memory 1886912512, total allocated 443547648, free 166940992, used 276606656, increment 0
+Initial loss: 9.231612507251722
+Initial test loss: 9.231612507251722
+Time since start: 45.805
+240: time = 0.331000 loss = 7.725243 testLoss 7.479851
+Resulting gain: 1.5063692208945003
+Projecting...
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\UNDA\Maxent outputs 4.1 GUI\unda.max.final\undaria_pinnatifida_4.asc
+Time since start: 50.876
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\UNDA\Maxent outputs 4.1 GUI\unda.max.final\plots\undaria_pinnatifida_4.png
+Time since start: 55.032
+undaria_pinnatifida_4 response curves
+Response curve: only e08.SST.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 412614656, free 266469424, used 146145232, increment -130461424
+undaria_pinnatifida_4 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+218 samples
+Density: max memory 1886912512, total allocated 412614656, free 266463584, used 146151072, increment 5840
+linearPredictor: max memory 1886912512, total allocated 412614656, free 266463584, used 146151072, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 412614656, free 266457352, used 146157304, increment 6232
+Sequential: max memory 1886912512, total allocated 412614656, free 266457352, used 146157304, increment 0
+Initial loss: 9.231612507251722
+180: time = 0.335000 loss = 8.204643
+Resulting gain: 1.0269693668138569
+undaria_pinnatifida_4 response curves
+Time since start: 56.174
+Response curve: only e09.SST.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 412614656, free 260295744, used 152318912, increment 6161608
+undaria_pinnatifida_4 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+218 samples
+Density: max memory 1886912512, total allocated 412614656, free 260289904, used 152324752, increment 5840
+linearPredictor: max memory 1886912512, total allocated 412614656, free 260289904, used 152324752, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 412614656, free 260283672, used 152330984, increment 6232
+Sequential: max memory 1886912512, total allocated 412614656, free 260283672, used 152330984, increment 0
+Initial loss: 9.231612507251722
+140: time = 0.239000 loss = 8.033862
+Resulting gain: 1.197750439876236
+undaria_pinnatifida_4 response curves
+Jackknife: leave e08.SST.max out
+Making features
+makeFeatures: max memory 1886912512, total allocated 412614656, free 249469000, used 163145656, increment 10814672
+undaria_pinnatifida_4 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+218 samples
+Density: max memory 1886912512, total allocated 412614656, free 249462936, used 163151720, increment 6064
+linearPredictor: max memory 1886912512, total allocated 412614656, free 249462936, used 163151720, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 412614656, free 249457080, used 163157576, increment 5856
+Sequential: max memory 1886912512, total allocated 412614656, free 249457080, used 163157576, increment 0
+Initial loss: 9.231612507251722
+Initial test loss: 9.231612507251722
+140: time = 0.207000 loss = 8.033862 testLoss 7.780520
+Jackknife: leave e09.SST.min out
+Making features
+makeFeatures: max memory 1886912512, total allocated 412614656, free 248406160, used 164208496, increment 1050920
+undaria_pinnatifida_4 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+218 samples
+Density: max memory 1886912512, total allocated 412614656, free 248394240, used 164220416, increment 11920
+linearPredictor: max memory 1886912512, total allocated 412614656, free 248394240, used 164220416, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 412614656, free 248394240, used 164220416, increment 0
+Sequential: max memory 1886912512, total allocated 412614656, free 248394240, used 164220416, increment 0
+Initial loss: 9.231612507251722
+Initial test loss: 9.231612507251722
+180: time = 0.280000 loss = 8.204643 testLoss 8.133571
+Jackknife: only e08.SST.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 412614656, free 247071128, used 165543528, increment 1323112
+undaria_pinnatifida_4 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+218 samples
+Density: max memory 1886912512, total allocated 412614656, free 247065280, used 165549376, increment 5848
+linearPredictor: max memory 1886912512, total allocated 412614656, free 247065280, used 165549376, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 412614656, free 247059032, used 165555624, increment 6248
+Sequential: max memory 1886912512, total allocated 412614656, free 247059032, used 165555624, increment 0
+Initial loss: 9.231612507251722
+Initial test loss: 9.231612507251722
+Time since start: 57.376
+180: time = 0.272000 loss = 8.204643 testLoss 8.133571
+Res.gain: 1.0269693668138569
+Jackknife: only e09.SST.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 412614656, free 240887496, used 171727160, increment 6171536
+undaria_pinnatifida_4 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+218 samples
+Density: max memory 1886912512, total allocated 412614656, free 240884576, used 171730080, increment 2920
+linearPredictor: max memory 1886912512, total allocated 412614656, free 240881648, used 171733008, increment 2928
+FeaturedSpace: max memory 1886912512, total allocated 412614656, free 240878472, used 171736184, increment 3176
+Sequential: max memory 1886912512, total allocated 412614656, free 240878472, used 171736184, increment 0
+Initial loss: 9.231612507251722
+Initial test loss: 9.231612507251722
+140: time = 0.218000 loss = 8.033862 testLoss 7.780520
+Res.gain: 1.197750439876236
+Creating average grid, stddev grid etc.
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\UNDA\Maxent outputs 4.1 GUI\unda.max.final\undaria_pinnatifida_avg.asc
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\UNDA\Maxent outputs 4.1 GUI\unda.max.final\undaria_pinnatifida_stddev.asc
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\UNDA\Maxent outputs 4.1 GUI\unda.max.final\undaria_pinnatifida_min.asc
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\UNDA\Maxent outputs 4.1 GUI\unda.max.final\undaria_pinnatifida_max.asc
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\UNDA\Maxent outputs 4.1 GUI\unda.max.final\undaria_pinnatifida_median.asc
+Time since start: 76.898
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\UNDA\Maxent outputs 4.1 GUI\unda.max.final\plots\undaria_pinnatifida_avg.png
+Time since start: 80.259
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\UNDA\Maxent outputs 4.1 GUI\unda.max.final\plots\undaria_pinnatifida_stddev.png
+Time since start: 83.633
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\UNDA\Maxent outputs 4.1 GUI\unda.max.final\plots\undaria_pinnatifida_min.png
+Time since start: 86.136
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\UNDA\Maxent outputs 4.1 GUI\unda.max.final\plots\undaria_pinnatifida_max.png
+Time since start: 89.239
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\UNDA\Maxent outputs 4.1 GUI\unda.max.final\plots\undaria_pinnatifida_median.png
+Time since start: 92.252
+undaria_pinnatifida average response curves
+Ending

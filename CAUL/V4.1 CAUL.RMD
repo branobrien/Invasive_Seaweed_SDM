@@ -1,0 +1,1061 @@
+---
+title: "V4 CAUL"
+author: "Brandon O'Brien"
+date: "1/19/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_knit$set(root.dir = '~/Documents/Algae Lab UNH/Species Distribution Modeling/V4 - Jan 2022')
+```
+
+```{r library}
+
+setwd("~/Documents/Algae Lab UNH/Species Distribution Modeling/V4 - Jan 2022")
+
+library(ggplot2)
+library(ggspatial)
+library(sf)
+library(rnaturalearth)
+library(rnaturalearthdata)
+library(raster)
+library(dismo)
+library(rJava)
+library(usdm)
+library(terra)
+
+
+```
+
+```{r useful extents and coordinates}
+
+## for ggplots ##
+
+#Gulf of Mexico
+# coord_sf(xlim = c(-102.15, -74.12), ylim = c(7.65, 33.97))
+
+# New England and GOM
+# coord_sf(xlim = c(-75.0, -60.0), ylim=c(39.0, 46.0))
+
+# Europe
+# coord_sf(xlim = c(-15.0, 35.0), ylim=c(30.0,65.0))
+
+# West Coast 
+# coord_sf(xlim = c(-144.0,-110.0), ylim=c(29.0,58.0))
+
+# Asia
+# coord_sf(xlim = c(120.0,150.0), ylim=c(29.0,50.0))
+
+# West Coast 
+# xlim = c(-144.0,-110.0), ylim=c(29.0,58.0) 
+```
+
+
+```{r occur}
+
+# note - maxent function won't take the raw occurrence data, it wants a dataframe with only 2 columns.
+# Also, needs to be in Long, Latt order or else it messes up.
+
+occur <- read.csv('CAUL/CAUL Occur/CAUL Occur R.csv', header=T)
+head(occur)
+occur <- as.data.frame(occur)
+
+plot(occur)
+```
+
+```{r occur maps}
+world <- ne_countries(scale='medium', returnclass='sf')
+
+
+theme_map <- theme(panel.background = element_rect(color = 'black', fill = 'lightblue'),
+                   panel.border = element_rect(color = 'black', fill=NA))
+
+ggplot(data=world) +
+  geom_sf(color='black', fill='gray') + 
+  geom_point(data=occur, aes(x=longitude, y=latitude), 
+             color='red', fill='red', size=1)+
+  labs(caption = 'Figure 1: Global occurrence records of Caulerpa taxifolia.',
+      x = '', y = '') +
+  coord_sf(xlim = c(-180.0,180.0), ylim=c(-65.0,80.0), expand = F) +
+  theme_map
+
+
+
+
+
+```
+
+
+```{r envi data present-day}
+
+
+
+# bringing in all environmental raster layers and getting them  trimmed and set up
+# building raster'bricks' which are just collections of layers in same extent
+# bricks are like stacks but apparently faster to work with.
+
+
+## all envi layers
+## these have been trimmed down in arcGIS to only the 100km belt along the coastlines
+
+SST.max <- raster('Environmental Data/Clipped_100km/e08.SST.max.asc')
+SST.min <- raster('Environmental Data/Clipped_100km/e09.SST.min.asc')
+SST.ran <- raster('Environmental Data/Clipped_100km/e10.SST.ra.asc')
+SAL.men <- raster('Environmental Data/Clipped_100km/e07.SAL.me.asc')
+NIT.max <- raster('Environmental Data/Clipped_100km/e03.NIT.max.asc')
+NIT.min <- raster('Environmental Data/Clipped_100km/e04.NIT.min.asc')
+PHO.max <- raster('Environmental Data/Clipped_100km/e05.PHO.max.asc')
+PHO.min <- raster('Environmental Data/Clipped_100km/e06.PHO.min.asc')
+DA.max <- raster('Environmental Data/Clipped_100km/e01.DA.max.asc')
+DA.min <- raster('Environmental Data/Clipped_100km/e02.DA.min.asc')
+
+
+
+## NOtes
+# Brezo had a lot to say about using DA as a variable - maybe I should just remove it from the start?
+# Also said it may be worth it to include all the temp vars, max and min
+# even if somewhat correlated
+
+# need to trim off edges to make sure extents are all the same
+
+ext.global.trim <- extent(c(-180,180,-65,65))
+
+SST.max <- crop(SST.max, ext.global.trim)
+SST.min <- crop(SST.min, ext.global.trim)
+SST.ran <- crop(SST.ran, ext.global.trim)
+SAL.men <- crop(SAL.men, ext.global.trim)
+NIT.max <- crop(NIT.max, ext.global.trim)
+NIT.min <- crop(NIT.min, ext.global.trim)
+PHO.max <- crop(PHO.max, ext.global.trim)
+PHO.min <- crop(PHO.min, ext.global.trim)
+DA.max <- crop(DA.max, ext.global.trim)
+DA.min <- crop(DA.min, ext.global.trim)
+
+#not using DA on Brezo's suggestions
+
+envi.global <- stack(c(SST.max,
+                       SST.min,
+                       SST.ran,
+                       SAL.men,
+                       NIT.max,
+                       NIT.min,
+                       PHO.max,
+                       PHO.min))
+                       # DA.max,
+                       # DA.min))
+
+
+```
+
+```{r collinearity tests}
+
+## this entire section is #d out since I don't need to rerun it during knitting (analysis done though)
+
+# now we need to cut down this stack of envi varibales so that none are strongly autocorrelated with eachother
+
+# two ways to look at this: pairwise comps or VIF scores (see Guisan)
+
+
+# pairs(envi.global)  #this takes a while... don't need to run every time
+# this does simple pairwise comparisons
+# if we want to remove pairs with correlations of 0.85 or higher:
+#  SST.max&SST.min, PHOmax & Phomin, and DAmax &DAmin all show strong autocorrelations
+# there is no agreed upon limit for how correlated is too correlated
+# martinez used 0.85, many use 0.8 or 0.7
+
+
+#Pairs doesn't take into account complex multi-colinearity
+# but VIF does 
+# VIF = Variance Inflation Factor
+# values of 5-10 best, up to 20 ok, above 20=bad, strong multicorelation
+
+# vif() just returns the VIF values for each var, again want ideally less than 10 (or I'd take 20)
+
+# vif(envi.global)
+
+# results of prev line:
+# > vif(envi.global)
+# Variables        VIF
+# # 1 e08.SST.max 358.907176
+# # 2 e09.SST.min 576.962232
+# # 3  e10.SST.ra 119.018796
+# # 4  e07.SAL.me   1.347877
+# # 5 e03.NIT.max   5.449913
+# # 6 e04.NIT.min   8.015814
+# # 7 e05.PHO.max  10.254266
+# 8 e06.PHO.min  12.291757
+
+
+# temp is the worst offender
+
+
+
+# vifstep will go through and stepwise remove problem vars until all VIFs are below 10
+# 
+# vifstep(envi.global)
+# 
+# 
+# #results from global vifstep:
+# > vifstep(envi.global)
+# 2 variables from the 8 input variables have collinearity problem: 
+#   
+#   e09.SST.min e06.PHO.min 
+# 
+# After excluding the collinear variables, the linear correlation coefficients ranges between: 
+#   min correlation ( e05.PHO.max ~ e07.SAL.me ):  -0.0499544 
+# max correlation ( e04.NIT.min ~ e03.NIT.max ):  0.8052716 
+# 
+# VIFs of the remained variables  
+#   Variables      VIF
+# 1 e08.SST.max 2.462531
+# 2  e10.SST.ra 1.513469
+# 3  e07.SAL.me 1.349815
+# 4 e03.NIT.max 3.492575
+# 5 e04.NIT.min 3.566174
+# 6 e05.PHO.max 3.138695
+
+#VIFstep shows SSTmin and Phomin having the worst correlations
+
+
+# VIFstep suggests removing SSTmin, but based on Brezo's feedback I'm going to take out range instead, leaving in min. See what that does.
+
+# for now leaving in Pho Min
+
+
+# envi.global.cut1 <- stack(c(SST.max,
+#                        SST.min,
+#                        # SST.ran,
+#                        SAL.men,
+#                        NIT.max,
+#                        NIT.min,
+#                        PHO.max,
+#                        PHO.min))
+#                        # DA.max,
+#                        # DA.min))
+# 
+
+
+# see if that worked to bring down the collinearity scores:
+
+# vif(envi.global.cut1)
+
+# > vif(envi.global.cut1)
+# Variables       VIF
+# 1 e08.SST.max  8.282085
+# 2 e09.SST.min  7.097035
+# 3  e07.SAL.me  1.283647
+# 4 e03.NIT.max  4.369547
+# 5 e04.NIT.min  7.592299
+# 6 e05.PHO.max  9.266834
+# 7 e06.PHO.min 12.037730
+
+
+
+# ok this actually looks really good
+# without SST range, the VIFs for everything else drop down a lot
+# PHO min is still above 10, but very close (some authors say 20, so this is fine)
+# vifstep still recommends removing pho.min, but that's ok. Keeping it for now. 
+
+# using these 7 variables for the first iteration of the models
+```
+
+
+
+```{r model present}
+
+#choosing 7 starting variables based on VIF autocorrelation tests
+# see above
+
+
+##### model 1
+
+envi.global.1 <- stack(c(SST.max,
+                       SST.min,
+                       # SST.ran,
+                       SAL.men,
+                       NIT.max,
+                       NIT.min,
+                       PHO.max,
+                       PHO.min))
+                       # DA.max,
+                       # DA.min))
+
+caul.max.1 <- maxent(x = envi.global.1,
+                         p = occur,
+                         path="CAUL/Maxent Outputs/caul.max.1", 
+                         args=c('linear=TRUE',        # just linear and quadratic features, 
+                                'quadratic=TRUE',     # others are too complicated and lead to overfitting
+                                'product=FALSE', 
+                                'threshold=FALSE', 
+                                'hinge=FALSE',      #keep hinge off, response curves look terrible
+                                'randomtestpoints=30',  #like to have 70% training and 30% testing
+                                'responsecurves=TRUE',
+                                'jackknife=TRUE'))
+# this is pretty slow becasue it's such a large area.
+
+
+
+# test AUC: 0.813
+# lowest % contributions: PHO.min (0) and NIT.min (0)
+# remove: PHO.min & NIT.min
+
+
+##### model 2
+
+# do the same thing again but cut out PHO.min and NIT.min
+
+envi.global.2 <- stack(c(SST.max,
+                       SST.min,
+                       # SST.ran,
+                       SAL.men,
+                       NIT.max,
+                       # NIT.min,
+                       PHO.max))
+                       # PHO.min))
+                       # DA.max,
+                       # DA.min))
+
+caul.max.2 <- maxent(x = envi.global.2,
+                         p = occur,
+                         path="CAUL/Maxent Outputs/caul.max.2", 
+                         args=c('linear=TRUE',       
+                                'quadratic=TRUE',   
+                                'product=FALSE', 
+                                'threshold=FALSE', 
+                                'hinge=FALSE',      
+                                'randomtestpoints=30',  
+                                'responsecurves=TRUE',
+                                'jackknife=TRUE'))
+
+
+##### model 3
+
+# do the same thing again but cut out SST.max and SAL.men
+
+envi.global.3 <- stack(c(#SST.max,
+                       SST.min,
+                       # SST.ran,
+                       # SAL.men,
+                       NIT.max,
+                       # NIT.min,
+                       PHO.max))
+                       # PHO.min))
+                       # DA.max,
+                       # DA.min))
+
+caul.max.3 <- maxent(x = envi.global.3,
+                         p = occur,
+                         path="CAUL/Maxent Outputs/caul.max.3", 
+                         args=c('linear=TRUE',       
+                                'quadratic=TRUE',   
+                                'product=FALSE', 
+                                'threshold=FALSE', 
+                                'hinge=FALSE',      
+                                'randomtestpoints=30',  
+                                'responsecurves=TRUE',
+                                'jackknife=TRUE'))
+
+
+#### Model 4
+
+# testing with SST.Max back into model
+
+envi.global.4 <- stack(c(SST.max,
+                       SST.min,
+                       # SST.ran,
+                       # SAL.men,
+                       NIT.max,
+                       # NIT.min,
+                       PHO.max))
+                       # PHO.min))
+                       # DA.max,
+                       # DA.min))
+
+caul.max.4 <- maxent(x = envi.global.4,
+                         p = occur,
+                         path="CAUL/Maxent Outputs/caul.max.4", 
+                         args=c('linear=TRUE',       
+                                'quadratic=TRUE',   
+                                'product=FALSE', 
+                                'threshold=FALSE', 
+                                'hinge=FALSE',      
+                                'randomtestpoints=30',  
+                                'responsecurves=TRUE',
+                                'jackknife=TRUE'))
+
+
+
+
+
+
+##### model FINAL
+
+# Just a copy-paste of mode 4, but want the better name
+
+# putting SSTmax back in - low percent contribution but high permutation importance
+
+
+envi.global.final <- stack(c(SST.max,
+                       SST.min,
+                       # SST.ran,
+                       # SAL.men,
+                       NIT.max,
+                       # NIT.min,
+                       PHO.max))
+                       # PHO.min))
+                       # DA.max,
+                       # DA.min))
+
+caul.max.final <- maxent(x = envi.global.final,
+                         p = occur,
+                         path="CAUL/Maxent Outputs/caul.max.final", 
+                         args=c('linear=TRUE',       
+                                'quadratic=TRUE',   
+                                'product=FALSE', 
+                                'threshold=FALSE', 
+                                'hinge=FALSE',      
+                                'randomtestpoints=30',  
+                                'responsecurves=TRUE',
+                                'jackknife=TRUE'))
+
+
+```
+
+
+```{r project present}
+
+#project model onto global scale
+predict.caul.global <- predict(caul.max.final, envi.global.final)
+
+ggplot() +
+  layer_spatial(predict.caul.global)
+
+#save as raster for plotting in arcmap
+writeRaster(predict.caul.global, 
+            filename = 'CAUL/predict.caul.global.full.asc',
+            format='ascii')
+
+## cut raster based on threshold value
+## threshold: equal test sensitivity and specificity = 0.523 ##
+
+
+predict.caul.thresh <- predict.caul.global
+predict.caul.thresh[predict.caul.thresh < 0.523] <- NA # this value changes by species
+
+ggplot() +
+  layer_spatial(predict.caul.thresh)
+
+writeRaster(predict.caul.thresh,
+            filename = 'CAUL/predict.caul.thresh.asc',
+            formatt= 'ascii')
+
+
+
+```
+
+
+
+```{r arcmap notes 1}
+
+# happening over in ArcMap - just want to get everything written down in one place
+
+# import occurrence records (same file as used here)
+# import global predicted suitability raster (predict.____.global.full)
+# import trimmed suitability to threshold raster (predict.____.thresh) This is H (highly suitable area)
+
+
+#### need to make raster for currently occupied areas
+## ( i did do this previously, but they were messy and I've changed some points - redoing)
+# use buffer tool on occurrence points
+# 100km, full, round ends, planar
+# 
+# use blank int poly shape that represents full global extent of data to clip occurrences
+# remove areas outside test rasters / on land from occur raster
+# This is O, occupied area
+# 
+
+#### Next, want to create shape for Vulnerable area V
+# H - O = V
+# but need to make stuff into polygons first (can't trim from orig asc rasters)
+
+# To get polygon from orig raster:
+## Use INT tool on orig asc (Toolbox Spatial Analysis - Math)
+## Use Raster to Polygon tool (toolbox Conversions - from raster)
+# now you have a polygon of the original shape, with no values.
+# ready for trimming
+
+
+# Make polygons for H and O
+# use Erase tool (analysis - overlay) 
+## Input = H; Erase = O
+
+# now you have a V polygon
+
+
+### Great, now just need to calculate areas of all of these polygons
+### for now, just going to do some written descriptions
+
+
+
+
+
+```
+
+
+```{r CC envi data}
+# need to bring in environmental layers for SST max and min under RCP45 scenario
+
+# read in files
+SST.max.RCP45 <- raster('Environmental Data/RCP45/e08.SST.max.asc')
+SST.min.RCP45 <- raster('Environmental Data/RCP45/e09.SST.min.asc')
+
+# trim to same extents as other vars
+SST.max.RCP45 <- crop(SST.max.RCP45, ext.global.trim)
+SST.min.RCP45 <- crop(SST.min.RCP45, ext.global.trim)
+
+
+```
+
+
+```{r CC models}
+
+# models only for RCP45 scenarios
+# take final model, predict onto raster stack representing future conditions
+# future conditions stack includes future temps, but present other vars
+
+## adjust the variables here to reflect vars remaining in full Final models above
+
+envi.global.cc <- stack(c(SST.max.RCP45,
+                       SST.min.RCP45,
+                       # SST.ran,
+                       # SAL.men,
+                       NIT.max,
+                       # NIT.min,
+                       PHO.max))
+                       # PHO.min))
+                       # DA.max,
+                       # DA.min))
+
+## predict final model onto future stack
+
+predict.caul.cc <- predict(caul.max.final, envi.global.cc)
+
+
+ggplot() +
+  layer_spatial(predict.caul.cc)
+
+#save as raster for plotting in arcmap
+writeRaster(predict.caul.cc, 
+            filename = 'CAUL/predict.caul.cc.full.asc',
+            format='ascii')
+
+## cut raster based on threshold value
+## threshold: equal test sensitivity and specificity = 0.523 ##
+
+
+predict.caul.thresh.cc <- predict.caul.cc
+predict.caul.thresh.cc[predict.caul.thresh.cc < 0.523] <- NA # this value changes by species
+
+ggplot() +
+  layer_spatial(predict.caul.thresh.cc)
+
+writeRaster(predict.caul.thresh.cc,
+            filename = 'CAUL/predict.caul.thresh.cc.asc',
+            formatt= 'ascii')
+```
+
+
+```{r ArcMap notes 2}
+
+# next steps are again in ArcMap
+
+# bring in predict.species.thresh.cc raster (showing high suitable habitat in future conditition)
+# convert that raster to polygon (orig -> int -> polygon)
+# Name polygon: Species High Suit CC (H-CC)
+
+# next, want to make polygons showing gains and losses
+# H-CC relative to H original (NOT V - want habitat in general, not just vulnerable area)
+
+# Using Erase Tool
+# G = Gain = H-CC - H  (color green)
+# L = Loss = H - H-CC  (color purple)
+
+
+
+### finished map
+# has the following:
+
+# Occurrence Points (dots)
+# O = Occupied = buffer around points = color light blue
+# H = Highly Suitable = value > threshold = color Yellow
+# V = Vulnerable = H - O = Color Red
+# H-CC = Highly Suitable under Future Climate Change conditions = color Pink
+# G = Gain = H-CC - H = color Green
+# L = Loss = H - H-CC = color Purple
+
+
+# (Gain and loss are relative to H not V since we want the total habitat change, not just vulnerable areas)
+
+
+
+```
+
+
+```{r ArcMap notes 3}
+# how to calculate areas of polygons
+# not biologically really meaningful, but the relative numbers are important
+
+# for EACH polygon:
+
+# open attribute table
+# Add Field - name it area
+# right click on area field, Calculate Geometry
+# choose area, set units to km2
+# once calculated, right click on area field, Statistics
+# stats output includes SUM - copy paste this into table or wherever you need it
+
+
+```
+
+
+
+```{r maps}
+
+# can I bring in layers from arcmap to draw the maps here using ggmap? easier to replicate, set extents, etc.
+
+theme_map <- theme(panel.background = element_rect(color = 'black', fill = 'lightblue'),
+                   panel.border = element_rect(color = 'black', fill=NA))
+
+## Occurrence Map (from earlier)
+
+
+ggplot(data=world) +
+  geom_sf(color='black', fill='gray') + 
+  geom_point(data=occur, aes(x=longitude, y=latitude), 
+             color='red', fill='red', size=1)+
+  labs(caption = 'Figure 1: Global occurrence records of Caulerpa taxifolia.',
+      x = '', y = '') +
+  coord_sf(xlim = c(-180.0,180.0), ylim=c(-65.0,80.0), expand = F) +
+  theme_map
+
+
+
+## HOV Map
+# (want to show currently occupied in black and vulnerable in red)
+
+caul.occur.shp <- read_sf("ArcMap/CAUL Arc/R Caul/CAUL_Occur_R.shp")
+caul.vuln.shp <- read_sf("ArcMap/CAUL Arc/R Caul/CAUL_Vuln_R.shp")
+
+
+ggplot(data = world) +
+  geom_sf(color='black', fill='gray') +
+  geom_sf(data = caul.occur.shp, color = 'black', fill = 'black') +
+  geom_sf(data = caul.vuln.shp, color = 'black', fill = 'red') +
+  coord_sf(xlim = c(-180.0,180.0), ylim=c(-65.0,65.0), expand = F) +     #global extent
+  # coord_sf(xlim = c(-102.15, -74.12), ylim = c(7.65, 33.97), expand = F) +  #Gulf of Mexico extent
+    theme_map
+
+
+## Future predictions map 
+## unchanged vulnerable area orange, 
+## gain in green
+## loss in purple
+
+caul.high.cc.shp <- read_sf("ArcMap/CAUL Arc/R Caul/CAUL.H.CC.shp")
+caul.gain.shp <- read_sf("ArcMap/CAUL Arc/R Caul/CAUL_Gain.shp")
+caul.loss.shp <-  read_sf("ArcMap/CAUL Arc/R Caul/CAUL_Loss.shp")
+
+
+
+ggplot(data = world) +
+  geom_sf(color='black', fill='gray') +
+  geom_sf(data = caul.high.cc.shp, color = 'black', fill = 'orange') +
+  geom_sf(data = caul.gain.shp, color = 'black', fill = 'green') +
+  geom_sf(data = caul.loss.shp, color = 'black', fill = 'purple') + 
+ # coord_sf(xlim = c(-180.0,180.0), ylim=c(-65.0,65.0), expand = F) +     #global extent
+ coord_sf(xlim = c(-120, -74.12), ylim = c(7.65, 33.97), expand = F) +  #Gulf of Mexico extent
+    theme_map
+
+
+
+
+
+
+
+```
+
+```{r 4.1 opener}
+## Making some changes based on feedback from Brezo April 2022
+## mainly, only going to use variables with PC or PI of >20%
+## so, need to redo the models (again)
+
+
+```
+
+```{r model present 4.1}
+
+# redoing a few things from Brezo's comments, April 2022
+# basically, using different criteria to choose variables for final model 
+# Percent Contribution or Permutation Importance need to be at least 20% (and/or response curves must make sense)
+
+# doing this into new 4.1 folder
+
+
+
+
+##### model 1
+# this model is the same as previously, first iteration with all variables
+
+envi.global.1 <- stack(c(SST.max,
+                       SST.min,
+                       # SST.ran,
+                       SAL.men,
+                       NIT.max,
+                       NIT.min,
+                       PHO.max,
+                       PHO.min))
+                       # DA.max,
+                       # DA.min))
+
+caul.max.1 <- maxent(x = envi.global.1,
+                         p = occur,
+                         path="CAUL/Maxent Outputs 4.1/caul.max.1", 
+                         args=c('linear=TRUE',        # just linear and quadratic features, 
+                                'quadratic=TRUE',     # others are too complicated and lead to overfitting
+                                'product=FALSE', 
+                                'threshold=FALSE', 
+                                'hinge=FALSE',      #keep hinge off, response curves look terrible
+                                'randomtestpoints=30',  #like to have 70% training and 30% testing
+                                'responsecurves=TRUE',
+                                'jackknife=TRUE'))
+# this is pretty slow because it's such a large area.
+
+
+# there's a bit of stochasticity in the models, so every time you run it the values are slightly different. 
+# for variables on the cusp of that 20% cutoff, sometimes they're above and sometimes below.
+# we could run it 10 times and take the average?
+
+#running "full" model 10 times:
+
+caul.max.2 <- maxent(x = envi.global.1,
+                         p = occur,
+                         path="CAUL/Maxent Outputs 4.1/caul.max.2", 
+                         args=c('linear=TRUE',        # just linear and quadratic features, 
+                                'quadratic=TRUE',     # others are too complicated and lead to overfitting
+                                'product=FALSE', 
+                                'threshold=FALSE', 
+                                'hinge=FALSE',      #keep hinge off, response curves look terrible
+                                'randomtestpoints=30',  #like to have 70% training and 30% testing
+                                'responsecurves=TRUE',
+                                'jackknife=TRUE'))
+
+caul.max.3 <- maxent(x = envi.global.1,
+                         p = occur,
+                         path="CAUL/Maxent Outputs 4.1/caul.max.3", 
+                         args=c('linear=TRUE',        # just linear and quadratic features, 
+                                'quadratic=TRUE',     # others are too complicated and lead to overfitting
+                                'product=FALSE', 
+                                'threshold=FALSE', 
+                                'hinge=FALSE',      #keep hinge off, response curves look terrible
+                                'randomtestpoints=30',  #like to have 70% training and 30% testing
+                                'responsecurves=TRUE',
+                                'jackknife=TRUE'))
+
+caul.max.4 <- maxent(x = envi.global.1,
+                         p = occur,
+                         path="CAUL/Maxent Outputs 4.1/caul.max.4", 
+                         args=c('linear=TRUE',        # just linear and quadratic features, 
+                                'quadratic=TRUE',     # others are too complicated and lead to overfitting
+                                'product=FALSE', 
+                                'threshold=FALSE', 
+                                'hinge=FALSE',      #keep hinge off, response curves look terrible
+                                'randomtestpoints=30',  #like to have 70% training and 30% testing
+                                'responsecurves=TRUE',
+                                'jackknife=TRUE'))
+
+caul.max.5 <- maxent(x = envi.global.1,
+                         p = occur,
+                         path="CAUL/Maxent Outputs 4.1/caul.max.5", 
+                         args=c('linear=TRUE',        # just linear and quadratic features, 
+                                'quadratic=TRUE',     # others are too complicated and lead to overfitting
+                                'product=FALSE', 
+                                'threshold=FALSE', 
+                                'hinge=FALSE',      #keep hinge off, response curves look terrible
+                                'randomtestpoints=30',  #like to have 70% training and 30% testing
+                                'responsecurves=TRUE',
+                                'jackknife=TRUE'))
+
+caul.max.6 <- maxent(x = envi.global.1,
+                         p = occur,
+                         path="CAUL/Maxent Outputs 4.1/caul.max.6", 
+                         args=c('linear=TRUE',        # just linear and quadratic features, 
+                                'quadratic=TRUE',     # others are too complicated and lead to overfitting
+                                'product=FALSE', 
+                                'threshold=FALSE', 
+                                'hinge=FALSE',      #keep hinge off, response curves look terrible
+                                'randomtestpoints=30',  #like to have 70% training and 30% testing
+                                'responsecurves=TRUE',
+                                'jackknife=TRUE'))
+
+caul.max.7 <- maxent(x = envi.global.1,
+                         p = occur,
+                         path="CAUL/Maxent Outputs 4.1/caul.max.7", 
+                         args=c('linear=TRUE',        # just linear and quadratic features, 
+                                'quadratic=TRUE',     # others are too complicated and lead to overfitting
+                                'product=FALSE', 
+                                'threshold=FALSE', 
+                                'hinge=FALSE',      #keep hinge off, response curves look terrible
+                                'randomtestpoints=30',  #like to have 70% training and 30% testing
+                                'responsecurves=TRUE',
+                                'jackknife=TRUE'))
+
+caul.max.8 <- maxent(x = envi.global.1,
+                         p = occur,
+                         path="CAUL/Maxent Outputs 4.1/caul.max.8", 
+                         args=c('linear=TRUE',        # just linear and quadratic features, 
+                                'quadratic=TRUE',     # others are too complicated and lead to overfitting
+                                'product=FALSE', 
+                                'threshold=FALSE', 
+                                'hinge=FALSE',      #keep hinge off, response curves look terrible
+                                'randomtestpoints=30',  #like to have 70% training and 30% testing
+                                'responsecurves=TRUE',
+                                'jackknife=TRUE'))
+
+caul.max.9 <- maxent(x = envi.global.1,
+                         p = occur,
+                         path="CAUL/Maxent Outputs 4.1/caul.max.9", 
+                         args=c('linear=TRUE',        # just linear and quadratic features, 
+                                'quadratic=TRUE',     # others are too complicated and lead to overfitting
+                                'product=FALSE', 
+                                'threshold=FALSE', 
+                                'hinge=FALSE',      #keep hinge off, response curves look terrible
+                                'randomtestpoints=30',  #like to have 70% training and 30% testing
+                                'responsecurves=TRUE',
+                                'jackknife=TRUE'))
+
+caul.max.10 <- maxent(x = envi.global.1,
+                         p = occur,
+                         path="CAUL/Maxent Outputs 4.1/caul.max.10", 
+                         args=c('linear=TRUE',        # just linear and quadratic features, 
+                                'quadratic=TRUE',     # others are too complicated and lead to overfitting
+                                'product=FALSE', 
+                                'threshold=FALSE', 
+                                'hinge=FALSE',      #keep hinge off, response curves look terrible
+                                'randomtestpoints=30',  #like to have 70% training and 30% testing
+                                'responsecurves=TRUE',
+                                'jackknife=TRUE'))
+
+
+
+#################################
+### Final Models
+
+### Remove variables with <20% percent contribution OR permutation importance
+
+
+envi.global.final <- stack(c(#SST.max,
+                       SST.min,
+                       # SST.ran,
+                       #SAL.men,
+                       NIT.max,
+                       #NIT.min,
+                       PHO.max))
+                       #PHO.min))
+                       # DA.max,
+                       # DA.min))
+
+
+caul.max.final.1 <- maxent(x = envi.global.final,
+                         p = occur,
+                         path="CAUL/Maxent Outputs 4.1/caul.max.final.1", 
+                         args=c('linear=TRUE',       
+                                'quadratic=TRUE',     
+                                'product=FALSE', 
+                                'threshold=FALSE', 
+                                'hinge=FALSE',      
+                                'randomtestpoints=30',  
+                                'responsecurves=TRUE',
+                                'jackknife=TRUE'))
+
+
+caul.max.final.2 <- maxent(x = envi.global.final,
+                         p = occur,
+                         path="CAUL/Maxent Outputs 4.1/caul.max.final.2", 
+                         args=c('linear=TRUE',       
+                                'quadratic=TRUE',     
+                                'product=FALSE', 
+                                'threshold=FALSE', 
+                                'hinge=FALSE',      
+                                'randomtestpoints=30',  
+                                'responsecurves=TRUE',
+                                'jackknife=TRUE'))
+
+
+
+
+
+
+
+
+
+
+
+```
+
+```{r 4.1 notes 1}
+
+### ACtually, not using anything from the above chunk
+# decided that I needed to use K-fold cross-valuidation
+## which I can't figure out how to do in R
+## so I did it in the desktop GUI instead
+## have all the same outputs ready to go now
+## back to messing with raster layers here in R and then in arc map
+
+
+```
+
+```{r 4.1 rasters present}
+
+## following from notes above, I did the k-fold cross validation in the GUI on desktop
+## now to continue with rest of the analysis
+## GUI created the .asc files for me, just need to import those into here
+
+# need to b ring in the projected layer from maxent output
+# cut it down based on the "highly suitable" threshold "equal test sens spec"
+# bring that back into Arcmap and calculate areas
+
+# bring in layer from maxent output
+# 
+# the k-fold runs k=5 models, then computes avg, max, min, etc for them
+# we want the average value raster
+
+
+predict.caul.max <- raster("CAUL/Maxent Outputs 4.1 GUI/caul.max.final/caulerpa_taxifolia_avg.asc")
+
+plot(predict.caul.max)
+
+
+#ok, got that, next need to cut the layer based on threshold found via maxent
+# equa test sensitivity and specifity = 0.5592
+
+predict.caul.thresh <- predict.caul.max
+predict.caul.thresh[predict.caul.thresh < 0.5592] <- NA # threshold value, change to proper number (above)
+
+ggplot() +
+  layer_spatial(predict.caul.thresh)
+
+writeRaster(predict.caul.thresh,
+            filename = 'ArcMap/CAUL Arc 4.1/predict.caul.thresh.asc',
+            format = 'ascii', 
+            overwrite = T)
+
+
+
+
+# happening over in ArcMap - just want to get everything written down in one place
+
+
+# import trimmed suitability to threshold raster (predict.____.thresh) This is H (highly suitable area)
+# to import properly, need to change projection from undefined to WGS84 - right click file from the catalog window; choose properties; edit Spatial Reference to WGS 84
+
+
+
+
+#### Next, want to create shape for Vulnerable area V
+# H - O = V
+# but need to make stuff into polygons first (can't trim from orig asc rasters)
+
+# To get polygon from orig raster:
+## Use INT tool on orig asc (Toolbox Spatial Analysis - Math)
+## Use Raster to Polygon tool (toolbox Conversions - from raster)
+# now you have a polygon of the original shape, with no values.
+# ready for trimming
+
+
+# Make polygons for H and O
+# use Erase tool (analysis - overlay) 
+## Input = H; Erase = O
+
+# now you have a V polygon
+
+
+### Great, now just need to calculate areas of all of these polygons
+## We'll calc areas later, after we have G and L polygons as well
+
+
+```
+
+```{r 4.1 future CC}
+
+## again, doing this all in the GUI to keep it now consistent with the k-fold from earlier
+
+## use future temp layers, but present other layers
+
+## in GUI, for "projection layers", choose folder Envi Data - RCP45
+## has all the layers appropriately renamed to match the present layers
+## running again with k-fold crossvalidation, k=5
+## and linear and product features only
+
+## next, read in predicted raster avg values:
+
+
+predict.caul.rcp45 <- raster("CAUL/Maxent Outputs 4.1 GUI/caul.max.future/Caulerpa_taxifolia_RCP45_avg.asc")
+
+
+
+## cut to same threshold as before (equal test sens & spec)
+## thresh = 0.5592
+
+predict.caul.rcp45.thresh <- predict.caul.rcp45
+predict.caul.rcp45.thresh[predict.caul.rcp45.thresh < 0.5592] <- NA 
+
+writeRaster(predict.caul.rcp45.thresh,
+            filename = 'ArcMap/CAUL Arc 4.1/predict.caul.rcp45.thresh.asc',
+            format = 'ascii', 
+            overwrite = T)
+
+
+### back over in Arcmap
+## import this rcp45.thresh layer - represents highly suitable under future CC projections
+## convert to polygon using same steps as above
+
+## create Gain and Loss polygons
+# H-CC relative to H original (NOT V - want habitat in general, not just vulnerable area)
+
+# Using Erase Tool
+# G = Gain = H-CC - H  (color green)
+# L = Loss = H - H-CC  (color purple)
+
+
+```
+
+
+```{r 4.1 Areas}
+
+
+## now have all of our polygons in ArcMap
+
+# Occurrence Points (dots)
+# O = Occupied = buffer around points = color black
+# H = Highly Suitable = value > threshold = color Yellow
+# V = Vulnerable = H - O = Color Red
+# H-CC = Highly Suitable under Future Climate Change conditions = color Orange
+# G = Gain = H-CC - H = color Green
+# L = Loss = H - H-CC = color Purple
+
+
+## just need to calculate the AREAs for each of these polygons
+
+# for EACH polygon:
+
+# open attribute table
+# Add Field - name it area
+# right click on area field, Calculate Geometry
+# choose area, set units to km2
+# once calculated, right click on area field, Statistics
+# stats output includes SUM - copy paste this into table or wherever you need it
+
+
+
+```

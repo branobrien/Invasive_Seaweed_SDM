@@ -1,0 +1,1881 @@
+Fri May 06 12:57:47 EDT 2022
+MaxEnt version 3.4.1
+Checking header of C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\Environmental Data\Clipped_100km\e03.NIT.max.asc
+Checking header of C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\Environmental Data\Clipped_100km\e04.NIT.min.asc
+Checking header of C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\Environmental Data\Clipped_100km\e05.PHO.max.asc
+Checking header of C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\Environmental Data\Clipped_100km\e06.PHO.min.asc
+Checking header of C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\Environmental Data\Clipped_100km\e07.SAL.me.asc
+Checking header of C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\Environmental Data\Clipped_100km\e08.SST.max.asc
+Checking header of C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\Environmental Data\Clipped_100km\e09.SST.min.asc
+Reading samples from CAUL Occur GUI.csv
+Read samples: max memory 1886912512, total allocated 183500800, free 17381088, used 166119712, increment 24185320
+Extractor: max memory 1886912512, total allocated 183500800, free 13179416, used 170321384, increment 4201672
+Extracting random background and sample data
+Warning: Sample at 15.09230423, 38.02360535 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 15.09230423, 38.02360535 which has no environmental data
+Warning: Sample at 33.603025, 28.213458 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 33.603025, 28.213458 which has no environmental data
+Warning: Sample at -83.5353, 26.7636 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -83.5353, 26.7636 which has no environmental data
+Warning: Sample at -170.6753998, 25.4612999 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -170.6753998, 25.4612999 which has no environmental data
+Warning: Sample at -170.683, 25.4615 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -170.683, 25.4615 which has no environmental data
+Warning: Sample at -170.643219, 25.47111702 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -170.643219, 25.47111702 which has no environmental data
+Warning: Sample at -170.5674744, 25.37856674 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -170.5674744, 25.37856674 which has no environmental data
+Warning: Sample at 66.80000305, 24.85000038 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 66.80000305, 24.85000038 which has no environmental data
+Warning: Sample at 67.03333, 24.85 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 67.03333, 24.85 which has no environmental data
+Warning: Sample at 67.03333282, 24.85000038 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 67.03333282, 24.85000038 which has no environmental data
+Warning: Sample at -83.8525, 24.7903 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -83.8525, 24.7903 which has no environmental data
+Warning: Sample at -83.1336, 24.7961 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -83.1336, 24.7961 which has no environmental data
+Warning: Sample at -166.3319397, 23.83537674 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -166.3319397, 23.83537674 which has no environmental data
+Warning: Sample at -166.2668304, 23.83646774 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -166.2668304, 23.83646774 which has no environmental data
+Warning: Sample at -166.3269806, 23.84688377 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -166.3269806, 23.84688377 which has no environmental data
+Warning: Sample at -166.2972717, 23.84955025 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -166.2972717, 23.84955025 which has no environmental data
+Warning: Sample at -166.329, 23.8502 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -166.329, 23.8502 which has no environmental data
+Warning: Sample at -166.323, 23.8611 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -166.323, 23.8611 which has no environmental data
+Warning: Sample at -166.3227997, 23.86111259 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -166.3227997, 23.86111259 which has no environmental data
+Warning: Sample at -166.2554016, 23.86590004 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -166.2554016, 23.86590004 which has no environmental data
+Warning: Sample at -166.305, 23.8673 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -166.305, 23.8673 which has no environmental data
+Warning: Sample at -166.299942, 23.87448692 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -166.299942, 23.87448692 which has no environmental data
+Warning: Sample at -166.2731323, 23.88012314 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -166.2731323, 23.88012314 which has no environmental data
+Warning: Sample at -166.173, 23.8599 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -166.173, 23.8599 which has no environmental data
+Warning: Sample at -166.201, 23.866 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -166.201, 23.866 which has no environmental data
+Warning: Sample at -166.261, 23.7685 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -166.261, 23.7685 which has no environmental data
+Warning: Sample at -166.261, 23.7695 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -166.261, 23.7695 which has no environmental data
+Warning: Sample at -166.3248291, 23.81972122 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -166.3248291, 23.81972122 which has no environmental data
+Warning: Sample at -166.0901184, 23.81424522 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -166.0901184, 23.81424522 which has no environmental data
+Warning: Sample at -166.09, 23.8143 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -166.09, 23.8143 which has no environmental data
+Warning: Sample at -166.269, 23.6908 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -166.269, 23.6908 which has no environmental data
+Warning: Sample at -166.173, 23.7326 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -166.173, 23.7326 which has no environmental data
+Warning: Sample at -166.179, 23.6378 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -166.179, 23.6378 which has no environmental data
+Warning: Sample at -166.1800537, 23.63834953 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -166.1800537, 23.63834953 which has no environmental data
+Warning: Sample at -166.176, 23.6451 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -166.176, 23.6451 which has no environmental data
+Warning: Sample at -166.2281647, 23.66203308 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -166.2281647, 23.66203308 which has no environmental data
+Warning: Sample at -161.53333, 21.95 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -161.53333, 21.95 which has no environmental data
+Warning: Sample at 70.5, 21.966667 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 70.5, 21.966667 which has no environmental data
+Warning: Sample at 70.5, 21.96666718 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 70.5, 21.96666718 which has no environmental data
+Warning: Sample at -158.217, 21.5167 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -158.217, 21.5167 which has no environmental data
+Warning: Sample at -158.232222, 21.53325 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -158.232222, 21.53325 which has no environmental data
+Warning: Sample at -158.2333069, 21.53370094 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -158.2333069, 21.53370094 which has no environmental data
+Warning: Sample at -158.12, 21.35 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -158.12, 21.35 which has no environmental data
+Warning: Sample at -158.117, 21.35 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -158.117, 21.35 which has no environmental data
+Warning: Sample at -158.147, 21.36 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -158.147, 21.36 which has no environmental data
+Warning: Sample at -158.017, 21.3667 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -158.017, 21.3667 which has no environmental data
+Warning: Sample at -157.983, 21.35 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -157.983, 21.35 which has no environmental data
+Warning: Sample at -157.767, 21.25 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -157.767, 21.25 which has no environmental data
+Warning: Sample at -155.9, 20.1833 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -155.9, 20.1833 which has no environmental data
+Warning: Sample at -155.9, 20.2 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -155.9, 20.2 which has no environmental data
+Warning: Sample at -155.902465, 20.20328 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -155.902465, 20.20328 which has no environmental data
+Warning: Sample at -155.8946991, 20.24010086 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -155.8946991, 20.24010086 which has no environmental data
+Warning: Sample at -155.25455, 19.2704 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -155.25455, 19.2704 which has no environmental data
+Warning: Sample at -145.788, 18.1683 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -145.788, 18.1683 which has no environmental data
+Warning: Sample at 66.166664, 18.166666 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 66.166664, 18.166666 which has no environmental data
+Warning: Sample at 66.16666412, 18.16666603 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 66.16666412, 18.16666603 which has no environmental data
+Warning: Sample at -145.765, 18.0967 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -145.765, 18.0967 which has no environmental data
+Warning: Sample at -65.90131, 18.071655 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -65.90131, 18.071655 which has no environmental data
+Warning: Sample at -61.497688, 16.377631 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -61.497688, 16.377631 which has no environmental data
+Warning: Sample at -145.716, 15.2176 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -145.716, 15.2176 which has no environmental data
+Warning: Sample at -145.718, 15.2196 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -145.718, 15.2196 which has no environmental data
+Warning: Sample at 74.8833313, 12.86666679 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 74.8833313, 12.86666679 which has no environmental data
+Warning: Sample at 74.88333, 12.866667 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 74.88333, 12.866667 which has no environmental data
+Warning: Sample at 92.75, 12.5 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 92.75, 12.5 which has no environmental data
+Warning: Sample at 103.80805, 1.351617 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 103.80805, 1.351617 which has no environmental data
+Warning: Sample at 103.8, 1.3667 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 103.8, 1.3667 which has no environmental data
+Warning: Sample at -104.033, 1.03333 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -104.033, 1.03333 which has no environmental data
+Warning: Sample at 104.033, 1.03333 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 104.033, 1.03333 which has no environmental data
+Warning: Sample at 37.90620041, -0.023559101 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 37.90620041, -0.023559101 which has no environmental data
+Warning: Sample at 39.51777778, -3.850666667 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 39.51777778, -3.850666667 which has no environmental data
+Warning: Sample at 39.48766667, -4.33675 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 39.48766667, -4.33675 which has no environmental data
+Warning: Sample at 107.195, -6.148333 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 107.195, -6.148333 which has no environmental data
+Warning: Sample at 106.845278, -6.211667 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 106.845278, -6.211667 which has no environmental data
+Warning: Sample at 106.861667, -6.321667 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 106.861667, -6.321667 which has no environmental data
+Warning: Sample at 106.973333, -6.416667 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 106.973333, -6.416667 which has no environmental data
+Warning: Sample at 106.93, -6.366667 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 106.93, -6.366667 which has no environmental data
+Warning: Sample at 106.988333, -6.421667 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 106.988333, -6.421667 which has no environmental data
+Warning: Sample at 106.956667, -6.42 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 106.956667, -6.42 which has no environmental data
+Warning: Sample at 107.061667, -6.421667 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 107.061667, -6.421667 which has no environmental data
+Warning: Sample at 106.98, -6.538333 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 106.98, -6.538333 which has no environmental data
+Warning: Sample at 107.17, -6.618333 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 107.17, -6.618333 which has no environmental data
+Warning: Sample at 107.396667, -6.588333 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 107.396667, -6.588333 which has no environmental data
+Warning: Sample at 122.0295, -13.689483 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 122.0295, -13.689483 which has no environmental data
+Warning: Sample at 179.42605, -16.56015 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 179.42605, -16.56015 which has no environmental data
+Warning: Sample at 119.612233, -17.080083 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 119.612233, -17.080083 which has no environmental data
+Warning: Sample at 118.941, -17.5607 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 118.941, -17.5607 which has no environmental data
+Warning: Sample at 118.96316, -17.50915 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 118.96316, -17.50915 which has no environmental data
+Warning: Sample at 118.96272, -17.50573 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 118.96272, -17.50573 which has no environmental data
+Warning: Sample at 158.9299927, -19.03000069 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 158.9299927, -19.03000069 which has no environmental data
+Warning: Sample at 146.82584, -19.27359 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 146.82584, -19.27359 which has no environmental data
+Warning: Sample at 146.825837, -19.273586 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 146.825837, -19.273586 which has no environmental data
+Warning: Sample at 146.8167, -19.2667 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 146.8167, -19.2667 which has no environmental data
+Warning: Sample at 158.96466, -19.29906 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 158.96466, -19.29906 which has no environmental data
+Warning: Sample at 158.2764, -19.90412 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 158.2764, -19.90412 which has no environmental data
+Warning: Sample at 158.4662, -19.91123 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 158.4662, -19.91123 which has no environmental data
+Warning: Sample at 165.62079, -19.84998 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 165.62079, -19.84998 which has no environmental data
+Warning: Sample at 150.955, -20.935 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 150.955, -20.935 which has no environmental data
+Warning: Sample at 167.25953, -20.92046 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 167.25953, -20.92046 which has no environmental data
+Warning: Sample at 152.0194, -21.3764 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 152.0194, -21.3764 which has no environmental data
+Warning: Sample at 152.335, -21.345 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 152.335, -21.345 which has no environmental data
+Warning: Sample at 159.36337, -21.38254 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 159.36337, -21.38254 which has no environmental data
+Warning: Sample at 152.5333, -22.1472 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 152.5333, -22.1472 which has no environmental data
+Warning: Sample at 152.6167, -22.3833 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 152.6167, -22.3833 which has no environmental data
+Warning: Sample at 152.620278, -22.381667 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 152.620278, -22.381667 which has no environmental data
+Warning: Sample at 113.6987, -22.7418 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 113.6987, -22.7418 which has no environmental data
+Warning: Sample at 113.699725, -22.74048 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 113.699725, -22.74048 which has no environmental data
+Warning: Sample at 113.7696, -22.79436 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 113.7696, -22.79436 which has no environmental data
+Warning: Sample at -109.383, -27.1333 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -109.383, -27.1333 which has no environmental data
+Warning: Sample at 153.10912, -27.44021 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 153.10912, -27.44021 which has no environmental data
+Warning: Sample at 153.109124, -27.440206 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 153.109124, -27.440206 which has no environmental data
+Warning: Sample at 153.09246, -27.54021 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 153.09246, -27.54021 which has no environmental data
+Warning: Sample at 153.092458, -27.540206 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 153.092458, -27.540206 which has no environmental data
+Warning: Sample at 114.6, -28.766667 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 114.6, -28.766667 which has no environmental data
+Warning: Sample at 114.916667, -29.25 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 114.916667, -29.25 which has no environmental data
+Warning: Sample at 114.931667, -29.243056 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 114.931667, -29.243056 which has no environmental data
+Warning: Sample at 115.75, -31.866667 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 115.75, -31.866667 which has no environmental data
+Warning: Sample at 115.7511389, -31.99125 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 115.7511389, -31.99125 which has no environmental data
+Warning: Sample at 115.754722, -31.986667 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 115.754722, -31.986667 which has no environmental data
+Warning: Sample at 115.75, -31.983333 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 115.75, -31.983333 which has no environmental data
+Warning: Sample at 138.6, -34.6 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 138.6, -34.6 which has no environmental data
+Warning: Sample at 138.530266, -34.812615 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 138.530266, -34.812615 which has no environmental data
+Warning: Sample at 138.520266, -34.775948 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 138.520266, -34.775948 which has no environmental data
+Warning: Sample at 138.511099, -34.760948 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 138.511099, -34.760948 which has no environmental data
+Warning: Sample at 138.6, -34.933333 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 138.6, -34.933333 which has no environmental data
+Warning: Sample at 138.6, -34.9333 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 138.6, -34.9333 which has no environmental data
+Warning: Sample at 138.6011, -34.932059 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 138.6011, -34.932059 which has no environmental data
+Warning: Sample at 138.6, -34.93 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 138.6, -34.93 which has no environmental data
+Warning: Sample at 150.47, -35.25 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 150.47, -35.25 which has no environmental data
+Warning: Sample at 150.48, -35.25 in CAUL Occur GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 150.48, -35.25 which has no environmental data
+Time since start: 1.76
+614112 points with values for all grids
+Adding samples to background in feature space
+Command line used: 
+Command line to repeat: java density.MaxEnt nowarnings noprefixes responsecurves jackknife "outputdirectory=C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CAUL\Maxent Outputs 4.1 GUI 2\caul.max.1" "samplesfile=C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CAUL\CAUL Occur\CAUL Occur GUI.csv" "environmentallayers=C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\Environmental Data\Clipped_100km" notooltips noremoveduplicates replicates=5 noproduct nohinge noautofeature -N e01.DA.max -N e02.DA.min -N e10.SST.ra
+Species: Caulerpa_taxifolia_0 Caulerpa_taxifolia_1 Caulerpa_taxifolia_2 Caulerpa_taxifolia_3 Caulerpa_taxifolia_4
+Layers: e03.NIT.max e04.NIT.min e05.PHO.max e06.PHO.min e07.SAL.me e08.SST.max e09.SST.min
+Layertypes: Continuous Continuous Continuous Continuous Continuous Continuous Continuous
+responsecurves: true
+jackknife: true
+outputdirectory: C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CAUL\Maxent Outputs 4.1 GUI 2\caul.max.1
+samplesfile: C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CAUL\CAUL Occur\CAUL Occur GUI.csv
+environmentallayers: C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\Environmental Data\Clipped_100km
+tooltips: false
+removeduplicates: false
+replicates: 5
+product: false
+hinge: false
+autofeature: false
+
+getSamples: max memory 1886912512, total allocated 182976512, free 47097232, used 135879280, increment -34442104
+Making features
+makeFeatures: max memory 1886912512, total allocated 182976512, free 45578864, used 137397648, increment 1518368
+Caulerpa_taxifolia_0: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 182976512, free 45493488, used 137483024, increment 85376
+linearPredictor: max memory 1886912512, total allocated 182976512, free 45408112, used 137568400, increment 85376
+FeaturedSpace: max memory 1886912512, total allocated 182976512, free 45408112, used 137568400, increment 0
+Sequential: max memory 1886912512, total allocated 182976512, free 45408112, used 137568400, increment 0
+Initial loss: 9.275191344295799
+Initial test loss: 9.275191344295799
+260: time = 0.429000 loss = 8.543324 testLoss 8.427262
+Resulting gain: 0.7318676474233019
+Projecting...
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CAUL\Maxent Outputs 4.1 GUI 2\caul.max.1\Caulerpa_taxifolia_0.asc
+Time since start: 6.661
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CAUL\Maxent Outputs 4.1 GUI 2\caul.max.1\plots\Caulerpa_taxifolia_0.png
+Time since start: 9.23
+Caulerpa_taxifolia_0 response curves
+Response curve: only e03.NIT.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 283639808, free 76286272, used 207353536, increment 69785136
+Caulerpa_taxifolia_0 e03.NIT.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 283639808, free 76281640, used 207358168, increment 4632
+linearPredictor: max memory 1886912512, total allocated 283639808, free 76281640, used 207358168, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 283639808, free 76275368, used 207364440, increment 6272
+Sequential: max memory 1886912512, total allocated 283639808, free 76275368, used 207364440, increment 0
+Initial loss: 9.275191344295799
+Time since start: 10.234
+60: time = 0.144000 loss = 8.924652
+Resulting gain: 0.3505398175079737
+Caulerpa_taxifolia_0 response curves
+Response curve: only e04.NIT.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 283639808, free 72225256, used 211414552, increment 4050112
+Caulerpa_taxifolia_0 e04.NIT.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 283639808, free 72218960, used 211420848, increment 6296
+linearPredictor: max memory 1886912512, total allocated 283639808, free 72216880, used 211422928, increment 2080
+FeaturedSpace: max memory 1886912512, total allocated 283639808, free 72212656, used 211427152, increment 4224
+Sequential: max memory 1886912512, total allocated 283639808, free 72212656, used 211427152, increment 0
+Initial loss: 9.275191344295799
+60: time = 0.145000 loss = 9.123553
+Resulting gain: 0.15163848947764968
+Caulerpa_taxifolia_0 response curves
+Response curve: only e05.PHO.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 283639808, free 67199984, used 216439824, increment 5012672
+Caulerpa_taxifolia_0 e05.PHO.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 283639808, free 67193720, used 216446088, increment 6264
+linearPredictor: max memory 1886912512, total allocated 283639808, free 67193720, used 216446088, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 283639808, free 67186864, used 216452944, increment 6856
+Sequential: max memory 1886912512, total allocated 283639808, free 67186864, used 216452944, increment 0
+Initial loss: 9.275191344295799
+100: time = 0.138000 loss = 9.000510
+Resulting gain: 0.2746810171036955
+Caulerpa_taxifolia_0 response curves
+Response curve: only e06.PHO.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 283639808, free 61746672, used 221893136, increment 5440192
+Caulerpa_taxifolia_0 e06.PHO.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 283639808, free 61746672, used 221893136, increment 0
+linearPredictor: max memory 1886912512, total allocated 283639808, free 61746672, used 221893136, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 283639808, free 61746672, used 221893136, increment 0
+Sequential: max memory 1886912512, total allocated 283639808, free 61746672, used 221893136, increment 0
+Initial loss: 9.275191344295799
+100: time = 0.134000 loss = 9.130432
+Resulting gain: 0.14475946647258198
+Caulerpa_taxifolia_0 response curves
+Time since start: 11.291
+Response curve: only e07.SAL.me
+Making features
+makeFeatures: max memory 1886912512, total allocated 283639808, free 56263072, used 227376736, increment 5483600
+Caulerpa_taxifolia_0 e07.SAL.me: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 283639808, free 56258256, used 227381552, increment 4816
+linearPredictor: max memory 1886912512, total allocated 283639808, free 56258256, used 227381552, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 283639808, free 56251968, used 227387840, increment 6288
+Sequential: max memory 1886912512, total allocated 283639808, free 56251968, used 227387840, increment 0
+Initial loss: 9.275191344295799
+100: time = 0.243000 loss = 9.142881
+Resulting gain: 0.1323105462529739
+Caulerpa_taxifolia_0 response curves
+Response curve: only e08.SST.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 283639808, free 51040656, used 232599152, increment 5211312
+Caulerpa_taxifolia_0 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 283639808, free 51033704, used 232606104, increment 6952
+linearPredictor: max memory 1886912512, total allocated 283639808, free 51033704, used 232606104, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 283639808, free 51029472, used 232610336, increment 4232
+Sequential: max memory 1886912512, total allocated 283639808, free 51029472, used 232610336, increment 0
+Initial loss: 9.275191344295799
+180: time = 0.234000 loss = 8.933983
+Resulting gain: 0.3412086971287529
+Caulerpa_taxifolia_0 response curves
+Response curve: only e09.SST.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 276824064, free 222522112, used 54301952, increment -178308384
+Caulerpa_taxifolia_0 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 276824064, free 222522112, used 54301952, increment 0
+linearPredictor: max memory 1886912512, total allocated 276824064, free 222522112, used 54301952, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 276824064, free 222522112, used 54301952, increment 0
+Sequential: max memory 1886912512, total allocated 276824064, free 222522112, used 54301952, increment 0
+Initial loss: 9.275191344295799
+180: time = 0.241000 loss = 8.677525
+Resulting gain: 0.5976661827914338
+Caulerpa_taxifolia_0 response curves
+Time since start: 12.568
+Jackknife: leave e03.NIT.max out
+Making features
+makeFeatures: max memory 1886912512, total allocated 276824064, free 191860416, used 84963648, increment 30661696
+Caulerpa_taxifolia_0 e03.NIT.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 276824064, free 191775040, used 85049024, increment 85376
+linearPredictor: max memory 1886912512, total allocated 276824064, free 191689664, used 85134400, increment 85376
+FeaturedSpace: max memory 1886912512, total allocated 276824064, free 191689664, used 85134400, increment 0
+Sequential: max memory 1886912512, total allocated 276824064, free 191689664, used 85134400, increment 0
+Initial loss: 9.275191344295799
+Initial test loss: 9.275191344295799
+260: time = 0.393000 loss = 8.568654 testLoss 8.472300
+Jackknife: leave e04.NIT.min out
+Making features
+makeFeatures: max memory 1886912512, total allocated 276824064, free 186017616, used 90806448, increment 5672048
+Caulerpa_taxifolia_0 e04.NIT.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 276824064, free 186017616, used 90806448, increment 0
+linearPredictor: max memory 1886912512, total allocated 276824064, free 186017616, used 90806448, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 276824064, free 186017616, used 90806448, increment 0
+Sequential: max memory 1886912512, total allocated 276824064, free 186017616, used 90806448, increment 0
+Initial loss: 9.275191344295799
+Initial test loss: 9.275191344295799
+280: time = 0.402000 loss = 8.543324 testLoss 8.427028
+Jackknife: leave e05.PHO.max out
+Making features
+makeFeatures: max memory 1886912512, total allocated 276824064, free 180307792, used 96516272, increment 5709824
+Caulerpa_taxifolia_0 e05.PHO.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 276824064, free 180284464, used 96539600, increment 23328
+linearPredictor: max memory 1886912512, total allocated 276824064, free 180284464, used 96539600, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 276824064, free 180284464, used 96539600, increment 0
+Sequential: max memory 1886912512, total allocated 276824064, free 180284464, used 96539600, increment 0
+Initial loss: 9.275191344295799
+Initial test loss: 9.275191344295799
+Time since start: 13.758
+240: time = 0.344000 loss = 8.544709 testLoss 8.420823
+Jackknife: leave e06.PHO.min out
+Making features
+makeFeatures: max memory 1886912512, total allocated 276824064, free 178482848, used 98341216, increment 1801616
+Caulerpa_taxifolia_0 e06.PHO.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 276824064, free 178482848, used 98341216, increment 0
+linearPredictor: max memory 1886912512, total allocated 276824064, free 178482848, used 98341216, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 276824064, free 178482848, used 98341216, increment 0
+Sequential: max memory 1886912512, total allocated 276824064, free 178482848, used 98341216, increment 0
+Initial loss: 9.275191344295799
+Initial test loss: 9.275191344295799
+240: time = 0.366000 loss = 8.544899 testLoss 8.419706
+Jackknife: leave e07.SAL.me out
+Making features
+makeFeatures: max memory 1886912512, total allocated 276824064, free 172912872, used 103911192, increment 5569976
+Caulerpa_taxifolia_0 e07.SAL.me: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 276824064, free 172912872, used 103911192, increment 0
+linearPredictor: max memory 1886912512, total allocated 276824064, free 172912872, used 103911192, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 276824064, free 172912872, used 103911192, increment 0
+Sequential: max memory 1886912512, total allocated 276824064, free 172912872, used 103911192, increment 0
+Initial loss: 9.275191344295799
+Initial test loss: 9.275191344295799
+200: time = 0.299000 loss = 8.552099 testLoss 8.444094
+Jackknife: leave e08.SST.max out
+Making features
+makeFeatures: max memory 1886912512, total allocated 276824064, free 171370072, used 105453992, increment 1542800
+Caulerpa_taxifolia_0 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 276824064, free 171346736, used 105477328, increment 23336
+linearPredictor: max memory 1886912512, total allocated 276824064, free 171346736, used 105477328, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 276824064, free 171346736, used 105477328, increment 0
+Sequential: max memory 1886912512, total allocated 276824064, free 171346736, used 105477328, increment 0
+Initial loss: 9.275191344295799
+Initial test loss: 9.275191344295799
+Time since start: 14.841
+240: time = 0.356000 loss = 8.585555 testLoss 8.484886
+Jackknife: leave e09.SST.min out
+Making features
+makeFeatures: max memory 1886912512, total allocated 276824064, free 165860512, used 110963552, increment 5486224
+Caulerpa_taxifolia_0 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 276824064, free 165860512, used 110963552, increment 0
+linearPredictor: max memory 1886912512, total allocated 276824064, free 165860512, used 110963552, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 276824064, free 165837144, used 110986920, increment 23368
+Sequential: max memory 1886912512, total allocated 276824064, free 165837144, used 110986920, increment 0
+Initial loss: 9.275191344295799
+Initial test loss: 9.275191344295799
+300: time = 0.445000 loss = 8.784920 testLoss 8.698108
+Jackknife: only e03.NIT.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 276824064, free 163476328, used 113347736, increment 2360816
+Caulerpa_taxifolia_0 e03.NIT.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 276824064, free 163476328, used 113347736, increment 0
+linearPredictor: max memory 1886912512, total allocated 276824064, free 163476328, used 113347736, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 276824064, free 163476328, used 113347736, increment 0
+Sequential: max memory 1886912512, total allocated 276824064, free 163476328, used 113347736, increment 0
+Initial loss: 9.275191344295799
+Initial test loss: 9.275191344295799
+60: time = 0.131000 loss = 8.924652 testLoss 8.878799
+Res.gain: 0.3505398175079737
+Jackknife: only e04.NIT.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 276824064, free 159517408, used 117306656, increment 3958920
+Caulerpa_taxifolia_0 e04.NIT.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 276824064, free 159517408, used 117306656, increment 0
+linearPredictor: max memory 1886912512, total allocated 276824064, free 159517408, used 117306656, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 276824064, free 159494080, used 117329984, increment 23328
+Sequential: max memory 1886912512, total allocated 276824064, free 159494080, used 117329984, increment 0
+Initial loss: 9.275191344295799
+Initial test loss: 9.275191344295799
+60: time = 0.139000 loss = 9.123553 testLoss 9.077456
+Res.gain: 0.15163848947764968
+Jackknife: only e05.PHO.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 276824064, free 159190408, used 117633656, increment 303672
+Caulerpa_taxifolia_0 e05.PHO.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 276824064, free 159190408, used 117633656, increment 0
+linearPredictor: max memory 1886912512, total allocated 276824064, free 159190408, used 117633656, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 276824064, free 159190408, used 117633656, increment 0
+Sequential: max memory 1886912512, total allocated 276824064, free 159190408, used 117633656, increment 0
+Initial loss: 9.275191344295799
+Initial test loss: 9.275191344295799
+100: time = 0.149000 loss = 9.000510 testLoss 8.959053
+Res.gain: 0.2746810171036955
+Jackknife: only e06.PHO.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 276824064, free 158442752, used 118381312, increment 747656
+Caulerpa_taxifolia_0 e06.PHO.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 276824064, free 158442752, used 118381312, increment 0
+linearPredictor: max memory 1886912512, total allocated 276824064, free 158442752, used 118381312, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 276824064, free 158442752, used 118381312, increment 0
+Sequential: max memory 1886912512, total allocated 276824064, free 158442752, used 118381312, increment 0
+Initial loss: 9.275191344295799
+Initial test loss: 9.275191344295799
+Time since start: 15.885
+100: time = 0.134000 loss = 9.130432 testLoss 9.067615
+Res.gain: 0.14475946647258198
+Jackknife: only e07.SAL.me
+Making features
+makeFeatures: max memory 1886912512, total allocated 276824064, free 157671328, used 119152736, increment 771424
+Caulerpa_taxifolia_0 e07.SAL.me: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 276824064, free 157671328, used 119152736, increment 0
+linearPredictor: max memory 1886912512, total allocated 276824064, free 157671328, used 119152736, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 276824064, free 157671328, used 119152736, increment 0
+Sequential: max memory 1886912512, total allocated 276824064, free 157671328, used 119152736, increment 0
+Initial loss: 9.275191344295799
+Initial test loss: 9.275191344295799
+100: time = 0.254000 loss = 9.142881 testLoss 9.129481
+Res.gain: 0.1323105462529739
+Jackknife: only e08.SST.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 276824064, free 153519192, used 123304872, increment 4152136
+Caulerpa_taxifolia_0 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 276824064, free 153519192, used 123304872, increment 0
+linearPredictor: max memory 1886912512, total allocated 276824064, free 153519192, used 123304872, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 276824064, free 153519192, used 123304872, increment 0
+Sequential: max memory 1886912512, total allocated 276824064, free 153519192, used 123304872, increment 0
+Initial loss: 9.275191344295799
+Initial test loss: 9.275191344295799
+180: time = 0.234000 loss = 8.933983 testLoss 8.831477
+Res.gain: 0.3412086971287529
+Jackknife: only e09.SST.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 276824064, free 152280984, used 124543080, increment 1238208
+Caulerpa_taxifolia_0 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 276824064, free 152280984, used 124543080, increment 0
+linearPredictor: max memory 1886912512, total allocated 276824064, free 152280984, used 124543080, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 276824064, free 152280984, used 124543080, increment 0
+Sequential: max memory 1886912512, total allocated 276824064, free 152280984, used 124543080, increment 0
+Initial loss: 9.275191344295799
+Initial test loss: 9.275191344295799
+180: time = 0.252000 loss = 8.677525 testLoss 8.589311
+Res.gain: 0.5976661827914338
+Time since start: 17.105
+getSamples: max memory 1886912512, total allocated 276824064, free 143876104, used 132947960, increment 8404880
+Making features
+makeFeatures: max memory 1886912512, total allocated 276824064, free 140259224, used 136564840, increment 3616880
+Caulerpa_taxifolia_1: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 276824064, free 140235928, used 136588136, increment 23296
+linearPredictor: max memory 1886912512, total allocated 276824064, free 140235928, used 136588136, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 276824064, free 140235928, used 136588136, increment 0
+Sequential: max memory 1886912512, total allocated 276824064, free 140235928, used 136588136, increment 0
+Initial loss: 9.275378768155404
+Initial test loss: 9.275378768155404
+240: time = 0.347000 loss = 8.555035 testLoss 8.376330
+Resulting gain: 0.7203436604058773
+Projecting...
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CAUL\Maxent Outputs 4.1 GUI 2\caul.max.1\Caulerpa_taxifolia_1.asc
+Time since start: 21.891
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CAUL\Maxent Outputs 4.1 GUI 2\caul.max.1\plots\Caulerpa_taxifolia_1.png
+Time since start: 24.397
+Caulerpa_taxifolia_1 response curves
+Response curve: only e03.NIT.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 299892736, free 144236456, used 155656280, increment 19068144
+Caulerpa_taxifolia_1 e03.NIT.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 299892736, free 140185712, used 159707024, increment 4050744
+linearPredictor: max memory 1886912512, total allocated 299892736, free 140185712, used 159707024, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 299892736, free 140182072, used 159710664, increment 3640
+Sequential: max memory 1886912512, total allocated 299892736, free 140182072, used 159710664, increment 0
+Initial loss: 9.275378768155404
+60: time = 0.126000 loss = 8.939022
+Resulting gain: 0.33635635677846665
+Caulerpa_taxifolia_1 response curves
+Response curve: only e04.NIT.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 299892736, free 135822656, used 164070080, increment 4359416
+Caulerpa_taxifolia_1 e04.NIT.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 299892736, free 135814976, used 164077760, increment 7680
+linearPredictor: max memory 1886912512, total allocated 299892736, free 135814976, used 164077760, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 299892736, free 135811336, used 164081400, increment 3640
+Sequential: max memory 1886912512, total allocated 299892736, free 135811336, used 164081400, increment 0
+Initial loss: 9.275378768155404
+60: time = 0.152000 loss = 9.122564
+Resulting gain: 0.15281477537637578
+Caulerpa_taxifolia_1 response curves
+Time since start: 25.447
+Response curve: only e05.PHO.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 299892736, free 131483256, used 168409480, increment 4328080
+Caulerpa_taxifolia_1 e05.PHO.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 299892736, free 131475824, used 168416912, increment 7432
+linearPredictor: max memory 1886912512, total allocated 299892736, free 131475824, used 168416912, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 299892736, free 131472184, used 168420552, increment 3640
+Sequential: max memory 1886912512, total allocated 299892736, free 131472184, used 168420552, increment 0
+Initial loss: 9.275378768155404
+100: time = 0.141000 loss = 8.997698
+Resulting gain: 0.2776811824655727
+Caulerpa_taxifolia_1 response curves
+Response curve: only e06.PHO.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 299892736, free 126680608, used 173212128, increment 4791576
+Caulerpa_taxifolia_1 e06.PHO.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 299892736, free 126673328, used 173219408, increment 7280
+linearPredictor: max memory 1886912512, total allocated 299892736, free 126673328, used 173219408, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 299892736, free 126669680, used 173223056, increment 3648
+Sequential: max memory 1886912512, total allocated 299892736, free 126669680, used 173223056, increment 0
+Initial loss: 9.275378768155404
+120: time = 0.150000 loss = 9.130065
+Resulting gain: 0.14531370541225463
+Caulerpa_taxifolia_1 response curves
+Response curve: only e07.SAL.me
+Making features
+makeFeatures: max memory 1886912512, total allocated 299892736, free 121893312, used 177999424, increment 4776368
+Caulerpa_taxifolia_1 e07.SAL.me: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 299892736, free 121889672, used 178003064, increment 3640
+linearPredictor: max memory 1886912512, total allocated 299892736, free 121889672, used 178003064, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 299892736, free 121881776, used 178010960, increment 7896
+Sequential: max memory 1886912512, total allocated 299892736, free 121881776, used 178010960, increment 0
+Initial loss: 9.275378768155404
+100: time = 0.267000 loss = 9.145912
+Resulting gain: 0.12946680015782164
+Caulerpa_taxifolia_1 response curves
+Time since start: 26.45
+Response curve: only e08.SST.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 299892736, free 117250560, used 182642176, increment 4631216
+Caulerpa_taxifolia_1 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 299892736, free 117243272, used 182649464, increment 7288
+linearPredictor: max memory 1886912512, total allocated 299892736, free 117243272, used 182649464, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 299892736, free 117239616, used 182653120, increment 3656
+Sequential: max memory 1886912512, total allocated 299892736, free 117239616, used 182653120, increment 0
+Initial loss: 9.275378768155404
+180: time = 0.224000 loss = 8.940265
+Resulting gain: 0.3351132895970039
+Caulerpa_taxifolia_1 response curves
+Response curve: only e09.SST.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 299892736, free 110939392, used 188953344, increment 6300224
+Caulerpa_taxifolia_1 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 299892736, free 110932120, used 188960616, increment 7272
+linearPredictor: max memory 1886912512, total allocated 299892736, free 110932120, used 188960616, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 299892736, free 110924624, used 188968112, increment 7496
+Sequential: max memory 1886912512, total allocated 299892736, free 110924624, used 188968112, increment 0
+Initial loss: 9.275378768155404
+180: time = 0.254000 loss = 8.680229
+Resulting gain: 0.5951501839185749
+Caulerpa_taxifolia_1 response curves
+Jackknife: leave e03.NIT.max out
+Making features
+makeFeatures: max memory 1886912512, total allocated 299892736, free 77255952, used 222636784, increment 33668672
+Caulerpa_taxifolia_1 e03.NIT.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 299892736, free 77244992, used 222647744, increment 10960
+linearPredictor: max memory 1886912512, total allocated 299892736, free 77244992, used 222647744, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 299892736, free 77244992, used 222647744, increment 0
+Sequential: max memory 1886912512, total allocated 299892736, free 77244992, used 222647744, increment 0
+Initial loss: 9.275378768155404
+Initial test loss: 9.275378768155404
+Time since start: 27.812
+240: time = 0.384000 loss = 8.576046 testLoss 8.433688
+Jackknife: leave e04.NIT.min out
+Making features
+makeFeatures: max memory 1886912512, total allocated 299892736, free 75386464, used 224506272, increment 1858528
+Caulerpa_taxifolia_1 e04.NIT.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 299892736, free 75375536, used 224517200, increment 10928
+linearPredictor: max memory 1886912512, total allocated 299892736, free 75290144, used 224602592, increment 85392
+FeaturedSpace: max memory 1886912512, total allocated 299892736, free 75290144, used 224602592, increment 0
+Sequential: max memory 1886912512, total allocated 299892736, free 75290144, used 224602592, increment 0
+Initial loss: 9.275378768155404
+Initial test loss: 9.275378768155404
+260: time = 0.402000 loss = 8.555037 testLoss 8.376402
+Jackknife: leave e05.PHO.max out
+Making features
+makeFeatures: max memory 1886912512, total allocated 299892736, free 69132160, used 230760576, increment 6157984
+Caulerpa_taxifolia_1 e05.PHO.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 299892736, free 69121200, used 230771536, increment 10960
+linearPredictor: max memory 1886912512, total allocated 299892736, free 69121200, used 230771536, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 299892736, free 69121200, used 230771536, increment 0
+Sequential: max memory 1886912512, total allocated 299892736, free 69121200, used 230771536, increment 0
+Initial loss: 9.275378768155404
+Initial test loss: 9.275378768155404
+260: time = 0.372000 loss = 8.556826 testLoss 8.367645
+Jackknife: leave e06.PHO.min out
+Making features
+makeFeatures: max memory 1886912512, total allocated 299892736, free 67265024, used 232627712, increment 1856176
+Caulerpa_taxifolia_1 e06.PHO.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 299892736, free 67254128, used 232638608, increment 10896
+linearPredictor: max memory 1886912512, total allocated 299892736, free 63210696, used 236682040, increment 4043432
+FeaturedSpace: max memory 1886912512, total allocated 299892736, free 63210696, used 236682040, increment 0
+Sequential: max memory 1886912512, total allocated 299892736, free 63210696, used 236682040, increment 0
+Initial loss: 9.275378768155404
+Initial test loss: 9.275378768155404
+Time since start: 29.082
+280: time = 0.417000 loss = 8.556037 testLoss 8.374130
+Jackknife: leave e07.SAL.me out
+Making features
+makeFeatures: max memory 1886912512, total allocated 299892736, free 61135560, used 238757176, increment 2075136
+Caulerpa_taxifolia_1 e07.SAL.me: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 299892736, free 61124424, used 238768312, increment 11136
+linearPredictor: max memory 1886912512, total allocated 299892736, free 61124424, used 238768312, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 299892736, free 61124424, used 238768312, increment 0
+Sequential: max memory 1886912512, total allocated 299892736, free 61124424, used 238768312, increment 0
+Initial loss: 9.275378768155404
+Initial test loss: 9.275378768155404
+200: time = 0.322000 loss = 8.563071 testLoss 8.397821
+Jackknife: leave e08.SST.max out
+Making features
+makeFeatures: max memory 1886912512, total allocated 299892736, free 59588840, used 240303896, increment 1535584
+Caulerpa_taxifolia_1 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 299892736, free 55534480, used 244358256, increment 4054360
+linearPredictor: max memory 1886912512, total allocated 299892736, free 55534480, used 244358256, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 299892736, free 55534480, used 244358256, increment 0
+Sequential: max memory 1886912512, total allocated 299892736, free 55534480, used 244358256, increment 0
+Initial loss: 9.275378768155404
+Initial test loss: 9.275378768155404
+260: time = 0.384000 loss = 8.596761 testLoss 8.436231
+Jackknife: leave e09.SST.min out
+Making features
+makeFeatures: max memory 1886912512, total allocated 299892736, free 53527264, used 246365472, increment 2007216
+Caulerpa_taxifolia_1 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 299892736, free 53515952, used 246376784, increment 11312
+linearPredictor: max memory 1886912512, total allocated 299892736, free 53515952, used 246376784, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 299892736, free 53515952, used 246376784, increment 0
+Sequential: max memory 1886912512, total allocated 299892736, free 53515952, used 246376784, increment 0
+Initial loss: 9.275378768155404
+Initial test loss: 9.275378768155404
+Time since start: 30.239
+240: time = 0.382000 loss = 8.800817 testLoss 8.636772
+Jackknife: only e03.NIT.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 299892736, free 51666872, used 248225864, increment 1849080
+Caulerpa_taxifolia_1 e03.NIT.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 299892736, free 51663232, used 248229504, increment 3640
+linearPredictor: max memory 1886912512, total allocated 299892736, free 51663232, used 248229504, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 299892736, free 51655560, used 248237176, increment 7672
+Sequential: max memory 1886912512, total allocated 299892736, free 51655560, used 248237176, increment 0
+Initial loss: 9.275378768155404
+Initial test loss: 9.275378768155404
+60: time = 0.133000 loss = 8.939022 testLoss 8.826000
+Res.gain: 0.33635635677846665
+Jackknife: only e04.NIT.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 299892736, free 47267152, used 252625584, increment 4388408
+Caulerpa_taxifolia_1 e04.NIT.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 299892736, free 47263520, used 252629216, increment 3632
+linearPredictor: max memory 1886912512, total allocated 299892736, free 47263520, used 252629216, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 299892736, free 47259872, used 252632864, increment 3648
+Sequential: max memory 1886912512, total allocated 299892736, free 47259872, used 252632864, increment 0
+Initial loss: 9.275378768155404
+Initial test loss: 9.275378768155404
+60: time = 0.160000 loss = 9.122564 testLoss 9.081638
+Res.gain: 0.15281477537637578
+Jackknife: only e05.PHO.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 299892736, free 46947176, used 252945560, increment 312696
+Caulerpa_taxifolia_1 e05.PHO.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 299892736, free 46943528, used 252949208, increment 3648
+linearPredictor: max memory 1886912512, total allocated 299892736, free 46943528, used 252949208, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 299892736, free 46935808, used 252956928, increment 7720
+Sequential: max memory 1886912512, total allocated 299892736, free 46935808, used 252956928, increment 0
+Initial loss: 9.275378768155404
+Initial test loss: 9.275378768155404
+100: time = 0.136000 loss = 8.997698 testLoss 8.971903
+Res.gain: 0.2776811824655727
+Jackknife: only e06.PHO.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 299892736, free 46224688, used 253668048, increment 711120
+Caulerpa_taxifolia_1 e06.PHO.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 299892736, free 46217152, used 253675584, increment 7536
+linearPredictor: max memory 1886912512, total allocated 299892736, free 46217152, used 253675584, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 299892736, free 46213512, used 253679224, increment 3640
+Sequential: max memory 1886912512, total allocated 299892736, free 46213512, used 253679224, increment 0
+Initial loss: 9.275378768155404
+Initial test loss: 9.275378768155404
+120: time = 0.162000 loss = 9.130065 testLoss 9.071453
+Res.gain: 0.14531370541225463
+Jackknife: only e07.SAL.me
+Making features
+makeFeatures: max memory 1886912512, total allocated 299892736, free 45474712, used 254418024, increment 738800
+Caulerpa_taxifolia_1 e07.SAL.me: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 299892736, free 45467424, used 254425312, increment 7288
+linearPredictor: max memory 1886912512, total allocated 299892736, free 45467424, used 254425312, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 299892736, free 45460144, used 254432592, increment 7280
+Sequential: max memory 1886912512, total allocated 299892736, free 45460144, used 254432592, increment 0
+Initial loss: 9.275378768155404
+Initial test loss: 9.275378768155404
+100: time = 0.266000 loss = 9.145912 testLoss 9.117687
+Res.gain: 0.12946680015782164
+Jackknife: only e08.SST.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 299892736, free 40838320, used 259054416, increment 4621824
+Caulerpa_taxifolia_1 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 299892736, free 40830776, used 259061960, increment 7544
+linearPredictor: max memory 1886912512, total allocated 299892736, free 40830776, used 259061960, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 299892736, free 40827136, used 259065600, increment 3640
+Sequential: max memory 1886912512, total allocated 299892736, free 40827136, used 259065600, increment 0
+Initial loss: 9.275378768155404
+Initial test loss: 9.275378768155404
+Time since start: 31.367
+180: time = 0.222000 loss = 8.940265 testLoss 8.809356
+Res.gain: 0.3351132895970039
+Jackknife: only e09.SST.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 299892736, free 39623576, used 260269160, increment 1203560
+Caulerpa_taxifolia_1 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 299892736, free 39612080, used 260280656, increment 11496
+linearPredictor: max memory 1886912512, total allocated 299892736, free 39612080, used 260280656, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 299892736, free 39612080, used 260280656, increment 0
+Sequential: max memory 1886912512, total allocated 299892736, free 39612080, used 260280656, increment 0
+Initial loss: 9.275378768155404
+Initial test loss: 9.275378768155404
+180: time = 0.263000 loss = 8.680229 testLoss 8.575620
+Res.gain: 0.5951501839185749
+getSamples: max memory 1886912512, total allocated 299892736, free 30274624, used 269618112, increment 9337456
+Making features
+makeFeatures: max memory 1886912512, total allocated 299892736, free 30222568, used 269670168, increment 52056
+Caulerpa_taxifolia_2: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 299892736, free 30208000, used 269684736, increment 14568
+linearPredictor: max memory 1886912512, total allocated 299892736, free 30208000, used 269684736, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 299892736, free 30208000, used 269684736, increment 0
+Sequential: max memory 1886912512, total allocated 299892736, free 30208000, used 269684736, increment 0
+Initial loss: 9.275003885301905
+Initial test loss: 9.275003885301905
+260: time = 0.408000 loss = 8.529578 testLoss 8.493015
+Resulting gain: 0.7454256622869817
+Time since start: 32.745
+Projecting...
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CAUL\Maxent Outputs 4.1 GUI 2\caul.max.1\Caulerpa_taxifolia_2.asc
+Time since start: 37.01
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CAUL\Maxent Outputs 4.1 GUI 2\caul.max.1\plots\Caulerpa_taxifolia_2.png
+Time since start: 39.557
+Caulerpa_taxifolia_2 response curves
+Response curve: only e03.NIT.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 462946304, free 253533560, used 209412744, increment -60271992
+Caulerpa_taxifolia_2 e03.NIT.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 462946304, free 253526008, used 209420296, increment 7552
+linearPredictor: max memory 1886912512, total allocated 462946304, free 253526008, used 209420296, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 462946304, free 253526008, used 209420296, increment 0
+Sequential: max memory 1886912512, total allocated 462946304, free 253526008, used 209420296, increment 0
+Initial loss: 9.275003885301905
+60: time = 0.137000 loss = 8.929182
+Resulting gain: 0.34582173583519626
+Caulerpa_taxifolia_2 response curves
+Response curve: only e04.NIT.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 462946304, free 246772152, used 216174152, increment 6753856
+Caulerpa_taxifolia_2 e04.NIT.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 462946304, free 246764592, used 216181712, increment 7560
+linearPredictor: max memory 1886912512, total allocated 462946304, free 246764592, used 216181712, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 462946304, free 246757032, used 216189272, increment 7560
+Sequential: max memory 1886912512, total allocated 462946304, free 246757032, used 216189272, increment 0
+Initial loss: 9.275003885301905
+Time since start: 40.589
+60: time = 0.134000 loss = 9.114463
+Resulting gain: 0.16054091218560096
+Caulerpa_taxifolia_2 response curves
+Response curve: only e05.PHO.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 462946304, free 246458640, used 216487664, increment 298392
+Caulerpa_taxifolia_2 e05.PHO.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 462946304, free 246451080, used 216495224, increment 7560
+linearPredictor: max memory 1886912512, total allocated 462946304, free 246451080, used 216495224, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 462946304, free 246443512, used 216502792, increment 7568
+Sequential: max memory 1886912512, total allocated 462946304, free 246443512, used 216502792, increment 0
+Initial loss: 9.275003885301905
+100: time = 0.139000 loss = 9.002714
+Resulting gain: 0.27229032655354146
+Caulerpa_taxifolia_2 response curves
+Response curve: only e06.PHO.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 462946304, free 238295320, used 224650984, increment 8148192
+Caulerpa_taxifolia_2 e06.PHO.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 462946304, free 238287768, used 224658536, increment 7552
+linearPredictor: max memory 1886912512, total allocated 462946304, free 238287768, used 224658536, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 462946304, free 238287768, used 224658536, increment 0
+Sequential: max memory 1886912512, total allocated 462946304, free 238287768, used 224658536, increment 0
+Initial loss: 9.275003885301905
+120: time = 0.161000 loss = 9.125652
+Resulting gain: 0.14935141138119867
+Caulerpa_taxifolia_2 response curves
+Response curve: only e07.SAL.me
+Making features
+makeFeatures: max memory 1886912512, total allocated 462946304, free 231063336, used 231882968, increment 7224432
+Caulerpa_taxifolia_2 e07.SAL.me: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 462946304, free 231055736, used 231890568, increment 7600
+linearPredictor: max memory 1886912512, total allocated 462946304, free 231055736, used 231890568, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 462946304, free 231055736, used 231890568, increment 0
+Sequential: max memory 1886912512, total allocated 462946304, free 231055736, used 231890568, increment 0
+Initial loss: 9.275003885301905
+100: time = 0.276000 loss = 9.132655
+Resulting gain: 0.14234905335060333
+Caulerpa_taxifolia_2 response curves
+Time since start: 41.631
+Response curve: only e08.SST.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 462946304, free 230545208, used 232401096, increment 510528
+Caulerpa_taxifolia_2 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 462946304, free 230530096, used 232416208, increment 15112
+linearPredictor: max memory 1886912512, total allocated 462946304, free 230530096, used 232416208, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 462946304, free 230530096, used 232416208, increment 0
+Sequential: max memory 1886912512, total allocated 462946304, free 230530096, used 232416208, increment 0
+Initial loss: 9.275003885301905
+180: time = 0.221000 loss = 8.925175
+Resulting gain: 0.3498288036740984
+Caulerpa_taxifolia_2 response curves
+Response curve: only e09.SST.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 462946304, free 221870768, used 241075536, increment 8659328
+Caulerpa_taxifolia_2 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 462946304, free 221863208, used 241083096, increment 7560
+linearPredictor: max memory 1886912512, total allocated 462946304, free 221863208, used 241083096, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 462946304, free 221855656, used 241090648, increment 7552
+Sequential: max memory 1886912512, total allocated 462946304, free 221855656, used 241090648, increment 0
+Initial loss: 9.275003885301905
+180: time = 0.239000 loss = 8.659989
+Resulting gain: 0.6150146016958722
+Caulerpa_taxifolia_2 response curves
+Jackknife: leave e03.NIT.max out
+Making features
+makeFeatures: max memory 1886912512, total allocated 462946304, free 188292440, used 274653864, increment 33563216
+Caulerpa_taxifolia_2 e03.NIT.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 462946304, free 188277280, used 274669024, increment 15160
+linearPredictor: max memory 1886912512, total allocated 462946304, free 188277280, used 274669024, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 462946304, free 188277280, used 274669024, increment 0
+Sequential: max memory 1886912512, total allocated 462946304, free 188277280, used 274669024, increment 0
+Initial loss: 9.275003885301905
+Initial test loss: 9.275003885301905
+Time since start: 42.837
+260: time = 0.375000 loss = 8.554622 testLoss 8.539087
+Jackknife: leave e04.NIT.min out
+Making features
+makeFeatures: max memory 1886912512, total allocated 462946304, free 186226184, used 276720120, increment 2051096
+Caulerpa_taxifolia_2 e04.NIT.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 462946304, free 186218440, used 276727864, increment 7744
+linearPredictor: max memory 1886912512, total allocated 462946304, free 186218440, used 276727864, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 462946304, free 186218440, used 276727864, increment 0
+Sequential: max memory 1886912512, total allocated 462946304, free 186218440, used 276727864, increment 0
+Initial loss: 9.275003885301905
+Initial test loss: 9.275003885301905
+260: time = 0.377000 loss = 8.529576 testLoss 8.493116
+Jackknife: leave e05.PHO.max out
+Making features
+makeFeatures: max memory 1886912512, total allocated 462946304, free 184187744, used 278758560, increment 2030696
+Caulerpa_taxifolia_2 e05.PHO.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 462946304, free 184187744, used 278758560, increment 0
+linearPredictor: max memory 1886912512, total allocated 462946304, free 184187744, used 278758560, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 462946304, free 184180040, used 278766264, increment 7704
+Sequential: max memory 1886912512, total allocated 462946304, free 184180040, used 278766264, increment 0
+Initial loss: 9.275003885301905
+Initial test loss: 9.275003885301905
+240: time = 0.347000 loss = 8.529728 testLoss 8.493268
+Jackknife: leave e06.PHO.min out
+Making features
+makeFeatures: max memory 1886912512, total allocated 462946304, free 175853192, used 287093112, increment 8326848
+Caulerpa_taxifolia_2 e06.PHO.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 462946304, free 175845640, used 287100664, increment 7552
+linearPredictor: max memory 1886912512, total allocated 462946304, free 175845640, used 287100664, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 462946304, free 175845640, used 287100664, increment 0
+Sequential: max memory 1886912512, total allocated 462946304, free 175845640, used 287100664, increment 0
+Initial loss: 9.275003885301905
+Initial test loss: 9.275003885301905
+Time since start: 44.016
+280: time = 0.387000 loss = 8.529872 testLoss 8.492776
+Jackknife: leave e07.SAL.me out
+Making features
+makeFeatures: max memory 1886912512, total allocated 462946304, free 173712608, used 289233696, increment 2133032
+Caulerpa_taxifolia_2 e07.SAL.me: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 462946304, free 173697480, used 289248824, increment 15128
+linearPredictor: max memory 1886912512, total allocated 462946304, free 173697480, used 289248824, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 462946304, free 173697480, used 289248824, increment 0
+Sequential: max memory 1886912512, total allocated 462946304, free 173697480, used 289248824, increment 0
+Initial loss: 9.275003885301905
+Initial test loss: 9.275003885301905
+240: time = 0.348000 loss = 8.536846 testLoss 8.515030
+Jackknife: leave e08.SST.max out
+Making features
+makeFeatures: max memory 1886912512, total allocated 462946304, free 171841416, used 291104888, increment 1856064
+Caulerpa_taxifolia_2 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 462946304, free 171833672, used 291112632, increment 7744
+linearPredictor: max memory 1886912512, total allocated 462946304, free 171833672, used 291112632, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 462946304, free 171833672, used 291112632, increment 0
+Sequential: max memory 1886912512, total allocated 462946304, free 171833672, used 291112632, increment 0
+Initial loss: 9.275003885301905
+Initial test loss: 9.275003885301905
+320: time = 0.440000 loss = 8.574392 testLoss 8.546281
+Jackknife: leave e09.SST.min out
+Making features
+makeFeatures: max memory 1886912512, total allocated 462946304, free 162987040, used 299959264, increment 8846632
+Caulerpa_taxifolia_2 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 462946304, free 162979488, used 299966816, increment 7552
+linearPredictor: max memory 1886912512, total allocated 462946304, free 162979488, used 299966816, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 462946304, free 162979488, used 299966816, increment 0
+Sequential: max memory 1886912512, total allocated 462946304, free 162979488, used 299966816, increment 0
+Initial loss: 9.275003885301905
+Initial test loss: 9.275003885301905
+Time since start: 45.261
+280: time = 0.382000 loss = 8.782504 testLoss 8.710028
+Jackknife: only e03.NIT.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 462946304, free 160838816, used 302107488, increment 2140672
+Caulerpa_taxifolia_2 e03.NIT.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 462946304, free 160831240, used 302115064, increment 7576
+linearPredictor: max memory 1886912512, total allocated 462946304, free 160831240, used 302115064, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 462946304, free 160831240, used 302115064, increment 0
+Sequential: max memory 1886912512, total allocated 462946304, free 160831240, used 302115064, increment 0
+Initial loss: 9.275003885301905
+Initial test loss: 9.275003885301905
+60: time = 0.139000 loss = 8.929182 testLoss 8.859830
+Res.gain: 0.34582173583519626
+Jackknife: only e04.NIT.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 462946304, free 160535024, used 302411280, increment 296216
+Caulerpa_taxifolia_2 e04.NIT.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 462946304, free 160527472, used 302418832, increment 7552
+linearPredictor: max memory 1886912512, total allocated 462946304, free 160527472, used 302418832, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 462946304, free 160527472, used 302418832, increment 0
+Sequential: max memory 1886912512, total allocated 462946304, free 160527472, used 302418832, increment 0
+Initial loss: 9.275003885301905
+Initial test loss: 9.275003885301905
+60: time = 0.142000 loss = 9.114463 testLoss 9.110026
+Res.gain: 0.16054091218560096
+Jackknife: only e05.PHO.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 462946304, free 160215424, used 302730880, increment 312048
+Caulerpa_taxifolia_2 e05.PHO.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 462946304, free 160215424, used 302730880, increment 0
+linearPredictor: max memory 1886912512, total allocated 462946304, free 160215424, used 302730880, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 462946304, free 160207864, used 302738440, increment 7560
+Sequential: max memory 1886912512, total allocated 462946304, free 160207864, used 302738440, increment 0
+Initial loss: 9.275003885301905
+Initial test loss: 9.275003885301905
+100: time = 0.140000 loss = 9.002714 testLoss 8.949591
+Res.gain: 0.27229032655354146
+Jackknife: only e06.PHO.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 462946304, free 159465672, used 303480632, increment 742192
+Caulerpa_taxifolia_2 e06.PHO.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 462946304, free 159458096, used 303488208, increment 7576
+linearPredictor: max memory 1886912512, total allocated 462946304, free 159458096, used 303488208, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 462946304, free 159458096, used 303488208, increment 0
+Sequential: max memory 1886912512, total allocated 462946304, free 159458096, used 303488208, increment 0
+Initial loss: 9.275003885301905
+Initial test loss: 9.275003885301905
+120: time = 0.158000 loss = 9.125652 testLoss 9.084232
+Res.gain: 0.14935141138119867
+Jackknife: only e07.SAL.me
+Making features
+makeFeatures: max memory 1886912512, total allocated 462946304, free 152192112, used 310754192, increment 7265984
+Caulerpa_taxifolia_2 e07.SAL.me: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 462946304, free 152192112, used 310754192, increment 0
+linearPredictor: max memory 1886912512, total allocated 462946304, free 152192112, used 310754192, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 462946304, free 152184552, used 310761752, increment 7560
+Sequential: max memory 1886912512, total allocated 462946304, free 152184552, used 310761752, increment 0
+Initial loss: 9.275003885301905
+Initial test loss: 9.275003885301905
+100: time = 0.266000 loss = 9.132655 testLoss 9.171746
+Res.gain: 0.14234905335060333
+Jackknife: only e08.SST.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 462946304, free 151666904, used 311279400, increment 517648
+Caulerpa_taxifolia_2 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 462946304, free 151658944, used 311287360, increment 7960
+linearPredictor: max memory 1886912512, total allocated 462946304, free 151658944, used 311287360, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 462946304, free 151658944, used 311287360, increment 0
+Sequential: max memory 1886912512, total allocated 462946304, free 151658944, used 311287360, increment 0
+Initial loss: 9.275003885301905
+Initial test loss: 9.275003885301905
+Time since start: 46.369
+180: time = 0.219000 loss = 8.925175 testLoss 8.865090
+Res.gain: 0.3498288036740984
+Jackknife: only e09.SST.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 462946304, free 150385096, used 312561208, increment 1273848
+Caulerpa_taxifolia_2 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+682 samples
+Density: max memory 1886912512, total allocated 462946304, free 150385096, used 312561208, increment 0
+linearPredictor: max memory 1886912512, total allocated 462946304, free 150385096, used 312561208, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 462946304, free 150377496, used 312568808, increment 7600
+Sequential: max memory 1886912512, total allocated 462946304, free 150377496, used 312568808, increment 0
+Initial loss: 9.275003885301905
+Initial test loss: 9.275003885301905
+180: time = 0.247000 loss = 8.659989 testLoss 8.670587
+Res.gain: 0.6150146016958722
+getSamples: max memory 1886912512, total allocated 462946304, free 141902896, used 321043408, increment 8474600
+Making features
+makeFeatures: max memory 1886912512, total allocated 462946304, free 141849760, used 321096544, increment 53136
+Caulerpa_taxifolia_3: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+683 samples
+Density: max memory 1886912512, total allocated 462946304, free 141842200, used 321104104, increment 7560
+linearPredictor: max memory 1886912512, total allocated 462946304, free 141842200, used 321104104, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 462946304, free 141842200, used 321104104, increment 0
+Sequential: max memory 1886912512, total allocated 462946304, free 141842200, used 321104104, increment 0
+Initial loss: 9.275285060616564
+Initial test loss: 9.275285060616564
+280: time = 0.398000 loss = 8.550648 testLoss 8.387426
+Resulting gain: 0.7246372188376125
+Time since start: 47.549
+Projecting...
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CAUL\Maxent Outputs 4.1 GUI 2\caul.max.1\Caulerpa_taxifolia_3.asc
+Time since start: 51.551
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CAUL\Maxent Outputs 4.1 GUI 2\caul.max.1\plots\Caulerpa_taxifolia_3.png
+Time since start: 53.98
+Caulerpa_taxifolia_3 response curves
+Response curve: only e03.NIT.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 477102080, free 83422512, used 393679568, increment 72575464
+Caulerpa_taxifolia_3 e03.NIT.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+683 samples
+Density: max memory 1886912512, total allocated 477102080, free 83397168, used 393704912, increment 25344
+linearPredictor: max memory 1886912512, total allocated 477102080, free 83397168, used 393704912, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 477102080, free 83397168, used 393704912, increment 0
+Sequential: max memory 1886912512, total allocated 477102080, free 83397168, used 393704912, increment 0
+Initial loss: 9.275285060616564
+60: time = 0.135000 loss = 8.929029
+Resulting gain: 0.34625651601847096
+Caulerpa_taxifolia_3 response curves
+Response curve: only e04.NIT.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 477102080, free 76407072, used 400695008, increment 6990096
+Caulerpa_taxifolia_3 e04.NIT.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+683 samples
+Density: max memory 1886912512, total allocated 477102080, free 76407072, used 400695008, increment 0
+linearPredictor: max memory 1886912512, total allocated 477102080, free 76407072, used 400695008, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 477102080, free 76381728, used 400720352, increment 25344
+Sequential: max memory 1886912512, total allocated 477102080, free 76381728, used 400720352, increment 0
+Initial loss: 9.275285060616564
+60: time = 0.149000 loss = 9.122883
+Resulting gain: 0.15240249933905226
+Caulerpa_taxifolia_3 response curves
+Time since start: 55.012
+Response curve: only e05.PHO.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 477102080, free 69389608, used 407712472, increment 6992120
+Caulerpa_taxifolia_3 e05.PHO.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+683 samples
+Density: max memory 1886912512, total allocated 477102080, free 69389608, used 407712472, increment 0
+linearPredictor: max memory 1886912512, total allocated 477102080, free 69389608, used 407712472, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 477102080, free 69389608, used 407712472, increment 0
+Sequential: max memory 1886912512, total allocated 477102080, free 69389608, used 407712472, increment 0
+Initial loss: 9.275285060616564
+100: time = 0.146000 loss = 9.007268
+Resulting gain: 0.2680169109944135
+Caulerpa_taxifolia_3 response curves
+Response curve: only e06.PHO.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 477102080, free 62255184, used 414846896, increment 7134424
+Caulerpa_taxifolia_3 e06.PHO.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+683 samples
+Density: max memory 1886912512, total allocated 477102080, free 62255184, used 414846896, increment 0
+linearPredictor: max memory 1886912512, total allocated 477102080, free 62255184, used 414846896, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 460849152, free 375807528, used 85041624, increment -329805272
+Sequential: max memory 1886912512, total allocated 460849152, free 375807528, used 85041624, increment 0
+Initial loss: 9.275285060616564
+100: time = 0.139000 loss = 9.127522
+Resulting gain: 0.14776341960665107
+Caulerpa_taxifolia_3 response curves
+Response curve: only e07.SAL.me
+Making features
+makeFeatures: max memory 1886912512, total allocated 460849152, free 375106952, used 85742200, increment 700576
+Caulerpa_taxifolia_3 e07.SAL.me: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+683 samples
+Density: max memory 1886912512, total allocated 460849152, free 375106952, used 85742200, increment 0
+linearPredictor: max memory 1886912512, total allocated 460849152, free 375106952, used 85742200, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 460849152, free 375106952, used 85742200, increment 0
+Sequential: max memory 1886912512, total allocated 460849152, free 375106952, used 85742200, increment 0
+Initial loss: 9.275285060616564
+100: time = 0.193000 loss = 9.147304
+Resulting gain: 0.1279808102825477
+Caulerpa_taxifolia_3 response curves
+Response curve: only e08.SST.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 460849152, free 368226920, used 92622232, increment 6880032
+Caulerpa_taxifolia_3 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+683 samples
+Density: max memory 1886912512, total allocated 460849152, free 368226920, used 92622232, increment 0
+linearPredictor: max memory 1886912512, total allocated 460849152, free 368226920, used 92622232, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 460849152, free 368226920, used 92622232, increment 0
+Sequential: max memory 1886912512, total allocated 460849152, free 368226920, used 92622232, increment 0
+Initial loss: 9.275285060616564
+Time since start: 56.076
+180: time = 0.213000 loss = 8.936704
+Resulting gain: 0.3385806937232161
+Caulerpa_taxifolia_3 response curves
+Response curve: only e09.SST.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 460849152, free 360597360, used 100251792, increment 7629560
+Caulerpa_taxifolia_3 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+683 samples
+Density: max memory 1886912512, total allocated 460849152, free 360597360, used 100251792, increment 0
+linearPredictor: max memory 1886912512, total allocated 460849152, free 360597360, used 100251792, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 460849152, free 360597360, used 100251792, increment 0
+Sequential: max memory 1886912512, total allocated 460849152, free 360597360, used 100251792, increment 0
+Initial loss: 9.275285060616564
+180: time = 0.243000 loss = 8.680580
+Resulting gain: 0.5947046196661567
+Caulerpa_taxifolia_3 response curves
+Jackknife: leave e03.NIT.max out
+Making features
+makeFeatures: max memory 1886912512, total allocated 460849152, free 327238312, used 133610840, increment 33359048
+Caulerpa_taxifolia_3 e03.NIT.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+683 samples
+Density: max memory 1886912512, total allocated 460849152, free 327238312, used 133610840, increment 0
+linearPredictor: max memory 1886912512, total allocated 460849152, free 327238312, used 133610840, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 460849152, free 327238312, used 133610840, increment 0
+Sequential: max memory 1886912512, total allocated 460849152, free 327238312, used 133610840, increment 0
+Initial loss: 9.275285060616564
+Initial test loss: 9.275285060616564
+Time since start: 57.21
+320: time = 0.455000 loss = 8.579143 testLoss 8.420165
+Jackknife: leave e04.NIT.min out
+Making features
+makeFeatures: max memory 1886912512, total allocated 460849152, free 324830008, used 136019144, increment 2408304
+Caulerpa_taxifolia_3 e04.NIT.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+683 samples
+Density: max memory 1886912512, total allocated 460849152, free 324804168, used 136044984, increment 25840
+linearPredictor: max memory 1886912512, total allocated 460849152, free 324804168, used 136044984, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 460849152, free 324804168, used 136044984, increment 0
+Sequential: max memory 1886912512, total allocated 460849152, free 324804168, used 136044984, increment 0
+Initial loss: 9.275285060616564
+Initial test loss: 9.275285060616564
+360: time = 0.476000 loss = 8.550647 testLoss 8.387252
+Jackknife: leave e05.PHO.max out
+Making features
+makeFeatures: max memory 1886912512, total allocated 460849152, free 322187296, used 138661856, increment 2616872
+Caulerpa_taxifolia_3 e05.PHO.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+683 samples
+Density: max memory 1886912512, total allocated 460849152, free 322187296, used 138661856, increment 0
+linearPredictor: max memory 1886912512, total allocated 460849152, free 322187296, used 138661856, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 460849152, free 322187296, used 138661856, increment 0
+Sequential: max memory 1886912512, total allocated 460849152, free 322187296, used 138661856, increment 0
+Initial loss: 9.275285060616564
+Initial test loss: 9.275285060616564
+220: time = 0.319000 loss = 8.550995 testLoss 8.387269
+Jackknife: leave e06.PHO.min out
+Making features
+makeFeatures: max memory 1886912512, total allocated 460849152, free 314111256, used 146737896, increment 8076040
+Caulerpa_taxifolia_3 e06.PHO.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+683 samples
+Density: max memory 1886912512, total allocated 460849152, free 314111256, used 146737896, increment 0
+linearPredictor: max memory 1886912512, total allocated 460849152, free 314111256, used 146737896, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 460849152, free 314111256, used 146737896, increment 0
+Sequential: max memory 1886912512, total allocated 460849152, free 314111256, used 146737896, increment 0
+Initial loss: 9.275285060616564
+Initial test loss: 9.275285060616564
+Time since start: 58.466
+260: time = 0.381000 loss = 8.551106 testLoss 8.387197
+Jackknife: leave e07.SAL.me out
+Making features
+makeFeatures: max memory 1886912512, total allocated 460849152, free 312040008, used 148809144, increment 2071248
+Caulerpa_taxifolia_3 e07.SAL.me: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+683 samples
+Density: max memory 1886912512, total allocated 460849152, free 312014168, used 148834984, increment 25840
+linearPredictor: max memory 1886912512, total allocated 460849152, free 312014168, used 148834984, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 460849152, free 312014168, used 148834984, increment 0
+Sequential: max memory 1886912512, total allocated 460849152, free 312014168, used 148834984, increment 0
+Initial loss: 9.275285060616564
+Initial test loss: 9.275285060616564
+200: time = 0.297000 loss = 8.560694 testLoss 8.400958
+Jackknife: leave e08.SST.max out
+Making features
+makeFeatures: max memory 1886912512, total allocated 460849152, free 310510424, used 150338728, increment 1503744
+Caulerpa_taxifolia_3 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+683 samples
+Density: max memory 1886912512, total allocated 460849152, free 310510424, used 150338728, increment 0
+linearPredictor: max memory 1886912512, total allocated 460849152, free 310510424, used 150338728, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 460849152, free 310510424, used 150338728, increment 0
+Sequential: max memory 1886912512, total allocated 460849152, free 310510424, used 150338728, increment 0
+Initial loss: 9.275285060616564
+Initial test loss: 9.275285060616564
+280: time = 0.395000 loss = 8.593880 testLoss 8.448779
+Jackknife: leave e09.SST.min out
+Making features
+makeFeatures: max memory 1886912512, total allocated 460849152, free 301968712, used 158880440, increment 8541712
+Caulerpa_taxifolia_3 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+683 samples
+Density: max memory 1886912512, total allocated 460849152, free 301942864, used 158906288, increment 25848
+linearPredictor: max memory 1886912512, total allocated 460849152, free 301942864, used 158906288, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 460849152, free 301942864, used 158906288, increment 0
+Sequential: max memory 1886912512, total allocated 460849152, free 301942864, used 158906288, increment 0
+Initial loss: 9.275285060616564
+Initial test loss: 9.275285060616564
+Time since start: 59.729
+360: time = 0.503000 loss = 8.798596 testLoss 8.638426
+Jackknife: only e03.NIT.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 460849152, free 299276760, used 161572392, increment 2666104
+Caulerpa_taxifolia_3 e03.NIT.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+683 samples
+Density: max memory 1886912512, total allocated 460849152, free 299276760, used 161572392, increment 0
+linearPredictor: max memory 1886912512, total allocated 460849152, free 299276760, used 161572392, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 460849152, free 299250920, used 161598232, increment 25840
+Sequential: max memory 1886912512, total allocated 460849152, free 299250920, used 161598232, increment 0
+Initial loss: 9.275285060616564
+Initial test loss: 9.275285060616564
+60: time = 0.131000 loss = 8.929029 testLoss 8.863039
+Res.gain: 0.34625651601847096
+Jackknife: only e04.NIT.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 460849152, free 298966248, used 161882904, increment 284672
+Caulerpa_taxifolia_3 e04.NIT.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+683 samples
+Density: max memory 1886912512, total allocated 460849152, free 298940216, used 161908936, increment 26032
+linearPredictor: max memory 1886912512, total allocated 460849152, free 298940216, used 161908936, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 460849152, free 298940216, used 161908936, increment 0
+Sequential: max memory 1886912512, total allocated 460849152, free 298940216, used 161908936, increment 0
+Initial loss: 9.275285060616564
+Initial test loss: 9.275285060616564
+60: time = 0.147000 loss = 9.122883 testLoss 9.080194
+Res.gain: 0.15240249933905226
+Jackknife: only e05.PHO.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 460849152, free 298681728, used 162167424, increment 258488
+Caulerpa_taxifolia_3 e05.PHO.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+683 samples
+Density: max memory 1886912512, total allocated 460849152, free 298655840, used 162193312, increment 25888
+linearPredictor: max memory 1886912512, total allocated 460849152, free 298655840, used 162193312, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 460849152, free 298655840, used 162193312, increment 0
+Sequential: max memory 1886912512, total allocated 460849152, free 298655840, used 162193312, increment 0
+Initial loss: 9.275285060616564
+Initial test loss: 9.275285060616564
+100: time = 0.143000 loss = 9.007268 testLoss 8.935339
+Res.gain: 0.2680169109944135
+Jackknife: only e06.PHO.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 460849152, free 297930368, used 162918784, increment 725472
+Caulerpa_taxifolia_3 e06.PHO.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+683 samples
+Density: max memory 1886912512, total allocated 460849152, free 297930368, used 162918784, increment 0
+linearPredictor: max memory 1886912512, total allocated 460849152, free 297930368, used 162918784, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 460849152, free 297930368, used 162918784, increment 0
+Sequential: max memory 1886912512, total allocated 460849152, free 297930368, used 162918784, increment 0
+Initial loss: 9.275285060616564
+Initial test loss: 9.275285060616564
+100: time = 0.137000 loss = 9.127522 testLoss 9.079066
+Res.gain: 0.14776341960665107
+Jackknife: only e07.SAL.me
+Making features
+makeFeatures: max memory 1886912512, total allocated 460849152, free 297153024, used 163696128, increment 777344
+Caulerpa_taxifolia_3 e07.SAL.me: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+683 samples
+Density: max memory 1886912512, total allocated 460849152, free 297153024, used 163696128, increment 0
+linearPredictor: max memory 1886912512, total allocated 460849152, free 297153024, used 163696128, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 460849152, free 297153024, used 163696128, increment 0
+Sequential: max memory 1886912512, total allocated 460849152, free 297153024, used 163696128, increment 0
+Initial loss: 9.275285060616564
+Initial test loss: 9.275285060616564
+100: time = 0.192000 loss = 9.147304 testLoss 9.111808
+Res.gain: 0.1279808102825477
+Jackknife: only e08.SST.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 460849152, free 290195664, used 170653488, increment 6957360
+Caulerpa_taxifolia_3 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+683 samples
+Density: max memory 1886912512, total allocated 460849152, free 290169672, used 170679480, increment 25992
+linearPredictor: max memory 1886912512, total allocated 460849152, free 290169672, used 170679480, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 460849152, free 290169672, used 170679480, increment 0
+Sequential: max memory 1886912512, total allocated 460849152, free 290169672, used 170679480, increment 0
+Initial loss: 9.275285060616564
+Initial test loss: 9.275285060616564
+Time since start: 60.745
+180: time = 0.218000 loss = 8.936704 testLoss 8.821201
+Res.gain: 0.3385806937232161
+Jackknife: only e09.SST.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 460849152, free 288926472, used 171922680, increment 1243200
+Caulerpa_taxifolia_3 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+683 samples
+Density: max memory 1886912512, total allocated 460849152, free 288926472, used 171922680, increment 0
+linearPredictor: max memory 1886912512, total allocated 460849152, free 288926472, used 171922680, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 460849152, free 288900632, used 171948520, increment 25840
+Sequential: max memory 1886912512, total allocated 460849152, free 288900632, used 171948520, increment 0
+Initial loss: 9.275285060616564
+Initial test loss: 9.275285060616564
+180: time = 0.247000 loss = 8.680580 testLoss 8.575375
+Res.gain: 0.5947046196661567
+getSamples: max memory 1886912512, total allocated 460849152, free 281295896, used 179553256, increment 7604736
+Making features
+makeFeatures: max memory 1886912512, total allocated 460849152, free 281244168, used 179604984, increment 51728
+Caulerpa_taxifolia_4: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+683 samples
+Density: max memory 1886912512, total allocated 460849152, free 281244168, used 179604984, increment 0
+linearPredictor: max memory 1886912512, total allocated 460849152, free 281244168, used 179604984, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 460849152, free 281244168, used 179604984, increment 0
+Sequential: max memory 1886912512, total allocated 460849152, free 281244168, used 179604984, increment 0
+Initial loss: 9.275285060616564
+Initial test loss: 9.275285060616564
+300: time = 0.435000 loss = 8.555564 testLoss 8.367241
+Resulting gain: 0.7197207933165686
+Time since start: 61.916
+Projecting...
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CAUL\Maxent Outputs 4.1 GUI 2\caul.max.1\Caulerpa_taxifolia_4.asc
+Time since start: 66.519
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CAUL\Maxent Outputs 4.1 GUI 2\caul.max.1\plots\Caulerpa_taxifolia_4.png
+Time since start: 68.936
+Caulerpa_taxifolia_4 response curves
+Time since start: 69.939
+Response curve: only e03.NIT.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 374341632, free 206011680, used 168329952, increment -11275032
+Caulerpa_taxifolia_4 e03.NIT.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+683 samples
+Density: max memory 1886912512, total allocated 374341632, free 206003352, used 168338280, increment 8328
+linearPredictor: max memory 1886912512, total allocated 374341632, free 206003352, used 168338280, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 374341632, free 206003352, used 168338280, increment 0
+Sequential: max memory 1886912512, total allocated 374341632, free 206003352, used 168338280, increment 0
+Initial loss: 9.275285060616564
+60: time = 0.132000 loss = 8.922321
+Resulting gain: 0.352963992009693
+Caulerpa_taxifolia_4 response curves
+Response curve: only e04.NIT.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 374341632, free 200980552, used 173361080, increment 5022800
+Caulerpa_taxifolia_4 e04.NIT.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+683 samples
+Density: max memory 1886912512, total allocated 374341632, free 200972208, used 173369424, increment 8344
+linearPredictor: max memory 1886912512, total allocated 374341632, free 200972208, used 173369424, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 374341632, free 200963872, used 173377760, increment 8336
+Sequential: max memory 1886912512, total allocated 374341632, free 200963872, used 173377760, increment 0
+Initial loss: 9.275285060616564
+60: time = 0.157000 loss = 9.124390
+Resulting gain: 0.1508951791920623
+Caulerpa_taxifolia_4 response curves
+Response curve: only e05.PHO.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 374341632, free 195930000, used 178411632, increment 5033872
+Caulerpa_taxifolia_4 e05.PHO.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+683 samples
+Density: max memory 1886912512, total allocated 374341632, free 195930000, used 178411632, increment 0
+linearPredictor: max memory 1886912512, total allocated 374341632, free 195921440, used 178420192, increment 8560
+FeaturedSpace: max memory 1886912512, total allocated 374341632, free 195921440, used 178420192, increment 0
+Sequential: max memory 1886912512, total allocated 374341632, free 195921440, used 178420192, increment 0
+Initial loss: 9.275285060616564
+100: time = 0.145000 loss = 9.002634
+Resulting gain: 0.2726514049757309
+Caulerpa_taxifolia_4 response curves
+Response curve: only e06.PHO.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 374341632, free 190462808, used 183878824, increment 5458632
+Caulerpa_taxifolia_4 e06.PHO.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+683 samples
+Density: max memory 1886912512, total allocated 374341632, free 190454464, used 183887168, increment 8344
+linearPredictor: max memory 1886912512, total allocated 374341632, free 190454464, used 183887168, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 374341632, free 190446128, used 183895504, increment 8336
+Sequential: max memory 1886912512, total allocated 374341632, free 190446128, used 183895504, increment 0
+Initial loss: 9.275285060616564
+120: time = 0.150000 loss = 9.132905
+Resulting gain: 0.14238046665811765
+Caulerpa_taxifolia_4 response curves
+Time since start: 70.985
+Response curve: only e07.SAL.me
+Making features
+makeFeatures: max memory 1886912512, total allocated 374341632, free 184859728, used 189481904, increment 5586400
+Caulerpa_taxifolia_4 e07.SAL.me: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+683 samples
+Density: max memory 1886912512, total allocated 374341632, free 184859728, used 189481904, increment 0
+linearPredictor: max memory 1886912512, total allocated 374341632, free 184859728, used 189481904, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 374341632, free 184851168, used 189490464, increment 8560
+Sequential: max memory 1886912512, total allocated 374341632, free 184851168, used 189490464, increment 0
+Initial loss: 9.275285060616564
+100: time = 0.252000 loss = 9.141537
+Resulting gain: 0.13374823796261026
+Caulerpa_taxifolia_4 response curves
+Response curve: only e08.SST.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 374341632, free 179569848, used 194771784, increment 5281320
+Caulerpa_taxifolia_4 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+683 samples
+Density: max memory 1886912512, total allocated 374341632, free 179561496, used 194780136, increment 8352
+linearPredictor: max memory 1886912512, total allocated 374341632, free 179561496, used 194780136, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 374341632, free 179561496, used 194780136, increment 0
+Sequential: max memory 1886912512, total allocated 374341632, free 179561496, used 194780136, increment 0
+Initial loss: 9.275285060616564
+180: time = 0.220000 loss = 8.937149
+Resulting gain: 0.33813597107753957
+Caulerpa_taxifolia_4 response curves
+Response curve: only e09.SST.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 374341632, free 173590336, used 200751296, increment 5971160
+Caulerpa_taxifolia_4 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+683 samples
+Density: max memory 1886912512, total allocated 374341632, free 173581816, used 200759816, increment 8520
+linearPredictor: max memory 1886912512, total allocated 374341632, free 173581816, used 200759816, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 374341632, free 173581816, used 200759816, increment 0
+Sequential: max memory 1886912512, total allocated 374341632, free 173581816, used 200759816, increment 0
+Initial loss: 9.275285060616564
+180: time = 0.252000 loss = 8.690061
+Resulting gain: 0.5852243747508812
+Caulerpa_taxifolia_4 response curves
+Time since start: 72.161
+Jackknife: leave e03.NIT.max out
+Making features
+makeFeatures: max memory 1886912512, total allocated 374341632, free 143745960, used 230595672, increment 29835856
+Caulerpa_taxifolia_4 e03.NIT.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+683 samples
+Density: max memory 1886912512, total allocated 374341632, free 143737400, used 230604232, increment 8560
+linearPredictor: max memory 1886912512, total allocated 374341632, free 143737400, used 230604232, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 374341632, free 143737400, used 230604232, increment 0
+Sequential: max memory 1886912512, total allocated 374341632, free 143737400, used 230604232, increment 0
+Initial loss: 9.275285060616564
+Initial test loss: 9.275285060616564
+260: time = 0.419000 loss = 8.584505 testLoss 8.400494
+Jackknife: leave e04.NIT.min out
+Making features
+makeFeatures: max memory 1886912512, total allocated 374341632, free 136948576, used 237393056, increment 6788824
+Caulerpa_taxifolia_4 e04.NIT.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+683 samples
+Density: max memory 1886912512, total allocated 374341632, free 136940056, used 237401576, increment 8520
+linearPredictor: max memory 1886912512, total allocated 374341632, free 136940056, used 237401576, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 374341632, free 136931720, used 237409912, increment 8336
+Sequential: max memory 1886912512, total allocated 374341632, free 136931720, used 237409912, increment 0
+Initial loss: 9.275285060616564
+Initial test loss: 9.275285060616564
+220: time = 0.327000 loss = 8.555565 testLoss 8.366941
+Jackknife: leave e05.PHO.max out
+Making features
+makeFeatures: max memory 1886912512, total allocated 374341632, free 135203664, used 239137968, increment 1728056
+Caulerpa_taxifolia_4 e05.PHO.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+683 samples
+Density: max memory 1886912512, total allocated 374341632, free 135186600, used 239155032, increment 17064
+linearPredictor: max memory 1886912512, total allocated 374341632, free 135186600, used 239155032, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 374341632, free 135186600, used 239155032, increment 0
+Sequential: max memory 1886912512, total allocated 374341632, free 135186600, used 239155032, increment 0
+Initial loss: 9.275285060616564
+Initial test loss: 9.275285060616564
+Time since start: 73.319
+240: time = 0.345000 loss = 8.556272 testLoss 8.365394
+Jackknife: leave e06.PHO.min out
+Making features
+makeFeatures: max memory 1886912512, total allocated 374341632, free 132789664, used 241551968, increment 2396936
+Caulerpa_taxifolia_4 e06.PHO.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+683 samples
+Density: max memory 1886912512, total allocated 374341632, free 128054032, used 246287600, increment 4735632
+linearPredictor: max memory 1886912512, total allocated 374341632, free 128054032, used 246287600, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 374341632, free 128054032, used 246287600, increment 0
+Sequential: max memory 1886912512, total allocated 374341632, free 128054032, used 246287600, increment 0
+Initial loss: 9.275285060616564
+Initial test loss: 9.275285060616564
+300: time = 0.431000 loss = 8.556327 testLoss 8.365386
+Jackknife: leave e07.SAL.me out
+Making features
+makeFeatures: max memory 1886912512, total allocated 374341632, free 125824240, used 248517392, increment 2229792
+Caulerpa_taxifolia_4 e07.SAL.me: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+683 samples
+Density: max memory 1886912512, total allocated 374341632, free 125815904, used 248525728, increment 8336
+linearPredictor: max memory 1886912512, total allocated 374341632, free 125815904, used 248525728, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 374341632, free 125815904, used 248525728, increment 0
+Sequential: max memory 1886912512, total allocated 374341632, free 125815904, used 248525728, increment 0
+Initial loss: 9.275285060616564
+Initial test loss: 9.275285060616564
+220: time = 0.334000 loss = 8.564172 testLoss 8.386213
+Jackknife: leave e08.SST.max out
+Making features
+makeFeatures: max memory 1886912512, total allocated 374341632, free 124061208, used 250280424, increment 1754696
+Caulerpa_taxifolia_4 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+683 samples
+Density: max memory 1886912512, total allocated 374341632, free 124052880, used 250288752, increment 8328
+linearPredictor: max memory 1886912512, total allocated 374341632, free 124052880, used 250288752, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 374341632, free 124052880, used 250288752, increment 0
+Sequential: max memory 1886912512, total allocated 374341632, free 124052880, used 250288752, increment 0
+Initial loss: 9.275285060616564
+Initial test loss: 9.275285060616564
+Time since start: 74.507
+240: time = 0.347000 loss = 8.597936 testLoss 8.427441
+Jackknife: leave e09.SST.min out
+Making features
+makeFeatures: max memory 1886912512, total allocated 374341632, free 117469832, used 256871800, increment 6583048
+Caulerpa_taxifolia_4 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+683 samples
+Density: max memory 1886912512, total allocated 374341632, free 117461288, used 256880344, increment 8544
+linearPredictor: max memory 1886912512, total allocated 374341632, free 117461288, used 256880344, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 374341632, free 117461288, used 256880344, increment 0
+Sequential: max memory 1886912512, total allocated 374341632, free 117461288, used 256880344, increment 0
+Initial loss: 9.275285060616564
+Initial test loss: 9.275285060616564
+300: time = 0.435000 loss = 8.791192 testLoss 8.668988
+Jackknife: only e03.NIT.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 374341632, free 115116488, used 259225144, increment 2344800
+Caulerpa_taxifolia_4 e03.NIT.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+683 samples
+Density: max memory 1886912512, total allocated 374341632, free 115108112, used 259233520, increment 8376
+linearPredictor: max memory 1886912512, total allocated 374341632, free 115108112, used 259233520, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 374341632, free 115108112, used 259233520, increment 0
+Sequential: max memory 1886912512, total allocated 374341632, free 115108112, used 259233520, increment 0
+Initial loss: 9.275285060616564
+Initial test loss: 9.275285060616564
+60: time = 0.137000 loss = 8.922321 testLoss 8.887140
+Res.gain: 0.352963992009693
+Jackknife: only e04.NIT.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 374341632, free 114832344, used 259509288, increment 275768
+Caulerpa_taxifolia_4 e04.NIT.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+683 samples
+Density: max memory 1886912512, total allocated 374341632, free 114832344, used 259509288, increment 0
+linearPredictor: max memory 1886912512, total allocated 374341632, free 114832344, used 259509288, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 374341632, free 114824016, used 259517616, increment 8328
+Sequential: max memory 1886912512, total allocated 374341632, free 114824016, used 259517616, increment 0
+Initial loss: 9.275285060616564
+Initial test loss: 9.275285060616564
+60: time = 0.142000 loss = 9.124390 testLoss 9.074980
+Res.gain: 0.1508951791920623
+Jackknife: only e05.PHO.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 374341632, free 114527880, used 259813752, increment 296136
+Caulerpa_taxifolia_4 e05.PHO.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+683 samples
+Density: max memory 1886912512, total allocated 374341632, free 109800384, used 264541248, increment 4727496
+linearPredictor: max memory 1886912512, total allocated 374341632, free 109800384, used 264541248, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 374341632, free 109800384, used 264541248, increment 0
+Sequential: max memory 1886912512, total allocated 374341632, free 109800384, used 264541248, increment 0
+Initial loss: 9.275285060616564
+Initial test loss: 9.275285060616564
+100: time = 0.140000 loss = 9.002634 testLoss 8.952132
+Res.gain: 0.2726514049757309
+Jackknife: only e06.PHO.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 374341632, free 109043968, used 265297664, increment 756416
+Caulerpa_taxifolia_4 e06.PHO.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+683 samples
+Density: max memory 1886912512, total allocated 374341632, free 109035448, used 265306184, increment 8520
+linearPredictor: max memory 1886912512, total allocated 374341632, free 109035448, used 265306184, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 374341632, free 109035448, used 265306184, increment 0
+Sequential: max memory 1886912512, total allocated 374341632, free 109035448, used 265306184, increment 0
+Initial loss: 9.275285060616564
+Initial test loss: 9.275285060616564
+Time since start: 75.58
+120: time = 0.162000 loss = 9.132905 testLoss 9.059566
+Res.gain: 0.14238046665811765
+Jackknife: only e07.SAL.me
+Making features
+makeFeatures: max memory 1886912512, total allocated 374341632, free 108249024, used 266092608, increment 786424
+Caulerpa_taxifolia_4 e07.SAL.me: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+683 samples
+Density: max memory 1886912512, total allocated 374341632, free 108240504, used 266101128, increment 8520
+linearPredictor: max memory 1886912512, total allocated 374341632, free 108240504, used 266101128, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 374341632, free 108240504, used 266101128, increment 0
+Sequential: max memory 1886912512, total allocated 374341632, free 108240504, used 266101128, increment 0
+Initial loss: 9.275285060616564
+Initial test loss: 9.275285060616564
+100: time = 0.251000 loss = 9.141537 testLoss 9.136147
+Res.gain: 0.13374823796261026
+Jackknife: only e08.SST.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 374341632, free 107680240, used 266661392, increment 560264
+Caulerpa_taxifolia_4 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+683 samples
+Density: max memory 1886912512, total allocated 374341632, free 107671896, used 266669736, increment 8344
+linearPredictor: max memory 1886912512, total allocated 374341632, free 107671896, used 266669736, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 374341632, free 107671896, used 266669736, increment 0
+Sequential: max memory 1886912512, total allocated 374341632, free 107671896, used 266669736, increment 0
+Initial loss: 9.275285060616564
+Initial test loss: 9.275285060616564
+180: time = 0.217000 loss = 8.937149 testLoss 8.819816
+Res.gain: 0.33813597107753957
+Jackknife: only e09.SST.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 374341632, free 106377080, used 267964552, increment 1294816
+Caulerpa_taxifolia_4 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+683 samples
+Density: max memory 1886912512, total allocated 374341632, free 106377080, used 267964552, increment 0
+linearPredictor: max memory 1886912512, total allocated 374341632, free 106377080, used 267964552, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 374341632, free 106368744, used 267972888, increment 8336
+Sequential: max memory 1886912512, total allocated 374341632, free 106368744, used 267972888, increment 0
+Initial loss: 9.275285060616564
+Initial test loss: 9.275285060616564
+180: time = 0.244000 loss = 8.690061 testLoss 8.535774
+Res.gain: 0.5852243747508812
+Time since start: 77.047
+Creating average grid, stddev grid etc.
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CAUL\Maxent Outputs 4.1 GUI 2\caul.max.1\Caulerpa_taxifolia_avg.asc
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CAUL\Maxent Outputs 4.1 GUI 2\caul.max.1\Caulerpa_taxifolia_stddev.asc
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CAUL\Maxent Outputs 4.1 GUI 2\caul.max.1\Caulerpa_taxifolia_min.asc
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CAUL\Maxent Outputs 4.1 GUI 2\caul.max.1\Caulerpa_taxifolia_max.asc
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CAUL\Maxent Outputs 4.1 GUI 2\caul.max.1\Caulerpa_taxifolia_median.asc
+Time since start: 100.204
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CAUL\Maxent Outputs 4.1 GUI 2\caul.max.1\plots\Caulerpa_taxifolia_avg.png
+Time since start: 104.142
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CAUL\Maxent Outputs 4.1 GUI 2\caul.max.1\plots\Caulerpa_taxifolia_stddev.png
+Time since start: 107.711
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CAUL\Maxent Outputs 4.1 GUI 2\caul.max.1\plots\Caulerpa_taxifolia_min.png
+Time since start: 111.76
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CAUL\Maxent Outputs 4.1 GUI 2\caul.max.1\plots\Caulerpa_taxifolia_max.png
+Time since start: 116.563
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CAUL\Maxent Outputs 4.1 GUI 2\caul.max.1\plots\Caulerpa_taxifolia_median.png
+Time since start: 119.319
+Caulerpa_taxifolia average response curves
+Time since start: 134.74
+Ending

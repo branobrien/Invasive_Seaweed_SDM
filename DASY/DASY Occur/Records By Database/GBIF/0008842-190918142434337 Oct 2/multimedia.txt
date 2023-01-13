@@ -1,0 +1,2 @@
+gbifID	type	format	identifier	references	title	description	created	creator	contributor	publisher	audience	source	license	rightsHolder
+1319739952	StillImage	image/jpeg	http://collections.nmnh.si.edu/media/index.php?irn=10164594		00167070.tif	Hollenberg, G. J. GJH 2253, US National Herbarium Sheet 61193, Barcode 00167070		Ingrid P. Lin				US National Herbarium, Department of Botany, NMNH, Smithsonian Institution		

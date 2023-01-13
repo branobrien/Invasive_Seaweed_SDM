@@ -1,0 +1,483 @@
+Wed May 11 09:51:47 EDT 2022
+MaxEnt version 3.4.1
+Checking header of C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\Environmental Data\Clipped_100km\e09.SST.min.asc
+Reading samples from Dasy Maxent V4 GUI.csv
+Read samples: max memory 1886912512, total allocated 128974848, free 92472136, used 36502712, increment 36502712
+Time since start: 1.159
+Extractor: max memory 1886912512, total allocated 128974848, free 116121368, used 12853480, increment -23649232
+Extracting random background and sample data
+Warning: Sample at 10.0, 57.0 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 10.0, 57.0 which has no environmental data
+Warning: Sample at 10.0, 57.0 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 10.0, 57.0 which has no environmental data
+Warning: Sample at 10.0, 57.0 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 10.0, 57.0 which has no environmental data
+Warning: Sample at 10.0, 57.0 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 10.0, 57.0 which has no environmental data
+Warning: Sample at 10.0, 57.0 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 10.0, 57.0 which has no environmental data
+Warning: Sample at 8.3, 56.450001 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 8.3, 56.450001 which has no environmental data
+Warning: Sample at -131.726051, 55.362768 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -131.726051, 55.362768 which has no environmental data
+Warning: Sample at 5.576111111, 54.39138889 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 5.576111111, 54.39138889 which has no environmental data
+Warning: Sample at -132.09, 53.26 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -132.09, 53.26 which has no environmental data
+Warning: Sample at -132.09, 53.26 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -132.09, 53.26 which has no environmental data
+Warning: Sample at -125.3, 50.5 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -125.3, 50.5 which has no environmental data
+Warning: Sample at -126.49, 49.75 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -126.49, 49.75 which has no environmental data
+Warning: Sample at 143.8, 43.366667 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 143.8, 43.366667 which has no environmental data
+Warning: Sample at -8.37963, 43.325 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -8.37963, 43.325 which has no environmental data
+Warning: Sample at -70.901501, 43.204888 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -70.901501, 43.204888 which has no environmental data
+Warning: Sample at -70.922221, 43.129483 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -70.922221, 43.129483 which has no environmental data
+Warning: Sample at -70.871817, 43.086607 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -70.871817, 43.086607 which has no environmental data
+Warning: Sample at -70.866168, 43.089746 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -70.866168, 43.089746 which has no environmental data
+Warning: Sample at -70.866168, 43.089809 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -70.866168, 43.089809 which has no environmental data
+Warning: Sample at -70.866168, 43.089809 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -70.866168, 43.089809 which has no environmental data
+Warning: Sample at -70.866168, 43.089809 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -70.866168, 43.089809 which has no environmental data
+Warning: Sample at -70.862653, 43.091286 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -70.862653, 43.091286 which has no environmental data
+Warning: Sample at -70.8646, 43.092201 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -70.8646, 43.092201 which has no environmental data
+Warning: Sample at -70.864785, 43.092251 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -70.864785, 43.092251 which has no environmental data
+Warning: Sample at -70.864785, 43.092251 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -70.864785, 43.092251 which has no environmental data
+Warning: Sample at -70.867442, 43.092478 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -70.867442, 43.092478 which has no environmental data
+Warning: Sample at -70.867327, 43.095137 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -70.867327, 43.095137 which has no environmental data
+Warning: Sample at -70.860971, 43.105608 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -70.860971, 43.105608 which has no environmental data
+Warning: Sample at -70.858946, 43.121198 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -70.858946, 43.121198 which has no environmental data
+Warning: Sample at -70.855406, 43.121361 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -70.855406, 43.121361 which has no environmental data
+Warning: Sample at -70.870982, 43.124438 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -70.870982, 43.124438 which has no environmental data
+Warning: Sample at -70.841723, 43.126475 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -70.841723, 43.126475 which has no environmental data
+Warning: Sample at -70.841723, 43.126475 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -70.841723, 43.126475 which has no environmental data
+Warning: Sample at -70.841723, 43.126475 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -70.841723, 43.126475 which has no environmental data
+Warning: Sample at -70.848668, 43.129531 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -70.848668, 43.129531 which has no environmental data
+Warning: Sample at -70.887308, 43.137883 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -70.887308, 43.137883 which has no environmental data
+Warning: Sample at -70.838372, 43.138085 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -70.838372, 43.138085 which has no environmental data
+Warning: Sample at -70.827568, 43.11916 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -70.827568, 43.11916 which has no environmental data
+Warning: Sample at -70.827653, 43.119935 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -70.827653, 43.119935 which has no environmental data
+Warning: Sample at -70.827653, 43.119935 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -70.827653, 43.119935 which has no environmental data
+Warning: Sample at -70.8298, 43.120961 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -70.8298, 43.120961 which has no environmental data
+Warning: Sample at -70.827767, 43.121721 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -70.827767, 43.121721 which has no environmental data
+Warning: Sample at -70.829059, 43.122527 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -70.829059, 43.122527 which has no environmental data
+Warning: Sample at -70.829059, 43.122527 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -70.829059, 43.122527 which has no environmental data
+Warning: Sample at -70.829059, 43.122527 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -70.829059, 43.122527 which has no environmental data
+Warning: Sample at -70.829059, 43.122527 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -70.829059, 43.122527 which has no environmental data
+Warning: Sample at -70.91941, 43.076916 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -70.91941, 43.076916 which has no environmental data
+Warning: Sample at -70.899265, 43.052421 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -70.899265, 43.052421 which has no environmental data
+Warning: Sample at -70.835929, 43.067792 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -70.835929, 43.067792 which has no environmental data
+Warning: Sample at -70.862751, 43.069077 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -70.862751, 43.069077 which has no environmental data
+Warning: Sample at -70.883218, 43.069791 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -70.883218, 43.069791 which has no environmental data
+Warning: Sample at -70.876355, 43.070931 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -70.876355, 43.070931 which has no environmental data
+Warning: Sample at -70.872321, 43.070931 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -70.872321, 43.070931 which has no environmental data
+Warning: Sample at -70.877643, 43.071558 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -70.877643, 43.071558 which has no environmental data
+Warning: Sample at -70.870948, 43.073059 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -70.870948, 43.073059 which has no environmental data
+Warning: Sample at -70.906245, 43.073969 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -70.906245, 43.073969 which has no environmental data
+Warning: Sample at -70.906245, 43.073969 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -70.906245, 43.073969 which has no environmental data
+Warning: Sample at -70.909835, 43.074194 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -70.909835, 43.074194 which has no environmental data
+Warning: Sample at -70.909835, 43.074194 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -70.909835, 43.074194 which has no environmental data
+Warning: Sample at -70.859919, 43.077804 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -70.859919, 43.077804 which has no environmental data
+Warning: Sample at -70.863266, 43.082482 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -70.863266, 43.082482 which has no environmental data
+Warning: Sample at -70.863266, 43.082482 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -70.863266, 43.082482 which has no environmental data
+Warning: Sample at -68.954085, 42.912627 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -68.954085, 42.912627 which has no environmental data
+Warning: Sample at -8.63449, 42.42398 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -8.63449, 42.42398 which has no environmental data
+Warning: Sample at -8.660894, 42.28703 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -8.660894, 42.28703 which has no environmental data
+Warning: Sample at 140.864626, 40.90895 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 140.864626, 40.90895 which has no environmental data
+Warning: Sample at 140.864626, 40.90895 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 140.864626, 40.90895 which has no environmental data
+Warning: Sample at 140.864626, 40.90895 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 140.864626, 40.90895 which has no environmental data
+Warning: Sample at 140.864626, 40.90895 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 140.864626, 40.90895 which has no environmental data
+Warning: Sample at 140.864626, 40.90895 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 140.864626, 40.90895 which has no environmental data
+Warning: Sample at 140.864626, 40.90895 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 140.864626, 40.90895 which has no environmental data
+Warning: Sample at 140.864626, 40.90895 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 140.864626, 40.90895 which has no environmental data
+Warning: Sample at 140.864626, 40.90895 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 140.864626, 40.90895 which has no environmental data
+Warning: Sample at 140.864626, 40.90895 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 140.864626, 40.90895 which has no environmental data
+Warning: Sample at -72.9337, 40.75221 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -72.9337, 40.75221 which has no environmental data
+Warning: Sample at 138.376313, 38.024276 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 138.376313, 38.024276 which has no environmental data
+Warning: Sample at 129.1358333, 37.1525 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 129.1358333, 37.1525 which has no environmental data
+Warning: Sample at 129.1180194, 37.00123611 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 129.1180194, 37.00123611 which has no environmental data
+Warning: Sample at 129.1511111, 37.06931111 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 129.1511111, 37.06931111 which has no environmental data
+Warning: Sample at -121.694904, 36.176091 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at -121.694904, 36.176091 which has no environmental data
+Warning: Sample at 140.232689, 35.514765 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 140.232689, 35.514765 which has no environmental data
+Warning: Sample at 138.347454, 35.020959 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 138.347454, 35.020959 which has no environmental data
+Warning: Sample at 138.347454, 35.020959 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 138.347454, 35.020959 which has no environmental data
+Warning: Sample at 138.347454, 35.020959 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 138.347454, 35.020959 which has no environmental data
+Warning: Sample at 138.347454, 35.020959 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 138.347454, 35.020959 which has no environmental data
+Warning: Sample at 138.347454, 35.020959 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 138.347454, 35.020959 which has no environmental data
+Warning: Sample at 139.846239, 34.99374 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 139.846239, 34.99374 which has no environmental data
+Warning: Sample at 136.554202, 34.371206 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 136.554202, 34.371206 which has no environmental data
+Warning: Sample at 134.173333, 34.328437 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 134.173333, 34.328437 which has no environmental data
+Warning: Sample at 133.9809924, 34.20704025 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 133.9809924, 34.20704025 which has no environmental data
+Warning: Sample at 134.005143, 34.208713 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e09.SST.min)
+Warning: Skipping sample at 134.005143, 34.208713 which has no environmental data
+Time since start: 5.268
+614112 points with values for all grids
+Adding samples to background in feature space
+Command line used: 
+Command line to repeat: java density.MaxEnt nowarnings noprefixes responsecurves jackknife "outputdirectory=C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.future" "projectionlayers=C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\Environmental Data\RCP45" "samplesfile=C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\DASY Occur\Dasy Maxent V4 GUI.csv" "environmentallayers=C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\Environmental Data\Clipped_100km" replicates=5 noproduct nohinge noautofeature -N e01.DA.max -N e02.DA.min -N e03.NIT.max -N e04.NIT.min -N e05.PHO.max -N e06.PHO.min -N e07.SAL.me -N e08.SST.max -N e10.SST.ra
+Species: dasysiphonia_japonica_0 dasysiphonia_japonica_1 dasysiphonia_japonica_2 dasysiphonia_japonica_3 dasysiphonia_japonica_4
+Layers: e09.SST.min
+Layertypes: Continuous
+responsecurves: true
+jackknife: true
+outputdirectory: C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.future
+projectionlayers: C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\Environmental Data\RCP45
+samplesfile: C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\DASY Occur\Dasy Maxent V4 GUI.csv
+environmentallayers: C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\Environmental Data\Clipped_100km
+replicates: 5
+product: false
+hinge: false
+autofeature: false
+
+getSamples: max memory 1886912512, total allocated 128974848, free 109767776, used 19207072, increment 6353592
+Making features
+makeFeatures: max memory 1886912512, total allocated 128974848, free 109464384, used 19510464, increment 303392
+dasysiphonia_japonica_0: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+201 samples
+Density: max memory 1886912512, total allocated 128974848, free 109182512, used 19792336, increment 281872
+linearPredictor: max memory 1886912512, total allocated 128974848, free 109100912, used 19873936, increment 81600
+FeaturedSpace: max memory 1886912512, total allocated 128974848, free 109100912, used 19873936, increment 0
+Sequential: max memory 1886912512, total allocated 128974848, free 109085536, used 19889312, increment 15376
+Initial loss: 9.2299469016151
+Initial test loss: 9.2299469016151
+120: time = 0.260000 loss = 8.252483 testLoss 8.187180
+Resulting gain: 0.9774638018128723
+Time since start: 20.704
+Projecting...
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.future\dasysiphonia_japonica_0.asc
+Time since start: 25.702
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.future\plots\dasysiphonia_japonica_0.png
+Time since start: 29.36
+Projecting...
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.future\dasysiphonia_japonica_0_RCP45.asc
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.future\dasysiphonia_japonica_0_RCP45_clamping.asc
+Time since start: 40.536
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.future\plots\dasysiphonia_japonica_0_RCP45.png
+Time since start: 43.329
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.future\plots\dasysiphonia_japonica_0_RCP45_clamping.png
+Time since start: 48.559
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.future\dasysiphonia_japonica_0_RCP45_novel.asc
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.future\dasysiphonia_japonica_0_RCP45_novel_limiting.asc
+Time since start: 69.159
+dasysiphonia_japonica_0 response curves
+Time since start: 70.754
+Response curve: only e09.SST.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 574095360, free 508361904, used 65733456, increment 45844144
+dasysiphonia_japonica_0 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+201 samples
+Density: max memory 1886912512, total allocated 574095360, free 508349256, used 65746104, increment 12648
+linearPredictor: max memory 1886912512, total allocated 574095360, free 508349256, used 65746104, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 574095360, free 508349256, used 65746104, increment 0
+Sequential: max memory 1886912512, total allocated 574095360, free 508349256, used 65746104, increment 0
+Initial loss: 9.2299469016151
+120: time = 0.342000 loss = 8.252483
+Resulting gain: 0.9774638018128723
+dasysiphonia_japonica_0 response curves
+Time since start: 73.262
+getSamples: max memory 1886912512, total allocated 574095360, free 490457440, used 83637920, increment 17891816
+Making features
+makeFeatures: max memory 1886912512, total allocated 574095360, free 490444752, used 83650608, increment 12688
+dasysiphonia_japonica_1: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+201 samples
+Density: max memory 1886912512, total allocated 574095360, free 490440200, used 83655160, increment 4552
+linearPredictor: max memory 1886912512, total allocated 574095360, free 490440200, used 83655160, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 574095360, free 490436048, used 83659312, increment 4152
+Sequential: max memory 1886912512, total allocated 574095360, free 490436048, used 83659312, increment 0
+Initial loss: 9.2299469016151
+Initial test loss: 9.2299469016151
+120: time = 0.384000 loss = 8.222837 testLoss 8.311788
+Resulting gain: 1.0071100424755262
+Time since start: 75.112
+Projecting...
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.future\dasysiphonia_japonica_1.asc
+Time since start: 79.183
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.future\plots\dasysiphonia_japonica_1.png
+Time since start: 82.762
+Projecting...
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.future\dasysiphonia_japonica_1_RCP45.asc
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.future\dasysiphonia_japonica_1_RCP45_clamping.asc
+Time since start: 92.036
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.future\plots\dasysiphonia_japonica_1_RCP45.png
+Time since start: 96.266
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.future\plots\dasysiphonia_japonica_1_RCP45_clamping.png
+Time since start: 99.836
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.future\dasysiphonia_japonica_1_RCP45_novel.asc
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.future\dasysiphonia_japonica_1_RCP45_novel_limiting.asc
+Time since start: 130.324
+dasysiphonia_japonica_1 response curves
+Response curve: only e09.SST.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 511180800, free 251592424, used 259588376, increment 175929064
+dasysiphonia_japonica_1 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+201 samples
+Density: max memory 1886912512, total allocated 511180800, free 251579752, used 259601048, increment 12672
+linearPredictor: max memory 1886912512, total allocated 511180800, free 251579752, used 259601048, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 511180800, free 251579752, used 259601048, increment 0
+Sequential: max memory 1886912512, total allocated 511180800, free 251579752, used 259601048, increment 0
+Initial loss: 9.2299469016151
+120: time = 0.184000 loss = 8.222837
+Resulting gain: 1.0071100424755262
+dasysiphonia_japonica_1 response curves
+Time since start: 131.504
+getSamples: max memory 1886912512, total allocated 511180800, free 238873128, used 272307672, increment 12706624
+Making features
+makeFeatures: max memory 1886912512, total allocated 511180800, free 238860424, used 272320376, increment 12704
+dasysiphonia_japonica_2: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+202 samples
+Density: max memory 1886912512, total allocated 511180800, free 238849576, used 272331224, increment 10848
+linearPredictor: max memory 1886912512, total allocated 511180800, free 238849576, used 272331224, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 511180800, free 238849576, used 272331224, increment 0
+Sequential: max memory 1886912512, total allocated 511180800, free 238849576, used 272331224, increment 0
+Initial loss: 9.230044955250518
+Initial test loss: 9.230044955250518
+120: time = 0.185000 loss = 8.244642 testLoss 8.228258
+Resulting gain: 0.9854026273549188
+Time since start: 133.304
+Projecting...
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.future\dasysiphonia_japonica_2.asc
+Time since start: 136.838
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.future\plots\dasysiphonia_japonica_2.png
+Time since start: 141.248
+Projecting...
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.future\dasysiphonia_japonica_2_RCP45.asc
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.future\dasysiphonia_japonica_2_RCP45_clamping.asc
+Time since start: 153.112
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.future\plots\dasysiphonia_japonica_2_RCP45.png
+Time since start: 157.087
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.future\plots\dasysiphonia_japonica_2_RCP45_clamping.png
+Time since start: 164.608
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.future\dasysiphonia_japonica_2_RCP45_novel.asc
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.future\dasysiphonia_japonica_2_RCP45_novel_limiting.asc
+Time since start: 197.951
+dasysiphonia_japonica_2 response curves
+Response curve: only e09.SST.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 685244416, free 526354224, used 158890192, increment -113441032
+dasysiphonia_japonica_2 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+202 samples
+Density: max memory 1886912512, total allocated 685244416, free 526349024, used 158895392, increment 5200
+linearPredictor: max memory 1886912512, total allocated 685244416, free 526349024, used 158895392, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 685244416, free 526341288, used 158903128, increment 7736
+Sequential: max memory 1886912512, total allocated 685244416, free 526341288, used 158903128, increment 0
+Initial loss: 9.230044955250518
+120: time = 0.293000 loss = 8.244642
+Resulting gain: 0.9854026273549188
+dasysiphonia_japonica_2 response curves
+Time since start: 199.322
+getSamples: max memory 1886912512, total allocated 685244416, free 525554480, used 159689936, increment 786808
+Making features
+makeFeatures: max memory 1886912512, total allocated 685244416, free 525541960, used 159702456, increment 12520
+dasysiphonia_japonica_3: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+202 samples
+Density: max memory 1886912512, total allocated 685244416, free 525529160, used 159715256, increment 12800
+linearPredictor: max memory 1886912512, total allocated 685244416, free 525529160, used 159715256, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 685244416, free 525529160, used 159715256, increment 0
+Sequential: max memory 1886912512, total allocated 685244416, free 525529160, used 159715256, increment 0
+Initial loss: 9.230142999272362
+Initial test loss: 9.230142999272362
+120: time = 0.213000 loss = 8.260562 testLoss 8.156260
+Resulting gain: 0.969581175909191
+Time since start: 202.418
+Projecting...
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.future\dasysiphonia_japonica_3.asc
+Time since start: 206.306
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.future\plots\dasysiphonia_japonica_3.png
+Time since start: 210.612
+Projecting...
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.future\dasysiphonia_japonica_3_RCP45.asc
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.future\dasysiphonia_japonica_3_RCP45_clamping.asc
+Time since start: 218.023
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.future\plots\dasysiphonia_japonica_3_RCP45.png
+Time since start: 222.327
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.future\plots\dasysiphonia_japonica_3_RCP45_clamping.png
+Time since start: 227.365
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.future\dasysiphonia_japonica_3_RCP45_novel.asc
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.future\dasysiphonia_japonica_3_RCP45_novel_limiting.asc
+Time since start: 325.64
+dasysiphonia_japonica_3 response curves
+Response curve: only e09.SST.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 546832384, free 422726040, used 124106344, increment -35608912
+dasysiphonia_japonica_3 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+202 samples
+Density: max memory 1886912512, total allocated 546832384, free 422714320, used 124118064, increment 11720
+linearPredictor: max memory 1886912512, total allocated 546832384, free 422714320, used 124118064, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 546832384, free 422711992, used 124120392, increment 2328
+Sequential: max memory 1886912512, total allocated 546832384, free 422711992, used 124120392, increment 0
+Initial loss: 9.230142999272362
+120: time = 0.307000 loss = 8.260562
+Resulting gain: 0.969581175909191
+dasysiphonia_japonica_3 response curves
+getSamples: max memory 1886912512, total allocated 546832384, free 414733992, used 132098392, increment 7978000
+Making features
+makeFeatures: max memory 1886912512, total allocated 546832384, free 414722072, used 132110312, increment 11920
+dasysiphonia_japonica_4: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+202 samples
+Density: max memory 1886912512, total allocated 546832384, free 414710072, used 132122312, increment 12000
+linearPredictor: max memory 1886912512, total allocated 546832384, free 414710072, used 132122312, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 546832384, free 414710072, used 132122312, increment 0
+Sequential: max memory 1886912512, total allocated 546832384, free 414710072, used 132122312, increment 0
+Initial loss: 9.23024103368252
+Initial test loss: 9.23024103368252
+120: time = 0.251000 loss = 8.251201 testLoss 8.194576
+Resulting gain: 0.9790401808431834
+Time since start: 326.811
+Projecting...
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.future\dasysiphonia_japonica_4.asc
+Time since start: 330.656
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.future\plots\dasysiphonia_japonica_4.png
+Time since start: 333.652
+Projecting...
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.future\dasysiphonia_japonica_4_RCP45.asc
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.future\dasysiphonia_japonica_4_RCP45_clamping.asc
+Time since start: 339.103
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.future\plots\dasysiphonia_japonica_4_RCP45.png
+Time since start: 342.281
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.future\plots\dasysiphonia_japonica_4_RCP45_clamping.png
+Time since start: 345.558
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.future\dasysiphonia_japonica_4_RCP45_novel.asc
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.future\dasysiphonia_japonica_4_RCP45_novel_limiting.asc
+Time since start: 369.289
+dasysiphonia_japonica_4 response curves
+Response curve: only e09.SST.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 411041792, free 88661216, used 322380576, increment 190258264
+dasysiphonia_japonica_4 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+202 samples
+Density: max memory 1886912512, total allocated 411041792, free 88654904, used 322386888, increment 6312
+linearPredictor: max memory 1886912512, total allocated 411041792, free 88654904, used 322386888, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 411041792, free 88652624, used 322389168, increment 2280
+Sequential: max memory 1886912512, total allocated 411041792, free 88648424, used 322393368, increment 4200
+Initial loss: 9.23024103368252
+120: time = 0.172000 loss = 8.251201
+Resulting gain: 0.9790401808431834
+dasysiphonia_japonica_4 response curves
+Time since start: 370.315
+Creating average grid, stddev grid etc.
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.future\dasysiphonia_japonica_avg.asc
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.future\dasysiphonia_japonica_stddev.asc
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.future\dasysiphonia_japonica_min.asc
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.future\dasysiphonia_japonica_max.asc
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.future\dasysiphonia_japonica_median.asc
+Time since start: 387.358
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.future\plots\dasysiphonia_japonica_avg.png
+Time since start: 390.692
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.future\plots\dasysiphonia_japonica_stddev.png
+Time since start: 397.018
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.future\plots\dasysiphonia_japonica_min.png
+Time since start: 400.657
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.future\plots\dasysiphonia_japonica_max.png
+Time since start: 403.292
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.future\plots\dasysiphonia_japonica_median.png
+Time since start: 406.199
+Creating average grid, stddev grid etc.
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.future\dasysiphonia_japonica_RCP45_avg.asc
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.future\dasysiphonia_japonica_RCP45_stddev.asc
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.future\dasysiphonia_japonica_RCP45_min.asc
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.future\dasysiphonia_japonica_RCP45_max.asc
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.future\dasysiphonia_japonica_RCP45_median.asc
+Time since start: 434.785
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.future\plots\dasysiphonia_japonica_RCP45_avg.png
+Time since start: 437.858
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.future\plots\dasysiphonia_japonica_RCP45_stddev.png
+Time since start: 441.671
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.future\plots\dasysiphonia_japonica_RCP45_min.png
+Time since start: 445.46
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.future\plots\dasysiphonia_japonica_RCP45_max.png
+Time since start: 449.403
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.future\plots\dasysiphonia_japonica_RCP45_median.png
+Time since start: 451.723
+dasysiphonia_japonica average response curves
+Warning: Error calculating replicate summary: file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.future\maxentResults.csv missing values for field "Training gain without e09.SST.min"
+Warning: Error calculating replicate summary: file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.future\maxentResults.csv missing values for field "Training gain with only e09.SST.min"
+Time since start: 2141.659
+Ending

@@ -1,0 +1,56 @@
+Mon May 16 14:25:49 EDT 2022
+MaxEnt version 3.4.3
+Reading file absence
+readGrid: max memory 477626368, total allocated 155713536, free 92967736, used 62745800, increment 13941704
+Reading samples from presence
+Read samples: max memory 477626368, total allocated 174063616, free 151902640, used 22160976, increment -40584824
+Adding samples to background in feature space
+Command line used:  autorun -e CAUL/Maxent Outputs 4.1/caul.max.final.5/absence -o CAUL/Maxent Outputs 4.1/caul.max.final.5 -s CAUL/Maxent Outputs 4.1/caul.max.final.5/presence -z linear=TRUE quadratic=TRUE product=FALSE threshold=FALSE hinge=FALSE randomtestpoints=30 responsecurves=TRUE jackknife=TRUE
+Command line to repeat: java density.MaxEnt nowarnings noprefixes responsecurves jackknife "outputdirectory=CAUL/Maxent Outputs 4.1/caul.max.final.5" "samplesfile=CAUL/Maxent Outputs 4.1/caul.max.final.5/presence" "environmentallayers=CAUL/Maxent Outputs 4.1/caul.max.final.5/absence" randomtestpoints=30 noproduct nohinge autorun novisible
+Species: species
+Layers: e09.SST.min
+Layertypes: Continuous
+responsecurves: true
+jackknife: true
+outputdirectory: CAUL/Maxent Outputs 4.1/caul.max.final.5
+samplesfile: CAUL/Maxent Outputs 4.1/caul.max.final.5/presence
+environmentallayers: CAUL/Maxent Outputs 4.1/caul.max.final.5/absence
+randomtestpoints: 30
+product: false
+hinge: false
+autorun: true
+visible: false
+
+getSamples: max memory 477626368, total allocated 174063616, free 150665296, used 23398320, increment 1237344
+Making features
+makeFeatures: max memory 477626368, total allocated 174063616, free 150665296, used 23398320, increment 0
+species: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+344 samples
+Density: max memory 477626368, total allocated 174063616, free 150582544, used 23481072, increment 82752
+linearPredictor: max memory 477626368, total allocated 174063616, free 150499792, used 23563824, increment 82752
+FeaturedSpace: max memory 477626368, total allocated 174063616, free 150499792, used 23563824, increment 0
+Sequential: max memory 477626368, total allocated 174063616, free 150499792, used 23563824, increment 0
+Initial loss: 9.243968552956167
+Initial test loss: 9.243968552956167
+180: time = 0.262000 loss = 8.738257 testLoss 8.709792
+Resulting gain: 0.5057113319094171
+Projecting...
+Writing file CAUL\Maxent Outputs 4.1\caul.max.final.5\species.csv
+species response curves
+Response curve: only e09.SST.min
+Making features
+makeFeatures: max memory 477626368, total allocated 174063616, free 124156296, used 49907320, increment 26343496
+species e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+344 samples
+Density: max memory 477626368, total allocated 174063616, free 124073544, used 49990072, increment 82752
+linearPredictor: max memory 477626368, total allocated 174063616, free 123990792, used 50072824, increment 82752
+FeaturedSpace: max memory 477626368, total allocated 174063616, free 123990792, used 50072824, increment 0
+Sequential: max memory 477626368, total allocated 174063616, free 123990792, used 50072824, increment 0
+Initial loss: 9.243968552956167
+180: time = 0.265000 loss = 8.738257
+Resulting gain: 0.5057113319094171
+species response curves
+Time since start: 1.131
+Ending

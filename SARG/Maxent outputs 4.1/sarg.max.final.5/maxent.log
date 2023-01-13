@@ -1,0 +1,125 @@
+Thu Jun 02 13:27:11 EDT 2022
+MaxEnt version 3.4.3
+Reading file absence
+readGrid: max memory 477626368, total allocated 122159104, free 34280184, used 87878920, increment 8885200
+Reading samples from presence
+Read samples: max memory 477626368, total allocated 128974848, free 37930808, used 91044040, increment 3165120
+Adding samples to background in feature space
+Command line used:  autorun -e SARG/Maxent Outputs 4.1/sarg.max.final.5/absence -o SARG/Maxent Outputs 4.1/sarg.max.final.5 -s SARG/Maxent Outputs 4.1/sarg.max.final.5/presence -z linear=TRUE quadratic=TRUE product=FALSE threshold=FALSE hinge=FALSE randomtestpoints=30 responsecurves=TRUE jackknife=TRUE
+Command line to repeat: java density.MaxEnt nowarnings noprefixes responsecurves jackknife "outputdirectory=SARG/Maxent Outputs 4.1/sarg.max.final.5" "samplesfile=SARG/Maxent Outputs 4.1/sarg.max.final.5/presence" "environmentallayers=SARG/Maxent Outputs 4.1/sarg.max.final.5/absence" randomtestpoints=30 noproduct nohinge autorun novisible
+Species: species
+Layers: e08.SST.max e09.SST.min
+Layertypes: Continuous Continuous
+responsecurves: true
+jackknife: true
+outputdirectory: SARG/Maxent Outputs 4.1/sarg.max.final.5
+samplesfile: SARG/Maxent Outputs 4.1/sarg.max.final.5/presence
+environmentallayers: SARG/Maxent Outputs 4.1/sarg.max.final.5/absence
+randomtestpoints: 30
+product: false
+hinge: false
+autorun: true
+visible: false
+
+getSamples: max memory 477626368, total allocated 128974848, free 36081456, used 92893392, increment 1849352
+Making features
+makeFeatures: max memory 477626368, total allocated 128974848, free 35999680, used 92975168, increment 81776
+species: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+220 samples
+Density: max memory 477626368, total allocated 128974848, free 35301504, used 93673344, increment 698176
+linearPredictor: max memory 477626368, total allocated 128974848, free 35301504, used 93673344, increment 0
+FeaturedSpace: max memory 477626368, total allocated 128974848, free 35301504, used 93673344, increment 0
+Sequential: max memory 477626368, total allocated 128974848, free 35301504, used 93673344, increment 0
+Initial loss: 9.232101863757695
+Initial test loss: 9.232101863757695
+240: time = 0.344000 loss = 7.687397 testLoss 7.933747
+Resulting gain: 1.5447047723525102
+Projecting...
+Writing file SARG\Maxent Outputs 4.1\sarg.max.final.5\species.csv
+species response curves
+Response curve: only e08.SST.max
+Making features
+makeFeatures: max memory 477626368, total allocated 129499136, free 30179424, used 99319712, increment 5646368
+species e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+220 samples
+Density: max memory 477626368, total allocated 129499136, free 30179424, used 99319712, increment 0
+linearPredictor: max memory 477626368, total allocated 129499136, free 30097648, used 99401488, increment 81776
+FeaturedSpace: max memory 477626368, total allocated 129499136, free 30097648, used 99401488, increment 0
+Sequential: max memory 477626368, total allocated 129499136, free 30097648, used 99401488, increment 0
+Initial loss: 9.232101863757695
+Time since start: 1.192
+160: time = 0.297000 loss = 7.998993
+Resulting gain: 1.2331086935190587
+species response curves
+Response curve: only e09.SST.min
+Making features
+makeFeatures: max memory 477626368, total allocated 129499136, free 25979008, used 103520128, increment 4118640
+species e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+220 samples
+Density: max memory 477626368, total allocated 129499136, free 25979008, used 103520128, increment 0
+linearPredictor: max memory 477626368, total allocated 129499136, free 25897232, used 103601904, increment 81776
+FeaturedSpace: max memory 477626368, total allocated 129499136, free 25897232, used 103601904, increment 0
+Sequential: max memory 477626368, total allocated 129499136, free 25897232, used 103601904, increment 0
+Initial loss: 9.232101863757695
+120: time = 0.219000 loss = 7.859981
+Resulting gain: 1.37212081970556
+species response curves
+Jackknife: leave e08.SST.max out
+Making features
+makeFeatures: max memory 477626368, total allocated 129499136, free 45514328, used 83984808, increment -19617096
+species e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+220 samples
+Density: max memory 477626368, total allocated 129499136, free 45432552, used 84066584, increment 81776
+linearPredictor: max memory 477626368, total allocated 129499136, free 45350776, used 84148360, increment 81776
+FeaturedSpace: max memory 477626368, total allocated 129499136, free 45350776, used 84148360, increment 0
+Sequential: max memory 477626368, total allocated 129499136, free 45350776, used 84148360, increment 0
+Initial loss: 9.232101863757695
+Initial test loss: 9.232101863757695
+120: time = 0.218000 loss = 7.859981 testLoss 8.119541
+Jackknife: leave e09.SST.min out
+Making features
+makeFeatures: max memory 477626368, total allocated 129499136, free 44590784, used 84908352, increment 759992
+species e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+220 samples
+Density: max memory 477626368, total allocated 129499136, free 44509008, used 84990128, increment 81776
+linearPredictor: max memory 477626368, total allocated 129499136, free 44427232, used 85071904, increment 81776
+FeaturedSpace: max memory 477626368, total allocated 129499136, free 44427232, used 85071904, increment 0
+Sequential: max memory 477626368, total allocated 129499136, free 44427232, used 85071904, increment 0
+Initial loss: 9.232101863757695
+Initial test loss: 9.232101863757695
+Time since start: 2.283
+160: time = 0.251000 loss = 7.998993 testLoss 8.081577
+Jackknife: only e08.SST.max
+Making features
+makeFeatures: max memory 477626368, total allocated 129499136, free 43667248, used 85831888, increment 759984
+species e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+220 samples
+Density: max memory 477626368, total allocated 129499136, free 43585472, used 85913664, increment 81776
+linearPredictor: max memory 477626368, total allocated 129499136, free 43503696, used 85995440, increment 81776
+FeaturedSpace: max memory 477626368, total allocated 129499136, free 43503696, used 85995440, increment 0
+Sequential: max memory 477626368, total allocated 129499136, free 43503696, used 85995440, increment 0
+Initial loss: 9.232101863757695
+Initial test loss: 9.232101863757695
+160: time = 0.245000 loss = 7.998993 testLoss 8.081577
+Res.gain: 1.2331086935190587
+Jackknife: only e09.SST.min
+Making features
+makeFeatures: max memory 477626368, total allocated 129499136, free 42743712, used 86755424, increment 759984
+species e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+220 samples
+Density: max memory 477626368, total allocated 129499136, free 42661936, used 86837200, increment 81776
+linearPredictor: max memory 477626368, total allocated 129499136, free 42580160, used 86918976, increment 81776
+FeaturedSpace: max memory 477626368, total allocated 129499136, free 42580160, used 86918976, increment 0
+Sequential: max memory 477626368, total allocated 129499136, free 42580160, used 86918976, increment 0
+Initial loss: 9.232101863757695
+Initial test loss: 9.232101863757695
+120: time = 0.226000 loss = 7.859981 testLoss 8.119541
+Res.gain: 1.37212081970556
+Ending

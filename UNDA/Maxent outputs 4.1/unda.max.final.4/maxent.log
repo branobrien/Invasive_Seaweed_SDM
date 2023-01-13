@@ -1,0 +1,56 @@
+Thu Jun 02 15:05:38 EDT 2022
+MaxEnt version 3.4.3
+Reading file absence
+readGrid: max memory 477626368, total allocated 210763776, free 153752400, used 57011376, increment 11573608
+Reading samples from presence
+Read samples: max memory 477626368, total allocated 210763776, free 130643120, used 80120656, increment 23109280
+Adding samples to background in feature space
+Command line used:  autorun -e UNDA/Maxent Outputs 4.1/unda.max.final.4/absence -o UNDA/Maxent Outputs 4.1/unda.max.final.4 -s UNDA/Maxent Outputs 4.1/unda.max.final.4/presence -z linear=TRUE quadratic=TRUE product=FALSE threshold=FALSE hinge=FALSE randomtestpoints=30 responsecurves=TRUE jackknife=TRUE
+Command line to repeat: java density.MaxEnt nowarnings noprefixes responsecurves jackknife "outputdirectory=UNDA/Maxent Outputs 4.1/unda.max.final.4" "samplesfile=UNDA/Maxent Outputs 4.1/unda.max.final.4/presence" "environmentallayers=UNDA/Maxent Outputs 4.1/unda.max.final.4/absence" randomtestpoints=30 noproduct nohinge autorun novisible
+Species: species
+Layers: e09.SST.min
+Layertypes: Continuous
+responsecurves: true
+jackknife: true
+outputdirectory: UNDA/Maxent Outputs 4.1/unda.max.final.4
+samplesfile: UNDA/Maxent Outputs 4.1/unda.max.final.4/presence
+environmentallayers: UNDA/Maxent Outputs 4.1/unda.max.final.4/absence
+randomtestpoints: 30
+product: false
+hinge: false
+autorun: true
+visible: false
+
+getSamples: max memory 477626368, total allocated 210763776, free 128332176, used 82431600, increment 2310944
+Making features
+makeFeatures: max memory 477626368, total allocated 210763776, free 128332176, used 82431600, increment 0
+species: 
+Regularization values: linear/quadratic/product: 0.187, categorical: 0.250, threshold: 1.480, hinge: 0.500
+52 samples
+Density: max memory 477626368, total allocated 210763776, free 128332176, used 82431600, increment 0
+linearPredictor: max memory 477626368, total allocated 210763776, free 128332176, used 82431600, increment 0
+FeaturedSpace: max memory 477626368, total allocated 210763776, free 128332176, used 82431600, increment 0
+Sequential: max memory 477626368, total allocated 210763776, free 128332176, used 82431600, increment 0
+Initial loss: 9.215526898663482
+Initial test loss: 9.215526898663482
+160: time = 0.219000 loss = 7.812614 testLoss 8.305008
+Resulting gain: 1.4029128942407993
+Projecting...
+Writing file UNDA\Maxent Outputs 4.1\unda.max.final.4\species.csv
+species response curves
+Response curve: only e09.SST.min
+Making features
+makeFeatures: max memory 477626368, total allocated 210763776, free 104925024, used 105838752, increment 23407152
+species e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.187, categorical: 0.250, threshold: 1.480, hinge: 0.500
+52 samples
+Density: max memory 477626368, total allocated 210763776, free 104844592, used 105919184, increment 80432
+linearPredictor: max memory 477626368, total allocated 210763776, free 104764160, used 105999616, increment 80432
+FeaturedSpace: max memory 477626368, total allocated 210763776, free 104764160, used 105999616, increment 0
+Sequential: max memory 477626368, total allocated 210763776, free 104764160, used 105999616, increment 0
+Initial loss: 9.215526898663482
+160: time = 0.313000 loss = 7.812614
+Resulting gain: 1.4029128942407993
+species response curves
+Time since start: 1.156
+Ending

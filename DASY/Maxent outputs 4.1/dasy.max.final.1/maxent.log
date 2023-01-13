@@ -1,0 +1,58 @@
+Thu Jun 02 11:50:40 EDT 2022
+MaxEnt version 3.4.3
+Reading file absence
+readGrid: max memory 477626368, total allocated 128974848, free 115210152, used 13764696, increment 13764696
+Reading samples from presence
+Read samples: max memory 477626368, total allocated 128974848, free 112459200, used 16515648, increment 2750952
+Adding samples to background in feature space
+Command line used:  autorun -e DASY/Maxent outputs 4.1/dasy.max.final.1/absence -o DASY/Maxent outputs 4.1/dasy.max.final.1 -s DASY/Maxent outputs 4.1/dasy.max.final.1/presence -z linear=TRUE quadratic=TRUE product=FALSE threshold=FALSE hinge=FALSE randomtestpoints=30 responsecurves=TRUE jackknife=TRUE
+Command line to repeat: java density.MaxEnt nowarnings noprefixes responsecurves jackknife "outputdirectory=DASY/Maxent outputs 4.1/dasy.max.final.1" "samplesfile=DASY/Maxent outputs 4.1/dasy.max.final.1/presence" "environmentallayers=DASY/Maxent outputs 4.1/dasy.max.final.1/absence" randomtestpoints=30 noproduct nohinge autorun novisible
+Species: species
+Layers: e09.SST.min
+Layertypes: Continuous
+responsecurves: true
+jackknife: true
+outputdirectory: DASY/Maxent outputs 4.1/dasy.max.final.1
+samplesfile: DASY/Maxent outputs 4.1/dasy.max.final.1/presence
+environmentallayers: DASY/Maxent outputs 4.1/dasy.max.final.1/absence
+randomtestpoints: 30
+product: false
+hinge: false
+autorun: true
+visible: false
+
+getSamples: max memory 477626368, total allocated 128974848, free 111777672, used 17197176, increment 681528
+Making features
+makeFeatures: max memory 477626368, total allocated 128974848, free 111015944, used 17958904, increment 761728
+species: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+177 samples
+Density: max memory 477626368, total allocated 128974848, free 111015944, used 17958904, increment 0
+linearPredictor: max memory 477626368, total allocated 128974848, free 111015944, used 17958904, increment 0
+FeaturedSpace: max memory 477626368, total allocated 128974848, free 111015944, used 17958904, increment 0
+Sequential: max memory 477626368, total allocated 128974848, free 110319040, used 18655808, increment 696904
+Initial loss: 9.227885551191932
+Initial test loss: 9.227885551191932
+Time since start: 1.252
+120: time = 0.419000 loss = 8.028906 testLoss 8.081317
+Resulting gain: 1.198979410057186
+Time since start: 7.635
+Projecting...
+Writing file DASY\Maxent outputs 4.1\dasy.max.final.1\species.csv
+species response curves
+Response curve: only e09.SST.min
+Making features
+makeFeatures: max memory 477626368, total allocated 128974848, free 99239696, used 29735152, increment 11079344
+species e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+177 samples
+Density: max memory 477626368, total allocated 128974848, free 99158264, used 29816584, increment 81432
+linearPredictor: max memory 477626368, total allocated 128974848, free 99076832, used 29898016, increment 81432
+FeaturedSpace: max memory 477626368, total allocated 128974848, free 99076832, used 29898016, increment 0
+Sequential: max memory 477626368, total allocated 128974848, free 99076832, used 29898016, increment 0
+Initial loss: 9.227885551191932
+120: time = 0.283000 loss = 8.028906
+Resulting gain: 1.198979410057186
+species response curves
+Time since start: 9.099
+Ending

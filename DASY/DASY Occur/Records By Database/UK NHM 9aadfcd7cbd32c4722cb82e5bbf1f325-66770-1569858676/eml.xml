@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    packageId="05ff2255-c38a-40c9-b657-4ccb55ab2feb" scope="system" system="http://gbif.org" xml:lang="en"
+                    xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.0.2/eml.xsd">
+  <dataset>
+    <title>Specimens</title>
+    <creator>
+      <organizationName>The Natural History Museum, London</organizationName>
+      <electronicMailAddress>data@nhm.ac.uk</electronicMailAddress>
+      <onlineUrl>http://data.nhm.ac.uk</onlineUrl>
+    </creator>
+    <metadataProvider>
+      <organizationName>The Natural History Museum, London</organizationName>
+      <electronicMailAddress>data@nhm.ac.uk</electronicMailAddress>
+      <onlineUrl>http://data.nhm.ac.uk</onlineUrl>
+    </metadataProvider>
+    <pubDate>2019-09-30</pubDate>
+    <language>en</language>
+    <abstract>
+      <para>Specimen records</para>
+    </abstract>
+    <keywordSet>
+      <keyword>Occurrence</keyword>
+      <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>CC0-1.0</para>
+    </intellectualRights>
+    <distribution scope="document">
+      <online>
+        <url function="information">http://data.nhm.ac.uk/dataset/collection-specimens</url>
+      </online>
+    </distribution>
+    <contact>
+      <organizationName>The Natural History Museum, London</organizationName>
+      <electronicMailAddress>data@nhm.ac.uk</electronicMailAddress>
+      <onlineUrl>http://data.nhm.ac.uk</onlineUrl>
+    </contact>
+  </dataset>
+  <additionalMetadata>
+      <metadata>
+        <gbif>
+          <dateStamp>2019-09-30T15:51:16Z</dateStamp>
+          <citation identifier="https://doi.org/10.5519/0002965">Natural History Museum http://data.nhm.ac.uk (2014): Collection specimens</citation>
+          <resourceLogoUrl>http://data.nhm.ac.uk/images/logo.png</resourceLogoUrl>
+        </gbif>
+      </metadata>
+    </additionalMetadata>
+</eml:eml>

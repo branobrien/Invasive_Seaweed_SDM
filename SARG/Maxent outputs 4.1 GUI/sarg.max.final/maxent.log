@@ -1,0 +1,1024 @@
+Fri May 06 15:24:56 EDT 2022
+MaxEnt version 3.4.1
+Checking header of C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\Environmental Data\Clipped_100km\e07.SAL.me.asc
+Checking header of C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\Environmental Data\Clipped_100km\e08.SST.max.asc
+Checking header of C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\Environmental Data\Clipped_100km\e09.SST.min.asc
+Reading samples from Sarg max 2 GUI.csv
+Read samples: max memory 1886912512, total allocated 408420352, free 174413984, used 234006368, increment 27211808
+Extractor: max memory 1886912512, total allocated 408420352, free 169908920, used 238511432, increment 4505064
+Extracting random background and sample data
+Warning: Sample at 5.258118, 59.417838 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at 5.258118, 59.417838 which has no environmental data
+Warning: Sample at 9.97, 57.580002 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at 9.97, 57.580002 which has no environmental data
+Warning: Sample at 10.0, 57.0 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at 10.0, 57.0 which has no environmental data
+Warning: Sample at 10.0, 57.0 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at 10.0, 57.0 which has no environmental data
+Warning: Sample at 10.0, 57.0 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at 10.0, 57.0 which has no environmental data
+Warning: Sample at 10.0, 57.0 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at 10.0, 57.0 which has no environmental data
+Warning: Sample at 10.0, 57.0 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at 10.0, 57.0 which has no environmental data
+Warning: Sample at 10.0, 57.0 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at 10.0, 57.0 which has no environmental data
+Warning: Sample at 10.0, 57.0 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at 10.0, 57.0 which has no environmental data
+Warning: Sample at 10.0, 57.0 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at 10.0, 57.0 which has no environmental data
+Warning: Sample at 10.0, 57.0 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at 10.0, 57.0 which has no environmental data
+Warning: Sample at 10.0, 57.0 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at 10.0, 57.0 which has no environmental data
+Warning: Sample at 10.0, 57.0 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at 10.0, 57.0 which has no environmental data
+Warning: Sample at 10.0, 57.0 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at 10.0, 57.0 which has no environmental data
+Warning: Sample at 10.0, 57.0 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at 10.0, 57.0 which has no environmental data
+Warning: Sample at 10.0, 57.0 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at 10.0, 57.0 which has no environmental data
+Warning: Sample at 10.0, 57.0 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at 10.0, 57.0 which has no environmental data
+Warning: Sample at 10.0, 57.0 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at 10.0, 57.0 which has no environmental data
+Warning: Sample at 9.0, 56.0 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at 9.0, 56.0 which has no environmental data
+Warning: Sample at 9.0, 56.0 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at 9.0, 56.0 which has no environmental data
+Warning: Sample at 9.0, 56.0 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at 9.0, 56.0 which has no environmental data
+Warning: Sample at 8.63, 55.630001 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at 8.63, 55.630001 which has no environmental data
+Warning: Sample at -4.47, 55.369999 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -4.47, 55.369999 which has no environmental data
+Warning: Sample at 9.833385, 54.17442 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at 9.833385, 54.17442 which has no environmental data
+Warning: Sample at 0.91371, 51.208542 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at 0.91371, 51.208542 which has no environmental data
+Warning: Sample at -3.266747, 50.667946 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -3.266747, 50.667946 which has no environmental data
+Warning: Sample at -127.5, 50.2 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -127.5, 50.2 which has no environmental data
+Warning: Sample at -127.5, 50.2 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -127.5, 50.2 which has no environmental data
+Warning: Sample at -127.5, 50.2 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -127.5, 50.2 which has no environmental data
+Warning: Sample at -127.5, 50.2 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -127.5, 50.2 which has no environmental data
+Warning: Sample at -127.5, 50.2 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -127.5, 50.2 which has no environmental data
+Warning: Sample at -127.0, 50.0 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -127.0, 50.0 which has no environmental data
+Warning: Sample at -126.49, 49.75 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -126.49, 49.75 which has no environmental data
+Warning: Sample at -125.833333, 49.666667 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -125.833333, 49.666667 which has no environmental data
+Warning: Sample at -123.92, 49.67 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -123.92, 49.67 which has no environmental data
+Warning: Sample at -123.92, 49.67 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -123.92, 49.67 which has no environmental data
+Warning: Sample at -126.56, 49.58 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -126.56, 49.58 which has no environmental data
+Warning: Sample at -123.2, 49.5 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -123.2, 49.5 which has no environmental data
+Warning: Sample at -122.85, 49.28 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -122.85, 49.28 which has no environmental data
+Warning: Sample at -122.85, 49.28 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -122.85, 49.28 which has no environmental data
+Warning: Sample at -117.7, 49.1 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -117.7, 49.1 which has no environmental data
+Warning: Sample at -117.7, 49.1 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -117.7, 49.1 which has no environmental data
+Warning: Sample at -129.2, 49.0 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -129.2, 49.0 which has no environmental data
+Warning: Sample at -117.72, 49.08 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -117.72, 49.08 which has no environmental data
+Warning: Sample at -123.16421, 48.572786 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -123.16421, 48.572786 which has no environmental data
+Warning: Sample at -123.148627, 48.511049 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -123.148627, 48.511049 which has no environmental data
+Warning: Sample at -123.148627, 48.511049 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -123.148627, 48.511049 which has no environmental data
+Warning: Sample at -122.940756, 47.185397 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -122.940756, 47.185397 which has no environmental data
+Warning: Sample at -122.940756, 47.185397 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -122.940756, 47.185397 which has no environmental data
+Warning: Sample at -122.939866, 47.185096 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -122.939866, 47.185096 which has no environmental data
+Warning: Sample at -122.939866, 47.185096 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -122.939866, 47.185096 which has no environmental data
+Warning: Sample at -122.939866, 47.185096 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -122.939866, 47.185096 which has no environmental data
+Warning: Sample at -122.563435, 47.238589 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -122.563435, 47.238589 which has no environmental data
+Warning: Sample at -123.0000001, 45.00000005 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -123.0000001, 45.00000005 which has no environmental data
+Warning: Sample at -123.0, 45.0 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -123.0, 45.0 which has no environmental data
+Warning: Sample at -124.081313, 44.67475 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -124.081313, 44.67475 which has no environmental data
+Warning: Sample at -124.081313, 44.67475 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -124.081313, 44.67475 which has no environmental data
+Warning: Sample at -124.401354, 43.312682 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -124.401354, 43.312682 which has no environmental data
+Warning: Sample at -124.4, 43.3 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -124.4, 43.3 which has no environmental data
+Warning: Sample at -124.398665, 43.309443 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -124.398665, 43.309443 which has no environmental data
+Warning: Sample at -124.398665, 43.309443 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -124.398665, 43.309443 which has no environmental data
+Warning: Sample at -124.320254, 43.313862 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -124.320254, 43.313862 which has no environmental data
+Warning: Sample at -124.320254, 43.313862 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -124.320254, 43.313862 which has no environmental data
+Warning: Sample at -124.320254, 43.313862 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -124.320254, 43.313862 which has no environmental data
+Warning: Sample at -124.319143, 43.322291 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -124.319143, 43.322291 which has no environmental data
+Warning: Sample at -5.9928, 43.291 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -5.9928, 43.291 which has no environmental data
+Warning: Sample at -5.9928, 43.291 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -5.9928, 43.291 which has no environmental data
+Warning: Sample at -3.0, 43.0 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -3.0, 43.0 which has no environmental data
+Warning: Sample at -124.14246, 41.057204 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -124.14246, 41.057204 which has no environmental data
+Warning: Sample at -124.120436, 41.040153 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -124.120436, 41.040153 which has no environmental data
+Warning: Sample at -124.286993, 40.325413 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -124.286993, 40.325413 which has no environmental data
+Warning: Sample at 140.65047, 36.59843 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at 140.65047, 36.59843 which has no environmental data
+Warning: Sample at 140.65047, 36.59843 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at 140.65047, 36.59843 which has no environmental data
+Warning: Sample at 140.57585, 36.37886 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at 140.57585, 36.37886 which has no environmental data
+Warning: Sample at 140.57585, 36.37886 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at 140.57585, 36.37886 which has no environmental data
+Warning: Sample at 140.57585, 36.37886 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at 140.57585, 36.37886 which has no environmental data
+Warning: Sample at 140.57585, 36.37886 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at 140.57585, 36.37886 which has no environmental data
+Warning: Sample at 140.57585, 36.37886 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at 140.57585, 36.37886 which has no environmental data
+Warning: Sample at 140.57585, 36.37886 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at 140.57585, 36.37886 which has no environmental data
+Warning: Sample at -134.588, 34.64 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -134.588, 34.64 which has no environmental data
+Warning: Sample at -134.588, 34.64 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -134.588, 34.64 which has no environmental data
+Warning: Sample at 133.980992, 34.20704 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at 133.980992, 34.20704 which has no environmental data
+Warning: Sample at -118.18833, 33.76694 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -118.18833, 33.76694 which has no environmental data
+Warning: Sample at -133.57, 33.3483 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -133.57, 33.3483 which has no environmental data
+Warning: Sample at -118.441457, 33.394062 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -118.441457, 33.394062 which has no environmental data
+Warning: Sample at -117.249514, 32.796959 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -117.249514, 32.796959 which has no environmental data
+Warning: Sample at -117.23333, 32.779167 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -117.23333, 32.779167 which has no environmental data
+Warning: Sample at -116.911428, 32.181544 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -116.911428, 32.181544 which has no environmental data
+Warning: Sample at -116.898056, 32.155 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -116.898056, 32.155 which has no environmental data
+Warning: Sample at -116.665556, 31.859722 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -116.665556, 31.859722 which has no environmental data
+Warning: Sample at -116.665556, 31.859722 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -116.665556, 31.859722 which has no environmental data
+Warning: Sample at -116.665556, 31.859722 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -116.665556, 31.859722 which has no environmental data
+Warning: Sample at -116.665556, 31.859722 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -116.665556, 31.859722 which has no environmental data
+Warning: Sample at -116.665556, 31.859722 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -116.665556, 31.859722 which has no environmental data
+Warning: Sample at -116.6625, 31.863611 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -116.6625, 31.863611 which has no environmental data
+Warning: Sample at -116.6625, 31.863611 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -116.6625, 31.863611 which has no environmental data
+Warning: Sample at -116.6625, 31.863611 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -116.6625, 31.863611 which has no environmental data
+Warning: Sample at -116.658736, 31.863011 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -116.658736, 31.863011 which has no environmental data
+Warning: Sample at -116.639469, 31.859558 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -116.639469, 31.859558 which has no environmental data
+Warning: Sample at -116.625, 31.875 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -116.625, 31.875 which has no environmental data
+Warning: Sample at -116.625, 31.875 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -116.625, 31.875 which has no environmental data
+Warning: Sample at -116.637812, 31.745175 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -116.637812, 31.745175 which has no environmental data
+Warning: Sample at -116.416375, 31.292714 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -116.416375, 31.292714 which has no environmental data
+Warning: Sample at -116.416375, 31.292714 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -116.416375, 31.292714 which has no environmental data
+Warning: Sample at -116.416375, 31.292714 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -116.416375, 31.292714 which has no environmental data
+Warning: Sample at -116.416375, 31.292714 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -116.416375, 31.292714 which has no environmental data
+Warning: Sample at -116.416375, 31.292714 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -116.416375, 31.292714 which has no environmental data
+Warning: Sample at -116.416375, 31.292714 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -116.416375, 31.292714 which has no environmental data
+Warning: Sample at -116.416375, 31.292714 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -116.416375, 31.292714 which has no environmental data
+Warning: Sample at -115.734375, 29.939147 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -115.734375, 29.939147 which has no environmental data
+Warning: Sample at -115.734375, 29.939147 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -115.734375, 29.939147 which has no environmental data
+Warning: Sample at -118.308453, 28.977586 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -118.308453, 28.977586 which has no environmental data
+Warning: Sample at -118.308358, 28.9775 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -118.308358, 28.9775 which has no environmental data
+Warning: Sample at -118.308308, 28.977417 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -118.308308, 28.977417 which has no environmental data
+Warning: Sample at -118.308089, 28.977131 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -118.308089, 28.977131 which has no environmental data
+Warning: Sample at -118.298064, 28.970344 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -118.298064, 28.970344 which has no environmental data
+Warning: Sample at -114.068258, 28.485547 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -114.068258, 28.485547 which has no environmental data
+Warning: Sample at -114.134444, 27.863611 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -114.134444, 27.863611 which has no environmental data
+Warning: Sample at -114.134444, 27.863611 in Sarg max 2 GUI.csv is missing some environmental data (e.g. e07.SAL.me)
+Warning: Skipping sample at -114.134444, 27.863611 which has no environmental data
+Time since start: 1.023
+614112 points with values for all grids
+Adding samples to background in feature space
+Command line used: 
+Command line to repeat: java density.MaxEnt nowarnings noprefixes responsecurves jackknife "outputdirectory=C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\SARG\Maxent outputs 4.1 GUI\sarg.max.final" "samplesfile=C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\SARG\SARG Occur\Sarg max 2 GUI.csv" "environmentallayers=C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\Environmental Data\Clipped_100km" notooltips noremoveduplicates replicates=5 noproduct nohinge noautofeature -N e01.DA.max -N e02.DA.min -N e03.NIT.max -N e04.NIT.min -N e05.PHO.max -N e06.PHO.min -N e10.SST.ra
+Species: sargassum_muticum_0 sargassum_muticum_1 sargassum_muticum_2 sargassum_muticum_3 sargassum_muticum_4
+Layers: e07.SAL.me e08.SST.max e09.SST.min
+Layertypes: Continuous Continuous Continuous
+responsecurves: true
+jackknife: true
+outputdirectory: C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\SARG\Maxent outputs 4.1 GUI\sarg.max.final
+samplesfile: C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\SARG\SARG Occur\Sarg max 2 GUI.csv
+environmentallayers: C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\Environmental Data\Clipped_100km
+tooltips: false
+removeduplicates: false
+replicates: 5
+product: false
+hinge: false
+autofeature: false
+
+getSamples: max memory 1886912512, total allocated 408420352, free 163506168, used 244914184, increment 6402752
+Making features
+makeFeatures: max memory 1886912512, total allocated 408420352, free 163481824, used 244938528, increment 24344
+sargassum_muticum_0: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+927 samples
+Density: max memory 1886912512, total allocated 408420352, free 163477400, used 244942952, increment 4424
+linearPredictor: max memory 1886912512, total allocated 408420352, free 163390104, used 245030248, increment 87296
+FeaturedSpace: max memory 1886912512, total allocated 408420352, free 163388040, used 245032312, increment 2064
+Sequential: max memory 1886912512, total allocated 408420352, free 163388040, used 245032312, increment 0
+Initial loss: 9.297435078827116
+Initial test loss: 9.297435078827116
+500: time = 0.684000 loss = 7.981293 testLoss 7.829306
+Resulting gain: 1.3161425312443695
+Time since start: 2.062
+Projecting...
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\SARG\Maxent outputs 4.1 GUI\sarg.max.final\sargassum_muticum_0.asc
+Time since start: 6.041
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\SARG\Maxent outputs 4.1 GUI\sarg.max.final\plots\sargassum_muticum_0.png
+Time since start: 8.713
+sargassum_muticum_0 response curves
+Response curve: only e07.SAL.me
+Making features
+makeFeatures: max memory 1886912512, total allocated 340262912, free 156389512, used 183873400, increment -61158912
+sargassum_muticum_0 e07.SAL.me: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+927 samples
+Density: max memory 1886912512, total allocated 340262912, free 156385240, used 183877672, increment 4272
+linearPredictor: max memory 1886912512, total allocated 340262912, free 156382960, used 183879952, increment 2280
+FeaturedSpace: max memory 1886912512, total allocated 340262912, free 156378344, used 183884568, increment 4616
+Sequential: max memory 1886912512, total allocated 340262912, free 156378344, used 183884568, increment 0
+Initial loss: 9.297435078827116
+180: time = 0.229000 loss = 8.976544
+Resulting gain: 0.32089082295949645
+sargassum_muticum_0 response curves
+Response curve: only e08.SST.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 340262912, free 148892856, used 191370056, increment 7485488
+sargassum_muticum_0 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+927 samples
+Density: max memory 1886912512, total allocated 340262912, free 148880016, used 191382896, increment 12840
+linearPredictor: max memory 1886912512, total allocated 340262912, free 148880016, used 191382896, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 340262912, free 148880016, used 191382896, increment 0
+Sequential: max memory 1886912512, total allocated 340262912, free 148880016, used 191382896, increment 0
+Initial loss: 9.297435078827116
+140: time = 0.231000 loss = 8.460461
+Resulting gain: 0.8369736242581851
+sargassum_muticum_0 response curves
+Response curve: only e09.SST.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 340262912, free 144703424, used 195559488, increment 4176592
+sargassum_muticum_0 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+927 samples
+Density: max memory 1886912512, total allocated 340262912, free 144696936, used 195565976, increment 6488
+linearPredictor: max memory 1886912512, total allocated 340262912, free 144696936, used 195565976, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 340262912, free 144690632, used 195572280, increment 6304
+Sequential: max memory 1886912512, total allocated 340262912, free 144690632, used 195572280, increment 0
+Initial loss: 9.297435078827116
+Time since start: 9.904
+120: time = 0.205000 loss = 8.320618
+Resulting gain: 0.9768173510382923
+sargassum_muticum_0 response curves
+Jackknife: leave e07.SAL.me out
+Making features
+makeFeatures: max memory 1886912512, total allocated 340262912, free 128386416, used 211876496, increment 16304216
+sargassum_muticum_0 e07.SAL.me: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+927 samples
+Density: max memory 1886912512, total allocated 340262912, free 128375528, used 211887384, increment 10888
+linearPredictor: max memory 1886912512, total allocated 340262912, free 128375528, used 211887384, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 340262912, free 128375528, used 211887384, increment 0
+Sequential: max memory 1886912512, total allocated 340262912, free 128375528, used 211887384, increment 0
+Initial loss: 9.297435078827116
+Initial test loss: 9.297435078827116
+220: time = 0.314000 loss = 8.203753 testLoss 8.138816
+Jackknife: leave e08.SST.max out
+Making features
+makeFeatures: max memory 1886912512, total allocated 340262912, free 126621160, used 213641752, increment 1754368
+sargassum_muticum_0 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+927 samples
+Density: max memory 1886912512, total allocated 340262912, free 126610424, used 213652488, increment 10736
+linearPredictor: max memory 1886912512, total allocated 340262912, free 126610424, used 213652488, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 340262912, free 126610424, used 213652488, increment 0
+Sequential: max memory 1886912512, total allocated 340262912, free 126610424, used 213652488, increment 0
+Initial loss: 9.297435078827116
+Initial test loss: 9.297435078827116
+260: time = 0.373000 loss = 8.104803 testLoss 7.980962
+Jackknife: leave e09.SST.min out
+Making features
+makeFeatures: max memory 1886912512, total allocated 340262912, free 121492696, used 218770216, increment 5117728
+sargassum_muticum_0 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+927 samples
+Density: max memory 1886912512, total allocated 340262912, free 121481728, used 218781184, increment 10968
+linearPredictor: max memory 1886912512, total allocated 340262912, free 121481728, used 218781184, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 340262912, free 121481728, used 218781184, increment 0
+Sequential: max memory 1886912512, total allocated 340262912, free 121481728, used 218781184, increment 0
+Initial loss: 9.297435078827116
+Initial test loss: 9.297435078827116
+Time since start: 11.277
+380: time = 0.490000 loss = 8.257687 testLoss 8.136430
+Jackknife: only e07.SAL.me
+Making features
+makeFeatures: max memory 1886912512, total allocated 340262912, free 118517248, used 221745664, increment 2964480
+sargassum_muticum_0 e07.SAL.me: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+927 samples
+Density: max memory 1886912512, total allocated 340262912, free 118513040, used 221749872, increment 4208
+linearPredictor: max memory 1886912512, total allocated 340262912, free 118513040, used 221749872, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 340262912, free 118504384, used 221758528, increment 8656
+Sequential: max memory 1886912512, total allocated 340262912, free 118504384, used 221758528, increment 0
+Initial loss: 9.297435078827116
+Initial test loss: 9.297435078827116
+180: time = 0.225000 loss = 8.976544 testLoss 8.908516
+Res.gain: 0.32089082295949645
+Jackknife: only e08.SST.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 340262912, free 117043352, used 223219560, increment 1461032
+sargassum_muticum_0 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+927 samples
+Density: max memory 1886912512, total allocated 340262912, free 116943336, used 223319576, increment 100016
+linearPredictor: max memory 1886912512, total allocated 340262912, free 116856040, used 223406872, increment 87296
+FeaturedSpace: max memory 1886912512, total allocated 340262912, free 116856040, used 223406872, increment 0
+Sequential: max memory 1886912512, total allocated 340262912, free 116856040, used 223406872, increment 0
+Initial loss: 9.297435078827116
+Initial test loss: 9.297435078827116
+140: time = 0.232000 loss = 8.460461 testLoss 8.366865
+Res.gain: 0.8369736242581851
+Jackknife: only e09.SST.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 340262912, free 112685616, used 227577296, increment 4170424
+sargassum_muticum_0 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+927 samples
+Density: max memory 1886912512, total allocated 340262912, free 112672880, used 227590032, increment 12736
+linearPredictor: max memory 1886912512, total allocated 340262912, free 112672880, used 227590032, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 340262912, free 112672880, used 227590032, increment 0
+Sequential: max memory 1886912512, total allocated 340262912, free 112672880, used 227590032, increment 0
+Initial loss: 9.297435078827116
+Initial test loss: 9.297435078827116
+120: time = 0.202000 loss = 8.320618 testLoss 8.280951
+Res.gain: 0.9768173510382923
+getSamples: max memory 1886912512, total allocated 340262912, free 105660544, used 234602368, increment 7012336
+Making features
+makeFeatures: max memory 1886912512, total allocated 340262912, free 105631896, used 234631016, increment 28648
+sargassum_muticum_1: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+927 samples
+Density: max memory 1886912512, total allocated 340262912, free 105620496, used 234642416, increment 11400
+linearPredictor: max memory 1886912512, total allocated 340262912, free 105620496, used 234642416, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 340262912, free 105620496, used 234642416, increment 0
+Sequential: max memory 1886912512, total allocated 340262912, free 105620496, used 234642416, increment 0
+Initial loss: 9.29697667863573
+Initial test loss: 9.29697667863573
+Time since start: 12.896
+500: time = 0.680000 loss = 7.979673 testLoss 7.812284
+Resulting gain: 1.31730339683775
+Projecting...
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\SARG\Maxent outputs 4.1 GUI\sarg.max.final\sargassum_muticum_1.asc
+Time since start: 16.813
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\SARG\Maxent outputs 4.1 GUI\sarg.max.final\plots\sargassum_muticum_1.png
+Time since start: 19.499
+sargassum_muticum_1 response curves
+Response curve: only e07.SAL.me
+Making features
+makeFeatures: max memory 1886912512, total allocated 401080320, free 196020592, used 205059728, increment -29582688
+sargassum_muticum_1 e07.SAL.me: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+927 samples
+Density: max memory 1886912512, total allocated 401080320, free 196012632, used 205067688, increment 7960
+linearPredictor: max memory 1886912512, total allocated 401080320, free 196012632, used 205067688, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 401080320, free 196009792, used 205070528, increment 2840
+Sequential: max memory 1886912512, total allocated 401080320, free 196009792, used 205070528, increment 0
+Initial loss: 9.29697667863573
+180: time = 0.218000 loss = 8.976801
+Resulting gain: 0.32017589676346425
+sargassum_muticum_1 response curves
+Response curve: only e08.SST.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 401080320, free 185990352, used 215089968, increment 10019440
+sargassum_muticum_1 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+927 samples
+Density: max memory 1886912512, total allocated 401080320, free 185979672, used 215100648, increment 10680
+linearPredictor: max memory 1886912512, total allocated 401080320, free 185979672, used 215100648, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 401080320, free 185979672, used 215100648, increment 0
+Sequential: max memory 1886912512, total allocated 401080320, free 185979672, used 215100648, increment 0
+Initial loss: 9.29697667863573
+140: time = 0.234000 loss = 8.453914
+Resulting gain: 0.8430627414604395
+sargassum_muticum_1 response curves
+Time since start: 20.771
+Response curve: only e09.SST.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 401080320, free 180584024, used 220496296, increment 5395648
+sargassum_muticum_1 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+927 samples
+Density: max memory 1886912512, total allocated 401080320, free 180570552, used 220509768, increment 13472
+linearPredictor: max memory 1886912512, total allocated 401080320, free 180570552, used 220509768, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 401080320, free 180570552, used 220509768, increment 0
+Sequential: max memory 1886912512, total allocated 401080320, free 180570552, used 220509768, increment 0
+Initial loss: 9.29697667863573
+120: time = 0.184000 loss = 8.323580
+Resulting gain: 0.9733964497425749
+sargassum_muticum_1 response curves
+Jackknife: leave e07.SAL.me out
+Making features
+makeFeatures: max memory 1886912512, total allocated 401080320, free 166715984, used 234364336, increment 13854568
+sargassum_muticum_1 e07.SAL.me: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+927 samples
+Density: max memory 1886912512, total allocated 401080320, free 166702648, used 234377672, increment 13336
+linearPredictor: max memory 1886912512, total allocated 401080320, free 166702648, used 234377672, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 401080320, free 166702648, used 234377672, increment 0
+Sequential: max memory 1886912512, total allocated 401080320, free 166702648, used 234377672, increment 0
+Initial loss: 9.29697667863573
+Initial test loss: 9.29697667863573
+260: time = 0.377000 loss = 8.207288 testLoss 8.107843
+Jackknife: leave e08.SST.max out
+Making features
+makeFeatures: max memory 1886912512, total allocated 401080320, free 164735712, used 236344608, increment 1966936
+sargassum_muticum_1 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+927 samples
+Density: max memory 1886912512, total allocated 401080320, free 164722376, used 236357944, increment 13336
+linearPredictor: max memory 1886912512, total allocated 401080320, free 164722376, used 236357944, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 401080320, free 164722376, used 236357944, increment 0
+Sequential: max memory 1886912512, total allocated 401080320, free 164722376, used 236357944, increment 0
+Initial loss: 9.29697667863573
+Initial test loss: 9.29697667863573
+Time since start: 21.897
+260: time = 0.353000 loss = 8.106712 testLoss 7.984278
+Jackknife: leave e09.SST.min out
+Making features
+makeFeatures: max memory 1886912512, total allocated 401080320, free 162715856, used 238364464, increment 2006520
+sargassum_muticum_1 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+927 samples
+Density: max memory 1886912512, total allocated 401080320, free 162702520, used 238377800, increment 13336
+linearPredictor: max memory 1886912512, total allocated 401080320, free 162702520, used 238377800, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 401080320, free 162702520, used 238377800, increment 0
+Sequential: max memory 1886912512, total allocated 401080320, free 162702520, used 238377800, increment 0
+Initial loss: 9.29697667863573
+Initial test loss: 9.29697667863573
+380: time = 0.493000 loss = 8.254695 testLoss 8.112810
+Jackknife: only e07.SAL.me
+Making features
+makeFeatures: max memory 1886912512, total allocated 401080320, free 155509960, used 245570360, increment 7192560
+sargassum_muticum_1 e07.SAL.me: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+927 samples
+Density: max memory 1886912512, total allocated 401080320, free 155498720, used 245581600, increment 11240
+linearPredictor: max memory 1886912512, total allocated 401080320, free 155498720, used 245581600, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 401080320, free 155498720, used 245581600, increment 0
+Sequential: max memory 1886912512, total allocated 401080320, free 155498720, used 245581600, increment 0
+Initial loss: 9.29697667863573
+Initial test loss: 9.29697667863573
+180: time = 0.209000 loss = 8.976801 testLoss 8.904529
+Res.gain: 0.32017589676346425
+Jackknife: only e08.SST.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 401080320, free 154205624, used 246874696, increment 1293096
+sargassum_muticum_1 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+927 samples
+Density: max memory 1886912512, total allocated 401080320, free 154200296, used 246880024, increment 5328
+linearPredictor: max memory 1886912512, total allocated 401080320, free 154197672, used 246882648, increment 2624
+FeaturedSpace: max memory 1886912512, total allocated 401080320, free 154194616, used 246885704, increment 3056
+Sequential: max memory 1886912512, total allocated 401080320, free 154194616, used 246885704, increment 0
+Initial loss: 9.29697667863573
+Initial test loss: 9.29697667863573
+140: time = 0.249000 loss = 8.453914 testLoss 8.379616
+Res.gain: 0.8430627414604395
+Jackknife: only e09.SST.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 401080320, free 153111256, used 247969064, increment 1083360
+sargassum_muticum_1 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+927 samples
+Density: max memory 1886912512, total allocated 401080320, free 153100592, used 247979728, increment 10664
+linearPredictor: max memory 1886912512, total allocated 401080320, free 153100592, used 247979728, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 401080320, free 153100592, used 247979728, increment 0
+Sequential: max memory 1886912512, total allocated 401080320, free 153100592, used 247979728, increment 0
+Initial loss: 9.29697667863573
+Initial test loss: 9.29697667863573
+Time since start: 23.064
+120: time = 0.177000 loss = 8.323580 testLoss 8.267935
+Res.gain: 0.9733964497425749
+getSamples: max memory 1886912512, total allocated 401080320, free 143074072, used 258006248, increment 10026520
+Making features
+makeFeatures: max memory 1886912512, total allocated 401080320, free 143046984, used 258033336, increment 27088
+sargassum_muticum_2: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+927 samples
+Density: max memory 1886912512, total allocated 401080320, free 143033384, used 258046936, increment 13600
+linearPredictor: max memory 1886912512, total allocated 401080320, free 143033384, used 258046936, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 401080320, free 143033384, used 258046936, increment 0
+Sequential: max memory 1886912512, total allocated 401080320, free 143033384, used 258046936, increment 0
+Initial loss: 9.297160063928743
+Initial test loss: 9.297160063928743
+500: time = 0.690000 loss = 7.977380 testLoss 7.854260
+Resulting gain: 1.3197798024180774
+Time since start: 24.162
+Projecting...
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\SARG\Maxent outputs 4.1 GUI\sarg.max.final\sargassum_muticum_2.asc
+Time since start: 28.063
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\SARG\Maxent outputs 4.1 GUI\sarg.max.final\plots\sargassum_muticum_2.png
+Time since start: 31.323
+sargassum_muticum_2 response curves
+Response curve: only e07.SAL.me
+Making features
+makeFeatures: max memory 1886912512, total allocated 531103744, free 186907232, used 344196512, increment 86149576
+sargassum_muticum_2 e07.SAL.me: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+927 samples
+Density: max memory 1886912512, total allocated 531103744, free 186895664, used 344208080, increment 11568
+linearPredictor: max memory 1886912512, total allocated 531103744, free 186895664, used 344208080, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 531103744, free 186895664, used 344208080, increment 0
+Sequential: max memory 1886912512, total allocated 531103744, free 186895664, used 344208080, increment 0
+Initial loss: 9.297160063928743
+180: time = 0.314000 loss = 8.968720
+Resulting gain: 0.3284400021963112
+sargassum_muticum_2 response curves
+Response curve: only e08.SST.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 531103744, free 177574088, used 353529656, increment 9321576
+sargassum_muticum_2 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+927 samples
+Density: max memory 1886912512, total allocated 531103744, free 177574088, used 353529656, increment 0
+linearPredictor: max memory 1886912512, total allocated 531103744, free 177574088, used 353529656, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 531103744, free 177562520, used 353541224, increment 11568
+Sequential: max memory 1886912512, total allocated 531103744, free 177562520, used 353541224, increment 0
+Initial loss: 9.297160063928743
+Time since start: 32.608
+140: time = 0.318000 loss = 8.458089
+Resulting gain: 0.839070926086686
+sargassum_muticum_2 response curves
+Response curve: only e09.SST.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 531103744, free 176516304, used 354587440, increment 1046216
+sargassum_muticum_2 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+927 samples
+Density: max memory 1886912512, total allocated 531103744, free 176504544, used 354599200, increment 11760
+linearPredictor: max memory 1886912512, total allocated 531103744, free 169482840, used 361620904, increment 7021704
+FeaturedSpace: max memory 1886912512, total allocated 531103744, free 169482840, used 361620904, increment 0
+Sequential: max memory 1886912512, total allocated 531103744, free 169482840, used 361620904, increment 0
+Initial loss: 9.297160063928743
+120: time = 0.284000 loss = 8.315709
+Resulting gain: 0.9814514297074872
+sargassum_muticum_2 response curves
+Time since start: 33.839
+Jackknife: leave e07.SAL.me out
+Making features
+makeFeatures: max memory 1886912512, total allocated 531103744, free 161598976, used 369504768, increment 7883864
+sargassum_muticum_2 e07.SAL.me: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+927 samples
+Density: max memory 1886912512, total allocated 531103744, free 161587408, used 369516336, increment 11568
+linearPredictor: max memory 1886912512, total allocated 531103744, free 161587408, used 369516336, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 531103744, free 161587408, used 369516336, increment 0
+Sequential: max memory 1886912512, total allocated 531103744, free 161587408, used 369516336, increment 0
+Initial loss: 9.297160063928743
+Initial test loss: 9.297160063928743
+260: time = 0.432000 loss = 8.204090 testLoss 8.137416
+Jackknife: leave e08.SST.max out
+Making features
+makeFeatures: max memory 1886912512, total allocated 531103744, free 152554904, used 378548840, increment 9032504
+sargassum_muticum_2 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+927 samples
+Density: max memory 1886912512, total allocated 531103744, free 152543184, used 378560560, increment 11720
+linearPredictor: max memory 1886912512, total allocated 531103744, free 152543184, used 378560560, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 531103744, free 152543184, used 378560560, increment 0
+Sequential: max memory 1886912512, total allocated 531103744, free 152543184, used 378560560, increment 0
+Initial loss: 9.297160063928743
+Initial test loss: 9.297160063928743
+280: time = 0.515000 loss = 8.098810 testLoss 8.042437
+Jackknife: leave e09.SST.min out
+Making features
+makeFeatures: max memory 1886912512, total allocated 531103744, free 150391544, used 380712200, increment 2151640
+sargassum_muticum_2 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+927 samples
+Density: max memory 1886912512, total allocated 531103744, free 150379784, used 380723960, increment 11760
+linearPredictor: max memory 1886912512, total allocated 531103744, free 150379784, used 380723960, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 531103744, free 150379784, used 380723960, increment 0
+Sequential: max memory 1886912512, total allocated 531103744, free 150379784, used 380723960, increment 0
+Initial loss: 9.297160063928743
+Initial test loss: 9.297160063928743
+Time since start: 35.449
+360: time = 0.630000 loss = 8.256367 testLoss 8.122114
+Jackknife: only e07.SAL.me
+Making features
+makeFeatures: max memory 1886912512, total allocated 531103744, free 147554352, used 383549392, increment 2825432
+sargassum_muticum_2 e07.SAL.me: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+927 samples
+Density: max memory 1886912512, total allocated 531103744, free 147542752, used 383560992, increment 11600
+linearPredictor: max memory 1886912512, total allocated 531103744, free 147542752, used 383560992, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 531103744, free 147542752, used 383560992, increment 0
+Sequential: max memory 1886912512, total allocated 531103744, free 147542752, used 383560992, increment 0
+Initial loss: 9.297160063928743
+Initial test loss: 9.297160063928743
+180: time = 0.259000 loss = 8.968720 testLoss 8.946724
+Res.gain: 0.3284400021963112
+Jackknife: only e08.SST.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 531103744, free 146238624, used 384865120, increment 1304128
+sargassum_muticum_2 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+927 samples
+Density: max memory 1886912512, total allocated 531103744, free 146227008, used 384876736, increment 11616
+linearPredictor: max memory 1886912512, total allocated 531103744, free 146227008, used 384876736, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 531103744, free 146227008, used 384876736, increment 0
+Sequential: max memory 1886912512, total allocated 531103744, free 146227008, used 384876736, increment 0
+Initial loss: 9.297160063928743
+Initial test loss: 9.297160063928743
+140: time = 0.280000 loss = 8.458089 testLoss 8.363843
+Res.gain: 0.839070926086686
+Jackknife: only e09.SST.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 531103744, free 145179840, used 385923904, increment 1047168
+sargassum_muticum_2 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+927 samples
+Density: max memory 1886912512, total allocated 531103744, free 145168256, used 385935488, increment 11584
+linearPredictor: max memory 1886912512, total allocated 531103744, free 145168256, used 385935488, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 531103744, free 145168256, used 385935488, increment 0
+Sequential: max memory 1886912512, total allocated 531103744, free 145168256, used 385935488, increment 0
+Initial loss: 9.297160063928743
+Initial test loss: 9.297160063928743
+120: time = 0.251000 loss = 8.315709 testLoss 8.314646
+Res.gain: 0.9814514297074872
+Time since start: 36.527
+getSamples: max memory 1886912512, total allocated 531103744, free 137337544, used 393766200, increment 7830712
+Making features
+makeFeatures: max memory 1886912512, total allocated 515899392, free 467169808, used 48729584, increment -345036616
+sargassum_muticum_3: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+927 samples
+Density: max memory 1886912512, total allocated 515899392, free 467169808, used 48729584, increment 0
+linearPredictor: max memory 1886912512, total allocated 515899392, free 467169808, used 48729584, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 515899392, free 467169808, used 48729584, increment 0
+Sequential: max memory 1886912512, total allocated 515899392, free 467169808, used 48729584, increment 0
+Initial loss: 9.297251743965479
+Initial test loss: 9.297251743965479
+500: time = 0.905000 loss = 7.976415 testLoss 7.832396
+Resulting gain: 1.3208367791291185
+Time since start: 38.364
+Projecting...
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\SARG\Maxent outputs 4.1 GUI\sarg.max.final\sargassum_muticum_3.asc
+Time since start: 42.907
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\SARG\Maxent outputs 4.1 GUI\sarg.max.final\plots\sargassum_muticum_3.png
+Time since start: 46.182
+sargassum_muticum_3 response curves
+Response curve: only e07.SAL.me
+Making features
+makeFeatures: max memory 1886912512, total allocated 441974784, free 310674712, used 131300072, increment 82570488
+sargassum_muticum_3 e07.SAL.me: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+927 samples
+Density: max memory 1886912512, total allocated 441974784, free 310661032, used 131313752, increment 13680
+linearPredictor: max memory 1886912512, total allocated 441974784, free 310661032, used 131313752, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 441974784, free 310661032, used 131313752, increment 0
+Sequential: max memory 1886912512, total allocated 441974784, free 310661032, used 131313752, increment 0
+Initial loss: 9.297251743965479
+180: time = 0.244000 loss = 8.977123
+Resulting gain: 0.3201282915184489
+sargassum_muticum_3 response curves
+Response curve: only e08.SST.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 441974784, free 304092728, used 137882056, increment 6568304
+sargassum_muticum_3 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+927 samples
+Density: max memory 1886912512, total allocated 441974784, free 304085792, used 137888992, increment 6936
+linearPredictor: max memory 1886912512, total allocated 441974784, free 304085792, used 137888992, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 441974784, free 304085792, used 137888992, increment 0
+Sequential: max memory 1886912512, total allocated 441974784, free 304085792, used 137888992, increment 0
+Initial loss: 9.297251743965479
+140: time = 0.274000 loss = 8.440484
+Resulting gain: 0.8567678258364246
+sargassum_muticum_3 response curves
+Time since start: 47.222
+Response curve: only e09.SST.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 441974784, free 296800168, used 145174616, increment 7285624
+sargassum_muticum_3 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+927 samples
+Density: max memory 1886912512, total allocated 441974784, free 296786680, used 145188104, increment 13488
+linearPredictor: max memory 1886912512, total allocated 441974784, free 296786680, used 145188104, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 441974784, free 296786680, used 145188104, increment 0
+Sequential: max memory 1886912512, total allocated 441974784, free 296786680, used 145188104, increment 0
+Initial loss: 9.297251743965479
+120: time = 0.256000 loss = 8.322602
+Resulting gain: 0.9746501401547221
+sargassum_muticum_3 response curves
+Jackknife: leave e07.SAL.me out
+Making features
+makeFeatures: max memory 1886912512, total allocated 441974784, free 280173704, used 161801080, increment 16612976
+sargassum_muticum_3 e07.SAL.me: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+927 samples
+Density: max memory 1886912512, total allocated 441974784, free 280166728, used 161808056, increment 6976
+linearPredictor: max memory 1886912512, total allocated 441974784, free 280166728, used 161808056, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 441974784, free 280166728, used 161808056, increment 0
+Sequential: max memory 1886912512, total allocated 441974784, free 280166728, used 161808056, increment 0
+Initial loss: 9.297251743965479
+Initial test loss: 9.297251743965479
+Time since start: 48.338
+240: time = 0.406000 loss = 8.199624 testLoss 8.150583
+Jackknife: leave e08.SST.max out
+Making features
+makeFeatures: max memory 1886912512, total allocated 441974784, free 278285840, used 163688944, increment 1880888
+sargassum_muticum_3 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+927 samples
+Density: max memory 1886912512, total allocated 441974784, free 278272320, used 163702464, increment 13520
+linearPredictor: max memory 1886912512, total allocated 441974784, free 278272320, used 163702464, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 441974784, free 278272320, used 163702464, increment 0
+Sequential: max memory 1886912512, total allocated 441974784, free 278272320, used 163702464, increment 0
+Initial loss: 9.297251743965479
+Initial test loss: 9.297251743965479
+260: time = 0.460000 loss = 8.111781 testLoss 7.967548
+Jackknife: leave e09.SST.min out
+Making features
+makeFeatures: max memory 1886912512, total allocated 441974784, free 276259720, used 165715064, increment 2012600
+sargassum_muticum_3 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+927 samples
+Density: max memory 1886912512, total allocated 441974784, free 276246208, used 165728576, increment 13512
+linearPredictor: max memory 1886912512, total allocated 441974784, free 276246208, used 165728576, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 441974784, free 276246208, used 165728576, increment 0
+Sequential: max memory 1886912512, total allocated 441974784, free 276246208, used 165728576, increment 0
+Initial loss: 9.297251743965479
+Initial test loss: 9.297251743965479
+Time since start: 49.374
+340: time = 0.553000 loss = 8.245042 testLoss 8.174433
+Jackknife: only e07.SAL.me
+Making features
+makeFeatures: max memory 1886912512, total allocated 441974784, free 273661768, used 168313016, increment 2584440
+sargassum_muticum_3 e07.SAL.me: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+927 samples
+Density: max memory 1886912512, total allocated 441974784, free 273655008, used 168319776, increment 6760
+linearPredictor: max memory 1886912512, total allocated 441974784, free 273655008, used 168319776, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 441974784, free 273655008, used 168319776, increment 0
+Sequential: max memory 1886912512, total allocated 441974784, free 273655008, used 168319776, increment 0
+Initial loss: 9.297251743965479
+Initial test loss: 9.297251743965479
+180: time = 0.374000 loss = 8.977123 testLoss 8.907616
+Res.gain: 0.3201282915184489
+Jackknife: only e08.SST.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 441974784, free 267102640, used 174872144, increment 6552368
+sargassum_muticum_3 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+927 samples
+Density: max memory 1886912512, total allocated 441974784, free 267089152, used 174885632, increment 13488
+linearPredictor: max memory 1886912512, total allocated 441974784, free 267089152, used 174885632, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 441974784, free 267089152, used 174885632, increment 0
+Sequential: max memory 1886912512, total allocated 441974784, free 267089152, used 174885632, increment 0
+Initial loss: 9.297251743965479
+Initial test loss: 9.297251743965479
+140: time = 0.291000 loss = 8.440484 testLoss 8.453481
+Res.gain: 0.8567678258364246
+Jackknife: only e09.SST.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 441974784, free 266020208, used 175954576, increment 1068944
+sargassum_muticum_3 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+927 samples
+Density: max memory 1886912512, total allocated 441974784, free 266013464, used 175961320, increment 6744
+linearPredictor: max memory 1886912512, total allocated 441974784, free 266006496, used 175968288, increment 6968
+FeaturedSpace: max memory 1886912512, total allocated 441974784, free 266006496, used 175968288, increment 0
+Sequential: max memory 1886912512, total allocated 441974784, free 266006496, used 175968288, increment 0
+Initial loss: 9.297251743965479
+Initial test loss: 9.297251743965479
+120: time = 0.237000 loss = 8.322602 testLoss 8.274177
+Res.gain: 0.9746501401547221
+Time since start: 50.58
+getSamples: max memory 1886912512, total allocated 441974784, free 259927216, used 182047568, increment 6079280
+Making features
+makeFeatures: max memory 1886912512, total allocated 441974784, free 259900016, used 182074768, increment 27200
+sargassum_muticum_4: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+928 samples
+Density: max memory 1886912512, total allocated 441974784, free 259893080, used 182081704, increment 6936
+linearPredictor: max memory 1886912512, total allocated 441974784, free 259893080, used 182081704, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 441974784, free 259893080, used 182081704, increment 0
+Sequential: max memory 1886912512, total allocated 441974784, free 259893080, used 182081704, increment 0
+Initial loss: 9.297068375486006
+Initial test loss: 9.297068375486006
+380: time = 0.599000 loss = 7.986722 testLoss 7.747609
+Resulting gain: 1.3103468203421818
+Time since start: 51.603
+Projecting...
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\SARG\Maxent outputs 4.1 GUI\sarg.max.final\sargassum_muticum_4.asc
+Time since start: 55.941
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\SARG\Maxent outputs 4.1 GUI\sarg.max.final\plots\sargassum_muticum_4.png
+Time since start: 59.647
+sargassum_muticum_4 response curves
+Response curve: only e07.SAL.me
+Making features
+makeFeatures: max memory 1886912512, total allocated 369623040, free 245888240, used 123734800, increment -58346904
+sargassum_muticum_4 e07.SAL.me: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+928 samples
+Density: max memory 1886912512, total allocated 369623040, free 245877648, used 123745392, increment 10592
+linearPredictor: max memory 1886912512, total allocated 369623040, free 245877648, used 123745392, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 369623040, free 245877648, used 123745392, increment 0
+Sequential: max memory 1886912512, total allocated 369623040, free 245877648, used 123745392, increment 0
+Initial loss: 9.297068375486006
+Time since start: 60.698
+180: time = 0.234000 loss = 8.978487
+Resulting gain: 0.31858167061355225
+sargassum_muticum_4 response curves
+Response curve: only e08.SST.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 369623040, free 240762744, used 128860296, increment 5114904
+sargassum_muticum_4 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+928 samples
+Density: max memory 1886912512, total allocated 369623040, free 240754984, used 128868056, increment 7760
+linearPredictor: max memory 1886912512, total allocated 369623040, free 240754984, used 128868056, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 369623040, free 240752208, used 128870832, increment 2776
+Sequential: max memory 1886912512, total allocated 369623040, free 240752208, used 128870832, increment 0
+Initial loss: 9.297068375486006
+140: time = 0.277000 loss = 8.463093
+Resulting gain: 0.8339751692376396
+sargassum_muticum_4 response curves
+Response curve: only e09.SST.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 369623040, free 235880816, used 133742224, increment 4871392
+sargassum_muticum_4 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+928 samples
+Density: max memory 1886912512, total allocated 369623040, free 235875048, used 133747992, increment 5768
+linearPredictor: max memory 1886912512, total allocated 369623040, free 235872448, used 133750592, increment 2600
+FeaturedSpace: max memory 1886912512, total allocated 369623040, free 235869856, used 133753184, increment 2592
+Sequential: max memory 1886912512, total allocated 369623040, free 235869856, used 133753184, increment 0
+Initial loss: 9.297068375486006
+120: time = 0.207000 loss = 8.326388
+Resulting gain: 0.9706806359117106
+sargassum_muticum_4 response curves
+Time since start: 61.707
+Jackknife: leave e07.SAL.me out
+Making features
+makeFeatures: max memory 1886912512, total allocated 369623040, free 222649688, used 146973352, increment 13220168
+sargassum_muticum_4 e07.SAL.me: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+928 samples
+Density: max memory 1886912512, total allocated 369623040, free 218836232, used 150786808, increment 3813456
+linearPredictor: max memory 1886912512, total allocated 369623040, free 218836232, used 150786808, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 369623040, free 218836232, used 150786808, increment 0
+Sequential: max memory 1886912512, total allocated 369623040, free 218836232, used 150786808, increment 0
+Initial loss: 9.297068375486006
+Initial test loss: 9.297068375486006
+260: time = 0.387000 loss = 8.212280 testLoss 8.079012
+Jackknife: leave e08.SST.max out
+Making features
+makeFeatures: max memory 1886912512, total allocated 369623040, free 216839016, used 152784024, increment 1997216
+sargassum_muticum_4 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+928 samples
+Density: max memory 1886912512, total allocated 369623040, free 216839016, used 152784024, increment 0
+linearPredictor: max memory 1886912512, total allocated 369623040, free 216839016, used 152784024, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 369623040, free 216828584, used 152794456, increment 10432
+Sequential: max memory 1886912512, total allocated 369623040, free 216828584, used 152794456, increment 0
+Initial loss: 9.297068375486006
+Initial test loss: 9.297068375486006
+240: time = 0.353000 loss = 8.112954 testLoss 7.942756
+Jackknife: leave e09.SST.min out
+Making features
+makeFeatures: max memory 1886912512, total allocated 369623040, free 215025424, used 154597616, increment 1803160
+sargassum_muticum_4 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+928 samples
+Density: max memory 1886912512, total allocated 369623040, free 215014696, used 154608344, increment 10728
+linearPredictor: max memory 1886912512, total allocated 369623040, free 215014696, used 154608344, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 369623040, free 215014696, used 154608344, increment 0
+Sequential: max memory 1886912512, total allocated 369623040, free 215014696, used 154608344, increment 0
+Initial loss: 9.297068375486006
+Initial test loss: 9.297068375486006
+Time since start: 63.126
+380: time = 0.646000 loss = 8.262359 testLoss 8.069360
+Jackknife: only e07.SAL.me
+Making features
+makeFeatures: max memory 1886912512, total allocated 369623040, free 208282632, used 161340408, increment 6732064
+sargassum_muticum_4 e07.SAL.me: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+928 samples
+Density: max memory 1886912512, total allocated 369623040, free 208274792, used 161348248, increment 7840
+linearPredictor: max memory 1886912512, total allocated 369623040, free 208271976, used 161351064, increment 2816
+FeaturedSpace: max memory 1886912512, total allocated 369623040, free 208271976, used 161351064, increment 0
+Sequential: max memory 1886912512, total allocated 369623040, free 208271976, used 161351064, increment 0
+Initial loss: 9.297068375486006
+Initial test loss: 9.297068375486006
+180: time = 0.277000 loss = 8.978487 testLoss 8.893409
+Res.gain: 0.31858167061355225
+Jackknife: only e08.SST.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 369623040, free 206965232, used 162657808, increment 1306744
+sargassum_muticum_4 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+928 samples
+Density: max memory 1886912512, total allocated 369623040, free 206954640, used 162668400, increment 10592
+linearPredictor: max memory 1886912512, total allocated 369623040, free 206954640, used 162668400, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 369623040, free 206954640, used 162668400, increment 0
+Sequential: max memory 1886912512, total allocated 369623040, free 206954640, used 162668400, increment 0
+Initial loss: 9.297068375486006
+Initial test loss: 9.297068375486006
+140: time = 0.271000 loss = 8.463093 testLoss 8.339942
+Res.gain: 0.8339751692376396
+Jackknife: only e09.SST.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 369623040, free 205913096, used 163709944, increment 1041544
+sargassum_muticum_4 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+928 samples
+Density: max memory 1886912512, total allocated 369623040, free 205905264, used 163717776, increment 7832
+linearPredictor: max memory 1886912512, total allocated 369623040, free 205902680, used 163720360, increment 2584
+FeaturedSpace: max memory 1886912512, total allocated 369623040, free 205902680, used 163720360, increment 0
+Sequential: max memory 1886912512, total allocated 369623040, free 205902680, used 163720360, increment 0
+Initial loss: 9.297068375486006
+Initial test loss: 9.297068375486006
+120: time = 0.209000 loss = 8.326388 testLoss 8.251965
+Res.gain: 0.9706806359117106
+Time since start: 64.293
+Creating average grid, stddev grid etc.
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\SARG\Maxent outputs 4.1 GUI\sarg.max.final\sargassum_muticum_avg.asc
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\SARG\Maxent outputs 4.1 GUI\sarg.max.final\sargassum_muticum_stddev.asc
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\SARG\Maxent outputs 4.1 GUI\sarg.max.final\sargassum_muticum_min.asc
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\SARG\Maxent outputs 4.1 GUI\sarg.max.final\sargassum_muticum_max.asc
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\SARG\Maxent outputs 4.1 GUI\sarg.max.final\sargassum_muticum_median.asc
+Time since start: 81.782
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\SARG\Maxent outputs 4.1 GUI\sarg.max.final\plots\sargassum_muticum_avg.png
+Time since start: 85.122
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\SARG\Maxent outputs 4.1 GUI\sarg.max.final\plots\sargassum_muticum_stddev.png
+Time since start: 89.332
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\SARG\Maxent outputs 4.1 GUI\sarg.max.final\plots\sargassum_muticum_min.png
+Time since start: 93.01
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\SARG\Maxent outputs 4.1 GUI\sarg.max.final\plots\sargassum_muticum_max.png
+Time since start: 96.918
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\SARG\Maxent outputs 4.1 GUI\sarg.max.final\plots\sargassum_muticum_median.png
+Time since start: 99.786
+sargassum_muticum average response curves
+Time since start: 104.229
+Ending

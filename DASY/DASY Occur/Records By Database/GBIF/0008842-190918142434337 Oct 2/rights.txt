@@ -1,0 +1,13 @@
+
+Dataset: Algae specimens of Kanagawa Prefectural Museum of Natural History
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: Algae, Specimens, Agder naturmuseum (KMN)
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: Botanical Museum, Copenhagen, the Phycology Herbarium
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: NMNH Extant Specimen Records
+Rights as supplied: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+Dataset: Algae collection of Museum of Natural and Environmental History, Shizuoka
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: SANT-Algae
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode

@@ -1,0 +1,513 @@
+Tue May 10 15:26:07 EDT 2022
+MaxEnt version 3.4.1
+Checking header of C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\Environmental Data\Clipped_100km\e05.PHO.max.asc
+Checking header of C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\Environmental Data\Clipped_100km\e08.SST.max.asc
+Checking header of C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\Environmental Data\Clipped_100km\e09.SST.min.asc
+Reading samples from Codi ALL max GUI.csv
+Read samples: max memory 1886912512, total allocated 268959744, free 150519112, used 118440632, increment 8507240
+Warning: interpreting latitude column of sample file as latitude
+Extractor: max memory 1886912512, total allocated 268959744, free 145519040, used 123440704, increment 5000072
+Extracting random background and sample data
+Warning: Sample at -8.929307, 53.365834 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -8.929307, 53.365834 which has no environmental data
+Warning: Sample at -0.756846, 50.753775 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -0.756846, 50.753775 which has no environmental data
+Warning: Sample at -0.756846, 50.753775 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -0.756846, 50.753775 which has no environmental data
+Warning: Sample at -0.756846, 50.753775 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -0.756846, 50.753775 which has no environmental data
+Warning: Sample at -0.755198, 50.762481 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -0.755198, 50.762481 which has no environmental data
+Warning: Sample at -3.648517, 50.603593 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -3.648517, 50.603593 which has no environmental data
+Warning: Sample at -5.9928, 43.291 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -5.9928, 43.291 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.666993, 43.098128 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.666993, 43.098128 which has no environmental data
+Warning: Sample at -70.862601, 43.058417 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.862601, 43.058417 which has no environmental data
+Warning: Sample at -70.862601, 43.058417 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.862601, 43.058417 which has no environmental data
+Warning: Sample at -70.753258, 43.072264 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.753258, 43.072264 which has no environmental data
+Warning: Sample at -70.753258, 43.072264 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.753258, 43.072264 which has no environmental data
+Warning: Sample at -70.753258, 43.072264 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.753258, 43.072264 which has no environmental data
+Warning: Sample at -70.753258, 43.072264 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.753258, 43.072264 which has no environmental data
+Warning: Sample at -70.753258, 43.072264 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.753258, 43.072264 which has no environmental data
+Warning: Sample at -70.753258, 43.072264 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.753258, 43.072264 which has no environmental data
+Warning: Sample at -70.753258, 43.072264 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.753258, 43.072264 which has no environmental data
+Warning: Sample at -70.753258, 43.072264 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.753258, 43.072264 which has no environmental data
+Warning: Sample at -70.753258, 43.072264 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.753258, 43.072264 which has no environmental data
+Warning: Sample at -70.753258, 43.072264 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.753258, 43.072264 which has no environmental data
+Warning: Sample at -70.753258, 43.072264 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.753258, 43.072264 which has no environmental data
+Warning: Sample at -70.753258, 43.072264 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.753258, 43.072264 which has no environmental data
+Warning: Sample at -70.753258, 43.072264 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.753258, 43.072264 which has no environmental data
+Warning: Sample at -70.753258, 43.072264 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.753258, 43.072264 which has no environmental data
+Warning: Sample at -70.753258, 43.072264 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.753258, 43.072264 which has no environmental data
+Warning: Sample at -70.753258, 43.072264 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.753258, 43.072264 which has no environmental data
+Warning: Sample at -70.753258, 43.072264 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.753258, 43.072264 which has no environmental data
+Warning: Sample at -70.753258, 43.072264 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.753258, 43.072264 which has no environmental data
+Warning: Sample at -70.766322, 43.077313 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.766322, 43.077313 which has no environmental data
+Warning: Sample at -70.766322, 43.077313 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.766322, 43.077313 which has no environmental data
+Warning: Sample at -70.766322, 43.077313 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.766322, 43.077313 which has no environmental data
+Warning: Sample at -70.766322, 43.077313 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.766322, 43.077313 which has no environmental data
+Warning: Sample at -70.766322, 43.077313 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.766322, 43.077313 which has no environmental data
+Warning: Sample at -70.766322, 43.077313 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.766322, 43.077313 which has no environmental data
+Warning: Sample at -70.766322, 43.077313 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.766322, 43.077313 which has no environmental data
+Warning: Sample at -70.766322, 43.077313 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.766322, 43.077313 which has no environmental data
+Warning: Sample at -70.78822, 42.241434 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.78822, 42.241434 which has no environmental data
+Warning: Sample at -70.78822, 42.241434 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.78822, 42.241434 which has no environmental data
+Warning: Sample at -70.78822, 42.241434 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.78822, 42.241434 which has no environmental data
+Warning: Sample at -70.78822, 42.241434 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.78822, 42.241434 which has no environmental data
+Warning: Sample at -70.78822, 42.241434 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.78822, 42.241434 which has no environmental data
+Warning: Sample at -70.78822, 42.241434 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.78822, 42.241434 which has no environmental data
+Warning: Sample at -70.78822, 42.241434 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.78822, 42.241434 which has no environmental data
+Warning: Sample at -70.78822, 42.241434 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.78822, 42.241434 which has no environmental data
+Warning: Sample at -70.132935, 41.67883 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.132935, 41.67883 which has no environmental data
+Warning: Sample at -70.132935, 41.67883 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.132935, 41.67883 which has no environmental data
+Warning: Sample at -70.111513, 41.680135 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.111513, 41.680135 which has no environmental data
+Warning: Sample at -70.111513, 41.680135 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.111513, 41.680135 which has no environmental data
+Warning: Sample at -70.024461, 41.679278 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -70.024461, 41.679278 which has no environmental data
+Warning: Sample at -71.96795654, 41.34667969 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -71.96795654, 41.34667969 which has no environmental data
+Warning: Sample at -71.905803, 41.34711 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -71.905803, 41.34711 which has no environmental data
+Warning: Sample at -71.905803, 41.34711 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -71.905803, 41.34711 which has no environmental data
+Warning: Sample at -71.905803, 41.34711 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -71.905803, 41.34711 which has no environmental data
+Warning: Sample at -71.905803, 41.34711 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -71.905803, 41.34711 which has no environmental data
+Warning: Sample at 17.27076, 40.48407 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at 17.27076, 40.48407 which has no environmental data
+Warning: Sample at -124.07194, 40.03056 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -124.07194, 40.03056 which has no environmental data
+Warning: Sample at -75.425, 37.983333 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -75.425, 37.983333 which has no environmental data
+Warning: Sample at -75.42698, 37.98561 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -75.42698, 37.98561 which has no environmental data
+Warning: Sample at -4.7228, 36.99229 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -4.7228, 36.99229 which has no environmental data
+Warning: Sample at -6.248, 36.47 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -6.248, 36.47 which has no environmental data
+Warning: Sample at -79.809961, 34.778192 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -79.809961, 34.778192 which has no environmental data
+Warning: Sample at -79.809961, 34.778192 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -79.809961, 34.778192 which has no environmental data
+Warning: Sample at -77.83607, 34.17489 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -77.83607, 34.17489 which has no environmental data
+Warning: Sample at 132.860116, 33.603997 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at 132.860116, 33.603997 which has no environmental data
+Warning: Sample at 132.860116, 33.603997 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at 132.860116, 33.603997 which has no environmental data
+Warning: Sample at 133.371254, 33.427028 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at 133.371254, 33.427028 which has no environmental data
+Warning: Sample at 14.523752, -22.736491 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at 14.523752, -22.736491 which has no environmental data
+Warning: Sample at 14.523752, -22.736491 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at 14.523752, -22.736491 which has no environmental data
+Warning: Sample at 14.52499962, -22.66670036 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at 14.52499962, -22.66670036 which has no environmental data
+Warning: Sample at 14.52499962, -22.66670036 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at 14.52499962, -22.66670036 which has no environmental data
+Warning: Sample at 14.52499962, -22.66670036 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at 14.52499962, -22.66670036 which has no environmental data
+Warning: Sample at 14.52499962, -22.66670036 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at 14.52499962, -22.66670036 which has no environmental data
+Warning: Sample at 14.91670036, -25.89999962 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at 14.91670036, -25.89999962 which has no environmental data
+Warning: Sample at 16.86669922, -29.25 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at 16.86669922, -29.25 which has no environmental data
+Warning: Sample at 17.26670074, -30.31669998 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at 17.26670074, -30.31669998 which has no environmental data
+Warning: Sample at 17.271714, -30.315308 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at 17.271714, -30.315308 which has no environmental data
+Warning: Sample at 22.666667, -31.641667 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at 22.666667, -31.641667 which has no environmental data
+Warning: Sample at 18.040427, -33.057231 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at 18.040427, -33.057231 which has no environmental data
+Warning: Sample at 18.035621, -33.050522 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at 18.035621, -33.050522 which has no environmental data
+Warning: Sample at 18.035621, -33.050522 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at 18.035621, -33.050522 which has no environmental data
+Warning: Sample at 20.62064, -33.010335 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at 20.62064, -33.010335 which has no environmental data
+Warning: Sample at 18.43610001, -33.73059845 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at 18.43610001, -33.73059845 which has no environmental data
+Warning: Sample at 18.441397, -33.724076 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at 18.441397, -33.724076 which has no environmental data
+Warning: Sample at 18.441397, -33.724076 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at 18.441397, -33.724076 which has no environmental data
+Warning: Sample at 18.441397, -33.724076 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at 18.441397, -33.724076 which has no environmental data
+Warning: Sample at 18.441397, -33.724076 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at 18.441397, -33.724076 which has no environmental data
+Warning: Sample at 18.35669, -34.058682 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at 18.35669, -34.058682 which has no environmental data
+Warning: Sample at 18.582488, -34.081564 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at 18.582488, -34.081564 which has no environmental data
+Warning: Sample at 18.582488, -34.081564 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at 18.582488, -34.081564 which has no environmental data
+Warning: Sample at 19.35000038, -34.58330154 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at 19.35000038, -34.58330154 which has no environmental data
+Warning: Sample at 19.345329, -34.583153 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at 19.345329, -34.583153 which has no environmental data
+Warning: Sample at 19.345329, -34.583153 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at 19.345329, -34.583153 which has no environmental data
+Warning: Sample at 138.6, -34.9 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at 138.6, -34.9 which has no environmental data
+Warning: Sample at 138.6, -34.933333 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at 138.6, -34.933333 which has no environmental data
+Warning: Sample at 138.6, -34.933333 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at 138.6, -34.933333 which has no environmental data
+Warning: Sample at 138.6, -34.933333 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at 138.6, -34.933333 which has no environmental data
+Warning: Sample at 138.6, -34.933333 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at 138.6, -34.933333 which has no environmental data
+Warning: Sample at 138.6011, -34.932059 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at 138.6011, -34.932059 which has no environmental data
+Warning: Sample at 174.7015, -36.855611 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at 174.7015, -36.855611 which has no environmental data
+Warning: Sample at 174.7015, -36.855611 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at 174.7015, -36.855611 which has no environmental data
+Warning: Sample at 174.7015, -36.855611 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at 174.7015, -36.855611 which has no environmental data
+Warning: Sample at 174.723111, -36.847611 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at 174.723111, -36.847611 which has no environmental data
+Warning: Sample at 174.723111, -36.847611 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at 174.723111, -36.847611 which has no environmental data
+Warning: Sample at 174.723111, -36.847611 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at 174.723111, -36.847611 which has no environmental data
+Warning: Sample at -60.403611, -51.563611 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -60.403611, -51.563611 which has no environmental data
+Warning: Sample at -48.033333, -51.521389 in Codi ALL max GUI.csv is missing some environmental data (e.g. e05.PHO.max)
+Warning: Skipping sample at -48.033333, -51.521389 which has no environmental data
+614112 points with values for all grids
+Adding samples to background in feature space
+Command line used: 
+Command line to repeat: java density.MaxEnt nowarnings noprefixes "outputdirectory=C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codi.max.future" "projectionlayers=C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\Environmental Data\RCP45\fixed" "samplesfile=C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\CODI Occur\Codi ALL max GUI.csv" "environmentallayers=C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\Environmental Data\Clipped_100km" randomseed replicates=5 noproduct nohinge noautofeature -N e01.DA.max -N e02.DA.min -N e03.NIT.max -N e04.NIT.min -N e06.PHO.min -N e07.SAL.me -N e10.SST.ra
+Species: codium_fragile_0 codium_fragile_1 codium_fragile_2 codium_fragile_3 codium_fragile_4
+Layers: e05.PHO.max e08.SST.max e09.SST.min
+Layertypes: Continuous Continuous Continuous
+outputdirectory: C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codi.max.future
+projectionlayers: C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\Environmental Data\RCP45\fixed
+samplesfile: C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\CODI Occur\Codi ALL max GUI.csv
+environmentallayers: C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\Environmental Data\Clipped_100km
+randomseed: true
+replicates: 5
+product: false
+hinge: false
+autofeature: false
+
+getSamples: max memory 1886912512, total allocated 268959744, free 138421464, used 130538280, increment 7097576
+Time since start: 2.406
+Making features
+makeFeatures: max memory 1886912512, total allocated 268959744, free 138097888, used 130861856, increment 323576
+codium_fragile_0: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+213 samples
+Density: max memory 1886912512, total allocated 268959744, free 137180072, used 131779672, increment 917816
+linearPredictor: max memory 1886912512, total allocated 268959744, free 137180072, used 131779672, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 268959744, free 137173296, used 131786448, increment 6776
+Sequential: max memory 1886912512, total allocated 268959744, free 137173296, used 131786448, increment 0
+Initial loss: 9.23092700558457
+Initial test loss: 9.23092700558457
+300: time = 0.423000 loss = 7.784284 testLoss 7.834067
+Resulting gain: 1.446643479567058
+Projecting...
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codi.max.future\codium_fragile_0.asc
+Time since start: 6.346
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codi.max.future\plots\codium_fragile_0.png
+Time since start: 9.367
+Projecting...
+Converting file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\Environmental Data\RCP45\fixed\e09.SST.min.asc size 65588234, max memory = 1886912512
+Reading file e09.SST.min.asc
+Time since start: 12.287
+FLOAT, 614076 pixels with data
+readGrid: max memory 1886912512, total allocated 250085376, free 131607536, used 118477840, increment -13308608
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\Environmental Data\RCP45\fixed\maxent.cache\e09.SST.min.mxe
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codi.max.future\codium_fragile_0_fixed.asc
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codi.max.future\codium_fragile_0_fixed_clamping.asc
+Time since start: 17.414
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codi.max.future\plots\codium_fragile_0_fixed.png
+Time since start: 20.563
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codi.max.future\plots\codium_fragile_0_fixed_clamping.png
+Time since start: 24.537
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codi.max.future\codium_fragile_0_fixed_novel.asc
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codi.max.future\codium_fragile_0_fixed_novel_limiting.asc
+Time since start: 36.378
+getSamples: max memory 1886912512, total allocated 672661504, free 449239120, used 223422384, increment 104944544
+Making features
+makeFeatures: max memory 1886912512, total allocated 672661504, free 449210496, used 223451008, increment 28624
+codium_fragile_1: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+213 samples
+Density: max memory 1886912512, total allocated 672661504, free 449203544, used 223457960, increment 6952
+linearPredictor: max memory 1886912512, total allocated 672661504, free 449203544, used 223457960, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 672661504, free 449199360, used 223462144, increment 4184
+Sequential: max memory 1886912512, total allocated 672661504, free 449199360, used 223462144, increment 0
+Initial loss: 9.23092700558457
+Initial test loss: 9.23092700558457
+260: time = 0.340000 loss = 7.835627 testLoss 7.605269
+Resulting gain: 1.395299831515592
+Projecting...
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codi.max.future\codium_fragile_1.asc
+Time since start: 41.142
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codi.max.future\plots\codium_fragile_1.png
+Time since start: 43.544
+Projecting...
+Time since start: 44.72
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codi.max.future\codium_fragile_1_fixed.asc
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codi.max.future\codium_fragile_1_fixed_clamping.asc
+Time since start: 53.409
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codi.max.future\plots\codium_fragile_1_fixed.png
+Time since start: 56.753
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codi.max.future\plots\codium_fragile_1_fixed_clamping.png
+Time since start: 60.155
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codi.max.future\codium_fragile_1_fixed_novel.asc
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codi.max.future\codium_fragile_1_fixed_novel_limiting.asc
+Time since start: 153.315
+getSamples: max memory 1886912512, total allocated 765460480, free 689585184, used 75875296, increment -147586848
+Making features
+makeFeatures: max memory 1886912512, total allocated 765460480, free 689556584, used 75903896, increment 28600
+codium_fragile_2: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+214 samples
+Density: max memory 1886912512, total allocated 765460480, free 689550104, used 75910376, increment 6480
+linearPredictor: max memory 1886912512, total allocated 765460480, free 689550104, used 75910376, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 765460480, free 689545920, used 75914560, increment 4184
+Sequential: max memory 1886912512, total allocated 765460480, free 689545920, used 75914560, increment 0
+Initial loss: 9.231024963169016
+Initial test loss: 9.231024963169016
+260: time = 0.349000 loss = 7.789638 testLoss 7.798155
+Resulting gain: 1.4413867047429312
+Projecting...
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codi.max.future\codium_fragile_2.asc
+Time since start: 157.695
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codi.max.future\plots\codium_fragile_2.png
+Time since start: 160.764
+Projecting...
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codi.max.future\codium_fragile_2_fixed.asc
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codi.max.future\codium_fragile_2_fixed_clamping.asc
+Time since start: 166.098
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codi.max.future\plots\codium_fragile_2_fixed.png
+Time since start: 169.042
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codi.max.future\plots\codium_fragile_2_fixed_clamping.png
+Time since start: 172.507
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codi.max.future\codium_fragile_2_fixed_novel.asc
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codi.max.future\codium_fragile_2_fixed_novel_limiting.asc
+Time since start: 183.565
+getSamples: max memory 1886912512, total allocated 962068480, free 399169544, used 562898936, increment 486984376
+Making features
+makeFeatures: max memory 1886912512, total allocated 962068480, free 399141144, used 562927336, increment 28400
+codium_fragile_3: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+214 samples
+Density: max memory 1886912512, total allocated 962068480, free 399136992, used 562931488, increment 4152
+linearPredictor: max memory 1886912512, total allocated 962068480, free 399136992, used 562931488, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 962068480, free 399130688, used 562937792, increment 6304
+Sequential: max memory 1886912512, total allocated 962068480, free 399130688, used 562937792, increment 0
+Initial loss: 9.231122911158712
+Initial test loss: 9.231122911158712
+300: time = 0.438000 loss = 7.852127 testLoss 7.541114
+Resulting gain: 1.3789959389346444
+Time since start: 184.66
+Projecting...
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codi.max.future\codium_fragile_3.asc
+Time since start: 187.983
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codi.max.future\plots\codium_fragile_3.png
+Time since start: 190.608
+Projecting...
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codi.max.future\codium_fragile_3_fixed.asc
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codi.max.future\codium_fragile_3_fixed_clamping.asc
+Time since start: 194.957
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codi.max.future\plots\codium_fragile_3_fixed.png
+Time since start: 198.588
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codi.max.future\plots\codium_fragile_3_fixed_clamping.png
+Time since start: 202.562
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codi.max.future\codium_fragile_3_fixed_novel.asc
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codi.max.future\codium_fragile_3_fixed_novel_limiting.asc
+Time since start: 213.216
+getSamples: max memory 1886912512, total allocated 1008730112, free 910122608, used 98607504, increment -464330288
+Making features
+makeFeatures: max memory 1886912512, total allocated 1008730112, free 910094152, used 98635960, increment 28456
+codium_fragile_4: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+214 samples
+Density: max memory 1886912512, total allocated 1008730112, free 910085784, used 98644328, increment 8368
+linearPredictor: max memory 1886912512, total allocated 1008730112, free 910085784, used 98644328, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 1008730112, free 910083472, used 98646640, increment 2312
+Sequential: max memory 1886912512, total allocated 1008730112, free 910083472, used 98646640, increment 0
+Initial loss: 9.231024963169016
+Initial test loss: 9.231024963169016
+240: time = 0.321000 loss = 7.792701 testLoss 7.784209
+Resulting gain: 1.4383239620211645
+Time since start: 216.277
+Projecting...
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codi.max.future\codium_fragile_4.asc
+Time since start: 219.712
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codi.max.future\plots\codium_fragile_4.png
+Time since start: 224.003
+Projecting...
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codi.max.future\codium_fragile_4_fixed.asc
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codi.max.future\codium_fragile_4_fixed_clamping.asc
+Time since start: 228.94
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codi.max.future\plots\codium_fragile_4_fixed.png
+Time since start: 232.266
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codi.max.future\plots\codium_fragile_4_fixed_clamping.png
+Time since start: 235.725
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codi.max.future\codium_fragile_4_fixed_novel.asc
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codi.max.future\codium_fragile_4_fixed_novel_limiting.asc
+Time since start: 250.992
+Creating average grid, stddev grid etc.
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codi.max.future\codium_fragile_avg.asc
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codi.max.future\codium_fragile_stddev.asc
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codi.max.future\codium_fragile_min.asc
+Time since start: 252.072
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codi.max.future\codium_fragile_max.asc
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codi.max.future\codium_fragile_median.asc
+Time since start: 286.503
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codi.max.future\plots\codium_fragile_avg.png
+Time since start: 289.321
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codi.max.future\plots\codium_fragile_stddev.png
+Time since start: 292.3
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codi.max.future\plots\codium_fragile_min.png
+Time since start: 297.882
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codi.max.future\plots\codium_fragile_max.png
+Time since start: 300.797
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codi.max.future\plots\codium_fragile_median.png
+Time since start: 303.481
+Creating average grid, stddev grid etc.
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codi.max.future\codium_fragile_fixed_avg.asc
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codi.max.future\codium_fragile_fixed_stddev.asc
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codi.max.future\codium_fragile_fixed_min.asc
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codi.max.future\codium_fragile_fixed_max.asc
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codi.max.future\codium_fragile_fixed_median.asc
+Time since start: 320.094
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codi.max.future\plots\codium_fragile_fixed_avg.png
+Time since start: 323.528
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codi.max.future\plots\codium_fragile_fixed_stddev.png
+Time since start: 327.722
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codi.max.future\plots\codium_fragile_fixed_min.png
+Time since start: 330.872
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codi.max.future\plots\codium_fragile_fixed_max.png
+Time since start: 334.135
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\CODI\Maxent outputs 4.1 GUI\codi.max.future\plots\codium_fragile_fixed_median.png
+Time since start: 337.804
+Ending

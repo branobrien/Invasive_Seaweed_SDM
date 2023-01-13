@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+        packageId="10.15468/dl.tjtkjl"  system="http://gbif.org" scope="system"
+  xml:lang="en">
+
+<dataset>
+        <alternateIdentifier>0008842-190918142434337</alternateIdentifier>
+    <title>GBIF Occurrence Download 10.15468/dl.tjtkjl</title>
+    <creator>
+    <individualName>
+          <surName>GBIF Download Service</surName>
+    </individualName>
+<electronicMailAddress>support@gbif.org</electronicMailAddress>    </creator>
+    <metadataProvider>
+    <individualName>
+          <surName>GBIF Download Service</surName>
+    </individualName>
+<electronicMailAddress>support@gbif.org</electronicMailAddress>    </metadataProvider>
+      <pubDate>
+      2019-10-02
+      </pubDate>
+    <language>ENGLISH</language>
+    <abstract>
+        <para>A dataset containing all occurrences available in GBIF matching the query:
+{
+  &quot;and&quot; : [ &quot;BasisOfRecord is Specimen&quot;, {
+    &quot;or&quot; : [ &quot;DatasetKey is SANT-Algae&quot;, &quot;DatasetKey is NMNH Extant Specimen Records&quot;, &quot;DatasetKey is Botanical Museum, Copenhagen, the Phycology Herbarium&quot;, &quot;DatasetKey is Algae specimens of Kanagawa Prefectural Museum of Natural History&quot;, &quot;DatasetKey is Algae, Specimens, Agder naturmuseum (KMN)&quot;, &quot;DatasetKey is Algae collection of Museum of Natural and Environmental History, Shizuoka&quot; ]
+  }, &quot;TaxonKey is Dasysiphonia japonica (Yendo) H.-S.Kim&quot; ]
+}
+The dataset includes records from the following constituent datasets. The full metadata for each constituent is also included in this archive:
+12 records from Algae specimens of Kanagawa Prefectural Museum of Natural History
+12 records from Algae, Specimens, Agder naturmuseum (KMN)
+20 records from Botanical Museum, Copenhagen, the Phycology Herbarium
+23 records from NMNH Extant Specimen Records
+28 records from Algae collection of Museum of Natural and Environmental History, Shizuoka
+184 records from SANT-Algae
+</para>
+    </abstract>
+      <contact>
+    <individualName>
+          <surName>GBIF Download Service</surName>
+    </individualName>
+<electronicMailAddress>support@gbif.org</electronicMailAddress>      </contact>
+
+</dataset>
+
+<additionalMetadata>
+    <metadata>
+      <gbif>
+        <dateStamp>2019-10-02T19:06:04Z</dateStamp>
+      <citation identifier="10.15468/dl.tjtkjl">GBIF Occurrence Download 10.15468/dl.tjtkjl</citation>
+              <physical>
+                  <objectName>Darwin Core Archive</objectName>
+                  <characterEncoding>UTF-8</characterEncoding>
+                  <dataFormat>
+                      <externallyDefinedFormat>
+                          <formatName>Darwin Core Archive</formatName>
+                      </externallyDefinedFormat>
+                  </dataFormat>
+                  <distribution>
+                      <online>
+                          <url function="download">http://api.gbif.org/v1/occurrence/download/request/0008842-190918142434337.zip</url>
+                      </online>
+                  </distribution>
+              </physical>
+        </gbif>
+    </metadata>
+</additionalMetadata>
+
+</eml:eml>

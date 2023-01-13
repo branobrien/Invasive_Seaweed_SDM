@@ -1,0 +1,1821 @@
+Fri May 06 14:37:17 EDT 2022
+MaxEnt version 3.4.1
+Checking header of C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\Environmental Data\Clipped_100km\e03.NIT.max.asc
+Checking header of C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\Environmental Data\Clipped_100km\e04.NIT.min.asc
+Checking header of C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\Environmental Data\Clipped_100km\e05.PHO.max.asc
+Checking header of C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\Environmental Data\Clipped_100km\e06.PHO.min.asc
+Checking header of C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\Environmental Data\Clipped_100km\e07.SAL.me.asc
+Checking header of C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\Environmental Data\Clipped_100km\e08.SST.max.asc
+Checking header of C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\Environmental Data\Clipped_100km\e09.SST.min.asc
+Reading samples from Dasy Maxent V4 GUI.csv
+Read samples: max memory 1886912512, total allocated 405274624, free 222188400, used 183086224, increment -65666784
+Extractor: max memory 1886912512, total allocated 405274624, free 219489944, used 185784680, increment 2698456
+Extracting random background and sample data
+Warning: Sample at 10.0, 57.0 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 10.0, 57.0 which has no environmental data
+Warning: Sample at 10.0, 57.0 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 10.0, 57.0 which has no environmental data
+Warning: Sample at 10.0, 57.0 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 10.0, 57.0 which has no environmental data
+Warning: Sample at 10.0, 57.0 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 10.0, 57.0 which has no environmental data
+Warning: Sample at 10.0, 57.0 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 10.0, 57.0 which has no environmental data
+Warning: Sample at 8.3, 56.450001 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 8.3, 56.450001 which has no environmental data
+Warning: Sample at -131.726051, 55.362768 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -131.726051, 55.362768 which has no environmental data
+Warning: Sample at 5.576111111, 54.39138889 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 5.576111111, 54.39138889 which has no environmental data
+Warning: Sample at -132.09, 53.26 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -132.09, 53.26 which has no environmental data
+Warning: Sample at -132.09, 53.26 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -132.09, 53.26 which has no environmental data
+Warning: Sample at -125.3, 50.5 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -125.3, 50.5 which has no environmental data
+Warning: Sample at -126.49, 49.75 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -126.49, 49.75 which has no environmental data
+Warning: Sample at 143.8, 43.366667 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 143.8, 43.366667 which has no environmental data
+Warning: Sample at -8.37963, 43.325 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -8.37963, 43.325 which has no environmental data
+Warning: Sample at -70.901501, 43.204888 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.901501, 43.204888 which has no environmental data
+Warning: Sample at -70.922221, 43.129483 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.922221, 43.129483 which has no environmental data
+Warning: Sample at -70.871817, 43.086607 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.871817, 43.086607 which has no environmental data
+Warning: Sample at -70.866168, 43.089746 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.866168, 43.089746 which has no environmental data
+Warning: Sample at -70.866168, 43.089809 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.866168, 43.089809 which has no environmental data
+Warning: Sample at -70.866168, 43.089809 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.866168, 43.089809 which has no environmental data
+Warning: Sample at -70.866168, 43.089809 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.866168, 43.089809 which has no environmental data
+Warning: Sample at -70.862653, 43.091286 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.862653, 43.091286 which has no environmental data
+Warning: Sample at -70.8646, 43.092201 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.8646, 43.092201 which has no environmental data
+Warning: Sample at -70.864785, 43.092251 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.864785, 43.092251 which has no environmental data
+Warning: Sample at -70.864785, 43.092251 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.864785, 43.092251 which has no environmental data
+Warning: Sample at -70.867442, 43.092478 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.867442, 43.092478 which has no environmental data
+Warning: Sample at -70.867327, 43.095137 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.867327, 43.095137 which has no environmental data
+Warning: Sample at -70.860971, 43.105608 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.860971, 43.105608 which has no environmental data
+Warning: Sample at -70.858946, 43.121198 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.858946, 43.121198 which has no environmental data
+Warning: Sample at -70.855406, 43.121361 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.855406, 43.121361 which has no environmental data
+Warning: Sample at -70.870982, 43.124438 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.870982, 43.124438 which has no environmental data
+Warning: Sample at -70.841723, 43.126475 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.841723, 43.126475 which has no environmental data
+Warning: Sample at -70.841723, 43.126475 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.841723, 43.126475 which has no environmental data
+Warning: Sample at -70.841723, 43.126475 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.841723, 43.126475 which has no environmental data
+Warning: Sample at -70.848668, 43.129531 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.848668, 43.129531 which has no environmental data
+Warning: Sample at -70.887308, 43.137883 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.887308, 43.137883 which has no environmental data
+Warning: Sample at -70.838372, 43.138085 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.838372, 43.138085 which has no environmental data
+Warning: Sample at -70.827568, 43.11916 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.827568, 43.11916 which has no environmental data
+Warning: Sample at -70.827653, 43.119935 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.827653, 43.119935 which has no environmental data
+Warning: Sample at -70.827653, 43.119935 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.827653, 43.119935 which has no environmental data
+Warning: Sample at -70.8298, 43.120961 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.8298, 43.120961 which has no environmental data
+Warning: Sample at -70.827767, 43.121721 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.827767, 43.121721 which has no environmental data
+Warning: Sample at -70.829059, 43.122527 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.829059, 43.122527 which has no environmental data
+Warning: Sample at -70.829059, 43.122527 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.829059, 43.122527 which has no environmental data
+Warning: Sample at -70.829059, 43.122527 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.829059, 43.122527 which has no environmental data
+Warning: Sample at -70.829059, 43.122527 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.829059, 43.122527 which has no environmental data
+Warning: Sample at -70.91941, 43.076916 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.91941, 43.076916 which has no environmental data
+Warning: Sample at -70.899265, 43.052421 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.899265, 43.052421 which has no environmental data
+Warning: Sample at -70.835929, 43.067792 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.835929, 43.067792 which has no environmental data
+Warning: Sample at -70.862751, 43.069077 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.862751, 43.069077 which has no environmental data
+Warning: Sample at -70.883218, 43.069791 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.883218, 43.069791 which has no environmental data
+Warning: Sample at -70.876355, 43.070931 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.876355, 43.070931 which has no environmental data
+Warning: Sample at -70.872321, 43.070931 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.872321, 43.070931 which has no environmental data
+Warning: Sample at -70.877643, 43.071558 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.877643, 43.071558 which has no environmental data
+Warning: Sample at -70.870948, 43.073059 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.870948, 43.073059 which has no environmental data
+Warning: Sample at -70.906245, 43.073969 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.906245, 43.073969 which has no environmental data
+Warning: Sample at -70.906245, 43.073969 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.906245, 43.073969 which has no environmental data
+Warning: Sample at -70.909835, 43.074194 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.909835, 43.074194 which has no environmental data
+Warning: Sample at -70.909835, 43.074194 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.909835, 43.074194 which has no environmental data
+Warning: Sample at -70.859919, 43.077804 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.859919, 43.077804 which has no environmental data
+Warning: Sample at -70.863266, 43.082482 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.863266, 43.082482 which has no environmental data
+Warning: Sample at -70.863266, 43.082482 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -70.863266, 43.082482 which has no environmental data
+Warning: Sample at -68.954085, 42.912627 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -68.954085, 42.912627 which has no environmental data
+Warning: Sample at -8.63449, 42.42398 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -8.63449, 42.42398 which has no environmental data
+Warning: Sample at -8.660894, 42.28703 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -8.660894, 42.28703 which has no environmental data
+Warning: Sample at 140.864626, 40.90895 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 140.864626, 40.90895 which has no environmental data
+Warning: Sample at 140.864626, 40.90895 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 140.864626, 40.90895 which has no environmental data
+Warning: Sample at 140.864626, 40.90895 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 140.864626, 40.90895 which has no environmental data
+Warning: Sample at 140.864626, 40.90895 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 140.864626, 40.90895 which has no environmental data
+Warning: Sample at 140.864626, 40.90895 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 140.864626, 40.90895 which has no environmental data
+Warning: Sample at 140.864626, 40.90895 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 140.864626, 40.90895 which has no environmental data
+Warning: Sample at 140.864626, 40.90895 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 140.864626, 40.90895 which has no environmental data
+Warning: Sample at 140.864626, 40.90895 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 140.864626, 40.90895 which has no environmental data
+Warning: Sample at 140.864626, 40.90895 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 140.864626, 40.90895 which has no environmental data
+Warning: Sample at -72.9337, 40.75221 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -72.9337, 40.75221 which has no environmental data
+Warning: Sample at 138.376313, 38.024276 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 138.376313, 38.024276 which has no environmental data
+Warning: Sample at 129.1358333, 37.1525 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 129.1358333, 37.1525 which has no environmental data
+Warning: Sample at 129.1180194, 37.00123611 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 129.1180194, 37.00123611 which has no environmental data
+Warning: Sample at 129.1511111, 37.06931111 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 129.1511111, 37.06931111 which has no environmental data
+Warning: Sample at -121.694904, 36.176091 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at -121.694904, 36.176091 which has no environmental data
+Warning: Sample at 140.232689, 35.514765 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 140.232689, 35.514765 which has no environmental data
+Warning: Sample at 138.347454, 35.020959 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 138.347454, 35.020959 which has no environmental data
+Warning: Sample at 138.347454, 35.020959 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 138.347454, 35.020959 which has no environmental data
+Warning: Sample at 138.347454, 35.020959 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 138.347454, 35.020959 which has no environmental data
+Warning: Sample at 138.347454, 35.020959 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 138.347454, 35.020959 which has no environmental data
+Warning: Sample at 138.347454, 35.020959 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 138.347454, 35.020959 which has no environmental data
+Warning: Sample at 139.846239, 34.99374 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 139.846239, 34.99374 which has no environmental data
+Warning: Sample at 136.554202, 34.371206 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 136.554202, 34.371206 which has no environmental data
+Warning: Sample at 134.173333, 34.328437 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 134.173333, 34.328437 which has no environmental data
+Warning: Sample at 133.9809924, 34.20704025 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 133.9809924, 34.20704025 which has no environmental data
+Warning: Sample at 134.005143, 34.208713 in Dasy Maxent V4 GUI.csv is missing some environmental data (e.g. e03.NIT.max)
+Warning: Skipping sample at 134.005143, 34.208713 which has no environmental data
+Time since start: 1.816
+614112 points with values for all grids
+Adding samples to background in feature space
+Command line used: 
+Command line to repeat: java density.MaxEnt nowarnings noprefixes responsecurves jackknife "outputdirectory=C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.1" "samplesfile=C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\DASY Occur\Dasy Maxent V4 GUI.csv" "environmentallayers=C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\Environmental Data\Clipped_100km" notooltips noremoveduplicates replicates=5 noproduct nohinge noautofeature -N e01.DA.max -N e02.DA.min -N e10.SST.ra
+Species: dasysiphonia_japonica_0 dasysiphonia_japonica_1 dasysiphonia_japonica_2 dasysiphonia_japonica_3 dasysiphonia_japonica_4
+Layers: e03.NIT.max e04.NIT.min e05.PHO.max e06.PHO.min e07.SAL.me e08.SST.max e09.SST.min
+Layertypes: Continuous Continuous Continuous Continuous Continuous Continuous Continuous
+responsecurves: true
+jackknife: true
+outputdirectory: C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.1
+samplesfile: C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\DASY Occur\Dasy Maxent V4 GUI.csv
+environmentallayers: C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\Environmental Data\Clipped_100km
+tooltips: false
+removeduplicates: false
+replicates: 5
+product: false
+hinge: false
+autofeature: false
+
+getSamples: max memory 1886912512, total allocated 405274624, free 210900160, used 194374464, increment 8589784
+Time since start: 3.563
+Making features
+makeFeatures: max memory 1886912512, total allocated 405274624, free 207896168, used 197378456, increment 3003992
+dasysiphonia_japonica_0: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+761 samples
+Density: max memory 1886912512, total allocated 405274624, free 207885040, used 197389584, increment 11128
+linearPredictor: max memory 1886912512, total allocated 405274624, free 207885040, used 197389584, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 405274624, free 207885040, used 197389584, increment 0
+Sequential: max memory 1886912512, total allocated 405274624, free 207885040, used 197389584, increment 0
+Initial loss: 9.282009658666542
+Initial test loss: 9.282009658666542
+500: time = 0.769000 loss = 8.021448 testLoss 7.867184
+Resulting gain: 1.2605620156081194
+Time since start: 4.616
+Projecting...
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.1\dasysiphonia_japonica_0.asc
+Time since start: 11.872
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.1\plots\dasysiphonia_japonica_0.png
+Time since start: 17.248
+dasysiphonia_japonica_0 response curves
+Time since start: 18.522
+Response curve: only e03.NIT.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 321388544, free 179523832, used 141864712, increment -55524872
+dasysiphonia_japonica_0 e03.NIT.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+761 samples
+Density: max memory 1886912512, total allocated 321388544, free 179510840, used 141877704, increment 12992
+linearPredictor: max memory 1886912512, total allocated 321388544, free 179510840, used 141877704, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 321388544, free 179510840, used 141877704, increment 0
+Sequential: max memory 1886912512, total allocated 321388544, free 179510840, used 141877704, increment 0
+Initial loss: 9.282009658666542
+80: time = 0.178000 loss = 9.268682
+Resulting gain: 0.013327686539671646
+dasysiphonia_japonica_0 response curves
+Response curve: only e04.NIT.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 321388544, free 174346472, used 147042072, increment 5164368
+dasysiphonia_japonica_0 e04.NIT.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+761 samples
+Density: max memory 1886912512, total allocated 321388544, free 174333432, used 147055112, increment 13040
+linearPredictor: max memory 1886912512, total allocated 321388544, free 174333432, used 147055112, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 321388544, free 174333432, used 147055112, increment 0
+Sequential: max memory 1886912512, total allocated 321388544, free 174333432, used 147055112, increment 0
+Initial loss: 9.282009658666542
+Time since start: 19.644
+60: time = 0.674000 loss = 9.229369
+Resulting gain: 0.05264065499976489
+dasysiphonia_japonica_0 response curves
+Response curve: only e05.PHO.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 321388544, free 170345776, used 151042768, increment 3987656
+dasysiphonia_japonica_0 e05.PHO.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+761 samples
+Density: max memory 1886912512, total allocated 321388544, free 170337144, used 151051400, increment 8632
+linearPredictor: max memory 1886912512, total allocated 321388544, free 170337144, used 151051400, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 321388544, free 170337144, used 151051400, increment 0
+Sequential: max memory 1886912512, total allocated 321388544, free 170336712, used 151051832, increment 432
+Initial loss: 9.282009658666542
+100: time = 0.303000 loss = 9.199623
+Resulting gain: 0.08238666906125403
+dasysiphonia_japonica_0 response curves
+Response curve: only e06.PHO.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 321388544, free 165121384, used 156267160, increment 5215328
+dasysiphonia_japonica_0 e06.PHO.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+761 samples
+Density: max memory 1886912512, total allocated 321388544, free 165112776, used 156275768, increment 8608
+linearPredictor: max memory 1886912512, total allocated 321388544, free 165112776, used 156275768, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 321388544, free 165110640, used 156277904, increment 2136
+Sequential: max memory 1886912512, total allocated 321388544, free 165110640, used 156277904, increment 0
+Initial loss: 9.282009658666542
+60: time = 0.182000 loss = 9.231420
+Resulting gain: 0.05058957725489677
+dasysiphonia_japonica_0 response curves
+Response curve: only e07.SAL.me
+Making features
+makeFeatures: max memory 1886912512, total allocated 321388544, free 160182848, used 161205696, increment 4927792
+dasysiphonia_japonica_0 e07.SAL.me: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+761 samples
+Density: max memory 1886912512, total allocated 321388544, free 160172120, used 161216424, increment 10728
+linearPredictor: max memory 1886912512, total allocated 321388544, free 160172120, used 161216424, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 321388544, free 160172120, used 161216424, increment 0
+Sequential: max memory 1886912512, total allocated 321388544, free 160172120, used 161216424, increment 0
+Initial loss: 9.282009658666542
+Time since start: 20.874
+180: time = 0.301000 loss = 9.217760
+Resulting gain: 0.06424962527572298
+dasysiphonia_japonica_0 response curves
+Response curve: only e08.SST.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 321388544, free 154382904, used 167005640, increment 5789216
+dasysiphonia_japonica_0 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+761 samples
+Density: max memory 1886912512, total allocated 321388544, free 154370024, used 167018520, increment 12880
+linearPredictor: max memory 1886912512, total allocated 321388544, free 154370024, used 167018520, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 321388544, free 154370024, used 167018520, increment 0
+Sequential: max memory 1886912512, total allocated 321388544, free 154370024, used 167018520, increment 0
+Initial loss: 9.282009658666542
+180: time = 0.356000 loss = 8.716662
+Resulting gain: 0.5653481130825018
+dasysiphonia_japonica_0 response curves
+Response curve: only e09.SST.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 321388544, free 148433480, used 172955064, increment 5936544
+dasysiphonia_japonica_0 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+761 samples
+Density: max memory 1886912512, total allocated 321388544, free 148422536, used 172966008, increment 10944
+linearPredictor: max memory 1886912512, total allocated 321388544, free 148422536, used 172966008, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 321388544, free 148422536, used 172966008, increment 0
+Sequential: max memory 1886912512, total allocated 321388544, free 148422536, used 172966008, increment 0
+Initial loss: 9.282009658666542
+120: time = 0.248000 loss = 8.391191
+Resulting gain: 0.8908184294943915
+dasysiphonia_japonica_0 response curves
+Time since start: 22.203
+Jackknife: leave e03.NIT.max out
+Making features
+makeFeatures: max memory 1886912512, total allocated 321388544, free 113447080, used 207941464, increment 34975456
+dasysiphonia_japonica_0 e03.NIT.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+761 samples
+Density: max memory 1886912512, total allocated 321388544, free 113436296, used 207952248, increment 10784
+linearPredictor: max memory 1886912512, total allocated 321388544, free 113436296, used 207952248, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 321388544, free 113436296, used 207952248, increment 0
+Sequential: max memory 1886912512, total allocated 321388544, free 113436296, used 207952248, increment 0
+Initial loss: 9.282009658666542
+Initial test loss: 9.282009658666542
+Time since start: 23.21
+500: time = 0.976000 loss = 8.028662 testLoss 7.883290
+Jackknife: leave e04.NIT.min out
+Making features
+makeFeatures: max memory 1886912512, total allocated 321388544, free 109270192, used 212118352, increment 4166104
+dasysiphonia_japonica_0 e04.NIT.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+761 samples
+Density: max memory 1886912512, total allocated 321388544, free 109259008, used 212129536, increment 11184
+linearPredictor: max memory 1886912512, total allocated 321388544, free 109259008, used 212129536, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 321388544, free 109259008, used 212129536, increment 0
+Sequential: max memory 1886912512, total allocated 321388544, free 109259008, used 212129536, increment 0
+Initial loss: 9.282009658666542
+Initial test loss: 9.282009658666542
+500: time = 0.899000 loss = 8.023156 testLoss 7.865282
+Jackknife: leave e05.PHO.max out
+Making features
+makeFeatures: max memory 1886912512, total allocated 321388544, free 101343328, used 220045216, increment 7915680
+dasysiphonia_japonica_0 e05.PHO.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+761 samples
+Density: max memory 1886912512, total allocated 321388544, free 101332648, used 220055896, increment 10680
+linearPredictor: max memory 1886912512, total allocated 321388544, free 101332648, used 220055896, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 321388544, free 101332648, used 220055896, increment 0
+Sequential: max memory 1886912512, total allocated 321388544, free 101332648, used 220055896, increment 0
+Initial loss: 9.282009658666542
+Initial test loss: 9.282009658666542
+Time since start: 25.145
+500: time = 0.975000 loss = 8.053196 testLoss 7.908526
+Jackknife: leave e06.PHO.min out
+Making features
+makeFeatures: max memory 1886912512, total allocated 321388544, free 93413384, used 227975160, increment 7919264
+dasysiphonia_japonica_0 e06.PHO.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+761 samples
+Density: max memory 1886912512, total allocated 321388544, free 93402672, used 227985872, increment 10712
+linearPredictor: max memory 1886912512, total allocated 321388544, free 93402672, used 227985872, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 321388544, free 93402672, used 227985872, increment 0
+Sequential: max memory 1886912512, total allocated 321388544, free 93402672, used 227985872, increment 0
+Initial loss: 9.282009658666542
+Initial test loss: 9.282009658666542
+Time since start: 26.447
+500: time = 1.255000 loss = 8.043677 testLoss 7.882115
+Jackknife: leave e07.SAL.me out
+Making features
+makeFeatures: max memory 1886912512, total allocated 321388544, free 89163872, used 232224672, increment 4238800
+dasysiphonia_japonica_0 e07.SAL.me: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+761 samples
+Density: max memory 1886912512, total allocated 321388544, free 89151032, used 232237512, increment 12840
+linearPredictor: max memory 1886912512, total allocated 321388544, free 89151032, used 232237512, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 321388544, free 89151032, used 232237512, increment 0
+Sequential: max memory 1886912512, total allocated 321388544, free 89151032, used 232237512, increment 0
+Initial loss: 9.282009658666542
+Initial test loss: 9.282009658666542
+300: time = 0.696000 loss = 8.108309 testLoss 8.039398
+Jackknife: leave e08.SST.max out
+Making features
+makeFeatures: max memory 1886912512, total allocated 321388544, free 83069416, used 238319128, increment 6081616
+dasysiphonia_japonica_0 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+761 samples
+Density: max memory 1886912512, total allocated 321388544, free 83056624, used 238331920, increment 12792
+linearPredictor: max memory 1886912512, total allocated 321388544, free 83056624, used 238331920, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 321388544, free 83056624, used 238331920, increment 0
+Sequential: max memory 1886912512, total allocated 321388544, free 83056624, used 238331920, increment 0
+Initial loss: 9.282009658666542
+Initial test loss: 9.282009658666542
+Time since start: 28.0
+360: time = 0.801000 loss = 8.093355 testLoss 7.948028
+Jackknife: leave e09.SST.min out
+Making features
+makeFeatures: max memory 1886912512, total allocated 321388544, free 76442200, used 244946344, increment 6614424
+dasysiphonia_japonica_0 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+761 samples
+Density: max memory 1886912512, total allocated 321388544, free 76431032, used 244957512, increment 11168
+linearPredictor: max memory 1886912512, total allocated 321388544, free 76431032, used 244957512, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 321388544, free 76431032, used 244957512, increment 0
+Sequential: max memory 1886912512, total allocated 321388544, free 76431032, used 244957512, increment 0
+Initial loss: 9.282009658666542
+Initial test loss: 9.282009658666542
+440: time = 0.876000 loss = 8.496921 testLoss 8.356294
+Jackknife: only e03.NIT.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 321388544, free 72838312, used 248550232, increment 3592720
+dasysiphonia_japonica_0 e03.NIT.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+761 samples
+Density: max memory 1886912512, total allocated 321388544, free 72825256, used 248563288, increment 13056
+linearPredictor: max memory 1886912512, total allocated 321388544, free 72825256, used 248563288, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 321388544, free 72825256, used 248563288, increment 0
+Sequential: max memory 1886912512, total allocated 321388544, free 72825256, used 248563288, increment 0
+Initial loss: 9.282009658666542
+Initial test loss: 9.282009658666542
+Time since start: 29.075
+80: time = 0.152000 loss = 9.268682 testLoss 9.225296
+Res.gain: 0.013327686539671646
+Jackknife: only e04.NIT.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 321388544, free 72265424, used 249123120, increment 559832
+dasysiphonia_japonica_0 e04.NIT.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+761 samples
+Density: max memory 1886912512, total allocated 321388544, free 72254072, used 249134472, increment 11352
+linearPredictor: max memory 1886912512, total allocated 321388544, free 72254072, used 249134472, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 321388544, free 72254072, used 249134472, increment 0
+Sequential: max memory 1886912512, total allocated 321388544, free 72254072, used 249134472, increment 0
+Initial loss: 9.282009658666542
+Initial test loss: 9.282009658666542
+60: time = 0.284000 loss = 9.229369 testLoss 9.238440
+Res.gain: 0.05264065499976489
+Jackknife: only e05.PHO.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 321388544, free 71941880, used 249446664, increment 312192
+dasysiphonia_japonica_0 e05.PHO.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+761 samples
+Density: max memory 1886912512, total allocated 321388544, free 68270632, used 253117912, increment 3671248
+linearPredictor: max memory 1886912512, total allocated 321388544, free 68270632, used 253117912, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 321388544, free 68266448, used 253122096, increment 4184
+Sequential: max memory 1886912512, total allocated 321388544, free 68266448, used 253122096, increment 0
+Initial loss: 9.282009658666542
+Initial test loss: 9.282009658666542
+100: time = 0.271000 loss = 9.199623 testLoss 9.170414
+Res.gain: 0.08238666906125403
+Jackknife: only e06.PHO.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 321388544, free 67649024, used 253739520, increment 617424
+dasysiphonia_japonica_0 e06.PHO.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+761 samples
+Density: max memory 1886912512, total allocated 321388544, free 67637840, used 253750704, increment 11184
+linearPredictor: max memory 1886912512, total allocated 321388544, free 67637840, used 253750704, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 321388544, free 67637840, used 253750704, increment 0
+Sequential: max memory 1886912512, total allocated 321388544, free 67637840, used 253750704, increment 0
+Initial loss: 9.282009658666542
+Initial test loss: 9.282009658666542
+60: time = 0.200000 loss = 9.231420 testLoss 9.255631
+Res.gain: 0.05058957725489677
+Jackknife: only e07.SAL.me
+Making features
+makeFeatures: max memory 1886912512, total allocated 321388544, free 67322520, used 254066024, increment 315320
+dasysiphonia_japonica_0 e07.SAL.me: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+761 samples
+Density: max memory 1886912512, total allocated 321388544, free 67309640, used 254078904, increment 12880
+linearPredictor: max memory 1886912512, total allocated 321388544, free 67309640, used 254078904, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 321388544, free 67309640, used 254078904, increment 0
+Sequential: max memory 1886912512, total allocated 321388544, free 67309640, used 254078904, increment 0
+Initial loss: 9.282009658666542
+Initial test loss: 9.282009658666542
+Time since start: 30.169
+180: time = 0.282000 loss = 9.217760 testLoss 9.163763
+Res.gain: 0.06424962527572298
+Jackknife: only e08.SST.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 321388544, free 66199920, used 255188624, increment 1109720
+dasysiphonia_japonica_0 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+761 samples
+Density: max memory 1886912512, total allocated 321388544, free 66193360, used 255195184, increment 6560
+linearPredictor: max memory 1886912512, total allocated 321388544, free 66189144, used 255199400, increment 4216
+FeaturedSpace: max memory 1886912512, total allocated 321388544, free 66187048, used 255201496, increment 2096
+Sequential: max memory 1886912512, total allocated 321388544, free 66187048, used 255201496, increment 0
+Initial loss: 9.282009658666542
+Initial test loss: 9.282009658666542
+180: time = 0.379000 loss = 8.716662 testLoss 8.662289
+Res.gain: 0.5653481130825018
+Jackknife: only e09.SST.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 321388544, free 61219032, used 260169512, increment 4968016
+dasysiphonia_japonica_0 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+761 samples
+Density: max memory 1886912512, total allocated 321388544, free 61210392, used 260178152, increment 8640
+linearPredictor: max memory 1886912512, total allocated 321388544, free 61210392, used 260178152, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 321388544, free 61207680, used 260180864, increment 2712
+Sequential: max memory 1886912512, total allocated 321388544, free 61207680, used 260180864, increment 0
+Initial loss: 9.282009658666542
+Initial test loss: 9.282009658666542
+120: time = 0.303000 loss = 8.391191 testLoss 8.340688
+Res.gain: 0.8908184294943915
+getSamples: max memory 1886912512, total allocated 316669952, free 232666680, used 84003272, increment -176177592
+Making features
+Time since start: 31.184
+makeFeatures: max memory 1886912512, total allocated 316669952, free 229119776, used 87550176, increment 3546904
+dasysiphonia_japonica_1: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+761 samples
+Density: max memory 1886912512, total allocated 316669952, free 229119776, used 87550176, increment 0
+linearPredictor: max memory 1886912512, total allocated 316669952, free 229119776, used 87550176, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 316669952, free 229119776, used 87550176, increment 0
+Sequential: max memory 1886912512, total allocated 316669952, free 229119776, used 87550176, increment 0
+Initial loss: 9.282288871288767
+Initial test loss: 9.282288871288767
+500: time = 0.973000 loss = 8.026054 testLoss 7.837230
+Resulting gain: 1.2562350418986714
+Time since start: 32.603
+Projecting...
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.1\dasysiphonia_japonica_1.asc
+Time since start: 38.224
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.1\plots\dasysiphonia_japonica_1.png
+Time since start: 40.954
+dasysiphonia_japonica_1 response curves
+Response curve: only e03.NIT.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 304087040, free 189612032, used 114475008, increment 26924832
+dasysiphonia_japonica_1 e03.NIT.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+761 samples
+Density: max memory 1886912512, total allocated 304087040, free 189599368, used 114487672, increment 12664
+linearPredictor: max memory 1886912512, total allocated 304087040, free 189599368, used 114487672, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 304087040, free 189599368, used 114487672, increment 0
+Sequential: max memory 1886912512, total allocated 304087040, free 189599368, used 114487672, increment 0
+Initial loss: 9.282288871288767
+80: time = 0.120000 loss = 9.268857
+Resulting gain: 0.01343150654282077
+dasysiphonia_japonica_1 response curves
+Time since start: 42.013
+Response curve: only e04.NIT.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 304087040, free 185675616, used 118411424, increment 3923752
+dasysiphonia_japonica_1 e04.NIT.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+761 samples
+Density: max memory 1886912512, total allocated 304087040, free 185671432, used 118415608, increment 4184
+linearPredictor: max memory 1886912512, total allocated 304087040, free 185671432, used 118415608, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 304087040, free 185664632, used 118422408, increment 6800
+Sequential: max memory 1886912512, total allocated 304087040, free 185664632, used 118422408, increment 0
+Initial loss: 9.282288871288767
+60: time = 0.224000 loss = 9.234216
+Resulting gain: 0.0480730213006062
+dasysiphonia_japonica_1 response curves
+Response curve: only e05.PHO.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 304087040, free 182043712, used 122043328, increment 3620920
+dasysiphonia_japonica_1 e05.PHO.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+761 samples
+Density: max memory 1886912512, total allocated 304087040, free 182032608, used 122054432, increment 11104
+linearPredictor: max memory 1886912512, total allocated 304087040, free 182032608, used 122054432, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 304087040, free 182032608, used 122054432, increment 0
+Sequential: max memory 1886912512, total allocated 304087040, free 182032608, used 122054432, increment 0
+Initial loss: 9.282288871288767
+100: time = 0.197000 loss = 9.189047
+Resulting gain: 0.0932422146494929
+dasysiphonia_japonica_1 response curves
+Response curve: only e06.PHO.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 304087040, free 177075248, used 127011792, increment 4957360
+dasysiphonia_japonica_1 e06.PHO.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+761 samples
+Density: max memory 1886912512, total allocated 304087040, free 177071040, used 127016000, increment 4208
+linearPredictor: max memory 1886912512, total allocated 304087040, free 177068688, used 127018352, increment 2352
+FeaturedSpace: max memory 1886912512, total allocated 304087040, free 177062376, used 127024664, increment 6312
+Sequential: max memory 1886912512, total allocated 304087040, free 177062376, used 127024664, increment 0
+Initial loss: 9.282288871288767
+60: time = 0.137000 loss = 9.236524
+Resulting gain: 0.045765085385651716
+dasysiphonia_japonica_1 response curves
+Response curve: only e07.SAL.me
+Making features
+makeFeatures: max memory 1886912512, total allocated 304087040, free 170070208, used 134016832, increment 6992168
+dasysiphonia_japonica_1 e07.SAL.me: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+761 samples
+Density: max memory 1886912512, total allocated 304087040, free 170059416, used 134027624, increment 10792
+linearPredictor: max memory 1886912512, total allocated 304087040, free 170059416, used 134027624, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 304087040, free 170059416, used 134027624, increment 0
+Sequential: max memory 1886912512, total allocated 304087040, free 170059416, used 134027624, increment 0
+Initial loss: 9.282288871288767
+Time since start: 43.231
+180: time = 0.279000 loss = 9.217986
+Resulting gain: 0.06430283425703465
+dasysiphonia_japonica_1 response curves
+Response curve: only e08.SST.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 304087040, free 165600816, used 138486224, increment 4458600
+dasysiphonia_japonica_1 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+761 samples
+Density: max memory 1886912512, total allocated 304087040, free 165589672, used 138497368, increment 11144
+linearPredictor: max memory 1886912512, total allocated 304087040, free 165589672, used 138497368, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 304087040, free 165589672, used 138497368, increment 0
+Sequential: max memory 1886912512, total allocated 304087040, free 165589672, used 138497368, increment 0
+Initial loss: 9.282288871288767
+180: time = 0.315000 loss = 8.731692
+Resulting gain: 0.5505966549847834
+dasysiphonia_japonica_1 response curves
+Response curve: only e09.SST.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 304087040, free 160042648, used 144044392, increment 5547024
+dasysiphonia_japonica_1 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+761 samples
+Density: max memory 1886912512, total allocated 304087040, free 160031720, used 144055320, increment 10928
+linearPredictor: max memory 1886912512, total allocated 304087040, free 160031720, used 144055320, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 304087040, free 160031720, used 144055320, increment 0
+Sequential: max memory 1886912512, total allocated 304087040, free 160031720, used 144055320, increment 0
+Initial loss: 9.282288871288767
+120: time = 0.276000 loss = 8.387393
+Resulting gain: 0.8948960004400739
+dasysiphonia_japonica_1 response curves
+Time since start: 44.518
+Jackknife: leave e03.NIT.max out
+Making features
+makeFeatures: max memory 1886912512, total allocated 304087040, free 128168888, used 175918152, increment 31862832
+dasysiphonia_japonica_1 e03.NIT.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+761 samples
+Density: max memory 1886912512, total allocated 304087040, free 124825224, used 179261816, increment 3343664
+linearPredictor: max memory 1886912512, total allocated 304087040, free 124825224, used 179261816, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 304087040, free 124825224, used 179261816, increment 0
+Sequential: max memory 1886912512, total allocated 304087040, free 124825224, used 179261816, increment 0
+Initial loss: 9.282288871288767
+Initial test loss: 9.282288871288767
+Time since start: 45.733
+500: time = 1.192000 loss = 8.034464 testLoss 7.849988
+Jackknife: leave e04.NIT.min out
+Making features
+makeFeatures: max memory 1886912512, total allocated 304087040, free 120604480, used 183482560, increment 4220744
+dasysiphonia_japonica_1 e04.NIT.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+761 samples
+Density: max memory 1886912512, total allocated 304087040, free 120593376, used 183493664, increment 11104
+linearPredictor: max memory 1886912512, total allocated 304087040, free 120593376, used 183493664, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 304087040, free 120593376, used 183493664, increment 0
+Sequential: max memory 1886912512, total allocated 304087040, free 120593376, used 183493664, increment 0
+Initial loss: 9.282288871288767
+Initial test loss: 9.282288871288767
+500: time = 0.874000 loss = 8.026550 testLoss 7.843539
+Jackknife: leave e05.PHO.max out
+Making features
+makeFeatures: max memory 1886912512, total allocated 304087040, free 113395872, used 190691168, increment 7197504
+dasysiphonia_japonica_1 e05.PHO.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+761 samples
+Density: max memory 1886912512, total allocated 304087040, free 113385184, used 190701856, increment 10688
+linearPredictor: max memory 1886912512, total allocated 304087040, free 113385184, used 190701856, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 304087040, free 113385184, used 190701856, increment 0
+Sequential: max memory 1886912512, total allocated 304087040, free 113385184, used 190701856, increment 0
+Initial loss: 9.282288871288767
+Initial test loss: 9.282288871288767
+Time since start: 47.37
+500: time = 0.715000 loss = 8.060869 testLoss 7.861957
+Jackknife: leave e06.PHO.min out
+Making features
+makeFeatures: max memory 1886912512, total allocated 304087040, free 105781072, used 198305968, increment 7604112
+dasysiphonia_japonica_1 e06.PHO.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+761 samples
+Density: max memory 1886912512, total allocated 304087040, free 105768496, used 198318544, increment 12576
+linearPredictor: max memory 1886912512, total allocated 304087040, free 105768496, used 198318544, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 304087040, free 105768496, used 198318544, increment 0
+Sequential: max memory 1886912512, total allocated 304087040, free 105768496, used 198318544, increment 0
+Initial loss: 9.282288871288767
+Initial test loss: 9.282288871288767
+500: time = 0.707000 loss = 8.048958 testLoss 7.846480
+Jackknife: leave e07.SAL.me out
+Making features
+makeFeatures: max memory 1886912512, total allocated 304087040, free 101570528, used 202516512, increment 4197968
+dasysiphonia_japonica_1 e07.SAL.me: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+761 samples
+Density: max memory 1886912512, total allocated 304087040, free 101559648, used 202527392, increment 10880
+linearPredictor: max memory 1886912512, total allocated 304087040, free 101559648, used 202527392, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 304087040, free 101559648, used 202527392, increment 0
+Sequential: max memory 1886912512, total allocated 304087040, free 101559648, used 202527392, increment 0
+Initial loss: 9.282288871288767
+Initial test loss: 9.282288871288767
+Time since start: 48.573
+300: time = 0.446000 loss = 8.112669 testLoss 8.021289
+Jackknife: leave e08.SST.max out
+Making features
+makeFeatures: max memory 1886912512, total allocated 304087040, free 95815936, used 208271104, increment 5743712
+dasysiphonia_japonica_1 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+761 samples
+Density: max memory 1886912512, total allocated 304087040, free 95805024, used 208282016, increment 10912
+linearPredictor: max memory 1886912512, total allocated 304087040, free 95805024, used 208282016, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 304087040, free 95805024, used 208282016, increment 0
+Sequential: max memory 1886912512, total allocated 304087040, free 95805024, used 208282016, increment 0
+Initial loss: 9.282288871288767
+Initial test loss: 9.282288871288767
+320: time = 0.468000 loss = 8.094491 testLoss 7.941384
+Jackknife: leave e09.SST.min out
+Making features
+makeFeatures: max memory 1886912512, total allocated 304087040, free 89777064, used 214309976, increment 6027960
+dasysiphonia_japonica_1 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+761 samples
+Density: max memory 1886912512, total allocated 304087040, free 89765984, used 214321056, increment 11080
+linearPredictor: max memory 1886912512, total allocated 304087040, free 89765984, used 214321056, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 304087040, free 89765984, used 214321056, increment 0
+Sequential: max memory 1886912512, total allocated 304087040, free 89765984, used 214321056, increment 0
+Initial loss: 9.282288871288767
+Initial test loss: 9.282288871288767
+Time since start: 49.716
+460: time = 0.636000 loss = 8.508601 testLoss 8.300366
+Jackknife: only e03.NIT.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 304087040, free 86308840, used 217778200, increment 3457144
+dasysiphonia_japonica_1 e03.NIT.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+761 samples
+Density: max memory 1886912512, total allocated 304087040, free 86300472, used 217786568, increment 8368
+linearPredictor: max memory 1886912512, total allocated 304087040, free 86300472, used 217786568, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 304087040, free 86296296, used 217790744, increment 4176
+Sequential: max memory 1886912512, total allocated 304087040, free 86296296, used 217790744, increment 0
+Initial loss: 9.282288871288767
+Initial test loss: 9.282288871288767
+80: time = 0.107000 loss = 9.268857 testLoss 9.217009
+Res.gain: 0.01343150654282077
+Jackknife: only e04.NIT.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 304087040, free 85743184, used 218343856, increment 553112
+dasysiphonia_japonica_1 e04.NIT.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+761 samples
+Density: max memory 1886912512, total allocated 304087040, free 85730592, used 218356448, increment 12592
+linearPredictor: max memory 1886912512, total allocated 304087040, free 85644608, used 218442432, increment 85984
+FeaturedSpace: max memory 1886912512, total allocated 304087040, free 85644608, used 218442432, increment 0
+Sequential: max memory 1886912512, total allocated 304087040, free 85644608, used 218442432, increment 0
+Initial loss: 9.282288871288767
+Initial test loss: 9.282288871288767
+60: time = 0.201000 loss = 9.234216 testLoss 9.219608
+Res.gain: 0.0480730213006062
+Jackknife: only e05.PHO.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 304087040, free 82016984, used 222070056, increment 3627624
+dasysiphonia_japonica_1 e05.PHO.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+761 samples
+Density: max memory 1886912512, total allocated 304087040, free 82010288, used 222076752, increment 6696
+linearPredictor: max memory 1886912512, total allocated 304087040, free 82008192, used 222078848, increment 2096
+FeaturedSpace: max memory 1886912512, total allocated 304087040, free 82006096, used 222080944, increment 2096
+Sequential: max memory 1886912512, total allocated 304087040, free 82006096, used 222080944, increment 0
+Initial loss: 9.282288871288767
+Initial test loss: 9.282288871288767
+100: time = 0.170000 loss = 9.189047 testLoss 9.214671
+Res.gain: 0.0932422146494929
+Jackknife: only e06.PHO.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 304087040, free 81349352, used 222737688, increment 656744
+dasysiphonia_japonica_1 e06.PHO.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+761 samples
+Density: max memory 1886912512, total allocated 304087040, free 81342848, used 222744192, increment 6504
+linearPredictor: max memory 1886912512, total allocated 304087040, free 81342848, used 222744192, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 304087040, free 81338592, used 222748448, increment 4256
+Sequential: max memory 1886912512, total allocated 304087040, free 81338592, used 222748448, increment 0
+Initial loss: 9.282288871288767
+Initial test loss: 9.282288871288767
+60: time = 0.118000 loss = 9.236524 testLoss 9.233554
+Res.gain: 0.045765085385651716
+Jackknife: only e07.SAL.me
+Making features
+makeFeatures: max memory 1886912512, total allocated 304087040, free 81012184, used 223074856, increment 326408
+dasysiphonia_japonica_1 e07.SAL.me: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+761 samples
+Density: max memory 1886912512, total allocated 304087040, free 81003416, used 223083624, increment 8768
+linearPredictor: max memory 1886912512, total allocated 304087040, free 81003416, used 223083624, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 304087040, free 81000920, used 223086120, increment 2496
+Sequential: max memory 1886912512, total allocated 304087040, free 81000920, used 223086120, increment 0
+Initial loss: 9.282288871288767
+Initial test loss: 9.282288871288767
+180: time = 0.212000 loss = 9.217986 testLoss 9.162579
+Res.gain: 0.06430283425703465
+Jackknife: only e08.SST.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 304087040, free 76550952, used 227536088, increment 4449968
+dasysiphonia_japonica_1 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+761 samples
+Density: max memory 1886912512, total allocated 304087040, free 76538376, used 227548664, increment 12576
+linearPredictor: max memory 1886912512, total allocated 304087040, free 76538376, used 227548664, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 304087040, free 76538376, used 227548664, increment 0
+Sequential: max memory 1886912512, total allocated 304087040, free 76538376, used 227548664, increment 0
+Initial loss: 9.282288871288767
+Initial test loss: 9.282288871288767
+Time since start: 50.83
+180: time = 0.260000 loss = 8.731692 testLoss 8.597595
+Res.gain: 0.5505966549847834
+Jackknife: only e09.SST.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 304087040, free 75307096, used 228779944, increment 1231280
+dasysiphonia_japonica_1 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+761 samples
+Density: max memory 1886912512, total allocated 304087040, free 75300552, used 228786488, increment 6544
+linearPredictor: max memory 1886912512, total allocated 304087040, free 75295992, used 228791048, increment 4560
+FeaturedSpace: max memory 1886912512, total allocated 304087040, free 75295992, used 228791048, increment 0
+Sequential: max memory 1886912512, total allocated 304087040, free 75295992, used 228791048, increment 0
+Initial loss: 9.282288871288767
+Initial test loss: 9.282288871288767
+120: time = 0.194000 loss = 8.387393 testLoss 8.364987
+Res.gain: 0.8948960004400739
+getSamples: max memory 1886912512, total allocated 304087040, free 64484040, used 239603000, increment 10811952
+Making features
+makeFeatures: max memory 1886912512, total allocated 304087040, free 64429320, used 239657720, increment 54720
+dasysiphonia_japonica_2: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+762 samples
+Density: max memory 1886912512, total allocated 304087040, free 64417920, used 239669120, increment 11400
+linearPredictor: max memory 1886912512, total allocated 304087040, free 64417920, used 239669120, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 304087040, free 64417920, used 239669120, increment 0
+Sequential: max memory 1886912512, total allocated 304087040, free 64417920, used 239669120, increment 0
+Initial loss: 9.282474969735382
+Initial test loss: 9.282474969735382
+Time since start: 52.192
+500: time = 0.873000 loss = 8.026068 testLoss 7.859417
+Resulting gain: 1.2564069975854526
+Projecting...
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.1\dasysiphonia_japonica_2.asc
+Time since start: 57.625
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.1\plots\dasysiphonia_japonica_2.png
+Time since start: 60.611
+dasysiphonia_japonica_2 response curves
+Response curve: only e03.NIT.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 359661568, free 152475920, used 207185648, increment -32483472
+dasysiphonia_japonica_2 e03.NIT.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+762 samples
+Density: max memory 1886912512, total allocated 359661568, free 152469000, used 207192568, increment 6920
+linearPredictor: max memory 1886912512, total allocated 359661568, free 152469000, used 207192568, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 359661568, free 152469000, used 207192568, increment 0
+Sequential: max memory 1886912512, total allocated 359661568, free 152469000, used 207192568, increment 0
+Initial loss: 9.282474969735382
+80: time = 0.146000 loss = 9.269948
+Resulting gain: 0.012527380812667133
+dasysiphonia_japonica_2 response curves
+Response curve: only e04.NIT.min
+Making features
+Time since start: 61.613
+makeFeatures: max memory 1886912512, total allocated 359661568, free 147982112, used 211679456, increment 4486888
+dasysiphonia_japonica_2 e04.NIT.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+762 samples
+Density: max memory 1886912512, total allocated 359661568, free 147975368, used 211686200, increment 6744
+linearPredictor: max memory 1886912512, total allocated 359661568, free 147968632, used 211692936, increment 6736
+FeaturedSpace: max memory 1886912512, total allocated 359661568, free 147968632, used 211692936, increment 0
+Sequential: max memory 1886912512, total allocated 359661568, free 147968632, used 211692936, increment 0
+Initial loss: 9.282474969735382
+60: time = 0.190000 loss = 9.234704
+Resulting gain: 0.04777051630011897
+dasysiphonia_japonica_2 response curves
+Response curve: only e05.PHO.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 359661568, free 142751056, used 216910512, increment 5217576
+dasysiphonia_japonica_2 e05.PHO.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+762 samples
+Density: max memory 1886912512, total allocated 359661568, free 142744136, used 216917432, increment 6920
+linearPredictor: max memory 1886912512, total allocated 359661568, free 142744136, used 216917432, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 359661568, free 142744136, used 216917432, increment 0
+Sequential: max memory 1886912512, total allocated 359661568, free 142744136, used 216917432, increment 0
+Initial loss: 9.282474969735382
+100: time = 0.224000 loss = 9.197393
+Resulting gain: 0.08508216676090186
+dasysiphonia_japonica_2 response curves
+Response curve: only e06.PHO.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 359661568, free 138189008, used 221472560, increment 4555128
+dasysiphonia_japonica_2 e06.PHO.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+762 samples
+Density: max memory 1886912512, total allocated 359661568, free 138182272, used 221479296, increment 6736
+linearPredictor: max memory 1886912512, total allocated 359661568, free 138182272, used 221479296, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 359661568, free 138182272, used 221479296, increment 0
+Sequential: max memory 1886912512, total allocated 359661568, free 138182272, used 221479296, increment 0
+Initial loss: 9.282474969735382
+60: time = 0.139000 loss = 9.241614
+Resulting gain: 0.04086063662908934
+dasysiphonia_japonica_2 response curves
+Response curve: only e07.SAL.me
+Making features
+makeFeatures: max memory 1886912512, total allocated 359661568, free 133001528, used 226660040, increment 5180744
+dasysiphonia_japonica_2 e07.SAL.me: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+762 samples
+Density: max memory 1886912512, total allocated 359661568, free 132994784, used 226666784, increment 6744
+linearPredictor: max memory 1886912512, total allocated 359661568, free 132994784, used 226666784, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 359661568, free 132988048, used 226673520, increment 6736
+Sequential: max memory 1886912512, total allocated 359661568, free 132988048, used 226673520, increment 0
+Initial loss: 9.282474969735382
+Time since start: 62.704
+180: time = 0.270000 loss = 9.210338
+Resulting gain: 0.07213659658213523
+dasysiphonia_japonica_2 response curves
+Response curve: only e08.SST.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 359661568, free 126993440, used 232668128, increment 5994608
+dasysiphonia_japonica_2 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+762 samples
+Density: max memory 1886912512, total allocated 359661568, free 126979784, used 232681784, increment 13656
+linearPredictor: max memory 1886912512, total allocated 359661568, free 126979784, used 232681784, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 359661568, free 126979784, used 232681784, increment 0
+Sequential: max memory 1886912512, total allocated 359661568, free 126979784, used 232681784, increment 0
+Initial loss: 9.282474969735382
+180: time = 0.297000 loss = 8.725002
+Resulting gain: 0.5574728962073205
+dasysiphonia_japonica_2 response curves
+Response curve: only e09.SST.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 359661568, free 121802152, used 237859416, increment 5177632
+dasysiphonia_japonica_2 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+762 samples
+Density: max memory 1886912512, total allocated 359661568, free 121795016, used 237866552, increment 7136
+linearPredictor: max memory 1886912512, total allocated 359661568, free 121795016, used 237866552, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 359661568, free 121795016, used 237866552, increment 0
+Sequential: max memory 1886912512, total allocated 359661568, free 121795016, used 237866552, increment 0
+Initial loss: 9.282474969735382
+120: time = 0.184000 loss = 8.398211
+Resulting gain: 0.8842639491109736
+dasysiphonia_japonica_2 response curves
+Time since start: 63.831
+Jackknife: leave e03.NIT.max out
+Making features
+makeFeatures: max memory 1886912512, total allocated 359661568, free 88581808, used 271079760, increment 33213208
+dasysiphonia_japonica_2 e03.NIT.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+762 samples
+Density: max memory 1886912512, total allocated 359661568, free 88565992, used 271095576, increment 15816
+linearPredictor: max memory 1886912512, total allocated 359661568, free 88565992, used 271095576, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 359661568, free 88565992, used 271095576, increment 0
+Sequential: max memory 1886912512, total allocated 359661568, free 88565992, used 271095576, increment 0
+Initial loss: 9.282474969735382
+Initial test loss: 9.282474969735382
+500: time = 0.704000 loss = 8.035383 testLoss 7.866926
+Jackknife: leave e04.NIT.min out
+Making features
+makeFeatures: max memory 1886912512, total allocated 359661568, free 80625504, used 279036064, increment 7940488
+dasysiphonia_japonica_2 e04.NIT.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+762 samples
+Density: max memory 1886912512, total allocated 359661568, free 80618760, used 279042808, increment 6744
+linearPredictor: max memory 1886912512, total allocated 359661568, free 80618760, used 279042808, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 359661568, free 80612024, used 279049544, increment 6736
+Sequential: max memory 1886912512, total allocated 359661568, free 80612024, used 279049544, increment 0
+Initial loss: 9.282474969735382
+Initial test loss: 9.282474969735382
+Time since start: 65.317
+500: time = 0.732000 loss = 8.026880 testLoss 7.858752
+Jackknife: leave e05.PHO.max out
+Making features
+makeFeatures: max memory 1886912512, total allocated 359661568, free 76430720, used 283230848, increment 4181304
+dasysiphonia_japonica_2 e05.PHO.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+762 samples
+Density: max memory 1886912512, total allocated 359661568, free 76417248, used 283244320, increment 13472
+linearPredictor: max memory 1886912512, total allocated 359661568, free 76417248, used 283244320, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 359661568, free 76417248, used 283244320, increment 0
+Sequential: max memory 1886912512, total allocated 359661568, free 76417248, used 283244320, increment 0
+Initial loss: 9.282474969735382
+Initial test loss: 9.282474969735382
+500: time = 0.648000 loss = 8.061211 testLoss 7.878948
+Jackknife: leave e06.PHO.min out
+Making features
+makeFeatures: max memory 1886912512, total allocated 359661568, free 68309072, used 291352496, increment 8108176
+dasysiphonia_japonica_2 e06.PHO.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+762 samples
+Density: max memory 1886912512, total allocated 359661568, free 68295200, used 291366368, increment 13872
+linearPredictor: max memory 1886912512, total allocated 359661568, free 68295200, used 291366368, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 359661568, free 68295200, used 291366368, increment 0
+Sequential: max memory 1886912512, total allocated 359661568, free 68295200, used 291366368, increment 0
+Initial loss: 9.282474969735382
+Initial test loss: 9.282474969735382
+Time since start: 66.722
+500: time = 0.704000 loss = 8.048095 testLoss 7.879443
+Jackknife: leave e07.SAL.me out
+Making features
+makeFeatures: max memory 1886912512, total allocated 359661568, free 60231672, used 299429896, increment 8063528
+dasysiphonia_japonica_2 e07.SAL.me: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+762 samples
+Density: max memory 1886912512, total allocated 359661568, free 60218160, used 299443408, increment 13512
+linearPredictor: max memory 1886912512, total allocated 359661568, free 60218160, used 299443408, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 359661568, free 60218160, used 299443408, increment 0
+Sequential: max memory 1886912512, total allocated 359661568, free 60218160, used 299443408, increment 0
+Initial loss: 9.282474969735382
+Initial test loss: 9.282474969735382
+320: time = 0.512000 loss = 8.117775 testLoss 8.004194
+Jackknife: leave e08.SST.max out
+Making features
+makeFeatures: max memory 1886912512, total allocated 359661568, free 57687384, used 301974184, increment 2530776
+dasysiphonia_japonica_2 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+762 samples
+Density: max memory 1886912512, total allocated 359661568, free 57673944, used 301987624, increment 13440
+linearPredictor: max memory 1886912512, total allocated 359661568, free 57673944, used 301987624, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 359661568, free 57673944, used 301987624, increment 0
+Sequential: max memory 1886912512, total allocated 359661568, free 57673944, used 301987624, increment 0
+Initial loss: 9.282474969735382
+Initial test loss: 9.282474969735382
+Time since start: 67.917
+360: time = 0.634000 loss = 8.099030 testLoss 7.936523
+Jackknife: leave e09.SST.min out
+Making features
+makeFeatures: max memory 1886912512, total allocated 359661568, free 50916560, used 308745008, increment 6757384
+dasysiphonia_japonica_2 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+762 samples
+Density: max memory 1886912512, total allocated 359661568, free 50909640, used 308751928, increment 6920
+linearPredictor: max memory 1886912512, total allocated 359661568, free 50909640, used 308751928, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 359661568, free 50909640, used 308751928, increment 0
+Sequential: max memory 1886912512, total allocated 359661568, free 50909640, used 308751928, increment 0
+Initial loss: 9.282474969735382
+Initial test loss: 9.282474969735382
+Time since start: 69.52
+440: time = 1.582000 loss = 8.498994 testLoss 8.346019
+Jackknife: only e03.NIT.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 359661568, free 47331800, used 312329768, increment 3577840
+dasysiphonia_japonica_2 e03.NIT.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+762 samples
+Density: max memory 1886912512, total allocated 359661568, free 47318288, used 312343280, increment 13512
+linearPredictor: max memory 1886912512, total allocated 359661568, free 47318288, used 312343280, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 359661568, free 47318288, used 312343280, increment 0
+Sequential: max memory 1886912512, total allocated 359661568, free 47318288, used 312343280, increment 0
+Initial loss: 9.282474969735382
+Initial test loss: 9.282474969735382
+80: time = 0.134000 loss = 9.269948 testLoss 9.219336
+Res.gain: 0.012527380812667133
+Jackknife: only e04.NIT.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 359661568, free 46808744, used 312852824, increment 509544
+dasysiphonia_japonica_2 e04.NIT.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+762 samples
+Density: max memory 1886912512, total allocated 359661568, free 46795096, used 312866472, increment 13648
+linearPredictor: max memory 1886912512, total allocated 359661568, free 46795096, used 312866472, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 359661568, free 46795096, used 312866472, increment 0
+Sequential: max memory 1886912512, total allocated 359661568, free 46795096, used 312866472, increment 0
+Initial loss: 9.282474969735382
+Initial test loss: 9.282474969735382
+60: time = 0.160000 loss = 9.234704 testLoss 9.218491
+Res.gain: 0.04777051630011897
+Jackknife: only e05.PHO.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 359661568, free 42583176, used 317078392, increment 4211920
+dasysiphonia_japonica_2 e05.PHO.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+762 samples
+Density: max memory 1886912512, total allocated 359661568, free 42576256, used 317085312, increment 6920
+linearPredictor: max memory 1886912512, total allocated 359661568, free 42576256, used 317085312, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 359661568, free 42576256, used 317085312, increment 0
+Sequential: max memory 1886912512, total allocated 359661568, free 42576256, used 317085312, increment 0
+Initial loss: 9.282474969735382
+Initial test loss: 9.282474969735382
+100: time = 0.198000 loss = 9.197393 testLoss 9.182842
+Res.gain: 0.08508216676090186
+Jackknife: only e06.PHO.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 359661568, free 41950920, used 317710648, increment 625336
+dasysiphonia_japonica_2 e06.PHO.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+762 samples
+Density: max memory 1886912512, total allocated 359661568, free 41943784, used 317717784, increment 7136
+linearPredictor: max memory 1886912512, total allocated 359661568, free 41943784, used 317717784, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 359661568, free 41943784, used 317717784, increment 0
+Sequential: max memory 1886912512, total allocated 359661568, free 41943784, used 317717784, increment 0
+Initial loss: 9.282474969735382
+Initial test loss: 9.282474969735382
+60: time = 0.145000 loss = 9.241614 testLoss 9.214732
+Res.gain: 0.04086063662908934
+Jackknife: only e07.SAL.me
+Making features
+makeFeatures: max memory 1886912512, total allocated 359661568, free 41639024, used 318022544, increment 304760
+dasysiphonia_japonica_2 e07.SAL.me: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+762 samples
+Density: max memory 1886912512, total allocated 359661568, free 41632288, used 318029280, increment 6736
+linearPredictor: max memory 1886912512, total allocated 359661568, free 41632288, used 318029280, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 359661568, free 41632288, used 318029280, increment 0
+Sequential: max memory 1886912512, total allocated 359661568, free 41632288, used 318029280, increment 0
+Initial loss: 9.282474969735382
+Initial test loss: 9.282474969735382
+180: time = 0.226000 loss = 9.210338 testLoss 9.197807
+Res.gain: 0.07213659658213523
+Jackknife: only e08.SST.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 359661568, free 40524648, used 319136920, increment 1107640
+dasysiphonia_japonica_2 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+762 samples
+Density: max memory 1886912512, total allocated 359661568, free 40510952, used 319150616, increment 13696
+linearPredictor: max memory 1886912512, total allocated 359661568, free 40510952, used 319150616, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 359661568, free 40510952, used 319150616, increment 0
+Sequential: max memory 1886912512, total allocated 359661568, free 40510952, used 319150616, increment 0
+Initial loss: 9.282474969735382
+Initial test loss: 9.282474969735382
+Time since start: 70.735
+180: time = 0.292000 loss = 8.725002 testLoss 8.627687
+Res.gain: 0.5574728962073205
+Jackknife: only e09.SST.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 359661568, free 35327200, used 324334368, increment 5183752
+dasysiphonia_japonica_2 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+762 samples
+Density: max memory 1886912512, total allocated 359661568, free 35313504, used 324348064, increment 13696
+linearPredictor: max memory 1886912512, total allocated 359661568, free 35313504, used 324348064, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 359661568, free 35313504, used 324348064, increment 0
+Sequential: max memory 1886912512, total allocated 359661568, free 35313504, used 324348064, increment 0
+Initial loss: 9.282474969735382
+Initial test loss: 9.282474969735382
+120: time = 0.196000 loss = 8.398211 testLoss 8.321324
+Res.gain: 0.8842639491109736
+getSamples: max memory 1886912512, total allocated 359661568, free 26651112, used 333010456, increment 8662392
+Making features
+makeFeatures: max memory 1886912512, total allocated 359661568, free 26597192, used 333064376, increment 53920
+dasysiphonia_japonica_3: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+762 samples
+Density: max memory 1886912512, total allocated 359661568, free 26583536, used 333078032, increment 13656
+linearPredictor: max memory 1886912512, total allocated 359661568, free 26583536, used 333078032, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 359661568, free 26583536, used 333078032, increment 0
+Sequential: max memory 1886912512, total allocated 359661568, free 26583536, used 333078032, increment 0
+Initial loss: 9.282102738203074
+Initial test loss: 9.282102738203074
+Time since start: 71.992
+500: time = 0.848000 loss = 8.023795 testLoss 7.868064
+Resulting gain: 1.2583080198894532
+Projecting...
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.1\dasysiphonia_japonica_3.asc
+Time since start: 77.257
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.1\plots\dasysiphonia_japonica_3.png
+Time since start: 79.916
+dasysiphonia_japonica_3 response curves
+Response curve: only e03.NIT.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 478150656, free 275747232, used 202403424, increment -130674608
+dasysiphonia_japonica_3 e03.NIT.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+762 samples
+Density: max memory 1886912512, total allocated 478150656, free 275734952, used 202415704, increment 12280
+linearPredictor: max memory 1886912512, total allocated 478150656, free 275734952, used 202415704, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 478150656, free 275734952, used 202415704, increment 0
+Sequential: max memory 1886912512, total allocated 478150656, free 275734952, used 202415704, increment 0
+Initial loss: 9.282102738203074
+Time since start: 80.957
+80: time = 0.158000 loss = 9.268210
+Resulting gain: 0.013893171203774202
+dasysiphonia_japonica_3 response curves
+Response curve: only e04.NIT.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 478150656, free 275168320, used 202982336, increment 566632
+dasysiphonia_japonica_3 e04.NIT.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+762 samples
+Density: max memory 1886912512, total allocated 478150656, free 268325920, used 209824736, increment 6842400
+linearPredictor: max memory 1886912512, total allocated 478150656, free 268325920, used 209824736, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 478150656, free 268325920, used 209824736, increment 0
+Sequential: max memory 1886912512, total allocated 478150656, free 268325920, used 209824736, increment 0
+Initial loss: 9.282102738203074
+60: time = 0.261000 loss = 9.231333
+Resulting gain: 0.050769728167820105
+dasysiphonia_japonica_3 response curves
+Response curve: only e05.PHO.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 478150656, free 268005504, used 210145152, increment 320416
+dasysiphonia_japonica_3 e05.PHO.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+762 samples
+Density: max memory 1886912512, total allocated 478150656, free 267993208, used 210157448, increment 12296
+linearPredictor: max memory 1886912512, total allocated 478150656, free 267993208, used 210157448, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 478150656, free 267993208, used 210157448, increment 0
+Sequential: max memory 1886912512, total allocated 478150656, free 267993208, used 210157448, increment 0
+Initial loss: 9.282102738203074
+100: time = 0.199000 loss = 9.196944
+Resulting gain: 0.08515833274805118
+dasysiphonia_japonica_3 response curves
+Response curve: only e06.PHO.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 478150656, free 260617976, used 217532680, increment 7375232
+dasysiphonia_japonica_3 e06.PHO.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+762 samples
+Density: max memory 1886912512, total allocated 478150656, free 260617976, used 217532680, increment 0
+linearPredictor: max memory 1886912512, total allocated 478150656, free 260617976, used 217532680, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 478150656, free 260617976, used 217532680, increment 0
+Sequential: max memory 1886912512, total allocated 478150656, free 260617976, used 217532680, increment 0
+Initial loss: 9.282102738203074
+60: time = 0.142000 loss = 9.238332
+Resulting gain: 0.04377052473683918
+dasysiphonia_japonica_3 response curves
+Response curve: only e07.SAL.me
+Making features
+makeFeatures: max memory 1886912512, total allocated 478150656, free 260334304, used 217816352, increment 283672
+dasysiphonia_japonica_3 e07.SAL.me: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+762 samples
+Density: max memory 1886912512, total allocated 478150656, free 260322008, used 217828648, increment 12296
+linearPredictor: max memory 1886912512, total allocated 478150656, free 260322008, used 217828648, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 478150656, free 260322008, used 217828648, increment 0
+Sequential: max memory 1886912512, total allocated 478150656, free 260322008, used 217828648, increment 0
+Initial loss: 9.282102738203074
+Time since start: 82.148
+180: time = 0.242000 loss = 9.215819
+Resulting gain: 0.06628404536626498
+dasysiphonia_japonica_3 response curves
+Response curve: only e08.SST.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 478150656, free 252382152, used 225768504, increment 7939856
+dasysiphonia_japonica_3 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+762 samples
+Density: max memory 1886912512, total allocated 478150656, free 252369464, used 225781192, increment 12688
+linearPredictor: max memory 1886912512, total allocated 478150656, free 252369464, used 225781192, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 478150656, free 252369464, used 225781192, increment 0
+Sequential: max memory 1886912512, total allocated 478150656, free 252369464, used 225781192, increment 0
+Initial loss: 9.282102738203074
+180: time = 0.284000 loss = 8.718009
+Resulting gain: 0.5640932418710225
+dasysiphonia_japonica_3 response curves
+Response curve: only e09.SST.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 478150656, free 244290648, used 233860008, increment 8078816
+dasysiphonia_japonica_3 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+762 samples
+Density: max memory 1886912512, total allocated 478150656, free 244290648, used 233860008, increment 0
+linearPredictor: max memory 1886912512, total allocated 478150656, free 244290648, used 233860008, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 478150656, free 244278368, used 233872288, increment 12280
+Sequential: max memory 1886912512, total allocated 478150656, free 244278368, used 233872288, increment 0
+Initial loss: 9.282102738203074
+120: time = 0.204000 loss = 8.389370
+Resulting gain: 0.8927327743236244
+dasysiphonia_japonica_3 response curves
+Time since start: 83.158
+Jackknife: leave e03.NIT.max out
+Making features
+makeFeatures: max memory 1886912512, total allocated 478150656, free 209154584, used 268996072, increment 35123784
+dasysiphonia_japonica_3 e03.NIT.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+762 samples
+Density: max memory 1886912512, total allocated 478150656, free 209154584, used 268996072, increment 0
+linearPredictor: max memory 1886912512, total allocated 478150656, free 209154584, used 268996072, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 478150656, free 209154584, used 268996072, increment 0
+Sequential: max memory 1886912512, total allocated 478150656, free 209154584, used 268996072, increment 0
+Initial loss: 9.282102738203074
+Initial test loss: 9.282102738203074
+500: time = 0.826000 loss = 8.030555 testLoss 7.884602
+Jackknife: leave e04.NIT.min out
+Making features
+makeFeatures: max memory 1886912512, total allocated 478150656, free 205478408, used 272672248, increment 3676176
+dasysiphonia_japonica_3 e04.NIT.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+762 samples
+Density: max memory 1886912512, total allocated 478150656, free 205478408, used 272672248, increment 0
+linearPredictor: max memory 1886912512, total allocated 478150656, free 205478408, used 272672248, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 478150656, free 205465720, used 272684936, increment 12688
+Sequential: max memory 1886912512, total allocated 478150656, free 205465720, used 272684936, increment 0
+Initial loss: 9.282102738203074
+Initial test loss: 9.282102738203074
+Time since start: 84.875
+500: time = 0.859000 loss = 8.025882 testLoss 7.858859
+Jackknife: leave e05.PHO.max out
+Making features
+makeFeatures: max memory 1886912512, total allocated 478150656, free 201249304, used 276901352, increment 4216416
+dasysiphonia_japonica_3 e05.PHO.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+762 samples
+Density: max memory 1886912512, total allocated 478150656, free 201249304, used 276901352, increment 0
+linearPredictor: max memory 1886912512, total allocated 478150656, free 201249304, used 276901352, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 478150656, free 201249304, used 276901352, increment 0
+Sequential: max memory 1886912512, total allocated 478150656, free 201249304, used 276901352, increment 0
+Initial loss: 9.282102738203074
+Initial test loss: 9.282102738203074
+500: time = 0.826000 loss = 8.057866 testLoss 7.886121
+Jackknife: leave e06.PHO.min out
+Making features
+makeFeatures: max memory 1886912512, total allocated 478150656, free 190239096, used 287911560, increment 11010208
+dasysiphonia_japonica_3 e06.PHO.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+762 samples
+Density: max memory 1886912512, total allocated 478150656, free 190239096, used 287911560, increment 0
+linearPredictor: max memory 1886912512, total allocated 478150656, free 190239096, used 287911560, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 478150656, free 190239096, used 287911560, increment 0
+Sequential: max memory 1886912512, total allocated 478150656, free 190239096, used 287911560, increment 0
+Initial loss: 9.282102738203074
+Initial test loss: 9.282102738203074
+Time since start: 86.542
+500: time = 0.793000 loss = 8.045707 testLoss 7.880917
+Jackknife: leave e07.SAL.me out
+Making features
+makeFeatures: max memory 1886912512, total allocated 478150656, free 186034688, used 292115968, increment 4204408
+dasysiphonia_japonica_3 e07.SAL.me: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+762 samples
+Density: max memory 1886912512, total allocated 478150656, free 186022216, used 292128440, increment 12472
+linearPredictor: max memory 1886912512, total allocated 478150656, free 186022216, used 292128440, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 478150656, free 186022216, used 292128440, increment 0
+Sequential: max memory 1886912512, total allocated 478150656, free 186022216, used 292128440, increment 0
+Initial loss: 9.282102738203074
+Initial test loss: 9.282102738203074
+340: time = 0.610000 loss = 8.109788 testLoss 8.042464
+Jackknife: leave e08.SST.max out
+Making features
+makeFeatures: max memory 1886912512, total allocated 478150656, free 183344968, used 294805688, increment 2677248
+dasysiphonia_japonica_3 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+762 samples
+Density: max memory 1886912512, total allocated 478150656, free 183332680, used 294817976, increment 12288
+linearPredictor: max memory 1886912512, total allocated 478150656, free 183332680, used 294817976, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 478150656, free 183332680, used 294817976, increment 0
+Sequential: max memory 1886912512, total allocated 478150656, free 183332680, used 294817976, increment 0
+Initial loss: 9.282102738203074
+Initial test loss: 9.282102738203074
+Time since start: 87.827
+360: time = 0.595000 loss = 8.092350 testLoss 7.952336
+Jackknife: leave e09.SST.min out
+Making features
+makeFeatures: max memory 1886912512, total allocated 478150656, free 173553224, used 304597432, increment 9779456
+dasysiphonia_japonica_3 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+762 samples
+Density: max memory 1886912512, total allocated 478150656, free 173540792, used 304609864, increment 12432
+linearPredictor: max memory 1886912512, total allocated 478150656, free 173540792, used 304609864, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 478150656, free 173540792, used 304609864, increment 0
+Sequential: max memory 1886912512, total allocated 478150656, free 173540792, used 304609864, increment 0
+Initial loss: 9.282102738203074
+Initial test loss: 9.282102738203074
+500: time = 0.772000 loss = 8.496963 testLoss 8.353053
+Jackknife: only e03.NIT.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 478150656, free 169433176, used 308717480, increment 4107616
+dasysiphonia_japonica_3 e03.NIT.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+762 samples
+Density: max memory 1886912512, total allocated 478150656, free 169433176, used 308717480, increment 0
+linearPredictor: max memory 1886912512, total allocated 478150656, free 169433176, used 308717480, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 478150656, free 169433176, used 308717480, increment 0
+Sequential: max memory 1886912512, total allocated 478150656, free 169433176, used 308717480, increment 0
+Initial loss: 9.282102738203074
+Initial test loss: 9.282102738203074
+80: time = 0.126000 loss = 9.268210 testLoss 9.217887
+Res.gain: 0.013893171203774202
+Jackknife: only e04.NIT.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 478150656, free 168865888, used 309284768, increment 567288
+dasysiphonia_japonica_3 e04.NIT.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+762 samples
+Density: max memory 1886912512, total allocated 478150656, free 168853600, used 309297056, increment 12288
+linearPredictor: max memory 1886912512, total allocated 478150656, free 168853600, used 309297056, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 478150656, free 168853600, used 309297056, increment 0
+Sequential: max memory 1886912512, total allocated 478150656, free 168853600, used 309297056, increment 0
+Initial loss: 9.282102738203074
+Initial test loss: 9.282102738203074
+Time since start: 88.969
+60: time = 0.201000 loss = 9.231333 testLoss 9.230373
+Res.gain: 0.050769728167820105
+Jackknife: only e05.PHO.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 478150656, free 168557296, used 309593360, increment 296304
+dasysiphonia_japonica_3 e05.PHO.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+762 samples
+Density: max memory 1886912512, total allocated 478150656, free 168545016, used 309605640, increment 12280
+linearPredictor: max memory 1886912512, total allocated 478150656, free 168545016, used 309605640, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 478150656, free 168545016, used 309605640, increment 0
+Sequential: max memory 1886912512, total allocated 478150656, free 168545016, used 309605640, increment 0
+Initial loss: 9.282102738203074
+Initial test loss: 9.282102738203074
+100: time = 0.193000 loss = 9.196944 testLoss 9.182358
+Res.gain: 0.08515833274805118
+Jackknife: only e06.PHO.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 478150656, free 167966144, used 310184512, increment 578872
+dasysiphonia_japonica_3 e06.PHO.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+762 samples
+Density: max memory 1886912512, total allocated 478150656, free 167953888, used 310196768, increment 12256
+linearPredictor: max memory 1886912512, total allocated 478150656, free 167953888, used 310196768, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 478150656, free 167953888, used 310196768, increment 0
+Sequential: max memory 1886912512, total allocated 478150656, free 167953888, used 310196768, increment 0
+Initial loss: 9.282102738203074
+Initial test loss: 9.282102738203074
+60: time = 0.140000 loss = 9.238332 testLoss 9.224987
+Res.gain: 0.04377052473683918
+Jackknife: only e07.SAL.me
+Making features
+makeFeatures: max memory 1886912512, total allocated 478150656, free 167632832, used 310517824, increment 321056
+dasysiphonia_japonica_3 e07.SAL.me: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+762 samples
+Density: max memory 1886912512, total allocated 478150656, free 167632832, used 310517824, increment 0
+linearPredictor: max memory 1886912512, total allocated 478150656, free 167632832, used 310517824, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 478150656, free 167620544, used 310530112, increment 12288
+Sequential: max memory 1886912512, total allocated 478150656, free 167620544, used 310530112, increment 0
+Initial loss: 9.282102738203074
+Initial test loss: 9.282102738203074
+180: time = 0.257000 loss = 9.215819 testLoss 9.172444
+Res.gain: 0.06628404536626498
+Jackknife: only e08.SST.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 478150656, free 159611960, used 318538696, increment 8008584
+dasysiphonia_japonica_3 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+762 samples
+Density: max memory 1886912512, total allocated 478150656, free 159599704, used 318550952, increment 12256
+linearPredictor: max memory 1886912512, total allocated 478150656, free 159599704, used 318550952, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 478150656, free 159599704, used 318550952, increment 0
+Sequential: max memory 1886912512, total allocated 478150656, free 159599704, used 318550952, increment 0
+Initial loss: 9.282102738203074
+Initial test loss: 9.282102738203074
+180: time = 0.274000 loss = 8.718009 testLoss 8.652987
+Res.gain: 0.5640932418710225
+Jackknife: only e09.SST.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 478150656, free 158366624, used 319784032, increment 1233080
+dasysiphonia_japonica_3 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+762 samples
+Density: max memory 1886912512, total allocated 478150656, free 158354152, used 319796504, increment 12472
+linearPredictor: max memory 1886912512, total allocated 478150656, free 158354152, used 319796504, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 478150656, free 158354152, used 319796504, increment 0
+Sequential: max memory 1886912512, total allocated 478150656, free 158354152, used 319796504, increment 0
+Initial loss: 9.282102738203074
+Initial test loss: 9.282102738203074
+Time since start: 90.069
+120: time = 0.199000 loss = 8.389370 testLoss 8.351829
+Res.gain: 0.8927327743236244
+getSamples: max memory 1886912512, total allocated 478150656, free 150722248, used 327428408, increment 7631904
+Making features
+makeFeatures: max memory 1886912512, total allocated 478150656, free 150672856, used 327477800, increment 49392
+dasysiphonia_japonica_4: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+762 samples
+Density: max memory 1886912512, total allocated 478150656, free 150660384, used 327490272, increment 12472
+linearPredictor: max memory 1886912512, total allocated 478150656, free 150660384, used 327490272, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 478150656, free 150660384, used 327490272, increment 0
+Sequential: max memory 1886912512, total allocated 478150656, free 150660384, used 327490272, increment 0
+Initial loss: 9.282009658666542
+Initial test loss: 9.282009658666542
+500: time = 0.763000 loss = 8.026887 testLoss 7.839461
+Resulting gain: 1.2551223973011556
+Time since start: 91.325
+Projecting...
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.1\dasysiphonia_japonica_4.asc
+Time since start: 97.88
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.1\plots\dasysiphonia_japonica_4.png
+Time since start: 100.545
+dasysiphonia_japonica_4 response curves
+Time since start: 102.732
+Response curve: only e03.NIT.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 393216000, free 312810320, used 80405680, increment -247084592
+dasysiphonia_japonica_4 e03.NIT.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+762 samples
+Density: max memory 1886912512, total allocated 393216000, free 312798224, used 80417776, increment 12096
+linearPredictor: max memory 1886912512, total allocated 393216000, free 312798224, used 80417776, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 393216000, free 312798224, used 80417776, increment 0
+Sequential: max memory 1886912512, total allocated 393216000, free 312798224, used 80417776, increment 0
+Initial loss: 9.282009658666542
+80: time = 0.139000 loss = 9.268985
+Resulting gain: 0.013024423439601307
+dasysiphonia_japonica_4 response curves
+Response curve: only e04.NIT.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 393216000, free 312227304, used 80988696, increment 570920
+dasysiphonia_japonica_4 e04.NIT.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+762 samples
+Density: max memory 1886912512, total allocated 393216000, free 312215216, used 81000784, increment 12088
+linearPredictor: max memory 1886912512, total allocated 393216000, free 312215216, used 81000784, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 393216000, free 312215216, used 81000784, increment 0
+Sequential: max memory 1886912512, total allocated 393216000, free 312215216, used 81000784, increment 0
+Initial loss: 9.282009658666542
+60: time = 0.267000 loss = 9.232131
+Resulting gain: 0.049878314102311805
+dasysiphonia_japonica_4 response curves
+Response curve: only e05.PHO.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 393216000, free 306781632, used 86434368, increment 5433584
+dasysiphonia_japonica_4 e05.PHO.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+762 samples
+Density: max memory 1886912512, total allocated 393216000, free 306781632, used 86434368, increment 0
+linearPredictor: max memory 1886912512, total allocated 393216000, free 306781632, used 86434368, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 393216000, free 306781632, used 86434368, increment 0
+Sequential: max memory 1886912512, total allocated 393216000, free 306781632, used 86434368, increment 0
+Initial loss: 9.282009658666542
+100: time = 0.215000 loss = 9.200313
+Resulting gain: 0.08169648330346035
+dasysiphonia_japonica_4 response curves
+Time since start: 103.865
+Response curve: only e06.PHO.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 393216000, free 300057840, used 93158160, increment 6723792
+dasysiphonia_japonica_4 e06.PHO.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+762 samples
+Density: max memory 1886912512, total allocated 393216000, free 300045744, used 93170256, increment 12096
+linearPredictor: max memory 1886912512, total allocated 393216000, free 300045744, used 93170256, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 393216000, free 300045744, used 93170256, increment 0
+Sequential: max memory 1886912512, total allocated 393216000, free 300045744, used 93170256, increment 0
+Initial loss: 9.282009658666542
+60: time = 0.160000 loss = 9.234246
+Resulting gain: 0.04776385001048489
+dasysiphonia_japonica_4 response curves
+Response curve: only e07.SAL.me
+Making features
+makeFeatures: max memory 1886912512, total allocated 393216000, free 294609912, used 98606088, increment 5435832
+dasysiphonia_japonica_4 e07.SAL.me: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+762 samples
+Density: max memory 1886912512, total allocated 393216000, free 294609912, used 98606088, increment 0
+linearPredictor: max memory 1886912512, total allocated 393216000, free 294609912, used 98606088, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 393216000, free 294609912, used 98606088, increment 0
+Sequential: max memory 1886912512, total allocated 393216000, free 294609912, used 98606088, increment 0
+Initial loss: 9.282009658666542
+180: time = 0.238000 loss = 9.220141
+Resulting gain: 0.06186838679777118
+dasysiphonia_japonica_4 response curves
+Response curve: only e08.SST.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 393216000, free 288372880, used 104843120, increment 6237032
+dasysiphonia_japonica_4 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+762 samples
+Density: max memory 1886912512, total allocated 393216000, free 288360600, used 104855400, increment 12280
+linearPredictor: max memory 1886912512, total allocated 393216000, free 288360600, used 104855400, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 393216000, free 288360600, used 104855400, increment 0
+Sequential: max memory 1886912512, total allocated 393216000, free 288360600, used 104855400, increment 0
+Initial loss: 9.282009658666542
+180: time = 0.321000 loss = 8.717518
+Resulting gain: 0.5644918079247869
+dasysiphonia_japonica_4 response curves
+Time since start: 105.346
+Response curve: only e09.SST.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 393216000, free 282002296, used 111213704, increment 6358304
+dasysiphonia_japonica_4 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+762 samples
+Density: max memory 1886912512, total allocated 393216000, free 281990200, used 111225800, increment 12096
+linearPredictor: max memory 1886912512, total allocated 393216000, free 281990200, used 111225800, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 393216000, free 281990200, used 111225800, increment 0
+Sequential: max memory 1886912512, total allocated 393216000, free 281990200, used 111225800, increment 0
+Initial loss: 9.282009658666542
+120: time = 0.209000 loss = 8.382330
+Resulting gain: 0.8996793088035311
+dasysiphonia_japonica_4 response curves
+Jackknife: leave e03.NIT.max out
+Making features
+makeFeatures: max memory 1886912512, total allocated 393216000, free 250364480, used 142851520, increment 31625720
+dasysiphonia_japonica_4 e03.NIT.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+762 samples
+Density: max memory 1886912512, total allocated 393216000, free 250352376, used 142863624, increment 12104
+linearPredictor: max memory 1886912512, total allocated 393216000, free 250352376, used 142863624, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 393216000, free 250352376, used 142863624, increment 0
+Sequential: max memory 1886912512, total allocated 393216000, free 250352376, used 142863624, increment 0
+Initial loss: 9.282009658666542
+Initial test loss: 9.282009658666542
+Time since start: 106.813
+500: time = 0.876000 loss = 8.033800 testLoss 7.852537
+Jackknife: leave e04.NIT.min out
+Making features
+makeFeatures: max memory 1886912512, total allocated 393216000, free 246223616, used 146992384, increment 4128760
+dasysiphonia_japonica_4 e04.NIT.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+762 samples
+Density: max memory 1886912512, total allocated 393216000, free 246211488, used 147004512, increment 12128
+linearPredictor: max memory 1886912512, total allocated 393216000, free 246211488, used 147004512, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 393216000, free 246211488, used 147004512, increment 0
+Sequential: max memory 1886912512, total allocated 393216000, free 246211488, used 147004512, increment 0
+Initial loss: 9.282009658666542
+Initial test loss: 9.282009658666542
+500: time = 0.813000 loss = 8.028698 testLoss 7.833148
+Jackknife: leave e05.PHO.max out
+Making features
+makeFeatures: max memory 1886912512, total allocated 393216000, free 236892136, used 156323864, increment 9319352
+dasysiphonia_japonica_4 e05.PHO.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+762 samples
+Density: max memory 1886912512, total allocated 393216000, free 236880040, used 156335960, increment 12096
+linearPredictor: max memory 1886912512, total allocated 393216000, free 236880040, used 156335960, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 393216000, free 236880040, used 156335960, increment 0
+Sequential: max memory 1886912512, total allocated 393216000, free 236880040, used 156335960, increment 0
+Initial loss: 9.282009658666542
+Initial test loss: 9.282009658666542
+Time since start: 108.457
+500: time = 0.792000 loss = 8.058403 testLoss 7.875743
+Jackknife: leave e06.PHO.min out
+Making features
+makeFeatures: max memory 1886912512, total allocated 393216000, free 232717376, used 160498624, increment 4162664
+dasysiphonia_japonica_4 e06.PHO.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+762 samples
+Density: max memory 1886912512, total allocated 393216000, free 232705272, used 160510728, increment 12104
+linearPredictor: max memory 1886912512, total allocated 393216000, free 232705272, used 160510728, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 393216000, free 232705272, used 160510728, increment 0
+Sequential: max memory 1886912512, total allocated 393216000, free 232705272, used 160510728, increment 0
+Initial loss: 9.282009658666542
+Initial test loss: 9.282009658666542
+Time since start: 109.487
+500: time = 1.007000 loss = 8.049729 testLoss 7.849641
+Jackknife: leave e07.SAL.me out
+Making features
+makeFeatures: max memory 1886912512, total allocated 393216000, free 223435392, used 169780608, increment 9269880
+dasysiphonia_japonica_4 e07.SAL.me: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+762 samples
+Density: max memory 1886912512, total allocated 393216000, free 223435392, used 169780608, increment 0
+linearPredictor: max memory 1886912512, total allocated 393216000, free 223435392, used 169780608, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 393216000, free 223435392, used 169780608, increment 0
+Sequential: max memory 1886912512, total allocated 393216000, free 223435392, used 169780608, increment 0
+Initial loss: 9.282009658666542
+Initial test loss: 9.282009658666542
+320: time = 0.606000 loss = 8.112380 testLoss 8.018352
+Jackknife: leave e08.SST.max out
+Making features
+makeFeatures: max memory 1886912512, total allocated 393216000, free 220995488, used 172220512, increment 2439904
+dasysiphonia_japonica_4 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+762 samples
+Density: max memory 1886912512, total allocated 393216000, free 220983384, used 172232616, increment 12104
+linearPredictor: max memory 1886912512, total allocated 393216000, free 220983384, used 172232616, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 393216000, free 220983384, used 172232616, increment 0
+Sequential: max memory 1886912512, total allocated 393216000, free 220983384, used 172232616, increment 0
+Initial loss: 9.282009658666542
+Initial test loss: 9.282009658666542
+Time since start: 111.229
+320: time = 1.074000 loss = 8.091974 testLoss 7.948110
+Jackknife: leave e09.SST.min out
+Making features
+makeFeatures: max memory 1886912512, total allocated 393216000, free 213266688, used 179949312, increment 7716696
+dasysiphonia_japonica_4 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+762 samples
+Density: max memory 1886912512, total allocated 393216000, free 213254408, used 179961592, increment 12280
+linearPredictor: max memory 1886912512, total allocated 393216000, free 213254408, used 179961592, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 393216000, free 213254408, used 179961592, increment 0
+Sequential: max memory 1886912512, total allocated 393216000, free 213254408, used 179961592, increment 0
+Initial loss: 9.282009658666542
+Initial test loss: 9.282009658666542
+500: time = 0.927000 loss = 8.505676 testLoss 8.313322
+Jackknife: only e03.NIT.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 393216000, free 209188368, used 184027632, increment 4066040
+dasysiphonia_japonica_4 e03.NIT.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+762 samples
+Density: max memory 1886912512, total allocated 393216000, free 209176280, used 184039720, increment 12088
+linearPredictor: max memory 1886912512, total allocated 393216000, free 209176280, used 184039720, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 393216000, free 209176280, used 184039720, increment 0
+Sequential: max memory 1886912512, total allocated 393216000, free 209176280, used 184039720, increment 0
+Initial loss: 9.282009658666542
+Initial test loss: 9.282009658666542
+Time since start: 112.351
+80: time = 0.148000 loss = 9.268985 testLoss 9.219839
+Res.gain: 0.013024423439601307
+Jackknife: only e04.NIT.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 393216000, free 208618040, used 184597960, increment 558240
+dasysiphonia_japonica_4 e04.NIT.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+762 samples
+Density: max memory 1886912512, total allocated 393216000, free 208618040, used 184597960, increment 0
+linearPredictor: max memory 1886912512, total allocated 393216000, free 208618040, used 184597960, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 393216000, free 208618040, used 184597960, increment 0
+Sequential: max memory 1886912512, total allocated 393216000, free 208618040, used 184597960, increment 0
+Initial loss: 9.282009658666542
+Initial test loss: 9.282009658666542
+60: time = 0.231000 loss = 9.232131 testLoss 9.226436
+Res.gain: 0.049878314102311805
+Jackknife: only e05.PHO.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 393216000, free 208302704, used 184913296, increment 315336
+dasysiphonia_japonica_4 e05.PHO.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+762 samples
+Density: max memory 1886912512, total allocated 393216000, free 208290600, used 184925400, increment 12104
+linearPredictor: max memory 1886912512, total allocated 393216000, free 208290600, used 184925400, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 393216000, free 208290600, used 184925400, increment 0
+Sequential: max memory 1886912512, total allocated 393216000, free 208290600, used 184925400, increment 0
+Initial loss: 9.282009658666542
+Initial test loss: 9.282009658666542
+100: time = 0.224000 loss = 9.200313 testLoss 9.166366
+Res.gain: 0.08169648330346035
+Jackknife: only e06.PHO.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 393216000, free 202467896, used 190748104, increment 5822704
+dasysiphonia_japonica_4 e06.PHO.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+762 samples
+Density: max memory 1886912512, total allocated 393216000, free 202467896, used 190748104, increment 0
+linearPredictor: max memory 1886912512, total allocated 393216000, free 202467896, used 190748104, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 393216000, free 202467896, used 190748104, increment 0
+Sequential: max memory 1886912512, total allocated 393216000, free 202467896, used 190748104, increment 0
+Initial loss: 9.282009658666542
+Initial test loss: 9.282009658666542
+60: time = 0.141000 loss = 9.234246 testLoss 9.242485
+Res.gain: 0.04776385001048489
+Jackknife: only e07.SAL.me
+Making features
+makeFeatures: max memory 1886912512, total allocated 393216000, free 202151584, used 191064416, increment 316312
+dasysiphonia_japonica_4 e07.SAL.me: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+762 samples
+Density: max memory 1886912512, total allocated 393216000, free 202139304, used 191076696, increment 12280
+linearPredictor: max memory 1886912512, total allocated 393216000, free 202139304, used 191076696, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 393216000, free 202139304, used 191076696, increment 0
+Sequential: max memory 1886912512, total allocated 393216000, free 202139304, used 191076696, increment 0
+Initial loss: 9.282009658666542
+Initial test loss: 9.282009658666542
+180: time = 0.255000 loss = 9.220141 testLoss 9.154178
+Res.gain: 0.06186838679777118
+Jackknife: only e08.SST.max
+Making features
+makeFeatures: max memory 1886912512, total allocated 393216000, free 201034824, used 192181176, increment 1104480
+dasysiphonia_japonica_4 e08.SST.max: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+762 samples
+Density: max memory 1886912512, total allocated 393216000, free 201034824, used 192181176, increment 0
+linearPredictor: max memory 1886912512, total allocated 393216000, free 201034824, used 192181176, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 393216000, free 201022736, used 192193264, increment 12088
+Sequential: max memory 1886912512, total allocated 393216000, free 201022736, used 192193264, increment 0
+Initial loss: 9.282009658666542
+Initial test loss: 9.282009658666542
+Time since start: 113.547
+180: time = 0.295000 loss = 8.717518 testLoss 8.657326
+Res.gain: 0.5644918079247869
+Jackknife: only e09.SST.min
+Making features
+makeFeatures: max memory 1886912512, total allocated 393216000, free 199809144, used 193406856, increment 1213592
+dasysiphonia_japonica_4 e09.SST.min: 
+Regularization values: linear/quadratic/product: 0.050, categorical: 0.250, threshold: 1.000, hinge: 0.500
+762 samples
+Density: max memory 1886912512, total allocated 393216000, free 199797056, used 193418944, increment 12088
+linearPredictor: max memory 1886912512, total allocated 393216000, free 199797056, used 193418944, increment 0
+FeaturedSpace: max memory 1886912512, total allocated 393216000, free 199797056, used 193418944, increment 0
+Sequential: max memory 1886912512, total allocated 393216000, free 199797056, used 193418944, increment 0
+Initial loss: 9.282009658666542
+Initial test loss: 9.282009658666542
+120: time = 0.231000 loss = 8.382330 testLoss 8.382662
+Res.gain: 0.8996793088035311
+Time since start: 115.131
+Creating average grid, stddev grid etc.
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.1\dasysiphonia_japonica_avg.asc
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.1\dasysiphonia_japonica_stddev.asc
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.1\dasysiphonia_japonica_min.asc
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.1\dasysiphonia_japonica_max.asc
+Writing file C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.1\dasysiphonia_japonica_median.asc
+Time since start: 135.759
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.1\plots\dasysiphonia_japonica_avg.png
+Time since start: 138.935
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.1\plots\dasysiphonia_japonica_stddev.png
+Time since start: 143.347
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.1\plots\dasysiphonia_japonica_min.png
+Time since start: 146.349
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.1\plots\dasysiphonia_japonica_max.png
+Time since start: 150.705
+Writing C:\Users\Brandon\Documents\Algae Lab UNH\Species Distribution Modeling\V4 - Jan 2022\DASY\Maxent outputs 4.1 GUI\dasy.max.1\plots\dasysiphonia_japonica_median.png
+Time since start: 154.162
+dasysiphonia_japonica average response curves
+Time since start: 157.258
+Ending
